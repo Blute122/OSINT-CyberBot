@@ -468,5 +468,10 @@
         "date": "2026-05-18 08:52 UTC",
         "content": "\ud83d\udfe0 Windows 11 installs fail due to KB5089549. The May 2026 security update is causing 0x800f0922 errors on some systems. \n\n**The Breakdown**: Microsoft confirms issues with the update.\n\n**The Technical Vector**: No technical details available.\n\n**The Impact**: Affected users are experiencing failed installs. via BleepingComputer #cybersecurity #Windows11 #KB5089549",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/"
+    },
+    {
+        "date": "2026-05-18 12:47 UTC",
+        "content": "\ud83d\udfe1 Windows 11 users, be aware! An adjustable taskbar and Start menu are being tested in the latest preview version. Although not a security update, Insider testing may expose vulnerabilities. via BleepingComputer #cybersecurity #Windows11 #WindowsInsider",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/"
     }
 ]
