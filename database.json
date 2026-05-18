@@ -473,5 +473,10 @@
         "date": "2026-05-18 12:47 UTC",
         "content": "\ud83d\udfe1 Windows 11 users, be aware! An adjustable taskbar and Start menu are being tested in the latest preview version. Although not a security update, Insider testing may expose vulnerabilities. via BleepingComputer #cybersecurity #Windows11 #WindowsInsider",
         "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/"
+    },
+    {
+        "date": "2026-05-18 16:32 UTC",
+        "content": "\ud83d\udfe0 Critical Alert! Multiple attacks target weak dependencies and leaked keys, exposing cloud access and production vulnerabilities via a mail server flaw, network control system exploit, and npm worm. Impact: compromised keys, cloud access, and production systems. via The Hacker News #cybersecurity #npmworm #cloudsecurity",
+        "url": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html"
     }
 ]

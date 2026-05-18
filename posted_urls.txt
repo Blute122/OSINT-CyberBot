@@ -105,3 +105,4 @@ https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-
 https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/
+https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html
