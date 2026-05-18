@@ -458,5 +458,10 @@
         "date": "2026-05-17 23:10 UTC",
         "content": "\ud83d\udd34 New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released. The Breakdown:\n\u2022 A zero-day exploit dubbed 'MiniPlasma' was discovered.\n\u2022 It allows attackers to gain SYSTEM privileges on fully patched Windows systems.\nThe Technical Vector:\n\u2022 The exploit is a proof-of-concept.\nThe Impact:\n\u2022 SYSTEM access is possible.\n\u2022 Exploit is PoC, but potential for malicious use is high.\nvia BleepingComputer. #cybersecurity #WindowsZeroDay #MiniPlasmaExploit",
         "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/"
+    },
+    {
+        "date": "2026-05-18 04:40 UTC",
+        "content": "\ud83d\udd34 US defense startup UFORCE led by Sean Plankey appoints CEO as they look to produce drones in America. The startup founded by Ukrainians aims to expand into new market. via CyberScoop #cybersecurity #defenseindustry #startup",
+        "url": "https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/"
     }
 ]
