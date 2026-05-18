@@ -488,5 +488,10 @@
         "date": "2026-05-18 20:43 UTC",
         "content": "\ud83d\udfe1 Operation Ramz: Interpol cracks down on cybercrime across 13 countries in \nMiddle East, North Africa: 201 arrests, phishing services disrupted\n\nThe Breakdown:\n\u2022 Operation Ramz targeted phishing services, malware, and \nfinancial scams\n\nThe Technical Vector:\n\u2022 Interpol's efforts resulted in 201 arrests\n\nThe Impact:\n\u2022 Cybercrime disrupted across 13 countries\nvia CyberScoop #cybersecurity #phishing #cybercrimewars",
         "url": "https://cyberscoop.com/interpol-operation-ramz-middle-east-north-africa/"
+    },
+    {
+        "date": "2026-05-18 22:12 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Microsoft Exchange Under Attack via Unpatched Zero-Day Vulnerability.\nCVE-2026-42897 (CVSS: 8.1/10) is an XSS vulnerability in OWA that allows an attacker to compromise mailboxes.\n**The Breakdown:** A zero-day cross-site scripting (XSS) vulnerability in Microsoft Exchange's Outlook Web Access (OWA) mailboxes was discovered, which can be exploited to access these mailboxes.\n**The Technical Vector:** An attacker can utilize the XSS vulnerability to target vulnerable Exchange servers and gain access to user mailboxes.\n**The Impact:** Users with mailboxes on vulnerable Exchange servers are at risk of having their email accounts compromised via this unpatched zero-day exploit.\nvia Dark Reading #cybersecurity #zeroday #exchange",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch"
     }
 ]
