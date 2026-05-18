@@ -463,5 +463,10 @@
         "date": "2026-05-18 04:40 UTC",
         "content": "\ud83d\udd34 US defense startup UFORCE led by Sean Plankey appoints CEO as they look to produce drones in America. The startup founded by Ukrainians aims to expand into new market. via CyberScoop #cybersecurity #defenseindustry #startup",
         "url": "https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/"
+    },
+    {
+        "date": "2026-05-18 08:52 UTC",
+        "content": "\ud83d\udfe0 Windows 11 installs fail due to KB5089549. The May 2026 security update is causing 0x800f0922 errors on some systems. \n\n**The Breakdown**: Microsoft confirms issues with the update.\n\n**The Technical Vector**: No technical details available.\n\n**The Impact**: Affected users are experiencing failed installs. via BleepingComputer #cybersecurity #Windows11 #KB5089549",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/"
     }
 ]

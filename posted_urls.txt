@@ -103,3 +103,4 @@ https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html
 https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/
 https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/
 https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/
