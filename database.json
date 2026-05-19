@@ -498,5 +498,10 @@
         "date": "2026-05-19 08:37 UTC",
         "content": "\ud83d\udd34 Critical Vulnerability Exposes Industrial Robot Fleets to Hacking\nA critical vulnerability in Universal Robots' PolyScope 5 software allows for OS command injection. This can be exploited by hackers, putting industrial robot fleets at risk.\n\n**The Breakdown:** The vulnerability, CVE-2026-8153 (CVSS: 9.8/10), was found in PolyScope 5 and can be exploited for OS command injection.\n\n**The Technical Vector:** The vulnerability can be exploited by hackers, allowing them to potentially access and control the robots.\n\n**The Impact:** Industrial robot fleets using PolyScope 5 are at risk of being compromised. No word yet on the scale of affected systems.\nvia SecurityWeek\n#cybersecurity #industrialcontrol #robotics",
         "url": "https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/"
+    },
+    {
+        "date": "2026-05-19 12:19 UTC",
+        "content": "\ud83d\udd34 Critical: BadIIS variant discovered with 'demo.pdb' strings, likely sold or shared among Chinese-speaking cyber crime groups. \nThe Breakdown: Embedded PDB strings in a variant of BadIIS malware.\nThe Technical Vector: Identifiable by its embedded 'demo.pdb' strings.\nThe Impact: Functions as commodity malware, potentially under MaaS model for continuous monetization. \nvia Cisco Talos. #cybersecurity #malwareaservice #BadIIS",
+        "url": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/"
     }
 ]
