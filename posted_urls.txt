@@ -112,3 +112,4 @@ https://cyberscoop.com/interpol-operation-ramz-middle-east-north-africa/
 https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch
 https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/
 https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/
+https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/

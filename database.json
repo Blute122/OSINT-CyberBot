@@ -503,5 +503,10 @@
         "date": "2026-05-19 12:19 UTC",
         "content": "\ud83d\udd34 Critical: BadIIS variant discovered with 'demo.pdb' strings, likely sold or shared among Chinese-speaking cyber crime groups. \nThe Breakdown: Embedded PDB strings in a variant of BadIIS malware.\nThe Technical Vector: Identifiable by its embedded 'demo.pdb' strings.\nThe Impact: Functions as commodity malware, potentially under MaaS model for continuous monetization. \nvia Cisco Talos. #cybersecurity #malwareaservice #BadIIS",
         "url": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/"
+    },
+    {
+        "date": "2026-05-19 16:31 UTC",
+        "content": "\ud83d\udfe1 Vulnerabilities patched by TP-Link, OpenVPN, Adobe Photoshop, and Gen Digital's Norton VPN. Patches available. via Cisco Talos #cybersecurity #CVE2023 #Vulnerability",
+        "url": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/"
     }
 ]
