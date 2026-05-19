@@ -493,5 +493,10 @@
         "date": "2026-05-18 22:12 UTC",
         "content": "\ud83d\udfe0 \ud83d\udd34 Microsoft Exchange Under Attack via Unpatched Zero-Day Vulnerability.\nCVE-2026-42897 (CVSS: 8.1/10) is an XSS vulnerability in OWA that allows an attacker to compromise mailboxes.\n**The Breakdown:** A zero-day cross-site scripting (XSS) vulnerability in Microsoft Exchange's Outlook Web Access (OWA) mailboxes was discovered, which can be exploited to access these mailboxes.\n**The Technical Vector:** An attacker can utilize the XSS vulnerability to target vulnerable Exchange servers and gain access to user mailboxes.\n**The Impact:** Users with mailboxes on vulnerable Exchange servers are at risk of having their email accounts compromised via this unpatched zero-day exploit.\nvia Dark Reading #cybersecurity #zeroday #exchange",
         "url": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch"
+    },
+    {
+        "date": "2026-05-19 08:37 UTC",
+        "content": "\ud83d\udd34 Critical Vulnerability Exposes Industrial Robot Fleets to Hacking\nA critical vulnerability in Universal Robots' PolyScope 5 software allows for OS command injection. This can be exploited by hackers, putting industrial robot fleets at risk.\n\n**The Breakdown:** The vulnerability, CVE-2026-8153 (CVSS: 9.8/10), was found in PolyScope 5 and can be exploited for OS command injection.\n\n**The Technical Vector:** The vulnerability can be exploited by hackers, allowing them to potentially access and control the robots.\n\n**The Impact:** Industrial robot fleets using PolyScope 5 are at risk of being compromised. No word yet on the scale of affected systems.\nvia SecurityWeek\n#cybersecurity #industrialcontrol #robotics",
+        "url": "https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/"
     }
 ]
