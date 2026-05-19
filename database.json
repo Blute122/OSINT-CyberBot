@@ -513,5 +513,10 @@
         "date": "2026-05-19 19:16 UTC",
         "content": "\ud83d\udfe0 HIGH: \n\nMini Shai-Hulud malware compromises hundreds of npm packages, \n               stealing publishing tokens, installing OS-level backdoors, and persisting \n               in developer tools and CI pipelines. Affected packages are used by unknown \n               number of developers. via CyberScoop\n\n#cve #cybersecurity #npm",
         "url": "https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/"
+    },
+    {
+        "date": "2026-05-19 21:44 UTC",
+        "content": "\ud83d\udd34 Critical Zero-Day Exploits Hit Windows Following Patch Tuesday. A security researcher disclosed vulnerabilities using exploit techniques including YellowKey, GreenPlasma, and MiniPlasma. These could lead to data breaches. via Dark Reading. #cybersecurity #zerotday #windowsvulnerability",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday"
     }
 ]
