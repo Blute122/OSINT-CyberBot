@@ -115,3 +115,4 @@ https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity
 https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/
 https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/
 https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday
+https://cyberscoop.com/verizon-data-breach-investigations-report-2026/

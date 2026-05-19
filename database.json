@@ -518,5 +518,10 @@
         "date": "2026-05-19 21:44 UTC",
         "content": "\ud83d\udd34 Critical Zero-Day Exploits Hit Windows Following Patch Tuesday. A security researcher disclosed vulnerabilities using exploit techniques including YellowKey, GreenPlasma, and MiniPlasma. These could lead to data breaches. via Dark Reading. #cybersecurity #zerotday #windowsvulnerability",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday"
+    },
+    {
+        "date": "2026-05-19 23:20 UTC",
+        "content": "\ud83d\udd34 CRITICAL: Exploit-driven breaches surged in 2025, making vulnerabilities the top entry point. Verizon's report highlights an industrywide lack of critical defect remediation, leaving systems vulnerable to attacks. via CyberScoop #cybersecurity #exploitdriven #breaches",
+        "url": "https://cyberscoop.com/verizon-data-breach-investigations-report-2026/"
     }
 ]
