@@ -113,3 +113,4 @@ https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-
 https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/
 https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/
 https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/
+https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/

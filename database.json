@@ -508,5 +508,10 @@
         "date": "2026-05-19 16:31 UTC",
         "content": "\ud83d\udfe1 Vulnerabilities patched by TP-Link, OpenVPN, Adobe Photoshop, and Gen Digital's Norton VPN. Patches available. via Cisco Talos #cybersecurity #CVE2023 #Vulnerability",
         "url": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/"
+    },
+    {
+        "date": "2026-05-19 19:16 UTC",
+        "content": "\ud83d\udfe0 HIGH: \n\nMini Shai-Hulud malware compromises hundreds of npm packages, \n               stealing publishing tokens, installing OS-level backdoors, and persisting \n               in developer tools and CI pipelines. Affected packages are used by unknown \n               number of developers. via CyberScoop\n\n#cve #cybersecurity #npm",
+        "url": "https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/"
     }
 ]
