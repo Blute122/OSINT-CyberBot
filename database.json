@@ -523,5 +523,10 @@
         "date": "2026-05-19 23:20 UTC",
         "content": "\ud83d\udd34 CRITICAL: Exploit-driven breaches surged in 2025, making vulnerabilities the top entry point. Verizon's report highlights an industrywide lack of critical defect remediation, leaving systems vulnerable to attacks. via CyberScoop #cybersecurity #exploitdriven #breaches",
         "url": "https://cyberscoop.com/verizon-data-breach-investigations-report-2026/"
+    },
+    {
+        "date": "2026-05-20 08:34 UTC",
+        "content": "\ud83d\udfe0 Critical: Grafana GitHub exposed via TanStack npm attack\n   A recent breach allowed unauthorized access to Grafana Labs' public and private source code, including internal GitHub repositories. \n   The technical vector: A GitHub environment vulnerability, possibly stemming from TanStack npm.\n   The impact: No evidence of customer production systems or operations compromised.",
+        "url": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html"
     }
 ]
