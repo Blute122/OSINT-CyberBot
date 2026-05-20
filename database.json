@@ -543,5 +543,10 @@
         "date": "2026-05-20 21:08 UTC",
         "content": "\ud83d\udce6 HIGH A significant threat to npm supply chain. Attackers have discovered wormable malware, CI/CD persistence, and multi-stage attacks. These post-Shai Hulud changes expose users to severe risks. via Unit 42 #cybersecurity #npmthreat #supplychainsecurity",
         "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"
+    },
+    {
+        "date": "2026-05-20 22:43 UTC",
+        "content": "\ud83d\udd34 Ukraine Uncovers Infostealer Malware Operator\n\nA suspect has been identified in connection with an infostealer malware operation that compromised 28,000 user accounts. The operation targeted an online store in California. The malware steals sensitive user information.\n\u2022 The malware was distributed via drive-by downloads.\n\u2022 The operation was tied to an 18-year-old man from Odesa.\n\u2022 The online store in California was specifically targeted.\nvia BleepingComputer\n\n#cybersecurity #infostealer #malware",
+        "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/"
     }
 ]
