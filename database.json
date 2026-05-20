@@ -528,5 +528,10 @@
         "date": "2026-05-20 08:34 UTC",
         "content": "\ud83d\udfe0 Critical: Grafana GitHub exposed via TanStack npm attack\n   A recent breach allowed unauthorized access to Grafana Labs' public and private source code, including internal GitHub repositories. \n   The technical vector: A GitHub environment vulnerability, possibly stemming from TanStack npm.\n   The impact: No evidence of customer production systems or operations compromised.",
         "url": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html"
+    },
+    {
+        "date": "2026-05-20 12:03 UTC",
+        "content": "\ud83d\udfe0 Critical: Over 320 NPM packages hit by a fresh Mini Shai-Hulud supply chain attack. The attack targets the @antv namespace through a compromised maintainer account, publishing malicious package versions.\n\nThe Breakdown: A single maintainer account was compromised, allowing malicious code to be injected into packages.\n\nThe Technical Vector: The attacker leveraged a compromise of a maintainer account to publish malicious versions of packages across the @antv namespace.\n\nThe Impact: Over 320 packages are at risk, with users who have installed these packages potentially exposing themselves to supply chain attacks. via SecurityWeek\n\n#cybersecurity #supplychainattack #NPM",
+        "url": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/"
     }
 ]

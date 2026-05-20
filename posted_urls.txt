@@ -117,3 +117,4 @@ https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/
 https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday
 https://cyberscoop.com/verizon-data-breach-investigations-report-2026/
 https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html
+https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/
