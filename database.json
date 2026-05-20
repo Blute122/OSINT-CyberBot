@@ -533,5 +533,10 @@
         "date": "2026-05-20 12:03 UTC",
         "content": "\ud83d\udfe0 Critical: Over 320 NPM packages hit by a fresh Mini Shai-Hulud supply chain attack. The attack targets the @antv namespace through a compromised maintainer account, publishing malicious package versions.\n\nThe Breakdown: A single maintainer account was compromised, allowing malicious code to be injected into packages.\n\nThe Technical Vector: The attacker leveraged a compromise of a maintainer account to publish malicious versions of packages across the @antv namespace.\n\nThe Impact: Over 320 packages are at risk, with users who have installed these packages potentially exposing themselves to supply chain attacks. via SecurityWeek\n\n#cybersecurity #supplychainattack #NPM",
         "url": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/"
+    },
+    {
+        "date": "2026-05-20 18:29 UTC",
+        "content": "\ud83d\udd34 GitHub suffers internal data exfiltration via poisoned Visual Studio Code extension \nAttack vector: Employee device compromised through 3rd-party developer tool. \nThe Breakdown: \n\u2022 A Visual Studio Code extension was poisoned with malware \n\u2022 GitHub employee device was compromised through the extension \nThe Technical Vector: \n\u2022 Undisclosed method of exfiltration \n\u2022 Internal repositories affected \nThe Impact: \n\u2022 Large-scale data at risk \nvia CyberScoop #cybersecurity #VSCode #softwaresecurity",
+        "url": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/"
     }
 ]
