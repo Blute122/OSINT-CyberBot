@@ -119,3 +119,4 @@ https://cyberscoop.com/verizon-data-breach-investigations-report-2026/
 https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html
 https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/
 https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/
+https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/

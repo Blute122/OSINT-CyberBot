@@ -538,5 +538,10 @@
         "date": "2026-05-20 18:29 UTC",
         "content": "\ud83d\udd34 GitHub suffers internal data exfiltration via poisoned Visual Studio Code extension \nAttack vector: Employee device compromised through 3rd-party developer tool. \nThe Breakdown: \n\u2022 A Visual Studio Code extension was poisoned with malware \n\u2022 GitHub employee device was compromised through the extension \nThe Technical Vector: \n\u2022 Undisclosed method of exfiltration \n\u2022 Internal repositories affected \nThe Impact: \n\u2022 Large-scale data at risk \nvia CyberScoop #cybersecurity #VSCode #softwaresecurity",
         "url": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/"
+    },
+    {
+        "date": "2026-05-20 21:08 UTC",
+        "content": "\ud83d\udce6 HIGH A significant threat to npm supply chain. Attackers have discovered wormable malware, CI/CD persistence, and multi-stage attacks. These post-Shai Hulud changes expose users to severe risks. via Unit 42 #cybersecurity #npmthreat #supplychainsecurity",
+        "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"
     }
 ]
