@@ -573,5 +573,10 @@
         "date": "2026-05-21 16:48 UTC",
         "content": "\ud83d\udfe5 Selective HTTP Proxying in Linux\nA generic Linux option for intercepting requests from specific processes is lacking. A tool like Proxifier for Windows, macOS, and Android targets software for debugging, reverse engineering, and analysis. via SANS ISC #cybersecurity #linux #proxying",
         "url": "https://isc.sans.edu/diary/rss/33002"
+    },
+    {
+        "date": "2026-05-21 19:15 UTC",
+        "content": "\ud83d\udfe1 CISA warns of open-source vulnerability threats & delayed security improvements. A wave of malware attacks targets publicly available tech for collaboration.\n\nThe Breakdown:\n  \u2022 Malware attacks increase due to open-source vulnerabilities\n\nThe Technical Vector:\n  \u2022 Unknown\n\nThe Impact:\n  \u2022 Enterprises and users relying on open-source tech at risk via CyberScoop.\n#cybersecurity #open-source #malwareattacks",
+        "url": "https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delayed-security-improvements/"
     }
 ]
