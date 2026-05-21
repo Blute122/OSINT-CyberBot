@@ -568,5 +568,10 @@
         "date": "2026-05-21 13:31 UTC",
         "content": "\ud83d\udd34 'Critical Vulnerability in Cisco Secure Workload Patched' \nAttackers with remote access to Secure Workload's REST APIs can be granted Site Admin privileges without proper validation and authentication.\n\u2022 Attackers target the insufficient validation and authentication in the REST APIs.\n\u2022 Remote attackers can exploit this vulnerability to gain Site Admin privileges.\n\u2022 Cisco has patched the vulnerability.\n\u2022 Cisco Secure Workload users are at risk.\nvia SecurityWeek\n#cybersecurity",
         "url": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/"
+    },
+    {
+        "date": "2026-05-21 16:48 UTC",
+        "content": "\ud83d\udfe5 Selective HTTP Proxying in Linux\nA generic Linux option for intercepting requests from specific processes is lacking. A tool like Proxifier for Windows, macOS, and Android targets software for debugging, reverse engineering, and analysis. via SANS ISC #cybersecurity #linux #proxying",
+        "url": "https://isc.sans.edu/diary/rss/33002"
     }
 ]
