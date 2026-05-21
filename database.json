@@ -553,5 +553,10 @@
         "date": "2026-05-21 00:17 UTC",
         "content": "\ud83d\udd34 Critical: Fake Android apps commit carrier billing fraud for premium services. The disguised apps use WebView automation, JavaScript injection, and OTP interception to avoid detection and complete fraudulent subscriptions.\n   \u2022 The apps disguise themselves as legitimate services to avoid detection.\n   \u2022 The threat actor uses JavaScript injection to bypass security measures.\n   \u2022 OTP interception occurs, allowing the apps to complete fraudulent subscriptions.\n   via Dark Reading. #cybersecurity #androidmalware #carrierbillingfraud",
         "url": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud"
+    },
+    {
+        "date": "2026-05-21 05:19 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udd34 Drupal Core CVE-2026-9082 (CVSS: 6.5/10): A highly critical RCE vulnerability in PostgreSQL sites allows attackers to execute code, escalate privilege, or disclose information. The flaw was discovered in the database abstraction API.\n\n\u2022 CVSS score: 6.5/10.0\n\u2022 Vulnerability type: RCE, privilege escalation, info disclosure\n\nWho is at risk? Drupal Core users with PostgreSQL databases via The Hacker News",
+        "url": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html"
     }
 ]

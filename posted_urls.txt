@@ -124,3 +124,5 @@ https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-op
 https://www.darkreading.com/cybersecurity-analytics/cyber-pros-ai
 https://www.darkreading.com/application-security/github-confirms-breach-4k-internal-repos-stolen
 https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud
+https://thehackernews.com/2026/05/github-internal-repositories-breached.html
+https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html
