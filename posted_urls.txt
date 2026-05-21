@@ -121,3 +121,6 @@ https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-
 https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/
 https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
 https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/
+https://www.darkreading.com/cybersecurity-analytics/cyber-pros-ai
+https://www.darkreading.com/application-security/github-confirms-breach-4k-internal-repos-stolen
+https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud
