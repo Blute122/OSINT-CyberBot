@@ -132,3 +132,4 @@ https://isc.sans.edu/diary/rss/33002
 https://blog.talosintelligence.com/the-art-of-being-ungovernable/
 https://cyberscoop.com/trump-postpones-executive-order-focused-on-ai-security/
 https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delayed-security-improvements/
+https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/

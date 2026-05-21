@@ -578,5 +578,10 @@
         "date": "2026-05-21 19:15 UTC",
         "content": "\ud83d\udfe1 CISA warns of open-source vulnerability threats & delayed security improvements. A wave of malware attacks targets publicly available tech for collaboration.\n\nThe Breakdown:\n  \u2022 Malware attacks increase due to open-source vulnerabilities\n\nThe Technical Vector:\n  \u2022 Unknown\n\nThe Impact:\n  \u2022 Enterprises and users relying on open-source tech at risk via CyberScoop.\n#cybersecurity #open-source #malwareattacks",
         "url": "https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delayed-security-improvements/"
+    },
+    {
+        "date": "2026-05-21 21:47 UTC",
+        "content": "\ud83d\udd34 Critical: Google accidentally exposed details of unfixed Chromium flaw, allowing remote code execution on devices via JavaScript running in the background even when the browser is closed. The exact scope and timeline of possible exploitation are unclear. via BleepingComputer #cybersecurity #ChromiumVulnerability",
+        "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/"
     }
 ]
