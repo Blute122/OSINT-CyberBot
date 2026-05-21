@@ -558,5 +558,10 @@
         "date": "2026-05-21 05:19 UTC",
         "content": "\ud83d\udfe1 \ud83d\udd34 Drupal Core CVE-2026-9082 (CVSS: 6.5/10): A highly critical RCE vulnerability in PostgreSQL sites allows attackers to execute code, escalate privilege, or disclose information. The flaw was discovered in the database abstraction API.\n\n\u2022 CVSS score: 6.5/10.0\n\u2022 Vulnerability type: RCE, privilege escalation, info disclosure\n\nWho is at risk? Drupal Core users with PostgreSQL databases via The Hacker News",
         "url": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html"
+    },
+    {
+        "date": "2026-05-21 10:02 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udfe1 Linux Kernel Bug Lets Users Run Commands as Root\nA 9-year-old vulnerability in the Linux kernel exposes default installations to privilege escalation attacks.\n\nThe Breakdown\nResearchers discovered a flaw that allows unprivileged local users to execute arbitrary commands as root.\nThe Technical Vector\nThis is due to improper privilege management within the Linux kernel.\nThe Impact\nDefault installations of major distros are at risk.\nvia The Hacker News\ntagged #cybersecurity #linuxsecurity #kernelvulnerability",
+        "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html"
     }
 ]
