@@ -127,3 +127,4 @@ https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fr
 https://thehackernews.com/2026/05/github-internal-repositories-breached.html
 https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html
 https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html
+https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/

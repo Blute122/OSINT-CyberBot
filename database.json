@@ -563,5 +563,10 @@
         "date": "2026-05-21 10:02 UTC",
         "content": "\ud83d\udfe0 \ud83d\udfe1 Linux Kernel Bug Lets Users Run Commands as Root\nA 9-year-old vulnerability in the Linux kernel exposes default installations to privilege escalation attacks.\n\nThe Breakdown\nResearchers discovered a flaw that allows unprivileged local users to execute arbitrary commands as root.\nThe Technical Vector\nThis is due to improper privilege management within the Linux kernel.\nThe Impact\nDefault installations of major distros are at risk.\nvia The Hacker News\ntagged #cybersecurity #linuxsecurity #kernelvulnerability",
         "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html"
+    },
+    {
+        "date": "2026-05-21 13:31 UTC",
+        "content": "\ud83d\udd34 'Critical Vulnerability in Cisco Secure Workload Patched' \nAttackers with remote access to Secure Workload's REST APIs can be granted Site Admin privileges without proper validation and authentication.\n\u2022 Attackers target the insufficient validation and authentication in the REST APIs.\n\u2022 Remote attackers can exploit this vulnerability to gain Site Admin privileges.\n\u2022 Cisco has patched the vulnerability.\n\u2022 Cisco Secure Workload users are at risk.\nvia SecurityWeek\n#cybersecurity",
+        "url": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/"
     }
 ]
