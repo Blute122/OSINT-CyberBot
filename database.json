@@ -583,5 +583,10 @@
         "date": "2026-05-21 21:47 UTC",
         "content": "\ud83d\udd34 Critical: Google accidentally exposed details of unfixed Chromium flaw, allowing remote code execution on devices via JavaScript running in the background even when the browser is closed. The exact scope and timeline of possible exploitation are unclear. via BleepingComputer #cybersecurity #ChromiumVulnerability",
         "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/"
+    },
+    {
+        "date": "2026-05-22 08:31 UTC",
+        "content": "\ud83d\udfe0 Critical Vulnerabilities Added to KEV Catalog \nLangflow origin validation error (CVE-2025-34291 (CVSS: 8.8/10)) can allow attackers to compromise applications.\n\u2022 Exploited by malicious actors\n\u2022 Can lead to unauthorized data access and remote code execution\n\u2022 CISA has added 2 security flaws to the KEV catalog to ensure timely mitigation actions via The Hacker News. #cybersecurity #Langflow #CVE-2025-34291 (CVSS: 8.8/10)",
+        "url": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html"
     }
 ]
