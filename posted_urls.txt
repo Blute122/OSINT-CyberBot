@@ -134,3 +134,4 @@ https://cyberscoop.com/trump-postpones-executive-order-focused-on-ai-security/
 https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delayed-security-improvements/
 https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/
 https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
+https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/
