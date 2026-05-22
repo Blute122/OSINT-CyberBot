@@ -608,5 +608,10 @@
         "date": "2026-05-22 20:06 UTC",
         "content": "\ud83d\udfe1 \ud83d\udd34 **Critical Drupal Vulnerability Exploited**\n\nThousands of websites under attack following CVE-2026-9082 (CVSS: 6.5/10) disclosure.\n\n\u2022 Drupal users advised to update ASAP.\n\n\u2022 Multiple security firms reporting attacks.\n\nvia SecurityWeek. #cybersecurity #DrupalVulnerability #CVE20269082",
         "url": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/"
+    },
+    {
+        "date": "2026-05-22 21:23 UTC",
+        "content": "\ud83d\udd34 **CRITICAL CYBERATTACKS ENABLED BY HOSTING FIRM**\n\nThe Netherlands' FIOD arrested two men and seized 800 servers linked to a web hosting company.\n\n**The Breakdown:** The hosting firm enabled cyberattacks, interference operations, and disinformation campaigns.\n\n**The Technical Vector:** The hosting company provided infrastructure for malicious activities.\n\n**The Impact:** Multiple cyberattacks were carried out using this hosting firm.\nvia BleepingComputer\n\n#cybersecurity #disinformationCampaigns #hostingSecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/"
     }
 ]

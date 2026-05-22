@@ -138,3 +138,4 @@ https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-s
 https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks
 https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
 https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/
+https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
