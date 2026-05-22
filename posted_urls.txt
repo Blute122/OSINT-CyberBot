@@ -135,3 +135,4 @@ https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delaye
 https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/
 https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
 https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/
+https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks
