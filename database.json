@@ -603,5 +603,10 @@
         "date": "2026-05-22 18:02 UTC",
         "content": "\ud83d\udd34 Breach Alert: Lawmakers Demand Answers Over CISA Data Leak\nA CISA contractor intentionally published AWS GovCloud keys and secret agency data on a public GitHub account, prompting lawmakers to demand answers and CISA to struggle with containment.\n\nThe Breakdown: A contractor accidentally leaked sensitive data in the public GitHub repository, which contained AWS GovCloud keys and a vast trove of other agency secrets.\n\nThe Technical Vector: The compromised keys exposed CISA's AWS GovCloud services to potential unauthorized access.\n\nThe Impact: CISA is now working to invalidate the leaked credentials and lawmakers are pressing for answers on how this happened and what's being done to prevent such incidents in the future.\nvia Krebs on Security\n#cybersecurity #AWS #CISA",
         "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
+    },
+    {
+        "date": "2026-05-22 20:06 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udd34 **Critical Drupal Vulnerability Exploited**\n\nThousands of websites under attack following CVE-2026-9082 (CVSS: 6.5/10) disclosure.\n\n\u2022 Drupal users advised to update ASAP.\n\n\u2022 Multiple security firms reporting attacks.\n\nvia SecurityWeek. #cybersecurity #DrupalVulnerability #CVE20269082",
+        "url": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/"
     }
 ]
