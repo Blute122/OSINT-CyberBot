@@ -598,5 +598,10 @@
         "date": "2026-05-22 15:20 UTC",
         "content": "\ud83d\udcf5 High \ud83d\udfe0 social engineering attacks increase vulnerability in healthcare sector.\n\nThe 2026 Data Breach Investigations Report (DBIR) highlights ransomware and vendor breaches persisting in the sector.\n\n\u2022 Evolving tactics used in social engineering attacks.\n\nThe sector is more at risk due to the increase in these tactics via Dark Reading.\n#cybersecurity #socialengineering #healthcare",
         "url": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks"
+    },
+    {
+        "date": "2026-05-22 18:02 UTC",
+        "content": "\ud83d\udd34 Breach Alert: Lawmakers Demand Answers Over CISA Data Leak\nA CISA contractor intentionally published AWS GovCloud keys and secret agency data on a public GitHub account, prompting lawmakers to demand answers and CISA to struggle with containment.\n\nThe Breakdown: A contractor accidentally leaked sensitive data in the public GitHub repository, which contained AWS GovCloud keys and a vast trove of other agency secrets.\n\nThe Technical Vector: The compromised keys exposed CISA's AWS GovCloud services to potential unauthorized access.\n\nThe Impact: CISA is now working to invalidate the leaked credentials and lawmakers are pressing for answers on how this happened and what's being done to prevent such incidents in the future.\nvia Krebs on Security\n#cybersecurity #AWS #CISA",
+        "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
     }
 ]
