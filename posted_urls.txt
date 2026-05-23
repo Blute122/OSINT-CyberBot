@@ -140,3 +140,4 @@ https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-co
 https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/
 https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
 https://isc.sans.edu/diary/rss/33008
+https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/

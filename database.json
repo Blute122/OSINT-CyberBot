@@ -618,5 +618,10 @@
         "date": "2026-05-23 09:12 UTC",
         "content": "",
         "url": "https://isc.sans.edu/diary/rss/33008"
+    },
+    {
+        "date": "2026-05-23 12:07 UTC",
+        "content": "\ud83d\udfe0 Critical \u2018Underminr\u2019 vulnerability exploits 88 million domains, hiding malicious connections behind trusted domains. The Breakdown: a stealthy vulnerability allows attackers to bypass DNS filtering. The Technical Vector: command-and-control traffic can be hidden. The Impact: 88 million domains at risk. via SecurityWeek #cybersecurity #Underminr #DNS",
+        "url": "https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/"
     }
 ]
