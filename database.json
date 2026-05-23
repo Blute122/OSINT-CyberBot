@@ -623,5 +623,10 @@
         "date": "2026-05-23 12:07 UTC",
         "content": "\ud83d\udfe0 Critical \u2018Underminr\u2019 vulnerability exploits 88 million domains, hiding malicious connections behind trusted domains. The Breakdown: a stealthy vulnerability allows attackers to bypass DNS filtering. The Technical Vector: command-and-control traffic can be hidden. The Impact: 88 million domains at risk. via SecurityWeek #cybersecurity #Underminr #DNS",
         "url": "https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/"
+    },
+    {
+        "date": "2026-05-23 14:01 UTC",
+        "content": "\ud83d\udfe0 High-Severity Flaws Uncovered in Widely Used Software\n\nProject Glasswing, an effort led by Anthropic, has discovered over 10,000 high- or critical-severity vulnerabilities across some of the most systemically important software globally.\n\nThe Technical Vector:\n\u2022 AI-powered vulnerability scanning\n\u2022 Over 10,000 flaws found\n\nThe Impact:\n\u2022 Critical and high-severity vulnerabilities\n\u2022 Impacted software: numerous, systemically important\n\nvia The Hacker News\n#cybersecurity #AI-powered-vulnerability-scanning #Anthropic",
+        "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
     }
 ]
