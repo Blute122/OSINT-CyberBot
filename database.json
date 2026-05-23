@@ -613,5 +613,10 @@
         "date": "2026-05-22 21:23 UTC",
         "content": "\ud83d\udd34 **CRITICAL CYBERATTACKS ENABLED BY HOSTING FIRM**\n\nThe Netherlands' FIOD arrested two men and seized 800 servers linked to a web hosting company.\n\n**The Breakdown:** The hosting firm enabled cyberattacks, interference operations, and disinformation campaigns.\n\n**The Technical Vector:** The hosting company provided infrastructure for malicious activities.\n\n**The Impact:** Multiple cyberattacks were carried out using this hosting firm.\nvia BleepingComputer\n\n#cybersecurity #disinformationCampaigns #hostingSecurity",
         "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/"
+    },
+    {
+        "date": "2026-05-23 09:12 UTC",
+        "content": "",
+        "url": "https://isc.sans.edu/diary/rss/33008"
     }
 ]

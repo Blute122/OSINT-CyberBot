@@ -139,3 +139,4 @@ https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increas
 https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
 https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/
 https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
+https://isc.sans.edu/diary/rss/33008
