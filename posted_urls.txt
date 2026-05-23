@@ -145,3 +145,4 @@ https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html
 https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/
 https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html
 https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html
+https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/

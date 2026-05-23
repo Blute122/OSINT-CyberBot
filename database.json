@@ -638,5 +638,10 @@
         "date": "2026-05-23 17:15 UTC",
         "content": "\ud83d\udfe0 npm Stage Publishing Feature Released: A New 2FA-Gated Security Control Against Supply Chain Attacks\n\nThe Breakdown: npm now has a staged publishing feature that requires 2FA approval by maintainers before releasing packages.\n\nThe Technical Vector: This feature is designed to prevent malicious packages from entering the supply chain.\n\nThe Impact: Maintainors will need to pass a 2FA challenge before packages can be installed, potentially thwarting supply chain attacks via npm. via The Hacker News #cybersecurity #npm #supplychain.",
         "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html"
+    },
+    {
+        "date": "2026-05-23 21:07 UTC",
+        "content": "\ud83d\udfe0 Laravel Lang packages hijacked to deploy malware\n\nThe Breakdown:\n\u2022 Attackers abused GitHub version tags to distribute\nmalicious code through Composer packages.\n\nThe Technical Vector:\n\u2022 Malicious code was deployed as part of the\nLaravel Lang localization packages.\n\nThe Impact:\n\u2022 Developers exposed to credential-stealing malware.\nvia BleepingComputer\n#cybersecurity\n#supplychain\n#malware",
+        "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
     }
 ]
