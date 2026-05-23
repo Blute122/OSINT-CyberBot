@@ -633,5 +633,10 @@
         "date": "2026-05-23 15:18 UTC",
         "content": "\ud83d\udd34 CRITICAL: Italy disrupts CINEMAGOAL piracy app stealing streaming auth codes. The app provided access to Netflix, Disney+, Spotify. Authorities dismantled the piracy ecosystem in an effort to curb widespread piracy via a malicious app. via BleepingComputer #cybersecurity #streamingpiracy #cinemagoal",
         "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/"
+    },
+    {
+        "date": "2026-05-23 17:15 UTC",
+        "content": "\ud83d\udfe0 npm Stage Publishing Feature Released: A New 2FA-Gated Security Control Against Supply Chain Attacks\n\nThe Breakdown: npm now has a staged publishing feature that requires 2FA approval by maintainers before releasing packages.\n\nThe Technical Vector: This feature is designed to prevent malicious packages from entering the supply chain.\n\nThe Impact: Maintainors will need to pass a 2FA challenge before packages can be installed, potentially thwarting supply chain attacks via npm. via The Hacker News #cybersecurity #npm #supplychain.",
+        "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html"
     }
 ]
