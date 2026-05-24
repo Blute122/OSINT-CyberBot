@@ -643,5 +643,10 @@
         "date": "2026-05-23 21:07 UTC",
         "content": "\ud83d\udfe0 Laravel Lang packages hijacked to deploy malware\n\nThe Breakdown:\n\u2022 Attackers abused GitHub version tags to distribute\nmalicious code through Composer packages.\n\nThe Technical Vector:\n\u2022 Malicious code was deployed as part of the\nLaravel Lang localization packages.\n\nThe Impact:\n\u2022 Developers exposed to credential-stealing malware.\nvia BleepingComputer\n#cybersecurity\n#supplychain\n#malware",
         "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
+    },
+    {
+        "date": "2026-05-24 17:15 UTC",
+        "content": "\ud83d\udd34 Ghost CMS SQL Injection Flaw Under Active Exploitation\nLarge-scale campaign infecting sites with ClickFix flows\n\u2022 Attackers exploit CVE-2026-26980 (CVSS: 9.4/10) to inject malicious code\n\u2022 Impact: potentially sensitive data at risk for 1.3 million sites\nvia BleepingComputer\n#cybersecurity #ClickFix #GhostCMS",
+        "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/"
     }
 ]
