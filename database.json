@@ -663,5 +663,10 @@
         "date": "2026-05-25 16:02 UTC",
         "content": "\ud83d\udfe1 Linux Flaws Exposed: Unpatched Servers Put Data at Risk\nA week's recap reveals unsecured dev tools, resurrected bugs, and security products in need of patching. \n\nThe Breakdown:\n\u2022 Dev tools left users vulnerable\n\u2022 Old bugs resurfaced\n\nThe Technical Vector:\n\u2022 Unpatched servers put data at risk\n\u2022 Phishing attacks becoming more targeted\n\nThe Impact:\n\u2022 Multiple companies affected\n\u2022 Data compromised via unsecured servers\nvia The Hacker News #cybersecurity #Linux #phishing",
         "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
+    },
+    {
+        "date": "2026-05-25 19:57 UTC",
+        "content": "\ud83d\udfe1 Breakout in the making: Anthropic's restricted Claude Mythos model may leak to public. This pose major security risks to private and public software. \n   The Breakdown: Anthropic announced Mythos in April as a restricted model, but public rollout is imminent.\n   The Technical Vector: No technical details on the threat, but Mythos poses significant security risks.\n   The Impact: Private and public software at risk of major security breaches.\n   via BleepingComputer #cybersecurity #Anthropic #ClaudeMythos",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/"
     }
 ]
