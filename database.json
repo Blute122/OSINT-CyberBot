@@ -653,5 +653,10 @@
         "date": "2026-05-24 19:38 UTC",
         "content": "\ud83d\udfe1 \ud83d\udd34 Critical: Wireshark 4.6.6 Released, addressing a high-severity vulnerability. The Breakdown: A fix for 1 vulnerability and 11 bugs was released. The Technical Vector: No technical details are provided. The Impact: Users are advised to update to the latest version via SANS ISC. #cybersecurity #WiresharkVulnerability #CVE-2024-12345 (CVSS: 4.4/10)",
         "url": "https://isc.sans.edu/diary/rss/33010"
+    },
+    {
+        "date": "2026-05-25 12:44 UTC",
+        "content": "\ud83d\udfe2 LOW: The Alert Firehose Finally Meets Its Match via The Hacker News. Many organizations still view Network Detection and Response (NDR) with suspicion due to its reputation for being \"Noisy\" and generating too much data.\n\n\u2022 However, newer NDR systems with agentic AI capabilities are actually improving threat detection and response.\n\n\u2022 The result is earlier threat detection, faster triage, and fewer false positives.\n\n#cybersecurity #networkdetection #AIsecurity",
+        "url": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html"
     }
 ]

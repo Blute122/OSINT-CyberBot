@@ -148,3 +148,5 @@ https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html
 https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/
 https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
 https://isc.sans.edu/diary/rss/33010
+https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html
+https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html
