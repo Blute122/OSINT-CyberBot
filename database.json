@@ -658,5 +658,10 @@
         "date": "2026-05-25 12:44 UTC",
         "content": "\ud83d\udfe2 LOW: The Alert Firehose Finally Meets Its Match via The Hacker News. Many organizations still view Network Detection and Response (NDR) with suspicion due to its reputation for being \"Noisy\" and generating too much data.\n\n\u2022 However, newer NDR systems with agentic AI capabilities are actually improving threat detection and response.\n\n\u2022 The result is earlier threat detection, faster triage, and fewer false positives.\n\n#cybersecurity #networkdetection #AIsecurity",
         "url": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html"
+    },
+    {
+        "date": "2026-05-25 16:02 UTC",
+        "content": "\ud83d\udfe1 Linux Flaws Exposed: Unpatched Servers Put Data at Risk\nA week's recap reveals unsecured dev tools, resurrected bugs, and security products in need of patching. \n\nThe Breakdown:\n\u2022 Dev tools left users vulnerable\n\u2022 Old bugs resurfaced\n\nThe Technical Vector:\n\u2022 Unpatched servers put data at risk\n\u2022 Phishing attacks becoming more targeted\n\nThe Impact:\n\u2022 Multiple companies affected\n\u2022 Data compromised via unsecured servers\nvia The Hacker News #cybersecurity #Linux #phishing",
+        "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
     }
 ]
