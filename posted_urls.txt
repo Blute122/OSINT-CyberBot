@@ -152,3 +152,4 @@ https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html
 https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html
 https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/
+https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html

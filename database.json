@@ -668,5 +668,10 @@
         "date": "2026-05-25 19:57 UTC",
         "content": "\ud83d\udfe1 Breakout in the making: Anthropic's restricted Claude Mythos model may leak to public. This pose major security risks to private and public software. \n   The Breakdown: Anthropic announced Mythos in April as a restricted model, but public rollout is imminent.\n   The Technical Vector: No technical details on the threat, but Mythos poses significant security risks.\n   The Impact: Private and public software at risk of major security breaches.\n   via BleepingComputer #cybersecurity #Anthropic #ClaudeMythos",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/"
+    },
+    {
+        "date": "2026-05-26 08:42 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34\nKnowledgeDeliver LMS Zero-Day Exploit Delivers Malware\nA high-severity security flaw in Digital Knowledge's KnowledgeDeliver LMS was exploited to deploy the Godzilla web shell and ultimately facilitate the deployment of Cobalt Strike Beacon. \nThe vulnerability, tracked as CVE-2026-5426 (CVSS: 7.5/10) (CVSS score: 7.5), stems from the use of hard-coded ASP.NET machine keys.",
+        "url": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html"
     }
 ]
