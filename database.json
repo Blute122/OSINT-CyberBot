@@ -678,5 +678,10 @@
         "date": "2026-05-26 16:52 UTC",
         "content": "\ud83d\udfe1 AppOmni's Marlin AI suffers from partial autonomy in investigation, but stops short of full autonomy\n\nThe Breakdown: Marlin AI automatically analyzes SaaS misconfigurations\nThe Technical Vector: Investigates related activity across enterprise environments\nThe Impact: Enterprise SaaS users at risk via misconfigurations\nvia SecurityWeek\n#cybersecurity #SaaSsecurity #Misconfigurations",
         "url": "https://www.securityweek.com/appomnis-marlin-ai-brings-autonomous-investigation-to-saas-security/"
+    },
+    {
+        "date": "2026-05-26 21:57 UTC",
+        "content": "\ud83d\udd34 KNOWLEDGEDELIVER LMS ZERODAY EXPLOIT \ud83d\udee1\ufe0f\nHackers are targeting vulnerable KnowledgeDeliver LMS servers to deploy web shells via a recently discovered zero-day vulnerability.\nThe zero-day exploit allows attackers to execute arbitrary code and gain control over the affected system. \ud83d\udcc9\nIf exploited, attackers can steal sensitive data, disrupt operations, and even install ransomware. \ud83d\udcbb\nvia BleepingComputer #cybersecurity #zerodayvulnerability #webshells",
+        "url": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/"
     }
 ]
