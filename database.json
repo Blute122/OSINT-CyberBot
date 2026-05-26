@@ -683,5 +683,10 @@
         "date": "2026-05-26 21:57 UTC",
         "content": "\ud83d\udd34 KNOWLEDGEDELIVER LMS ZERODAY EXPLOIT \ud83d\udee1\ufe0f\nHackers are targeting vulnerable KnowledgeDeliver LMS servers to deploy web shells via a recently discovered zero-day vulnerability.\nThe zero-day exploit allows attackers to execute arbitrary code and gain control over the affected system. \ud83d\udcc9\nIf exploited, attackers can steal sensitive data, disrupt operations, and even install ransomware. \ud83d\udcbb\nvia BleepingComputer #cybersecurity #zerodayvulnerability #webshells",
         "url": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/"
+    },
+    {
+        "date": "2026-05-26 23:22 UTC",
+        "content": "\ud83d\udd34 Charter Communications confirms data breach after ShinyHunters extortion threat. The cybercrime group threatened to leak stolen data unless a ransom is paid.\n\n**The Breakdown**\n Charter Communications has suffered a data breach after the ShinyHunters extortion group threatened to release the stolen data.\n \n**The Technical Vector**\n The attack is attributed to the ShinyHunters extortion group's threat.\n \n**The Impact**\n Charter Communications is at risk of having its customer data leaked unless a ransom is paid.\n \nvia BleepingComputer. #cybersecurity #ShinyHunters #data_breach",
+        "url": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/"
     }
 ]
