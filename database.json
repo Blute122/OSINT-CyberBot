@@ -693,5 +693,10 @@
         "date": "2026-05-27 16:46 UTC",
         "content": "\ud83d\udd34 Critical: CrowdStrike disrupts Glassworm botnet preying on open-source supply chain.\n\nThe Breakdown: CrowdStrike dismantled the Glassworm botnet in an operation with Google and Shadowserver, stripping the operators\u2019 access to infrastructure used to infect hundreds of open-source software with malware since early 2025.\n\nThe Technical Vector: The bots targeted open-source software, leveraging attacker-controlled servers designed to [ ... ].\n\nThe Impact: Hundreds of open-source software pieces are at risk. via CyberScoop #cybersecurity #supplychain #Glassworm",
         "url": "https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/"
+    },
+    {
+        "date": "2026-05-27 19:32 UTC",
+        "content": "\ud83d\udfe0 Latin American Cybercrime Targets Uruguayan Govt for Data \ud83d\udcb8\nA leak exposed 5.8M records of Uruguayan citizens. Cybercriminals targeted govt agencies to monetize citizen data.\n\u2022 Exploiting government data for financial gain\n\u2022 Large-scale data breach of Uruguayan citizens\n\u2022 Latin American cybercrime group involved\nvia Dark Reading\n#cybersecurity #LACybercrime #GovernmentDataBreach",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data"
     }
 ]

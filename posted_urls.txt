@@ -158,3 +158,4 @@ https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-clau
 https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/
 https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/
 https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/
+https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data
