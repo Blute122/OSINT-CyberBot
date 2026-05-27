@@ -159,3 +159,4 @@ https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-a
 https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/
 https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/
 https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data
+https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html
