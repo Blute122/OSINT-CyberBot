@@ -157,3 +157,4 @@ https://www.securityweek.com/appomnis-marlin-ai-brings-autonomous-investigation-
 https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/
 https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/
 https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/
+https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/

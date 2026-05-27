@@ -688,5 +688,10 @@
         "date": "2026-05-26 23:22 UTC",
         "content": "\ud83d\udd34 Charter Communications confirms data breach after ShinyHunters extortion threat. The cybercrime group threatened to leak stolen data unless a ransom is paid.\n\n**The Breakdown**\n Charter Communications has suffered a data breach after the ShinyHunters extortion group threatened to release the stolen data.\n \n**The Technical Vector**\n The attack is attributed to the ShinyHunters extortion group's threat.\n \n**The Impact**\n Charter Communications is at risk of having its customer data leaked unless a ransom is paid.\n \nvia BleepingComputer. #cybersecurity #ShinyHunters #data_breach",
         "url": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/"
+    },
+    {
+        "date": "2026-05-27 16:46 UTC",
+        "content": "\ud83d\udd34 Critical: CrowdStrike disrupts Glassworm botnet preying on open-source supply chain.\n\nThe Breakdown: CrowdStrike dismantled the Glassworm botnet in an operation with Google and Shadowserver, stripping the operators\u2019 access to infrastructure used to infect hundreds of open-source software with malware since early 2025.\n\nThe Technical Vector: The bots targeted open-source software, leveraging attacker-controlled servers designed to [ ... ].\n\nThe Impact: Hundreds of open-source software pieces are at risk. via CyberScoop #cybersecurity #supplychain #Glassworm",
+        "url": "https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/"
     }
 ]
