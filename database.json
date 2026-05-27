@@ -703,5 +703,10 @@
         "date": "2026-05-27 22:07 UTC",
         "content": "\ud83d\udfe0 **Critical Banking Trojan Campaigns Exposed**\n\nA series of targeted attacks, led by the Grandoreiro and BTMOB malware, pose a significant threat to Windows and Android users. \n\n\u2022 The attackers specifically target companies in Spain, Portugal, and Mexico, as well as mobile users in Brazil. \n\n\u2022 Both malware families aim to steal sensitive information and compromise security. \n\nvia The Hacker News\n\n#cybersecurity #Grandoreiro #BTMOBRAT",
         "url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html"
+    },
+    {
+        "date": "2026-05-27 23:37 UTC",
+        "content": "\ud83d\udd34 **Law Firms Under Siege**\n\nThe FBI warns that Silent Ransom Group, a cybercrime gang, is targeting US law firms in person. They use a combination of social engineering and visits to steal data and conduct ransomware attacks.\n\n**The Breakdown:** Silent Ransom Group is known for its in-person visits, a tactic rarely seen in the cybersecurity world. They compromise law firms' computers, steal sensitive data, and demand ransom.\n\n**The Technical Vector:** This attack involves a combination of social engineering and in-person visits, making it difficult for law firms to defend.\n\n**The Impact:** US-based law firms are at risk of being targeted by Silent Ransom Group, who can steal sensitive data and demand ransom. via CyberScoop\n\n#cybersecurity #lawfirmsecurity #ransomware",
+        "url": "https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/"
     }
 ]
