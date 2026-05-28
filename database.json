@@ -718,5 +718,10 @@
         "date": "2026-05-28 17:01 UTC",
         "content": "\ud83d\udd34 Carnival Data Breach: 6M Exposed to ID Theft Risks\n\u2022 Carnival data breach affects nearly 6 million customers\n\u2022 Exposed to identity theft risks\n\u2022 No further information on breach cause or timeline\nvia SecurityWeek #cybersecurity #dataloss #idtheft",
         "url": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/"
+    },
+    {
+        "date": "2026-05-28 22:05 UTC",
+        "content": "\ud83d\udfe1 A Google security engineer allegedly exploited internal access for confidential search trends, winning $1.2M on Polymarket. The Breakdown: Spagnuolo used Google's nonpublic data for insider trading. The Technical Vector: He turned confidential search results into trades. The Impact: Users' sensitive info is at risk. via CyberScoop #cybersecurity #insiderttrading #Google",
+        "url": "https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/"
     }
 ]

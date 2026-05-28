@@ -165,3 +165,5 @@ https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/
 https://www.darkreading.com/cybersecurity-analytics/nordic-cisos-rising-cyber-threats
 https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/
 https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/
+https://cyberscoop.com/house-hearing-frontier-ai-cybersecurity-threats/
+https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/
