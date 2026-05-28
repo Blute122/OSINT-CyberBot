@@ -713,5 +713,10 @@
         "date": "2026-05-28 12:44 UTC",
         "content": "\ud83d\udfe1 Heap Overflow Vulnerability Discovered in DICOM File Format\n\nA recent white paper exposed a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The vulnerability occurs through the use of the DICOM file format.\n\nThe Technical Vector:\n\u2022 The vulnerability is created through the exploitation of the DICOM file format.\n\nThe Impact:\n\u2022 Users and organizations that process DICOM files are at risk of exploitation.\n\nvia Cisco Talos\n#cybersecurity #DICOM #heap_overflow",
         "url": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/"
+    },
+    {
+        "date": "2026-05-28 17:01 UTC",
+        "content": "\ud83d\udd34 Carnival Data Breach: 6M Exposed to ID Theft Risks\n\u2022 Carnival data breach affects nearly 6 million customers\n\u2022 Exposed to identity theft risks\n\u2022 No further information on breach cause or timeline\nvia SecurityWeek #cybersecurity #dataloss #idtheft",
+        "url": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/"
     }
 ]
