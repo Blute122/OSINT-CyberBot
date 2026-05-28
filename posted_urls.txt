@@ -163,3 +163,4 @@ https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html
 https://cyberscoop.com/openai-2026-election-security-plans/
 https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/
 https://www.darkreading.com/cybersecurity-analytics/nordic-cisos-rising-cyber-threats
+https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/

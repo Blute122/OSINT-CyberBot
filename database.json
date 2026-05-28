@@ -708,5 +708,10 @@
         "date": "2026-05-27 23:37 UTC",
         "content": "\ud83d\udd34 **Law Firms Under Siege**\n\nThe FBI warns that Silent Ransom Group, a cybercrime gang, is targeting US law firms in person. They use a combination of social engineering and visits to steal data and conduct ransomware attacks.\n\n**The Breakdown:** Silent Ransom Group is known for its in-person visits, a tactic rarely seen in the cybersecurity world. They compromise law firms' computers, steal sensitive data, and demand ransom.\n\n**The Technical Vector:** This attack involves a combination of social engineering and in-person visits, making it difficult for law firms to defend.\n\n**The Impact:** US-based law firms are at risk of being targeted by Silent Ransom Group, who can steal sensitive data and demand ransom. via CyberScoop\n\n#cybersecurity #lawfirmsecurity #ransomware",
         "url": "https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/"
+    },
+    {
+        "date": "2026-05-28 12:44 UTC",
+        "content": "\ud83d\udfe1 Heap Overflow Vulnerability Discovered in DICOM File Format\n\nA recent white paper exposed a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The vulnerability occurs through the use of the DICOM file format.\n\nThe Technical Vector:\n\u2022 The vulnerability is created through the exploitation of the DICOM file format.\n\nThe Impact:\n\u2022 Users and organizations that process DICOM files are at risk of exploitation.\n\nvia Cisco Talos\n#cybersecurity #DICOM #heap_overflow",
+        "url": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/"
     }
 ]
