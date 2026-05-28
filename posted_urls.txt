@@ -167,3 +167,4 @@ https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-to
 https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/
 https://cyberscoop.com/house-hearing-frontier-ai-cybersecurity-threats/
 https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/
+https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/

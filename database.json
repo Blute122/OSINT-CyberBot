@@ -723,5 +723,10 @@
         "date": "2026-05-28 22:05 UTC",
         "content": "\ud83d\udfe1 A Google security engineer allegedly exploited internal access for confidential search trends, winning $1.2M on Polymarket. The Breakdown: Spagnuolo used Google's nonpublic data for insider trading. The Technical Vector: He turned confidential search results into trades. The Impact: Users' sensitive info is at risk. via CyberScoop #cybersecurity #insiderttrading #Google",
         "url": "https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/"
+    },
+    {
+        "date": "2026-05-28 23:41 UTC",
+        "content": "\ud83d\udfe1 AI-Powered Cyberattacks on the Rise\n\nGreyVibe attackers use ChatGPT, Gemini, and other AI tools to supercharge cyberattacks.\n\n**The Breakdown**: Researchers warn of GreyVibe's extensive use of AI in cyberattacks.\n\n**The Technical Vector**: GreyVibe leverages AI tools to enhance cybercriminal operations.\n\n**The Impact**: State-aligned groups and cybercriminals may follow suit, using AI to amplify attacks.\n\nvia SecurityWeek\n#cybersecurity #ArtificialIntelligence #Cybercrime",
+        "url": "https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/"
     }
 ]
