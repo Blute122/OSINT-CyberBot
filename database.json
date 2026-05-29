@@ -733,5 +733,10 @@
         "date": "2026-05-29 04:40 UTC",
         "content": "\ud83d\udfe2 **Public Rollout Delayed Due to Security Risks**\n\nThe general public rollout of Anthropic's Mythos-class models has been delayed due to security risks affecting public and private software. These models, which were originally set for public release, may pose a threat to users if not properly audited. They may be used to develop and deploy malware or exploits. \n\nThe technical vector of this attack is the introduction of potentially insecure code into the public domain via these models. If exploited, this could result in the development of zero-day exploits. \n\nThe impact of this security risk is widespread, as Anthropic's models are intended for public use. This means that many users could be at risk if these models are not thoroughly audited for security.\n\nvia BleepingComputer\n\n#cybersecurity #AI #ArtificialIntelligence",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/"
+    },
+    {
+        "date": "2026-05-29 08:51 UTC",
+        "content": "\ud83d\udfe0 ALERT: Kimsuky, a North Korean state-sponsored threat actor, has been attributed to a series of cyber attacks targeting S. Korean military and corporate entities through March and April. Tactics included spoofed security software installation pages and a fake Webex meeting page.\n   \nThe Breakdown: Kimsuky deployed HTTPSpy and expanded their arsenal with HelloDoor and VS Code tunnels, targeting S. Korean entities.\n   \nThe Technical Vector: Kimsuky used tailored social engineering tactics, including spoofed security software installation pages and a fake Webex meeting page to execute attacks.\n   \nThe Impact: At risk are South Korean military and corporate entities, with the potential for data breaches and unauthorized access.\n\nvia The Hacker News #cybersecurity #Kimsuky #HelloDoor",
+        "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
     }
 ]

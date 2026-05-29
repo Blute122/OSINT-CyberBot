@@ -169,3 +169,4 @@ https://cyberscoop.com/house-hearing-frontier-ai-cybersecurity-threats/
 https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/
 https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/
+https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html
