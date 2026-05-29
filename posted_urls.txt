@@ -171,3 +171,4 @@ https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercha
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/
 https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html
 https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/
+https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/

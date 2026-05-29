@@ -743,5 +743,10 @@
         "date": "2026-05-29 12:26 UTC",
         "content": "\ud83d\udfe0 Breaking: Google Chrome's Device Bound Session Credentials (DBSC) security feature is now available to all users, protecting against session cookie theft and account takeovers. The Breakdown: Google rolled out DBSC to prevent account takeovers. The Technical Vector: DBSC binds session cookies to devices, making it harder for attackers to steal cookies. The Impact: This protection applies to all Chrome users, securing their accounts and preventing potential takeovers. via BleepingComputer. #cybersecurity #WebSecurity",
         "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/"
+    },
+    {
+        "date": "2026-05-29 16:53 UTC",
+        "content": "\ud83d\udd34 CRITICAL: Trump Mobile data breach exposes customer data. Phishers target the 2026 FIFA World Cup. CISA responds to recent supply chain attacks. \n\nThe Breakdown: Trump Mobile data breach and FIFA phishing campaigns detected. Supply chain attacks being addressed by CISA. \n\nThe Technical Vector: Details not specified on attack vectors. \n\nThe Impact: Customer data exposed, FIFA World Cup attendees at risk, and various enterprises vulnerable to supply chain attacks. \n\nvia SecurityWeek #cybersecurity #phishing #supplychainattacks",
+        "url": "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/"
     }
 ]
