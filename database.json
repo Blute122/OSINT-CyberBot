@@ -738,5 +738,10 @@
         "date": "2026-05-29 08:51 UTC",
         "content": "\ud83d\udfe0 ALERT: Kimsuky, a North Korean state-sponsored threat actor, has been attributed to a series of cyber attacks targeting S. Korean military and corporate entities through March and April. Tactics included spoofed security software installation pages and a fake Webex meeting page.\n   \nThe Breakdown: Kimsuky deployed HTTPSpy and expanded their arsenal with HelloDoor and VS Code tunnels, targeting S. Korean entities.\n   \nThe Technical Vector: Kimsuky used tailored social engineering tactics, including spoofed security software installation pages and a fake Webex meeting page to execute attacks.\n   \nThe Impact: At risk are South Korean military and corporate entities, with the potential for data breaches and unauthorized access.\n\nvia The Hacker News #cybersecurity #Kimsuky #HelloDoor",
         "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
+    },
+    {
+        "date": "2026-05-29 12:26 UTC",
+        "content": "\ud83d\udfe0 Breaking: Google Chrome's Device Bound Session Credentials (DBSC) security feature is now available to all users, protecting against session cookie theft and account takeovers. The Breakdown: Google rolled out DBSC to prevent account takeovers. The Technical Vector: DBSC binds session cookies to devices, making it harder for attackers to steal cookies. The Impact: This protection applies to all Chrome users, securing their accounts and preventing potential takeovers. via BleepingComputer. #cybersecurity #WebSecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/"
     }
 ]
