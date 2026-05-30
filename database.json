@@ -753,5 +753,10 @@
         "date": "2026-05-29 22:04 UTC",
         "content": "\u26a0\ufe0f Breaking: Tennessee man linked to 764 child sex abuse material (CSAM) victims. Zachary Sweeney allegedly met and harmed children in multiple states. An FBI investigation began in 2023.",
         "url": "https://cyberscoop.com/tennessee-zachary-sweeney-764-charged-csam-exploitation/"
+    },
+    {
+        "date": "2026-05-30 07:50 UTC",
+        "content": "\ud83d\udd34 **Critical Vulnerability Alert \ud83d\udfe0**\nPalo Alto Networks has reported that a medium-severity security flaw in PAN-OS and Prisma Access is being actively exploited. The vulnerability, tracked as CVE-2026-0257 (CVSS: 9.1/10), enables authentication bypass, potentially allowing attackers to set up VPN connections.\n\nThe Breakdown: The vulnerability is a case of authentication bypass, which allows unauthorized access to networks.\nThe Technical Vector: Exploitation of CVE-2026-0257 (CVSS: 9.1/10) could potentially lead to VPN connections being established without proper authentication.\nThe Impact: Organizations using PAN-OS and Prisma Access may be at risk if this vulnerability is exploited.\n\nvia The Hacker News. #cybersecurity #pan-security #auth-bypassvulnerability",
+        "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html"
     }
 ]
