@@ -763,5 +763,10 @@
         "date": "2026-05-30 14:47 UTC",
         "content": "\ud83d\udd34 Critical: New Linux flaw allows for root privileges via CIFSwitch vulnerability.\nThis local privilege escalation affects multiple Linux distributions, enabling attackers to forge CIFS authentication key descriptions and abuse the kernel's key request mechanism.\nVulnerability exists in the Linux kernel, allowing exploitation and gain of root privileges.\nVia BleepingComputer\n#cybersecurity #Linux #privilege_escalation",
         "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/"
+    },
+    {
+        "date": "2026-05-30 18:15 UTC",
+        "content": "\ud83d\udd34 **GlobalProtect VPN Bypass Under Active Attack**\n\nHackers are now exploiting a serious flaw in Palo Alto GlobalProtect VPN allowing them to bypass authentication and gain access to corporate networks.\n\n**The Breakdown:** Palo Alto Networks has confirmed an authentication bypass flaw in GlobalProtect VPN, tracked as CVE-2026-0257 (CVSS: 9.1/10).\n\n**The Technical Vector:** Attackers use the flaw to bypass authentication and gain access to the network.\n\n**The Impact:** Corporate networks, potential data breaches and unauthorized access.\n\nvia BleepingComputer #cybersecurity #PaloAltoNetworks #CVE-2026-0257 (CVSS: 9.1/10)",
+        "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/"
     }
 ]
