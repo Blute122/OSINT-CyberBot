@@ -178,3 +178,4 @@ https://www.darkreading.com/cloud-security/name-that-toon-mark-of-cybersecurity-
 https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html
 https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/
 https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/
+https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/

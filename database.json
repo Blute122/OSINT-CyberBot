@@ -768,5 +768,10 @@
         "date": "2026-05-30 18:15 UTC",
         "content": "\ud83d\udd34 **GlobalProtect VPN Bypass Under Active Attack**\n\nHackers are now exploiting a serious flaw in Palo Alto GlobalProtect VPN allowing them to bypass authentication and gain access to corporate networks.\n\n**The Breakdown:** Palo Alto Networks has confirmed an authentication bypass flaw in GlobalProtect VPN, tracked as CVE-2026-0257 (CVSS: 9.1/10).\n\n**The Technical Vector:** Attackers use the flaw to bypass authentication and gain access to the network.\n\n**The Impact:** Corporate networks, potential data breaches and unauthorized access.\n\nvia BleepingComputer #cybersecurity #PaloAltoNetworks #CVE-2026-0257 (CVSS: 9.1/10)",
         "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/"
+    },
+    {
+        "date": "2026-05-30 20:16 UTC",
+        "content": "\ud83d\udd34 Russian Spies Seek Western Technology. Moscow\u2019s agents build fake companies, recruit middlemen and deploy cyber spies for key infrastructure attacks via info gathering.\n\nThe Breakdown: Fake companies and middlemen aid Russian spies in acquiring info.\n\nThe Technical Vector: Cyber spies gather data for potential future attacks.\n\nThe Impact: Western infrastructure vulnerable due to Russian espionage.\n\nvia SecurityWeek #cybersecurity #russianespionage #westerntechnology",
+        "url": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/"
     }
 ]
