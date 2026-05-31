@@ -773,5 +773,10 @@
         "date": "2026-05-30 20:16 UTC",
         "content": "\ud83d\udd34 Russian Spies Seek Western Technology. Moscow\u2019s agents build fake companies, recruit middlemen and deploy cyber spies for key infrastructure attacks via info gathering.\n\nThe Breakdown: Fake companies and middlemen aid Russian spies in acquiring info.\n\nThe Technical Vector: Cyber spies gather data for potential future attacks.\n\nThe Impact: Western infrastructure vulnerable due to Russian espionage.\n\nvia SecurityWeek #cybersecurity #russianespionage #westerntechnology",
         "url": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/"
+    },
+    {
+        "date": "2026-05-31 14:55 UTC",
+        "content": "\ud83d\udd34 Critical: WP Maps Pro bug exploited to create admin accounts on WordPress sites. Hackers target vulnerable sites to create rogue admin accounts without authentication. This is a zero-day vulnerability, allowing attackers full control over the website. via BleepingComputer #cybersecurity #WordPress #WPMapsPro",
+        "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/"
     }
 ]
