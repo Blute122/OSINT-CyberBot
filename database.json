@@ -783,5 +783,10 @@
         "date": "2026-06-01 12:08 UTC",
         "content": "\ud83d\udfe2 Security Growth Platforms: What MSPs Need\nMSPs and MSSPs are moving away from vCISO tools. This shift comes with growing cybersecurity needs.\n\nThe Breakdown:\n\nMSPs need more than just vCISO platform assessments and advisory services. This is not about bolted-on compliance modules but rather complete security growth platforms.\n\nThe Technical Vector:\n\nSecurity growth platforms provide a foundation for MSPs to deliver advanced security services. They include capabilities such as security consulting, monitoring and incident response.\n\nThe Impact:\n\nOrganizations that fail to adapt their security posture will miss out on the benefits of a robust security growth platform.\n\nvia The Hacker News\n#cybersecurity #managedsecurityservices #cyberposturing",
         "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html"
+    },
+    {
+        "date": "2026-06-01 18:15 UTC",
+        "content": "\ud83d\udfe0 High: Hackers exploited Meta's AI Support Bot to seize Instagram accounts for the Obama White House and U.S. Space Force Chief Master Sergeant.\n\n\u2022 Attackers used Telegram to spread instructions on how to reset passwords.\n\nThe risk is still present for users of Instagram, whose accounts could be compromised.\n\nvia Krebs on Security\n#cybersecurity #IranianThreatActor #InstagramHack",
+        "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/"
     }
 ]
