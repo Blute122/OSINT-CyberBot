@@ -182,3 +182,4 @@ https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-tech
 https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/
 https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html
 https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/
+https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/
