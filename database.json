@@ -778,5 +778,10 @@
         "date": "2026-05-31 14:55 UTC",
         "content": "\ud83d\udd34 Critical: WP Maps Pro bug exploited to create admin accounts on WordPress sites. Hackers target vulnerable sites to create rogue admin accounts without authentication. This is a zero-day vulnerability, allowing attackers full control over the website. via BleepingComputer #cybersecurity #WordPress #WPMapsPro",
         "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/"
+    },
+    {
+        "date": "2026-06-01 12:08 UTC",
+        "content": "\ud83d\udfe2 Security Growth Platforms: What MSPs Need\nMSPs and MSSPs are moving away from vCISO tools. This shift comes with growing cybersecurity needs.\n\nThe Breakdown:\n\nMSPs need more than just vCISO platform assessments and advisory services. This is not about bolted-on compliance modules but rather complete security growth platforms.\n\nThe Technical Vector:\n\nSecurity growth platforms provide a foundation for MSPs to deliver advanced security services. They include capabilities such as security consulting, monitoring and incident response.\n\nThe Impact:\n\nOrganizations that fail to adapt their security posture will miss out on the benefits of a robust security growth platform.\n\nvia The Hacker News\n#cybersecurity #managedsecurityservices #cyberposturing",
+        "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html"
     }
 ]
