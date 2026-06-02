@@ -189,3 +189,5 @@ https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-
 https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/
 https://www.securityweek.com/trump-signs-executive-order-that-invites-vetting-of-top-ai-models-for-national-security-risks/
 https://www.securityweek.com/two-new-reports-offer-competing-explanations-for-cybersecuritys-growing-crisis/
+https://www.darkreading.com/cybersecurity-operations/zoom-ciso-ai-security-enabler-role-replacer
+https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach

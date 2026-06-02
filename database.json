@@ -808,5 +808,10 @@
         "date": "2026-06-02 16:53 UTC",
         "content": "\ud83d\udd25 AI-powered attacks & shadow AI adoption create new security risks inside the browser. Push Security explains why browser visibility is critical for threat detection & AI governance.\n\nThe Breakdown: AI-powered attacks exploit browser vulnerabilities.\n\nThe Technical Vector: Shadow AI adoption occurs without visibility.\n\nThe Impact: Unknown scope at risk, but AI governance critical. via BleepingComputer #cybersecurity #artificialintelligence",
         "url": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/"
+    },
+    {
+        "date": "2026-06-02 23:07 UTC",
+        "content": "\ud83d\udd34 Critical: Kali365 phishing-as-a-service platform expands its reach. Targets AWS, Okta, Russian platforms, and Microsoft 365 using device code phishing. Breakdown: Kali365 is a well-known phishing kit initially targeting MS 365. Technical vector: This phishing kit uses device code phishing. Impact: Any users of these platforms are at risk of being phished.\n   \n   via Dark Reading. #cybersecurity #PhishingAttack #Kali365",
+        "url": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach"
     }
 ]
