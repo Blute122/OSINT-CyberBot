@@ -793,5 +793,10 @@
         "date": "2026-06-01 22:16 UTC",
         "content": "\ud83d\udd34 Critical: Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks. DriveSurge threat actor exploits compromised sites to distribute malware. The Breakdown: Thousands of sites hijacked for malware distribution. The Technical Vector: DriveSurge uses ClickFix and FakeUpdates techniques to spread malware. The Impact: At-risk sites and users. Anyone accessing these sites may be infected. via BleepingComputer #cybersecurity #malware #DriveSurge",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/"
+    },
+    {
+        "date": "2026-06-02 01:35 UTC",
+        "content": "\ud83d\udd34 **Red Hat npm Packages Compromised in Supply-Chain Attack**\nA supply-chain attack compromised more than 30 npm packages under Red Hat's '@redhat-cloud-services' namespace, distributing a variant of the Shai-Hulud credential-stealing malware, dubbed 'Miasma'.\nThe Breakdown: More than 30 npm packages compromised, distributing a new variant of the Shai-Hulud malware.\nThe Technical Vector: The malware was distributed through a supply-chain attack.\nThe Impact: Developers' credentials at risk due to compromised npm packages.",
+        "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/"
     }
 ]
