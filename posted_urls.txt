@@ -187,3 +187,5 @@ https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-
 https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/
 https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/
 https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/
+https://www.securityweek.com/trump-signs-executive-order-that-invites-vetting-of-top-ai-models-for-national-security-risks/
+https://www.securityweek.com/two-new-reports-offer-competing-explanations-for-cybersecuritys-growing-crisis/
