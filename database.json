@@ -818,5 +818,10 @@
         "date": "2026-06-03 01:45 UTC",
         "content": "\ud83d\udd34 ",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks"
+    },
+    {
+        "date": "2026-06-03 12:07 UTC",
+        "content": "\ud83d\udfe0 Critical: A prompt injection flaw in Google Gemini's voice assistant allows attackers to hide malicious commands in notifications, enabling social engineering and more. The flaw lets attackers send seemingly innocuous notifications, but with a hidden malicious payload. This could be used to steal sensitive info or gain unauthorized access to user data. via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users"
     }
 ]
