@@ -195,3 +195,6 @@ https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousa
 https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users
 https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html
 https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html
+https://cyberscoop.com/dhs-secretary-markwayne-mullin-pinpoints-optimal-cisa-staffing-levels/
+https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html
+https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html
