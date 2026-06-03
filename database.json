@@ -833,5 +833,10 @@
         "date": "2026-06-03 21:29 UTC",
         "content": "\ud83d\udd34 Google DoubleClick used in new malspam campaign to deliver DesckVB RAT. \n\u2022 Attackers exploit Google domain to evade detection and deliver RAT. \n\u2022 Malicious emails lure victims through DoubleClick before reaching attacker-controlled infrastructure. \n\u2022 Remote access trojan can compromise systems. via The Hacker News. #cybersecurity #desckvbrat #malspam",
         "url": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html"
+    },
+    {
+        "date": "2026-06-03 23:59 UTC",
+        "content": "\ud83d\udfe0 HIGH A crackdown on organized crime groups has dismantled 9 syndicates & removed 27,000 URLs hosting pirated live sports and media. European authorities seized equipment, computers, and documents. via CyberScoop #cybersecurity #online_piracy #EUROPOL",
+        "url": "https://cyberscoop.com/europol-piracy-streaming-crackdown-operation-kratos2/"
     }
 ]
