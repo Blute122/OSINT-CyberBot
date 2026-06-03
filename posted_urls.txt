@@ -193,3 +193,5 @@ https://www.darkreading.com/cybersecurity-operations/zoom-ciso-ai-security-enabl
 https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach
 https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks
 https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users
+https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html
+https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html
