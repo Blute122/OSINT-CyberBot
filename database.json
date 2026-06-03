@@ -813,5 +813,10 @@
         "date": "2026-06-02 23:07 UTC",
         "content": "\ud83d\udd34 Critical: Kali365 phishing-as-a-service platform expands its reach. Targets AWS, Okta, Russian platforms, and Microsoft 365 using device code phishing. Breakdown: Kali365 is a well-known phishing kit initially targeting MS 365. Technical vector: This phishing kit uses device code phishing. Impact: Any users of these platforms are at risk of being phished.\n   \n   via Dark Reading. #cybersecurity #PhishingAttack #Kali365",
         "url": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach"
+    },
+    {
+        "date": "2026-06-03 01:45 UTC",
+        "content": "\ud83d\udd34 ",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks"
     }
 ]

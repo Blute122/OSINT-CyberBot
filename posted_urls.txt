@@ -191,3 +191,4 @@ https://www.securityweek.com/trump-signs-executive-order-that-invites-vetting-of
 https://www.securityweek.com/two-new-reports-offer-competing-explanations-for-cybersecuritys-growing-crisis/
 https://www.darkreading.com/cybersecurity-operations/zoom-ciso-ai-security-enabler-role-replacer
 https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach
+https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks
