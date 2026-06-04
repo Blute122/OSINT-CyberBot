@@ -853,5 +853,10 @@
         "date": "2026-06-04 16:28 UTC",
         "content": "",
         "url": "https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/"
+    },
+    {
+        "date": "2026-06-04 19:30 UTC",
+        "content": "\ud83d\udfe0 GitHub Action Security Flaw Allows Malicious Issue Hijack\nAttackers can take control of vulnerable public repos with a single issue. CVE not required. via The Hacker News\n#cybersecurity #githubaction #anthropic",
+        "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
     }
 ]
