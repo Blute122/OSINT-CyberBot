@@ -863,5 +863,10 @@
         "date": "2026-06-04 21:52 UTC",
         "content": "\ud83d\udfe2 LOW - Brave's Origin browsing app released with removed features.\n\nThe Breakdown: Brave Origin is a stripped-down version of the browser without cryptocurrency, AI, rewards, and monetization features.\n\nThe Technical Vector: This is not a security vulnerability.\n\nThe Impact: No potential security issues have been identified with the release of Brave Origin.\nvia BleepingComputer\n#cybersecurity #brave #browsing",
         "url": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/"
+    },
+    {
+        "date": "2026-06-04 23:23 UTC",
+        "content": "\ud83d\udfe1 IronWorm, a Rust-written malware, compromises NPM Supply Chain. Targets developers for credentials. Exploits reused to spread across the software supply channel.\n\nThe Breakdown: IronWorm is designed to steal credentials from developers.\n\nThe Technical Vector: IronWorm spreads through the software supply channel, compromising the NPM Supply Chain.\n\nThe Impact: Developers' credentials are at risk. via Dark Reading\n#cybersecurity #RustMalware #NPM",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain"
     }
 ]
