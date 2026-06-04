@@ -838,5 +838,10 @@
         "date": "2026-06-03 23:59 UTC",
         "content": "\ud83d\udfe0 HIGH A crackdown on organized crime groups has dismantled 9 syndicates & removed 27,000 URLs hosting pirated live sports and media. European authorities seized equipment, computers, and documents. via CyberScoop #cybersecurity #online_piracy #EUROPOL",
         "url": "https://cyberscoop.com/europol-piracy-streaming-crackdown-operation-kratos2/"
+    },
+    {
+        "date": "2026-06-04 05:03 UTC",
+        "content": "\ud83d\udfe0 Security Alert: Pakistan Spies on Afghan Finance Ministry With Xeno RAT. The spies used standard TTPs to target the porous digital infrastructure of the Afghan Finance Ministry. This is a prime example of how unsecured digital infrastructure can be used for malicious purposes. \n   \u2022 The attackers used the Xeno RAT malware to spy on the ministry, which allowed them to gain access to sensitive information.\n   \u2022 The porous digital infrastructure of the Afghan Finance Ministry made it vulnerable to such attacks.\n   \u2022 This incident highlights the importance of robust cybersecurity measures to prevent such breaches from occurring in the future.\n   via Dark Reading #cybersecurity #nationstatethreats #ratmalware",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat"
     }
 ]
