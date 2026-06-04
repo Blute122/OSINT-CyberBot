@@ -843,5 +843,10 @@
         "date": "2026-06-04 05:03 UTC",
         "content": "\ud83d\udfe0 Security Alert: Pakistan Spies on Afghan Finance Ministry With Xeno RAT. The spies used standard TTPs to target the porous digital infrastructure of the Afghan Finance Ministry. This is a prime example of how unsecured digital infrastructure can be used for malicious purposes. \n   \u2022 The attackers used the Xeno RAT malware to spy on the ministry, which allowed them to gain access to sensitive information.\n   \u2022 The porous digital infrastructure of the Afghan Finance Ministry made it vulnerable to such attacks.\n   \u2022 This incident highlights the importance of robust cybersecurity measures to prevent such breaches from occurring in the future.\n   via Dark Reading #cybersecurity #nationstatethreats #ratmalware",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat"
+    },
+    {
+        "date": "2026-06-04 12:16 UTC",
+        "content": "\ud83d\udd34 Critical: Cisco warns of critical Unified CM flaw with PoC exploit code. Attackers can gain root privileges, affecting Unified Communications Manager. The flaw is exploitable via the Web Services Interface. CVE not mentioned.\n\nThe Breakdown: Cisco released security updates to patch the flaw.\n\nThe Technical Vector: The vulnerability is present due to improper access control in the Web Services Interface.\n\nThe Impact: Organizations with Unified Communications Manager are at risk.\nvia BleepingComputer\n#cybersecurity #Cisco #UnifiedCM",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/"
     }
 ]
