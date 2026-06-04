@@ -201,3 +201,5 @@ https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html
 https://cyberscoop.com/europol-piracy-streaming-crackdown-operation-kratos2/
 https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat
 https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/
+https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
+https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/

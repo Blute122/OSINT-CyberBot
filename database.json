@@ -848,5 +848,10 @@
         "date": "2026-06-04 12:16 UTC",
         "content": "\ud83d\udd34 Critical: Cisco warns of critical Unified CM flaw with PoC exploit code. Attackers can gain root privileges, affecting Unified Communications Manager. The flaw is exploitable via the Web Services Interface. CVE not mentioned.\n\nThe Breakdown: Cisco released security updates to patch the flaw.\n\nThe Technical Vector: The vulnerability is present due to improper access control in the Web Services Interface.\n\nThe Impact: Organizations with Unified Communications Manager are at risk.\nvia BleepingComputer\n#cybersecurity #Cisco #UnifiedCM",
         "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/"
+    },
+    {
+        "date": "2026-06-04 16:28 UTC",
+        "content": "",
+        "url": "https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/"
     }
 ]
