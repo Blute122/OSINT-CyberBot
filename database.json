@@ -858,5 +858,10 @@
         "date": "2026-06-04 19:30 UTC",
         "content": "\ud83d\udfe0 GitHub Action Security Flaw Allows Malicious Issue Hijack\nAttackers can take control of vulnerable public repos with a single issue. CVE not required. via The Hacker News\n#cybersecurity #githubaction #anthropic",
         "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+    },
+    {
+        "date": "2026-06-04 21:52 UTC",
+        "content": "\ud83d\udfe2 LOW - Brave's Origin browsing app released with removed features.\n\nThe Breakdown: Brave Origin is a stripped-down version of the browser without cryptocurrency, AI, rewards, and monetization features.\n\nThe Technical Vector: This is not a security vulnerability.\n\nThe Impact: No potential security issues have been identified with the release of Brave Origin.\nvia BleepingComputer\n#cybersecurity #brave #browsing",
+        "url": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/"
     }
 ]

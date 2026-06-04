@@ -205,3 +205,5 @@ https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandome
 https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/
 https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
 https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
+https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/
+https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/
