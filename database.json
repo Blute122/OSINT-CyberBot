@@ -878,5 +878,10 @@
         "date": "2026-06-05 12:19 UTC",
         "content": "\ud83d\udd34 Critical Vulnerability Alert: Hacker takes over sites with Everest Forms Pro WordPress plugin flaw, executing arbitrary code via CVE-2026-3300 (CVSS: 9.8/10) (CVSS 9.8). 4,000 active installations at risk. via The Hacker News #cybersecurity #WordPressSecurity",
         "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html"
+    },
+    {
+        "date": "2026-06-05 16:08 UTC",
+        "content": "\ud83d\udfe1Comodo Vulnerability Alert\nAn unpatched Comodo flaw leaves users exposed. The vulnerability can be exploited without authentication, providing uncontrolled data access and potentially allowing a malicious actor to execute arbitrary code. \n   The Breakdown: \n   \u2022Comodo users are at risk of unauthenticated RCE.\n   The Technical Vector:\n   \u2022The unpatched flaw can be exploited without authentication.\n   The Impact:\n   \u2022Users may experience data theft and RCE attacks.\nvia SecurityWeek #cybersecurity #ComodoVulnerability",
+        "url": "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/"
     }
 ]
