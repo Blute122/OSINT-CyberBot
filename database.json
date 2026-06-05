@@ -898,5 +898,10 @@
         "date": "2026-06-05 21:43 UTC",
         "content": "\ud83d\udd34 **CISA Warns: Hackers Exploit Serv-U Flaw**\n\nAttackers are actively exploiting a high-severity flaw in SolarWinds Serv-U to crash servers. The issue was patched, but hackers have found a way to exploit it.\n\n\u2022 The flaw allows hackers to crash servers, making them unavailable to users.\n\n\u2022 SolarWinds Serv-U is a network management software widely used in industries.\n\nvia BleepingComputer\n\n#cybersecurity #SolarWinds #ServU",
         "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/"
+    },
+    {
+        "date": "2026-06-05 23:36 UTC",
+        "content": "\ud83d\udfe0 Attack Alert: Multiple npm supply chain attacks compromise over 50 packages, spreading malware and info-stealers via malicious packages. The Miasma worm variant steals secrets using eBPF kernel rootkit. via The Hacker News #cybersecurity #supplychainattacks #infoStealer",
+        "url": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html"
     }
 ]
