@@ -873,5 +873,10 @@
         "date": "2026-06-05 08:52 UTC",
         "content": "\ud83d\udfe0 High-Risk Alert: Chinese spies posing as recruiters target govt & military staff w/ fake job opportunities. This social engineering tactic aims to exploit access to classified info. via SecurityWeek #cybersecurity #FiveEyes #SocialEngineering",
         "url": "https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/"
+    },
+    {
+        "date": "2026-06-05 12:19 UTC",
+        "content": "\ud83d\udd34 Critical Vulnerability Alert: Hacker takes over sites with Everest Forms Pro WordPress plugin flaw, executing arbitrary code via CVE-2026-3300 (CVSS: 9.8/10) (CVSS 9.8). 4,000 active installations at risk. via The Hacker News #cybersecurity #WordPressSecurity",
+        "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html"
     }
 ]
