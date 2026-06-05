@@ -868,5 +868,10 @@
         "date": "2026-06-04 23:23 UTC",
         "content": "\ud83d\udfe1 IronWorm, a Rust-written malware, compromises NPM Supply Chain. Targets developers for credentials. Exploits reused to spread across the software supply channel.\n\nThe Breakdown: IronWorm is designed to steal credentials from developers.\n\nThe Technical Vector: IronWorm spreads through the software supply channel, compromising the NPM Supply Chain.\n\nThe Impact: Developers' credentials are at risk. via Dark Reading\n#cybersecurity #RustMalware #NPM",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain"
+    },
+    {
+        "date": "2026-06-05 08:52 UTC",
+        "content": "\ud83d\udfe0 High-Risk Alert: Chinese spies posing as recruiters target govt & military staff w/ fake job opportunities. This social engineering tactic aims to exploit access to classified info. via SecurityWeek #cybersecurity #FiveEyes #SocialEngineering",
+        "url": "https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/"
     }
 ]

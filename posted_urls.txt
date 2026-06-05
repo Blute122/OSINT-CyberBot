@@ -208,3 +208,4 @@ https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
 https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/
 https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/
 https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain
+https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/
