@@ -883,5 +883,10 @@
         "date": "2026-06-05 16:08 UTC",
         "content": "\ud83d\udfe1Comodo Vulnerability Alert\nAn unpatched Comodo flaw leaves users exposed. The vulnerability can be exploited without authentication, providing uncontrolled data access and potentially allowing a malicious actor to execute arbitrary code. \n   The Breakdown: \n   \u2022Comodo users are at risk of unauthenticated RCE.\n   The Technical Vector:\n   \u2022The unpatched flaw can be exploited without authentication.\n   The Impact:\n   \u2022Users may experience data theft and RCE attacks.\nvia SecurityWeek #cybersecurity #ComodoVulnerability",
         "url": "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/"
+    },
+    {
+        "date": "2026-06-05 18:06 UTC",
+        "content": "\ud83d\udfe2 Microsoft impacted by researcher-vendor conflict in the wake of the Nightmare Eclipse incident.\n\nThe Breakdown:\nMicrosoft's coordinated vulnerability disclosure policy was called into question after a researcher's post.\nThe Technical Vector:\nConflicting views on responsible disclosure led to the public unveiling of unpatched vulnerabilities.\nThe Impact:\n\u2022 The incident highlights the challenges in balancing vendor security with researcher involvement.\nvia CyberScoop #cybersecurity #vulnerabilitydisclosure #microsoft",
+        "url": "https://cyberscoop.com/microsoft-coordinated-vulnerability-disclosure-debacle/"
     }
 ]
