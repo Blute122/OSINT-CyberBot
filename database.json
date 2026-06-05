@@ -893,5 +893,10 @@
         "date": "2026-06-05 20:09 UTC",
         "content": "\ud83d\udc7a A growing threat looms for enterprises: adaptive AI worms. Within a year, researchers warn, these 'viruses with wings and brains' may strike, exploiting vulnerabilities they've discovered and adapted for.\n\nThe Breakdown: AI worms are self-replicating, evolving malware.\n\nThe Technical Vector: They adapt to new environments and seek out vulnerabilities.\n\nThe Impact: Enterprises are at risk. via Dark Reading #cybersecurity #AIthreats #malware",
         "url": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat"
+    },
+    {
+        "date": "2026-06-05 21:43 UTC",
+        "content": "\ud83d\udd34 **CISA Warns: Hackers Exploit Serv-U Flaw**\n\nAttackers are actively exploiting a high-severity flaw in SolarWinds Serv-U to crash servers. The issue was patched, but hackers have found a way to exploit it.\n\n\u2022 The flaw allows hackers to crash servers, making them unavailable to users.\n\n\u2022 SolarWinds Serv-U is a network management software widely used in industries.\n\nvia BleepingComputer\n\n#cybersecurity #SolarWinds #ServU",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/"
     }
 ]
