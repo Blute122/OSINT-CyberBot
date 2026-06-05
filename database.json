@@ -888,5 +888,10 @@
         "date": "2026-06-05 18:06 UTC",
         "content": "\ud83d\udfe2 Microsoft impacted by researcher-vendor conflict in the wake of the Nightmare Eclipse incident.\n\nThe Breakdown:\nMicrosoft's coordinated vulnerability disclosure policy was called into question after a researcher's post.\nThe Technical Vector:\nConflicting views on responsible disclosure led to the public unveiling of unpatched vulnerabilities.\nThe Impact:\n\u2022 The incident highlights the challenges in balancing vendor security with researcher involvement.\nvia CyberScoop #cybersecurity #vulnerabilitydisclosure #microsoft",
         "url": "https://cyberscoop.com/microsoft-coordinated-vulnerability-disclosure-debacle/"
+    },
+    {
+        "date": "2026-06-05 20:09 UTC",
+        "content": "\ud83d\udc7a A growing threat looms for enterprises: adaptive AI worms. Within a year, researchers warn, these 'viruses with wings and brains' may strike, exploiting vulnerabilities they've discovered and adapted for.\n\nThe Breakdown: AI worms are self-replicating, evolving malware.\n\nThe Technical Vector: They adapt to new environments and seek out vulnerabilities.\n\nThe Impact: Enterprises are at risk. via Dark Reading #cybersecurity #AIthreats #malware",
+        "url": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat"
     }
 ]

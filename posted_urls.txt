@@ -212,3 +212,4 @@ https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-
 https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
 https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/
 https://cyberscoop.com/microsoft-coordinated-vulnerability-disclosure-debacle/
+https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat
