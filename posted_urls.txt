@@ -217,3 +217,4 @@ https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwin
 https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
 https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html
 https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
+https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/

@@ -913,5 +913,10 @@
         "date": "2026-06-06 16:18 UTC",
         "content": "\ud83d\udfe0 A new Lockdown Mode has been rolled out to eligible ChatGPT users to limit the risk of data exfiltration.\n\nThe Breakdown: The new feature is designed to reduce the risk of prompt injection attacks.\nThe Technical Vector: Lockdown Mode restricts access to tools that could enable data exfiltration.\nThe Impact: This is aimed at users and orgs handling sensitive data, available in Free, Go, Plus, and Pro accounts.\n\nvia The Hacker News\n#cybersecurity #ai #dataexfiltration",
         "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
+    },
+    {
+        "date": "2026-06-06 18:19 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers exploiting CVE-2026-3300 (CVSS: 9.8/10) in Everest Forms Pro plugin can take control of WordPress sites. The vulnerability allows complete takeover. Exploitation is active and users are advised to update their plugin. via BleepingComputer #cybersecurity #WordPressExploitation #EverestForms",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
     }
 ]
