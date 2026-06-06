@@ -216,3 +216,4 @@ https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cybe
 https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/
 https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
 https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html
+https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html

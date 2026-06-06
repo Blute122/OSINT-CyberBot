@@ -908,5 +908,10 @@
         "date": "2026-06-06 10:19 UTC",
         "content": "\ud83d\udfe0 'AI-driven web scraping via Smart TVs'. Bright Data's SDK quietly turns devices, including always-on TVs, into exit nodes relaying web-scraping traffic for a data business. Devices at risk: always-on smart TVs using Bright Data's SDK.\n\nThe Breakdown: A researcher has reverse-engineered \nBright Data's iOS SDK that embeds consumer apps. They found the SDK turns devices into exit nodes relaying web-scraping traffic.\n\nThe Technical Vector: Smart TVs with the Bright Data SDK become exit nodes. They relay web-scraping traffic for a data business. The impact is on devices using the SDK.\n\nThe Impact: Always-on smart TVs with the Bright Data SDK are at risk of being compromised. via The Hacker News #cybersecurity #brightdata #sdkvulnerability",
         "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html"
+    },
+    {
+        "date": "2026-06-06 16:18 UTC",
+        "content": "\ud83d\udfe0 A new Lockdown Mode has been rolled out to eligible ChatGPT users to limit the risk of data exfiltration.\n\nThe Breakdown: The new feature is designed to reduce the risk of prompt injection attacks.\nThe Technical Vector: Lockdown Mode restricts access to tools that could enable data exfiltration.\nThe Impact: This is aimed at users and orgs handling sensitive data, available in Free, Go, Plus, and Pro accounts.\n\nvia The Hacker News\n#cybersecurity #ai #dataexfiltration",
+        "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
     }
 ]
