@@ -219,3 +219,4 @@ https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html
 https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
 https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
 https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/
+https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/

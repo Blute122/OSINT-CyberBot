@@ -923,5 +923,10 @@
         "date": "2026-06-07 16:43 UTC",
         "content": "\ud83d\udd34 A significant security-focused venture fund backs Emphere, an AI-driven vulnerability remediation company.\nThe Breakdown: Emphere secures $2.1 million in funding for its vulnerability solution.\nThe Technical Vector: AI-driven remediation for software companies.\nThe Impact: Accelerated software releases and improved vulnerability management. via SecurityWeek #cybersecurity #AIpoweredremediation",
         "url": "https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/"
+    },
+    {
+        "date": "2026-06-07 18:18 UTC",
+        "content": "\ud83d\udd34 C0XMO botnet spreads via DD-WRT router flaw, kills rival malware. The Breakdown: C0XMO targets DD-WRT router firmware, moves to other devices.\nThe Technical Vector: Exploits a flaw in DD-WRT to gain control.\nThe Impact: Users with infected devices at risk. via BleepingComputer. #cybersecurity #DDWRT #Gafgyt",
+        "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/"
     }
 ]
