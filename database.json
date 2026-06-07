@@ -918,5 +918,10 @@
         "date": "2026-06-06 18:19 UTC",
         "content": "\ud83d\udd34 Critical: Hackers exploiting CVE-2026-3300 (CVSS: 9.8/10) in Everest Forms Pro plugin can take control of WordPress sites. The vulnerability allows complete takeover. Exploitation is active and users are advised to update their plugin. via BleepingComputer #cybersecurity #WordPressExploitation #EverestForms",
         "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
+    },
+    {
+        "date": "2026-06-07 16:43 UTC",
+        "content": "\ud83d\udd34 A significant security-focused venture fund backs Emphere, an AI-driven vulnerability remediation company.\nThe Breakdown: Emphere secures $2.1 million in funding for its vulnerability solution.\nThe Technical Vector: AI-driven remediation for software companies.\nThe Impact: Accelerated software releases and improved vulnerability management. via SecurityWeek #cybersecurity #AIpoweredremediation",
+        "url": "https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/"
     }
 ]
