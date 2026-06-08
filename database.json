@@ -933,5 +933,10 @@
         "date": "2026-06-08 00:21 UTC",
         "content": "\ud83d\udfe1 MEDIUM\n\nAI-powered Windows Terminal 'Intelligent Terminal' fork has vulnerabilities. The open-source version uses AI directly inside Terminal, but it introduces security risks such as potential code injection.",
         "url": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/"
+    },
+    {
+        "date": "2026-06-08 11:19 UTC",
+        "content": "\ud83d\udfe0 **Critical Vulnerability Discovered in Linux Systems**\nA China-nexus cyber espionage group, VerdantBamboo, has been found to be deploying a BSD variant of the BRICKSTORM backdoor, along with two other malware families, PLENET (aka GRIMBOLT) and AGENTPSD, to target Linux systems. \nThe attack vector involves the deployment of multiple malicious payloads, with the BRICKSTORM variant allowing for potential remote access to compromised systems.\nThe impact of this attack is severe, as it can lead to data theft, system compromise, and potential further exploitation of vulnerabilities. \nThe scale of the attack is unknown, but it is believed to be ongoing. via The Hacker News.\n=\"#cybersecurity #VerdantBamboo #LinuxSecurity\"",
+        "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html"
     }
 ]
