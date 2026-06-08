@@ -222,3 +222,4 @@ https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerabi
 https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/
 https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/
 https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html
+https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/

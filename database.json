@@ -938,5 +938,10 @@
         "date": "2026-06-08 11:19 UTC",
         "content": "\ud83d\udfe0 **Critical Vulnerability Discovered in Linux Systems**\nA China-nexus cyber espionage group, VerdantBamboo, has been found to be deploying a BSD variant of the BRICKSTORM backdoor, along with two other malware families, PLENET (aka GRIMBOLT) and AGENTPSD, to target Linux systems. \nThe attack vector involves the deployment of multiple malicious payloads, with the BRICKSTORM variant allowing for potential remote access to compromised systems.\nThe impact of this attack is severe, as it can lead to data theft, system compromise, and potential further exploitation of vulnerabilities. \nThe scale of the attack is unknown, but it is believed to be ongoing. via The Hacker News.\n=\"#cybersecurity #VerdantBamboo #LinuxSecurity\"",
         "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html"
+    },
+    {
+        "date": "2026-06-08 16:17 UTC",
+        "content": "via SecurityWeek. #cybersecurity",
+        "url": "https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/"
     }
 ]
