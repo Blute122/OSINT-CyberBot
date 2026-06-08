@@ -928,5 +928,10 @@
         "date": "2026-06-07 18:18 UTC",
         "content": "\ud83d\udd34 C0XMO botnet spreads via DD-WRT router flaw, kills rival malware. The Breakdown: C0XMO targets DD-WRT router firmware, moves to other devices.\nThe Technical Vector: Exploits a flaw in DD-WRT to gain control.\nThe Impact: Users with infected devices at risk. via BleepingComputer. #cybersecurity #DDWRT #Gafgyt",
         "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/"
+    },
+    {
+        "date": "2026-06-08 00:21 UTC",
+        "content": "\ud83d\udfe1 MEDIUM\n\nAI-powered Windows Terminal 'Intelligent Terminal' fork has vulnerabilities. The open-source version uses AI directly inside Terminal, but it introduces security risks such as potential code injection.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/"
     }
 ]
