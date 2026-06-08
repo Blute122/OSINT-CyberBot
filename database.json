@@ -943,5 +943,10 @@
         "date": "2026-06-08 16:17 UTC",
         "content": "via SecurityWeek. #cybersecurity",
         "url": "https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/"
+    },
+    {
+        "date": "2026-06-08 19:34 UTC",
+        "content": "\ud83d\udfe0 New WhatsApp Phishing Attack: Meta detected and blocked spear-phishing attempts from Israeli spyware vendor NSO Group, violating a permanent injunction. They tried to trick users into clicking malicious links to external websites. via The Hacker News. #cybersecurity #phishing #NSO",
+        "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html"
     }
 ]
