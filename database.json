@@ -948,5 +948,10 @@
         "date": "2026-06-08 19:34 UTC",
         "content": "\ud83d\udfe0 New WhatsApp Phishing Attack: Meta detected and blocked spear-phishing attempts from Israeli spyware vendor NSO Group, violating a permanent injunction. They tried to trick users into clicking malicious links to external websites. via The Hacker News. #cybersecurity #phishing #NSO",
         "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html"
+    },
+    {
+        "date": "2026-06-08 22:00 UTC",
+        "content": "\ud83d\udd34 SoFi Hong Kong Confirms Third-Party Data Breach: Hackers Gained Access to Customer Information\n\nThe Breakdown: SoFi Hong Kong suffered a data breach after hackers targeted a third-party vendor's database.\n\nThe Technical Vector: Hackers accessed a database containing customer information.\n\nThe Impact: Customers are at risk from the exposed information, which could lead to identity theft and other malicious activities.\n\nvia BleepingComputer\n#cybersecurity #financialdata #data breach",
+        "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/"
     }
 ]
