@@ -953,5 +953,10 @@
         "date": "2026-06-08 22:00 UTC",
         "content": "\ud83d\udd34 SoFi Hong Kong Confirms Third-Party Data Breach: Hackers Gained Access to Customer Information\n\nThe Breakdown: SoFi Hong Kong suffered a data breach after hackers targeted a third-party vendor's database.\n\nThe Technical Vector: Hackers accessed a database containing customer information.\n\nThe Impact: Customers are at risk from the exposed information, which could lead to identity theft and other malicious activities.\n\nvia BleepingComputer\n#cybersecurity #financialdata #data breach",
         "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/"
+    },
+    {
+        "date": "2026-06-08 23:35 UTC",
+        "content": "\ud83d\udfe0 Critical Phishing Alert: Microsoft Teams under threat! Attackers target Teams users with phishing attempts. The attack vector works through unsolicited messages with fake caller IDs. 2.4 million users are at risk if exploited. This affects enterprise users. via Unit 42 #cybersecurity #phishing #MicrosoftTeams",
+        "url": "https://unit42.paloaltonetworks.com/microsoft-teams-phishing/"
     }
 ]
