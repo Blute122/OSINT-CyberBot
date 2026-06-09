@@ -968,5 +968,10 @@
         "date": "2026-06-09 12:14 UTC",
         "content": "\ud83d\udd34 French govt messaging service Tchap breached in account hijacking attack. Thieves likely made off with sensitive info, putting govt agencies and officials at risk.\n\u2022 Hackers exploited a hijacked account to gain access to Tchap.\n\u2022 User account security measures failed, allowing attackers to breach the platform.\n\u2022 DINUM warned of potential sensitive info theft and official impersonation.\nvia BleepingComputer #cybersecurity #Frenchgovttargeted",
         "url": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/"
+    },
+    {
+        "date": "2026-06-09 16:12 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Cisco customers hit by seventh exploited zero-day in SD-WANs this year.\n\nThe Breakdown: A zero-day vulnerability in Cisco SD-WANs is being actively exploited.\n\nThe Technical Vector: The vulnerability allows attackers to gain access to affected systems.\n\nThe Impact: Over 100 organizations are at risk due to the lack of patching. via CyberScoop\n#cybersecurity #SD-WAN #Cisco",
+        "url": "https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/"
     }
 ]
