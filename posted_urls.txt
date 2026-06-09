@@ -227,3 +227,4 @@ https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html
 https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/
 https://unit42.paloaltonetworks.com/microsoft-teams-phishing/
 https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/
+https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/

@@ -963,5 +963,10 @@
         "date": "2026-06-09 08:40 UTC",
         "content": "\ud83d\udfe0 Google Patches 5th Chrome Zero-Day Exploited in 2026. A zero-day vulnerability in Chrome was reported by an anonymous researcher in late April and has been patched. The vulnerability (CVE-2026-11645 (CVSS: 8.8/10)) allows remote code execution, exposing users to potential cyber threats. \u2022 The researcher discovered the issue by tracking Chrome's sandbox escape. \u2022 This is Google's 5th zero-day patch this year. via SecurityWeek #cybersecurity #Chrome #ZeroDay",
         "url": "https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/"
+    },
+    {
+        "date": "2026-06-09 12:14 UTC",
+        "content": "\ud83d\udd34 French govt messaging service Tchap breached in account hijacking attack. Thieves likely made off with sensitive info, putting govt agencies and officials at risk.\n\u2022 Hackers exploited a hijacked account to gain access to Tchap.\n\u2022 User account security measures failed, allowing attackers to breach the platform.\n\u2022 DINUM warned of potential sensitive info theft and official impersonation.\nvia BleepingComputer #cybersecurity #Frenchgovttargeted",
+        "url": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/"
     }
 ]
