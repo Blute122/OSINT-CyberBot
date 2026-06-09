@@ -983,5 +983,10 @@
         "date": "2026-06-09 21:07 UTC",
         "content": "\ud83d\udfe0 **Critical Patch Tuesday Alert**\nMicrosoft patches 204 vulnerabilities today, including 38 critical ones. 6 affect Microsoft cloud solutions & don't require user action. Chromium vulns also patched in Edge browser. via SANS ISC\n#cybersecurity #patchmanagement #Microsoft",
         "url": "https://isc.sans.edu/diary/rss/33064"
+    },
+    {
+        "date": "2026-06-09 22:47 UTC",
+        "content": "\ud83d\udfe0 HIGH - Microsoft patches 200 vulnerabilities, including 3 publicly disclosed before being addressed via Patch Tuesday updates. The Breakdown: Microsoft addressed 200 vulnerabilities. The Technical Vector: 3 of these vulnerabilities were publicly disclosed beforehand. The Impact \u2022 Microsoft users may be vulnerable if exploited. via SecurityWeek. #cybersecurity #Microsoft #patchtuesday",
+        "url": "https://www.securityweek.com/microsoft-patches-200-vulnerabilities/"
     }
 ]
