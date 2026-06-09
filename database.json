@@ -978,5 +978,10 @@
         "date": "2026-06-09 18:21 UTC",
         "content": "\ud83d\udfe0 Adobe warns of 123 known vulnerabilities in its Experience Manager product. 51 of the vulnerabilities have been fixed. The remaining 72 are being worked on.\n\nThe Technical Vector:\n \u2022 Unspecified attack vectors for unauthenticated access.\n \u2022 Potential for sensitive data disclosure.\n\nThe Impact:\n \u2022 Affected is Adobe\u2019s Experience Manager product. via SecurityWeek #cybersecurity",
         "url": "https://www.securityweek.com/adobe-patches-123-vulnerabilities/"
+    },
+    {
+        "date": "2026-06-09 21:07 UTC",
+        "content": "\ud83d\udfe0 **Critical Patch Tuesday Alert**\nMicrosoft patches 204 vulnerabilities today, including 38 critical ones. 6 affect Microsoft cloud solutions & don't require user action. Chromium vulns also patched in Edge browser. via SANS ISC\n#cybersecurity #patchmanagement #Microsoft",
+        "url": "https://isc.sans.edu/diary/rss/33064"
     }
 ]
