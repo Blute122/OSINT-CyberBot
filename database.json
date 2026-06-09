@@ -973,5 +973,10 @@
         "date": "2026-06-09 16:12 UTC",
         "content": "\ud83d\udfe0 \ud83d\udd34 Cisco customers hit by seventh exploited zero-day in SD-WANs this year.\n\nThe Breakdown: A zero-day vulnerability in Cisco SD-WANs is being actively exploited.\n\nThe Technical Vector: The vulnerability allows attackers to gain access to affected systems.\n\nThe Impact: Over 100 organizations are at risk due to the lack of patching. via CyberScoop\n#cybersecurity #SD-WAN #Cisco",
         "url": "https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/"
+    },
+    {
+        "date": "2026-06-09 18:21 UTC",
+        "content": "\ud83d\udfe0 Adobe warns of 123 known vulnerabilities in its Experience Manager product. 51 of the vulnerabilities have been fixed. The remaining 72 are being worked on.\n\nThe Technical Vector:\n \u2022 Unspecified attack vectors for unauthenticated access.\n \u2022 Potential for sensitive data disclosure.\n\nThe Impact:\n \u2022 Affected is Adobe\u2019s Experience Manager product. via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/adobe-patches-123-vulnerabilities/"
     }
 ]
