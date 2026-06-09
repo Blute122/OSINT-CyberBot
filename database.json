@@ -958,5 +958,10 @@
         "date": "2026-06-08 23:35 UTC",
         "content": "\ud83d\udfe0 Critical Phishing Alert: Microsoft Teams under threat! Attackers target Teams users with phishing attempts. The attack vector works through unsolicited messages with fake caller IDs. 2.4 million users are at risk if exploited. This affects enterprise users. via Unit 42 #cybersecurity #phishing #MicrosoftTeams",
         "url": "https://unit42.paloaltonetworks.com/microsoft-teams-phishing/"
+    },
+    {
+        "date": "2026-06-09 08:40 UTC",
+        "content": "\ud83d\udfe0 Google Patches 5th Chrome Zero-Day Exploited in 2026. A zero-day vulnerability in Chrome was reported by an anonymous researcher in late April and has been patched. The vulnerability (CVE-2026-11645 (CVSS: 8.8/10)) allows remote code execution, exposing users to potential cyber threats. \u2022 The researcher discovered the issue by tracking Chrome's sandbox escape. \u2022 This is Google's 5th zero-day patch this year. via SecurityWeek #cybersecurity #Chrome #ZeroDay",
+        "url": "https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/"
     }
 ]
