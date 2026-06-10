@@ -998,5 +998,10 @@
         "date": "2026-06-10 06:41 UTC",
         "content": "\ud83d\udfe0 High CVSS Risk: Researchers warn of 6 Proto6 vulnerabilities in protobuf.js, putting Node.js apps at risk of RCE and DoS attacks. A malicious payload could trigger attacks without authentication. Multiple environments are affected. via The Hacker News. #cybersecurity #protobuf #Node.js\n\u2022 Vulnerabilities are triggered through malicious protobuf schema, descriptor or crafted payload\n\u2022 Exploits could result in RCE and DoS attacks on Node.js apps",
         "url": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html"
+    },
+    {
+        "date": "2026-06-10 11:02 UTC",
+        "content": "\ud83d\udd34 Microsoft Patches Critical Zero-Days for YellowKey, GreenPlasma, MiniPlasma\n\n\u2022 Two zero-day vulnerabilities allow SYSTEM privilege escalation on fully patched Windows systems.\n\u2022 Third zero-day grants access to BitLocker-protected drives.\n\nImpacted are Windows systems with BitLocker protection.\nvia BleepingComputer\n#cybersecurity #WindowsVulnerabilities #ZeroDayExploits",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/"
     }
 ]
