@@ -238,3 +238,4 @@ https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/
 https://isc.sans.edu/diary/rss/33068
 https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html
+https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html

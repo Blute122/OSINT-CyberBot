@@ -1013,5 +1013,10 @@
         "date": "2026-06-10 18:09 UTC",
         "content": "\ud83d\udd34 JDY Botnet Alert: 1,500+ devices compromised for cyber reconnaissance. Researchers warn of a resurgence and expansion of this covert network associated with China-nexus state-sponsored threat actors. \n\n The breakdown: JDY operates as a high-performance scanner, discovering, fingerprinting, and mapping exposed services.\n\n The technical vector: SOHO and IoT devices are compromised to carry out this scanning.\n\n The impact: Organizations with exposed services are at risk of being mapped and potentially compromised.",
         "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html"
+    },
+    {
+        "date": "2026-06-10 20:44 UTC",
+        "content": "\ud83d\udd34 Critical: Multiple vulnerabilities patched by Ivanti, Fortinet, and SAP. CVE-2026-25089 (CVSS: 9.8/10) (CVSS 9.1) affects FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. Unauthenticated command injection possible. via The Hacker News #cybersecurity #Fortinet #SAP",
+        "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
     }
 ]
