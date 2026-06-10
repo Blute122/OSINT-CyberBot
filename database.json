@@ -988,5 +988,10 @@
         "date": "2026-06-09 22:47 UTC",
         "content": "\ud83d\udfe0 HIGH - Microsoft patches 200 vulnerabilities, including 3 publicly disclosed before being addressed via Patch Tuesday updates. The Breakdown: Microsoft addressed 200 vulnerabilities. The Technical Vector: 3 of these vulnerabilities were publicly disclosed beforehand. The Impact \u2022 Microsoft users may be vulnerable if exploited. via SecurityWeek. #cybersecurity #Microsoft #patchtuesday",
         "url": "https://www.securityweek.com/microsoft-patches-200-vulnerabilities/"
+    },
+    {
+        "date": "2026-06-10 01:29 UTC",
+        "content": "\ud83d\udd34 Critical \ud83d\udd34 Windows vulnerable to nearly 200 unpatched security holes, including over three dozen critical bugs with public exploit code. Microsoft urges users to apply updates immediately for maximum protection. via Krebs on Security\n#cybersecurity #WindowsPatchTuesday #exploitcode",
+        "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/"
     }
 ]
