@@ -1003,5 +1003,10 @@
         "date": "2026-06-10 11:02 UTC",
         "content": "\ud83d\udd34 Microsoft Patches Critical Zero-Days for YellowKey, GreenPlasma, MiniPlasma\n\n\u2022 Two zero-day vulnerabilities allow SYSTEM privilege escalation on fully patched Windows systems.\n\u2022 Third zero-day grants access to BitLocker-protected drives.\n\nImpacted are Windows systems with BitLocker protection.\nvia BleepingComputer\n#cybersecurity #WindowsVulnerabilities #ZeroDayExploits",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/"
+    },
+    {
+        "date": "2026-06-10 14:28 UTC",
+        "content": "\ud83d\udfe2 LOW - X-Frame-Options and CSP headers have changed on 1 million domains since 2023.\n\nThe Breakdown: An analysis of framing protection security headers was repeated for the 1 million most popular domains.\n\nThe Technical Vector: The use of X-Frame-Options and CSP headers changed over the past three years.\n\nThe Impact: No specific changes or implications stated, but it's recommended to check for updates. via SANS ISC. #cybersecurity #websecurity",
+        "url": "https://isc.sans.edu/diary/rss/33068"
     }
 ]
