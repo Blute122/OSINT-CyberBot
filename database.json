@@ -1008,5 +1008,10 @@
         "date": "2026-06-10 14:28 UTC",
         "content": "\ud83d\udfe2 LOW - X-Frame-Options and CSP headers have changed on 1 million domains since 2023.\n\nThe Breakdown: An analysis of framing protection security headers was repeated for the 1 million most popular domains.\n\nThe Technical Vector: The use of X-Frame-Options and CSP headers changed over the past three years.\n\nThe Impact: No specific changes or implications stated, but it's recommended to check for updates. via SANS ISC. #cybersecurity #websecurity",
         "url": "https://isc.sans.edu/diary/rss/33068"
+    },
+    {
+        "date": "2026-06-10 18:09 UTC",
+        "content": "\ud83d\udd34 JDY Botnet Alert: 1,500+ devices compromised for cyber reconnaissance. Researchers warn of a resurgence and expansion of this covert network associated with China-nexus state-sponsored threat actors. \n\n The breakdown: JDY operates as a high-performance scanner, discovering, fingerprinting, and mapping exposed services.\n\n The technical vector: SOHO and IoT devices are compromised to carry out this scanning.\n\n The impact: Organizations with exposed services are at risk of being mapped and potentially compromised.",
+        "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html"
     }
 ]
