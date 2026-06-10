@@ -233,3 +233,5 @@ https://www.securityweek.com/adobe-patches-123-vulnerabilities/
 https://isc.sans.edu/diary/rss/33064
 https://www.securityweek.com/microsoft-patches-200-vulnerabilities/
 https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
+https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html
+https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html

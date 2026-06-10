@@ -993,5 +993,10 @@
         "date": "2026-06-10 01:29 UTC",
         "content": "\ud83d\udd34 Critical \ud83d\udd34 Windows vulnerable to nearly 200 unpatched security holes, including over three dozen critical bugs with public exploit code. Microsoft urges users to apply updates immediately for maximum protection. via Krebs on Security\n#cybersecurity #WindowsPatchTuesday #exploitcode",
         "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/"
+    },
+    {
+        "date": "2026-06-10 06:41 UTC",
+        "content": "\ud83d\udfe0 High CVSS Risk: Researchers warn of 6 Proto6 vulnerabilities in protobuf.js, putting Node.js apps at risk of RCE and DoS attacks. A malicious payload could trigger attacks without authentication. Multiple environments are affected. via The Hacker News. #cybersecurity #protobuf #Node.js\n\u2022 Vulnerabilities are triggered through malicious protobuf schema, descriptor or crafted payload\n\u2022 Exploits could result in RCE and DoS attacks on Node.js apps",
+        "url": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html"
     }
 ]
