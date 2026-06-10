@@ -1018,5 +1018,10 @@
         "date": "2026-06-10 20:44 UTC",
         "content": "\ud83d\udd34 Critical: Multiple vulnerabilities patched by Ivanti, Fortinet, and SAP. CVE-2026-25089 (CVSS: 9.8/10) (CVSS 9.1) affects FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. Unauthenticated command injection possible. via The Hacker News #cybersecurity #Fortinet #SAP",
         "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
+    },
+    {
+        "date": "2026-06-10 22:56 UTC",
+        "content": "\ud83d\udfe1 MEDIUM Federal agencies must patch the most critical flaws within three days, while less severe issues can be deferred. \nThe Breakdown: CISA rewrites federal patching requirements for AI threat era.\n\u2022 Federal agencies given three-day deadline for critical fixes.\n\u2022 Less severe issues can be deferred.\n\u2022 Increase in AI threat era patching requirements.\nThe Impact: AI-powered threats require rapid patching to prevent attacks.\nvia Dark Reading\n#cybersecurity #ArtificialIntelligence #ThreatManagement",
+        "url": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era"
     }
 ]
