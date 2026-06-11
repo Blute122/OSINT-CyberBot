@@ -1023,5 +1023,10 @@
         "date": "2026-06-10 22:56 UTC",
         "content": "\ud83d\udfe1 MEDIUM Federal agencies must patch the most critical flaws within three days, while less severe issues can be deferred. \nThe Breakdown: CISA rewrites federal patching requirements for AI threat era.\n\u2022 Federal agencies given three-day deadline for critical fixes.\n\u2022 Less severe issues can be deferred.\n\u2022 Increase in AI threat era patching requirements.\nThe Impact: AI-powered threats require rapid patching to prevent attacks.\nvia Dark Reading\n#cybersecurity #ArtificialIntelligence #ThreatManagement",
         "url": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era"
+    },
+    {
+        "date": "2026-06-11 01:37 UTC",
+        "content": "\ud83d\udfe1 \u2757\ufe0f MEDIUM \n\nServiceNow security alert issued after bug bounty research triggers false breach notifications to some organizations.\n\nThe Breakdown: Researchers' tests misdirected to simulate attacks on ServiceNow instances, causing confusion about real breaches.\n\nThe Technical Vector: Misconfigured test environment led to false positives, affecting some ServiceNow clients.\n\nThe Impact: Some organizations may have mistakenly responded to alerts about fictional breaches within their ServiceNow platform, potentially wasting resources and creating unnecessary stress. via Dark Reading #cybersecurity #bugbounty #servicenow",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert"
     }
 ]

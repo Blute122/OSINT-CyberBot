@@ -240,3 +240,5 @@ https://isc.sans.edu/diary/rss/33068
 https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html
 https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
 https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era
+https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success
+https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert
