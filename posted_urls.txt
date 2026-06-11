@@ -244,3 +244,5 @@ https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-gro
 https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert
 https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
 https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/
+https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html
+https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
