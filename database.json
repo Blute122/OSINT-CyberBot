@@ -1033,5 +1033,10 @@
         "date": "2026-06-11 07:03 UTC",
         "content": "\ud83d\udfe0 GitHub Disables npm Install Scripts by Default\n\nThe software giant has disabled install scripts for npm by default to prevent malicious code execution. This comes as part of breaking changes in npm v12. Attackers exploit npm lifecycle hooks to trigger code execution. via The Hacker News #cybersecurity #supplychainattack #npm",
         "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
+    },
+    {
+        "date": "2026-06-11 19:44 UTC",
+        "content": "\ud83d\udd34 Oracle has addressed a PeopleSoft vulnerability (CVE-2026-35273 (CVSS: 9.8/10)) amid reports of zero-day attacks, although the company hasn't confirmed if it was exploited in ShinyHunters attacks. The flaw allows attackers to access sensitive user data. via SecurityWeek.\n\n#cybersecurity #ShinyHunters #PeopleSoft",
+        "url": "https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/"
     }
 ]
