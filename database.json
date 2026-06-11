@@ -1028,5 +1028,10 @@
         "date": "2026-06-11 01:37 UTC",
         "content": "\ud83d\udfe1 \u2757\ufe0f MEDIUM \n\nServiceNow security alert issued after bug bounty research triggers false breach notifications to some organizations.\n\nThe Breakdown: Researchers' tests misdirected to simulate attacks on ServiceNow instances, causing confusion about real breaches.\n\nThe Technical Vector: Misconfigured test environment led to false positives, affecting some ServiceNow clients.\n\nThe Impact: Some organizations may have mistakenly responded to alerts about fictional breaches within their ServiceNow platform, potentially wasting resources and creating unnecessary stress. via Dark Reading #cybersecurity #bugbounty #servicenow",
         "url": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert"
+    },
+    {
+        "date": "2026-06-11 07:03 UTC",
+        "content": "\ud83d\udfe0 GitHub Disables npm Install Scripts by Default\n\nThe software giant has disabled install scripts for npm by default to prevent malicious code execution. This comes as part of breaking changes in npm v12. Attackers exploit npm lifecycle hooks to trigger code execution. via The Hacker News #cybersecurity #supplychainattack #npm",
+        "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
     }
 ]
