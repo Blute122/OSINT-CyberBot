@@ -1048,5 +1048,10 @@
         "date": "2026-06-12 01:38 UTC",
         "content": "\ud83d\udfe1 MEDIUM: Phishing Attack Tactics Evolve With AI. Hackers shift strategy from quantity to quality, using AI to enhance phishing attacks. \u2022 AI boosts phishing success rate \u2022 Sophisticated phishing emails harder to detect \u2022 Risks persist despite reduced volume. via Dark Reading #cybersecurity #phishing #ai-enabled_attacks",
         "url": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising"
+    },
+    {
+        "date": "2026-06-12 11:08 UTC",
+        "content": "\ud83d\udd34 Ivanti Sentry exploited via OS command injection. Attackers can execute arbitrary code with root privileges.\n\u2022 Exploiting a critical-severity vulnerability.\n\u2022 Attackers gain high privileges.\n\u2022 Honeypots being hit.\nvia SecurityWeek\n#cybersecurity #IvantiSentryExploit #OSCommandInjection",
+        "url": "https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/"
     }
 ]
