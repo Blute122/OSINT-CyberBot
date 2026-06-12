@@ -250,3 +250,4 @@ https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk
 https://www.securityweek.com/google-confirms-exploitation-of-oracle-peoplesoft-zero-day-by-shinyhunters/
 https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/
 https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedown-400-million-coupang-fine/
+https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html
