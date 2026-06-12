@@ -246,3 +246,4 @@ https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
 https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/
 https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html
 https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
+https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising

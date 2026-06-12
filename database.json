@@ -1043,5 +1043,10 @@
         "date": "2026-06-11 22:14 UTC",
         "content": "\ud83d\udd34 New Attacks Target OpenClaw AI Agent: Research reveals attacks tricking OpenClaw into running attacker-controlled code or leaking sensitive data through ordinary-looking inputs.\n\nThe Breakdown:\n\u2022 Two separate research teams have shown that OpenClaw can be manipulated through shared contacts, vCards, and location pins.\n\nThe Technical Vector:\n\u2022 The agent executes instructions buried inside these inputs without displaying them.\n\nThe Impact:\n\u2022 Victims are at risk of having their sensitive data compromised.\n\nvia The Hacker News\n\n#cybersecurity #OpenClaw #AIsecurity",
         "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html"
+    },
+    {
+        "date": "2026-06-12 01:38 UTC",
+        "content": "\ud83d\udfe1 MEDIUM: Phishing Attack Tactics Evolve With AI. Hackers shift strategy from quantity to quality, using AI to enhance phishing attacks. \u2022 AI boosts phishing success rate \u2022 Sophisticated phishing emails harder to detect \u2022 Risks persist despite reduced volume. via Dark Reading #cybersecurity #phishing #ai-enabled_attacks",
+        "url": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising"
     }
 ]
