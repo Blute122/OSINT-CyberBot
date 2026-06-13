@@ -1063,5 +1063,10 @@
         "date": "2026-06-12 20:24 UTC",
         "content": "\ud83d\udd34 Arch Linux AUR Packages \ud83d\udea8: Over 400 packages hijacked to install Rust credential stealer. The malware harvests dev secrets & loads eBPF rootkit for stealth. AUR is separate from official Arch Linux repos. via The Hacker News. #cybersecurity #RustStealer",
         "url": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html"
+    },
+    {
+        "date": "2026-06-13 06:31 UTC",
+        "content": "\ud83d\udfe1 Fable 5 and Mythos 5 models abruptly disabled due to U.S. national security concerns. Users, including foreign nationals, will be locked out until further notice. The models, developed by Anthropic, are AI technology. via The Hacker News #cybersecurity #nationalsecurity",
+        "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html"
     }
 ]
