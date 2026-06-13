@@ -253,3 +253,4 @@ https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedo
 https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html
 https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
 https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/
+https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/
