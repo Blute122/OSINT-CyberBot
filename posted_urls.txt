@@ -255,3 +255,4 @@ https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
 https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/
 https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/
 https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/
+https://cyberscoop.com/ai-bill-of-materials-policy-roadmap/
