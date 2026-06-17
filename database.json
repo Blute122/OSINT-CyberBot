@@ -1068,5 +1068,10 @@
         "date": "2026-06-13 06:31 UTC",
         "content": "\ud83d\udfe1 Fable 5 and Mythos 5 models abruptly disabled due to U.S. national security concerns. Users, including foreign nationals, will be locked out until further notice. The models, developed by Anthropic, are AI technology. via The Hacker News #cybersecurity #nationalsecurity",
         "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html"
+    },
+    {
+        "date": "2026-06-17 13:58 UTC",
+        "content": "\ud83d\udfe5 Fortinet Devices at risk: Credential-Harvesting Heist. Attacker's targeted sectors across nearly 200 countries, gathered working credentials for tens of thousands of compromised devices. via Dark Reading #cybersecurity #Fortinet #CredentialHarvesting",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices"
     }
 ]
