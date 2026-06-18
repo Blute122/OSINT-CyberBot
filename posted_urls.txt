@@ -259,3 +259,4 @@ https://cyberscoop.com/ai-bill-of-materials-policy-roadmap/
 https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried
 https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices
 https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/

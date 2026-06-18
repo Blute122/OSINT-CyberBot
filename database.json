@@ -1073,5 +1073,10 @@
         "date": "2026-06-17 13:58 UTC",
         "content": "\ud83d\udfe5 Fortinet Devices at risk: Credential-Harvesting Heist. Attacker's targeted sectors across nearly 200 countries, gathered working credentials for tens of thousands of compromised devices. via Dark Reading #cybersecurity #Fortinet #CredentialHarvesting",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices"
+    },
+    {
+        "date": "2026-06-18 11:17 UTC",
+        "content": "\ud83d\udd34 Windows Server 2016 systems not up to date failed to receive June 2026 security updates due to a known issue. The bug is now fixed. No further details on the vulnerability provided. via BleepingComputer. #cybersecurity #WindowsServer #Microsoft",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/"
     }
 ]
