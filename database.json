@@ -1083,5 +1083,10 @@
         "date": "2026-06-19 14:20 UTC",
         "content": "\ud83d\udd34 CryptoBandits malware doubles as a backdoor, abusing Tor. It uses a local SOCKS5 proxy for traffic routing, enabling data theft and remote code execution. Threat analysis required. via SecurityWeek #cybersecurity #TorAbuse #RemoteCodeExecution",
         "url": "https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/"
+    },
+    {
+        "date": "2026-06-19 17:26 UTC",
+        "content": "\ud83d\udd34 Apple patches Beats eavesdropping flaw, while DOT closes Delta CrowdStrike probe. Unpatched AWS Config Connector flaw enables takeover via Popa Android TV botnet linked to Israeli firm. #cybersecurity #AWS #malware",
+        "url": "https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/"
     }
 ]

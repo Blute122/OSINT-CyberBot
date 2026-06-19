@@ -261,3 +261,4 @@ https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harve
 https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/
 https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
+https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
