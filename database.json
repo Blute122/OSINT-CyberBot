@@ -1078,5 +1078,10 @@
         "date": "2026-06-18 11:17 UTC",
         "content": "\ud83d\udd34 Windows Server 2016 systems not up to date failed to receive June 2026 security updates due to a known issue. The bug is now fixed. No further details on the vulnerability provided. via BleepingComputer. #cybersecurity #WindowsServer #Microsoft",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/"
+    },
+    {
+        "date": "2026-06-19 14:20 UTC",
+        "content": "\ud83d\udd34 CryptoBandits malware doubles as a backdoor, abusing Tor. It uses a local SOCKS5 proxy for traffic routing, enabling data theft and remote code execution. Threat analysis required. via SecurityWeek #cybersecurity #TorAbuse #RemoteCodeExecution",
+        "url": "https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/"
     }
 ]
