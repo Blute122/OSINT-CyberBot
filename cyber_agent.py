@@ -29,6 +29,8 @@ DISCORD_WEBHOOK_URL   = os.environ.get("DISCORD_WEBHOOK_URL")
 
 DAILY_POST_CAP        = 7   # Max tweets per day (UTC)
 ARTICLE_MAX_AGE_HOURS = 6   # Skip articles older than this
+TWEET_CHAR_LIMIT      = 278 # X free/Basic tier hard caps posts at 280 chars.
+                             # Raise to ~24900 if/when back on X Premium.
 
 RSS_FEEDS = [
     # ── Tier 1: Breaking news ────────────────────────────────────────
@@ -324,7 +326,9 @@ OUTPUT: Return ONLY a valid JSON object. No markdown, no backticks, no preamble.
   "threat_actor": "<attacker name/group if named in article, else empty string>",
   "target": "<specific affected software, product, or organization, else empty string>",
 
-  "tweet": "<A comprehensive, long-form X post formatted with line breaks. Lead with the severity emoji and a strong headline. Include three sections: 1. The Breakdown (what happened), 2. The Technical Vector (how the attack/vuln works), and 3. The Impact (who is at risk). Use bullet points (•) where appropriate. End with 'via {source_name}'. ALWAYS include the hashtag #cybersecurity, followed by 2-3 highly specific hashtags related to the threat actor, malware, or targeted software. Target length: 150 to 250 words.>",  "card_context": "<This is the MAIN BODY of the threat card image — it must contain DIFFERENT and RICHER information than the tweet. Include: background on the affected product/org, how the attack vector works (e.g. unauthenticated RCE, supply chain, phishing lure type), known exploitation timeline, and the scale or scope (number of users/systems at risk if stated). 2-3 sentences max. Never repeat the tweet text.>",
+  "tweet": "<Twitter hook. Lead with severity emoji. State WHAT happened and WHO is affected in plain language. End with 'via {source_name}' and 1-2 hashtags. MAX 210 CHARS — count carefully.>",
+
+  "card_context": "<This is the MAIN BODY of the threat card image — it must contain DIFFERENT and RICHER information than the tweet. Include: background on the affected product/org, how the attack vector works (e.g. unauthenticated RCE, supply chain, phishing lure type), known exploitation timeline, and the scale or scope (number of users/systems at risk if stated). 2-3 sentences max. Never repeat the tweet text.>",
 
   "card_impact": "<Real-world impact statement for the card. What can an attacker DO if this is exploited? What data or access is at stake? Who is concretely affected (enterprises, consumers, specific sectors)? 1-2 sentences. No speculation — only what the article states.>",
 
@@ -752,10 +756,12 @@ def run_agent():
                 # ── Guarantee emoji leads tweet ───────────
                 if not tweet_text.startswith(severity_icon):
                     tweet_text = f"{severity_icon} {tweet_text.lstrip()}"
-                    # Re-trim only if adding the emoji pushed us over —
-                    # the CVE branch above already protected the score_str,
-                    # this is just a final length safety net.
-                    tweet_text = safe_trim(tweet_text, limit=278)
+
+                # ── Final safety trim — UNCONDITIONAL. Always runs, since
+                # X's free/Basic API tier hard-caps posts at 280 chars.
+                # If you resubscribe to X Premium, raise the limit here
+                # instead of removing this line.
+                tweet_text = safe_trim(tweet_text, limit=TWEET_CHAR_LIMIT)
 
                 print(f"\nSeverity : {severity_icon}")
                 print(f"CVE      : {cve or 'N/A'}")
