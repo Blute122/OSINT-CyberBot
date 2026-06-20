@@ -373,12 +373,14 @@
             border-color: rgba(255, 45, 85, 0.35);
             background: linear-gradient(135deg, rgba(255, 45, 85, 0.06), rgba(17, 24, 39, 0.7) 40%);
         }
+
         .intel-card.is-kev::before {
             width: 4px;
             opacity: 1;
             background: var(--kev-color);
             box-shadow: 0 0 8px rgba(255, 45, 85, 0.6);
         }
+
         .kev-badge {
             font-family: var(--font-mono);
             font-size: 0.68rem;
@@ -394,17 +396,30 @@
             align-items: center;
             gap: 0.35rem;
         }
+
         .kev-badge::before {
             content: '';
-            width: 6px; height: 6px;
+            width: 6px;
+            height: 6px;
             border-radius: 50%;
             background: #fff;
             animation: kevpulse 1.6s infinite;
         }
+
         @keyframes kevpulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.4; transform: scale(0.7); }
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.4;
+                transform: scale(0.7);
+            }
         }
+
         .epss-badge {
             font-family: var(--font-mono);
             font-size: 0.68rem;
@@ -416,10 +431,12 @@
             color: var(--epss-color);
             border: 1px solid rgba(0, 184, 255, 0.25);
         }
+
         .filter-btn.kev-filter {
             border-color: rgba(255, 45, 85, 0.3);
             color: var(--kev-color);
         }
+
         .filter-btn.kev-filter.active {
             background: var(--kev-color);
             color: #fff;
@@ -432,6 +449,7 @@
             gap: 0.5rem;
             margin-bottom: 1.5rem;
         }
+
         .view-tab {
             font-family: var(--font-mono);
             font-size: 0.8rem;
@@ -443,13 +461,20 @@
             cursor: pointer;
             transition: all 0.2s;
         }
+
         .view-tab.active {
             background: var(--accent);
             color: #000;
             border-color: transparent;
         }
-        .view-panel { display: none; }
-        .view-panel.active { display: block; }
+
+        .view-panel {
+            display: none;
+        }
+
+        .view-panel.active {
+            display: block;
+        }
 
         /* ── Vulnerability tracker ── */
         .vuln-card {
@@ -463,21 +488,39 @@
             overflow: hidden;
             margin-bottom: 1rem;
         }
+
         .vuln-card::before {
             content: '';
             position: absolute;
-            top: 0; left: 0;
-            width: 3px; height: 100%;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
             background: var(--status-disclosed);
         }
-        .vuln-card.status-actively_exploited::before { background: var(--status-exploited); }
-        .vuln-card.status-patched::before { background: var(--status-patched); }
-        .vuln-card.status-poc_released::before { background: var(--status-poc); }
+
+        .vuln-card.status-actively_exploited::before {
+            background: var(--status-exploited);
+        }
+
+        .vuln-card.status-patched::before {
+            background: var(--status-patched);
+        }
+
+        .vuln-card.status-poc_released::before {
+            background: var(--status-poc);
+        }
+
         .vuln-card.is-kev {
             border-color: rgba(255, 45, 85, 0.35);
             background: linear-gradient(135deg, rgba(255, 45, 85, 0.06), rgba(17, 24, 39, 0.7) 40%);
         }
-        .vuln-card:hover { background: var(--card-bg-hover); border-color: var(--border-hover); }
+
+        .vuln-card:hover {
+            background: var(--card-bg-hover);
+            border-color: var(--border-hover);
+        }
+
         .vuln-header-row {
             display: flex;
             justify-content: space-between;
@@ -485,50 +528,178 @@
             gap: 0.75rem;
             flex-wrap: wrap;
         }
-        .vuln-id { font-family: var(--font-mono); font-weight: 700; font-size: 1rem; }
-        .vuln-product { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.2rem; }
-        .vuln-badges { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
+
+        .vuln-id {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .vuln-product {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.2rem;
+        }
+
+        .vuln-badges {
+            display: flex;
+            gap: 0.4rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
         .status-pill {
-            font-family: var(--font-mono); font-size: 0.66rem; font-weight: 700;
-            letter-spacing: 0.5px; text-transform: uppercase;
-            padding: 0.2rem 0.55rem; border-radius: 20px; white-space: nowrap;
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            padding: 0.2rem 0.55rem;
+            border-radius: 20px;
+            white-space: nowrap;
         }
-        .status-pill.disclosed { background: rgba(148,163,184,0.15); color: var(--status-disclosed); border: 1px solid rgba(148,163,184,0.3); }
-        .status-pill.poc_released { background: rgba(236,204,104,0.15); color: var(--status-poc); border: 1px solid rgba(236,204,104,0.3); }
-        .status-pill.actively_exploited { background: rgba(255,71,87,0.15); color: var(--status-exploited); border: 1px solid rgba(255,71,87,0.3); }
-        .status-pill.patched { background: rgba(46,213,115,0.15); color: var(--status-patched); border: 1px solid rgba(46,213,115,0.3); }
-        .vuln-card .kev-badge { font-size: 0.66rem; padding: 0.2rem 0.55rem; }
+
+        .status-pill.disclosed {
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--status-disclosed);
+            border: 1px solid rgba(148, 163, 184, 0.3);
+        }
+
+        .status-pill.poc_released {
+            background: rgba(236, 204, 104, 0.15);
+            color: var(--status-poc);
+            border: 1px solid rgba(236, 204, 104, 0.3);
+        }
+
+        .status-pill.actively_exploited {
+            background: rgba(255, 71, 87, 0.15);
+            color: var(--status-exploited);
+            border: 1px solid rgba(255, 71, 87, 0.3);
+        }
+
+        .status-pill.patched {
+            background: rgba(46, 213, 115, 0.15);
+            color: var(--status-patched);
+            border: 1px solid rgba(46, 213, 115, 0.3);
+        }
+
+        .vuln-card .kev-badge {
+            font-size: 0.66rem;
+            padding: 0.2rem 0.55rem;
+        }
+
         .cvss-pill {
-            font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-secondary);
-            padding: 0.2rem 0.55rem; border-radius: 20px; background: rgba(255,255,255,0.05);
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            color: var(--text-secondary);
+            padding: 0.2rem 0.55rem;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.05);
         }
-        .expand-chevron { font-size: 0.7rem; color: var(--text-muted); transition: transform 0.2s; }
-        .vuln-card.expanded .expand-chevron { transform: rotate(180deg); }
+
+        .expand-chevron {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            transition: transform 0.2s;
+        }
+
+        .vuln-card.expanded .expand-chevron {
+            transform: rotate(180deg);
+        }
+
         .vuln-timeline {
-            max-height: 0; overflow: hidden;
+            max-height: 0;
+            overflow: hidden;
             transition: max-height 0.3s ease, margin-top 0.3s ease;
             margin-top: 0;
         }
-        .vuln-card.expanded .vuln-timeline { max-height: 800px; margin-top: 1rem; }
-        .timeline-track { position: relative; padding-left: 1.4rem; border-left: 2px solid rgba(255,255,255,0.08); }
-        .timeline-event { position: relative; padding-bottom: 1rem; }
-        .timeline-event:last-child { padding-bottom: 0; }
-        .timeline-event::before {
-            content: ''; position: absolute; left: -1.85rem; top: 0.2rem;
-            width: 10px; height: 10px; border-radius: 50%;
-            background: var(--status-disclosed); border: 2px solid var(--bg-color);
+
+        .vuln-card.expanded .vuln-timeline {
+            max-height: 800px;
+            margin-top: 1rem;
         }
-        .timeline-event.status-actively_exploited::before { background: var(--status-exploited); }
-        .timeline-event.status-patched::before { background: var(--status-patched); }
-        .timeline-event.status-poc_released::before { background: var(--status-poc); }
-        .timeline-date { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); }
-        .timeline-status { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; margin: 0.15rem 0 0.25rem; }
-        .timeline-status.disclosed { color: var(--status-disclosed); }
-        .timeline-status.actively_exploited { color: var(--status-exploited); }
-        .timeline-status.patched { color: var(--status-patched); }
-        .timeline-status.poc_released { color: var(--status-poc); }
-        .timeline-summary { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; }
-        .timeline-link { font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-alt); text-decoration: none; }
+
+        .timeline-track {
+            position: relative;
+            padding-left: 1.4rem;
+            border-left: 2px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .timeline-event {
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .timeline-event:last-child {
+            padding-bottom: 0;
+        }
+
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -1.85rem;
+            top: 0.2rem;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--status-disclosed);
+            border: 2px solid var(--bg-color);
+        }
+
+        .timeline-event.status-actively_exploited::before {
+            background: var(--status-exploited);
+        }
+
+        .timeline-event.status-patched::before {
+            background: var(--status-patched);
+        }
+
+        .timeline-event.status-poc_released::before {
+            background: var(--status-poc);
+        }
+
+        .timeline-date {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        .timeline-status {
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 0.15rem 0 0.25rem;
+        }
+
+        .timeline-status.disclosed {
+            color: var(--status-disclosed);
+        }
+
+        .timeline-status.actively_exploited {
+            color: var(--status-exploited);
+        }
+
+        .timeline-status.patched {
+            color: var(--status-patched);
+        }
+
+        .timeline-status.poc_released {
+            color: var(--status-poc);
+        }
+
+        .timeline-summary {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .timeline-link {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--accent-alt);
+            text-decoration: none;
+        }
 
         /* ── Card content ── */
         .card-content {
@@ -721,53 +892,53 @@
     </div>
 
     <div class="view-panel active" id="panel-feed">
-    <!-- Stats bar — populated by JS -->
-    <div class="stats-bar" id="stats-bar" style="display:none;">
-        <div class="stat-item">
-            <span class="stat-value" id="stat-total">—</span>
-            <span class="stat-label">Total Threats</span>
+        <!-- Stats bar — populated by JS -->
+        <div class="stats-bar" id="stats-bar" style="display:none;">
+            <div class="stat-item">
+                <span class="stat-value" id="stat-total">—</span>
+                <span class="stat-label">Total Threats</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-value" id="stat-critical" style="color: var(--sev-critical);">—</span>
+                <span class="stat-label">Critical / High</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-value" id="stat-latest" style="font-size:1rem; color: var(--text-secondary);">—</span>
+                <span class="stat-label">Latest Update</span>
+            </div>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-            <span class="stat-value" id="stat-critical" style="color: var(--sev-critical);">—</span>
-            <span class="stat-label">Critical / High</span>
+
+        <!-- Severity filter buttons -->
+        <div class="filter-bar" id="filter-bar" style="display:none;">
+            <button class="filter-btn active" data-sev="all">All</button>
+            <button class="filter-btn" data-sev="critical">Critical</button>
+            <button class="filter-btn" data-sev="high">High</button>
+            <button class="filter-btn" data-sev="medium">Medium</button>
+            <button class="filter-btn" data-sev="low">Low</button>
+            <button class="filter-btn kev-filter" data-sev="kev">🚨 KEV Only</button>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-            <span class="stat-value" id="stat-latest" style="font-size:1rem; color: var(--text-secondary);">—</span>
-            <span class="stat-label">Latest Update</span>
+
+        <!-- Auto-refresh indicator -->
+        <div class="refresh-bar" id="refresh-bar" style="display:none;">
+            <span class="refresh-badge" id="refresh-badge" title="Click to refresh now">
+                <span class="refresh-dot"></span>
+                <span id="refresh-label">Auto-refreshes in 5:00</span>
+            </span>
         </div>
-    </div>
 
-    <!-- Severity filter buttons -->
-    <div class="filter-bar" id="filter-bar" style="display:none;">
-        <button class="filter-btn active" data-sev="all">All</button>
-        <button class="filter-btn" data-sev="critical">Critical</button>
-        <button class="filter-btn" data-sev="high">High</button>
-        <button class="filter-btn" data-sev="medium">Medium</button>
-        <button class="filter-btn" data-sev="low">Low</button>
-        <button class="filter-btn kev-filter" data-sev="kev">🚨 KEV Only</button>
-    </div>
+        <!-- Main feed -->
+        <main id="feed-container">
+            <div class="loader-wrap" id="loader">
+                <div class="loader"></div>
+                <p>Establishing secure connection...</p>
+            </div>
+        </main>
 
-    <!-- Auto-refresh indicator -->
-    <div class="refresh-bar" id="refresh-bar" style="display:none;">
-        <span class="refresh-badge" id="refresh-badge" title="Click to refresh now">
-            <span class="refresh-dot"></span>
-            <span id="refresh-label">Auto-refreshes in 5:00</span>
-        </span>
-    </div>
-
-    <!-- Main feed -->
-    <main id="feed-container">
-        <div class="loader-wrap" id="loader">
-            <div class="loader"></div>
-            <p>Establishing secure connection...</p>
-        </div>
-    </main>
-
-    <footer class="page-footer" id="page-footer" style="display:none;">
-        Powered by RSS feeds · Groq LLaMA · NVD API · GitHub Actions
-    </footer>
+        <footer class="page-footer" id="page-footer" style="display:none;">
+            Powered by RSS feeds · Groq LLaMA · NVD API · GitHub Actions
+        </footer>
     </div>
 
     <div class="view-panel" id="panel-vulns">
