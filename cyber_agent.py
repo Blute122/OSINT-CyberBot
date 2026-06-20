@@ -752,10 +752,10 @@ def run_agent():
                 # ── Guarantee emoji leads tweet ───────────
                 if not tweet_text.startswith(severity_icon):
                     tweet_text = f"{severity_icon} {tweet_text.lstrip()}"
-
-                # ── Premium Mode: Uncapped Length ─────────
-                # We no longer trim to 278 chars because X Premium allows up to 25,000.
-                # tweet_text = safe_trim(tweet_text, limit=278)
+                    # Re-trim only if adding the emoji pushed us over —
+                    # the CVE branch above already protected the score_str,
+                    # this is just a final length safety net.
+                    tweet_text = safe_trim(tweet_text, limit=278)
 
                 print(f"\nSeverity : {severity_icon}")
                 print(f"CVE      : {cve or 'N/A'}")
