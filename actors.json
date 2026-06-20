@@ -1,1 +1,16 @@
-{}
+{
+  "north korean hacking group sapphire sleet, also known as bluenoroff": {
+    "aliases": [
+      "North Korean hacking group Sapphire Sleet, also known as BlueNoroff"
+    ],
+    "first_seen": "2026-06-20 14:28 UTC",
+    "campaigns": [
+      {
+        "target": "Masta AI supply chain, npm packages",
+        "date": "2026-06-20 14:28 UTC",
+        "summary": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+        "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+      }
+    ]
+  }
+}
