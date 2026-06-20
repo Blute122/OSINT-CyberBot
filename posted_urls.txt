@@ -265,3 +265,4 @@ https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-fla
 https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
 https://www.securityweek.com/french-president-urges-us-to-share-cutting-edge-ai-and-democracies-to-cooperate-on-regulation/
 https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/
+https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/

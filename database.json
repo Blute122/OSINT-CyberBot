@@ -1104,5 +1104,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-20 18:11 UTC",
+        "content": "\ud83d\udd34 Critical: North Korean hacking group BlueNoroff compromises 140+ npm packages in Mastra AI supply chain attack via unknown vulnerability. via BleepingComputer #supplychainattack #NorthKorea",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
