@@ -35,6 +35,10 @@
             --kev-color: #ff2d55;
             --epss-color: #00b8ff;
             --sev-unknown: #94a3b8;
+            --status-disclosed: #94a3b8;
+            --status-poc: #eccc68;
+            --status-exploited: #ff4757;
+            --status-patched: #2ed573;
         }
 
         * {
@@ -421,6 +425,111 @@
             color: #fff;
         }
 
+        /* ── Tab switcher ── */
+        .view-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .view-tab {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .view-tab.active {
+            background: var(--accent);
+            color: #000;
+            border-color: transparent;
+        }
+        .view-panel { display: none; }
+        .view-panel.active { display: block; }
+
+        /* ── Vulnerability tracker ── */
+        .vuln-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 1.1rem 1.4rem;
+            cursor: pointer;
+            transition: border-color 0.2s, background 0.2s;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+        .vuln-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 3px; height: 100%;
+            background: var(--status-disclosed);
+        }
+        .vuln-card.status-actively_exploited::before { background: var(--status-exploited); }
+        .vuln-card.status-patched::before { background: var(--status-patched); }
+        .vuln-card.status-poc_released::before { background: var(--status-poc); }
+        .vuln-card.is-kev {
+            border-color: rgba(255, 45, 85, 0.35);
+            background: linear-gradient(135deg, rgba(255, 45, 85, 0.06), rgba(17, 24, 39, 0.7) 40%);
+        }
+        .vuln-card:hover { background: var(--card-bg-hover); border-color: var(--border-hover); }
+        .vuln-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .vuln-id { font-family: var(--font-mono); font-weight: 700; font-size: 1rem; }
+        .vuln-product { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.2rem; }
+        .vuln-badges { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
+        .status-pill {
+            font-family: var(--font-mono); font-size: 0.66rem; font-weight: 700;
+            letter-spacing: 0.5px; text-transform: uppercase;
+            padding: 0.2rem 0.55rem; border-radius: 20px; white-space: nowrap;
+        }
+        .status-pill.disclosed { background: rgba(148,163,184,0.15); color: var(--status-disclosed); border: 1px solid rgba(148,163,184,0.3); }
+        .status-pill.poc_released { background: rgba(236,204,104,0.15); color: var(--status-poc); border: 1px solid rgba(236,204,104,0.3); }
+        .status-pill.actively_exploited { background: rgba(255,71,87,0.15); color: var(--status-exploited); border: 1px solid rgba(255,71,87,0.3); }
+        .status-pill.patched { background: rgba(46,213,115,0.15); color: var(--status-patched); border: 1px solid rgba(46,213,115,0.3); }
+        .vuln-card .kev-badge { font-size: 0.66rem; padding: 0.2rem 0.55rem; }
+        .cvss-pill {
+            font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-secondary);
+            padding: 0.2rem 0.55rem; border-radius: 20px; background: rgba(255,255,255,0.05);
+        }
+        .expand-chevron { font-size: 0.7rem; color: var(--text-muted); transition: transform 0.2s; }
+        .vuln-card.expanded .expand-chevron { transform: rotate(180deg); }
+        .vuln-timeline {
+            max-height: 0; overflow: hidden;
+            transition: max-height 0.3s ease, margin-top 0.3s ease;
+            margin-top: 0;
+        }
+        .vuln-card.expanded .vuln-timeline { max-height: 800px; margin-top: 1rem; }
+        .timeline-track { position: relative; padding-left: 1.4rem; border-left: 2px solid rgba(255,255,255,0.08); }
+        .timeline-event { position: relative; padding-bottom: 1rem; }
+        .timeline-event:last-child { padding-bottom: 0; }
+        .timeline-event::before {
+            content: ''; position: absolute; left: -1.85rem; top: 0.2rem;
+            width: 10px; height: 10px; border-radius: 50%;
+            background: var(--status-disclosed); border: 2px solid var(--bg-color);
+        }
+        .timeline-event.status-actively_exploited::before { background: var(--status-exploited); }
+        .timeline-event.status-patched::before { background: var(--status-patched); }
+        .timeline-event.status-poc_released::before { background: var(--status-poc); }
+        .timeline-date { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); }
+        .timeline-status { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; margin: 0.15rem 0 0.25rem; }
+        .timeline-status.disclosed { color: var(--status-disclosed); }
+        .timeline-status.actively_exploited { color: var(--status-exploited); }
+        .timeline-status.patched { color: var(--status-patched); }
+        .timeline-status.poc_released { color: var(--status-poc); }
+        .timeline-summary { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; }
+        .timeline-link { font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-alt); text-decoration: none; }
+
         /* ── Card content ── */
         .card-content {
             font-size: 0.95rem;
@@ -606,6 +715,12 @@
         <p>Real-time security advisories aggregated from top infosec sources via RSS + LLM extraction</p>
     </header>
 
+    <div class="view-tabs">
+        <button class="view-tab active" data-view="feed">Live Feed</button>
+        <button class="view-tab" data-view="vulns">🛡️ Vulnerability Tracker</button>
+    </div>
+
+    <div class="view-panel active" id="panel-feed">
     <!-- Stats bar — populated by JS -->
     <div class="stats-bar" id="stats-bar" style="display:none;">
         <div class="stat-item">
@@ -653,6 +768,15 @@
     <footer class="page-footer" id="page-footer" style="display:none;">
         Powered by RSS feeds · Groq LLaMA · NVD API · GitHub Actions
     </footer>
+    </div>
+
+    <div class="view-panel" id="panel-vulns">
+        <div id="vuln-loader" class="loader-wrap">
+            <div class="loader"></div>
+            <p>Loading vulnerability database...</p>
+        </div>
+        <div class="vuln-container" id="vuln-container" style="max-width:860px; margin:0 auto;"></div>
+    </div>
 
     <script>
         // ── Helpers ────────────────────────────────────────────────────
@@ -866,6 +990,117 @@
         // ── Boot ───────────────────────────────────────────────────────
 
         fetchData().then(() => startRefreshCountdown());
+
+        // ── Tab switching ────────────────────────────────────────────
+
+        document.querySelectorAll('.view-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const view = tab.dataset.view;
+                document.getElementById('panel-feed').classList.toggle('active', view === 'feed');
+                document.getElementById('panel-vulns').classList.toggle('active', view === 'vulns');
+                if (view === 'vulns' && !vulnsLoaded) fetchVulns();
+            });
+        });
+
+        // ── Vulnerability tracker ─────────────────────────────────────
+
+        let vulnsLoaded = false;
+
+        function getVulnDataUrl() {
+            const base = window.location.pathname.replace(/\/[^/]*$/, '');
+            const origin = window.location.origin;
+            return `${origin}${base}/vulnerabilities.json?v=${Date.now()}`;
+        }
+
+        function statusLabel(s) {
+            return { disclosed: 'Disclosed', actively_exploited: 'Actively Exploited', patched: 'Patched', poc_released: 'PoC Released' }[s] || s;
+        }
+
+        function renderVulnTracker(vulns) {
+            const container = document.getElementById('vuln-container');
+            container.innerHTML = '';
+
+            const entries = Object.entries(vulns);
+            if (entries.length === 0) {
+                container.innerHTML = '<p class="no-results">No tracked vulnerabilities yet.</p>';
+                return;
+            }
+
+            // KEV first, then most recently updated
+            entries.sort((a, b) => {
+                if (a[1].kev !== b[1].kev) return (b[1].kev ? 1 : 0) - (a[1].kev ? 1 : 0);
+                return new Date(b[1].last_updated) - new Date(a[1].last_updated);
+            });
+
+            entries.forEach(([cveId, v]) => {
+                const timeline = v.status_timeline || [];
+                if (timeline.length === 0) return;
+                const latestStatus = timeline[timeline.length - 1].status;
+
+                const card = document.createElement('div');
+                card.className = `vuln-card status-${latestStatus}${v.kev ? ' is-kev' : ''}`;
+
+                const cvssDisplay = (v.cvss && v.cvss !== 'N/A') ? `CVSS ${v.cvss}` : 'CVSS N/A';
+                const epssDisplay = v.epss != null ? `EPSS ${(v.epss * 100).toFixed(1)}%` : '';
+
+                card.innerHTML = `
+                    <div class="vuln-header-row">
+                        <div>
+                            <div class="vuln-id">${escapeHTML(cveId)}</div>
+                            <div class="vuln-product">${escapeHTML(v.product || 'Unspecified product')}</div>
+                        </div>
+                        <div class="vuln-badges">
+                            <span class="status-pill ${latestStatus}">${statusLabel(latestStatus)}</span>
+                            ${v.kev ? '<span class="kev-badge">🚨 CISA KEV</span>' : ''}
+                            <span class="cvss-pill">${cvssDisplay}</span>
+                            ${epssDisplay ? `<span class="epss-badge">${epssDisplay}</span>` : ''}
+                            <span class="expand-chevron">▼</span>
+                        </div>
+                    </div>
+                    <div class="vuln-timeline">
+                        <div class="timeline-track">
+                            ${timeline.map(ev => `
+                                <div class="timeline-event status-${ev.status}">
+                                    <div class="timeline-date">${escapeHTML(ev.date)}</div>
+                                    <div class="timeline-status ${ev.status}">${statusLabel(ev.status)}</div>
+                                    <div class="timeline-summary">${escapeHTML(ev.summary)}</div>
+                                    <a href="${escapeHTML(ev.source_url)}" target="_blank" rel="noopener noreferrer" class="timeline-link">Source →</a>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+
+                card.addEventListener('click', (e) => {
+                    if (e.target.tagName === 'A') return;
+                    card.classList.toggle('expanded');
+                });
+
+                container.appendChild(card);
+            });
+        }
+
+        async function fetchVulns() {
+            const loader = document.getElementById('vuln-loader');
+            try {
+                const response = await fetch(getVulnDataUrl());
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const raw = await response.json();
+                loader.style.display = 'none';
+                renderVulnTracker(raw);
+                vulnsLoaded = true;
+            } catch (err) {
+                console.error('Vuln fetch error:', err);
+                loader.style.display = 'none';
+                document.getElementById('vuln-container').innerHTML = `
+                    <div class="state-box" style="border-color: rgba(255,71,87,0.25);">
+                        <p style="color: var(--sev-critical); font-size:0.95rem;">Connection failed</p>
+                        <p>${escapeHTML(err.message)}</p>
+                    </div>`;
+            }
+        }
     </script>
 
 </body>
