@@ -437,6 +437,27 @@ def generate_threat_card(severity_icon: str, title: str,
         b = font.getbbox("Ag")
         return b[3] - b[1]
 
+    def fit_to_lines(text: str, width_chars: int, max_lines: int) -> str:
+        """Guarantees text fits within max_lines by truncating at a word
+        boundary and appending '…'. This is enforced in code regardless of
+        what the LLM prompt asked for, since LLMs don't reliably obey
+        character-count instructions."""
+        if not text:
+            return text
+        all_lines = textwrap.TextWrapper(width=width_chars).wrap(text)
+        if len(all_lines) <= max_lines:
+            return text
+        kept = all_lines[:max_lines]
+        kept[-1] = kept[-1].rstrip(".,;:—-") + "…"
+        return " ".join(kept)
+
+    def fit_single_line(text: str, max_chars: int) -> str:
+        """Same guarantee as fit_to_lines, for single-line fields like TARGET."""
+        if not text or len(text) <= max_chars:
+            return text
+        cut = text[:max_chars].rsplit(" ", 1)[0]
+        return cut.rstrip(".,;:—-") + "…"
+
     def draw_wrapped(text: str, font, x: int, y: int, fill,
                      width_chars: int = 85, padding: int = 4,
                      max_lines: int = 99, max_y: int = 9999) -> int:
@@ -454,20 +475,13 @@ def generate_threat_card(severity_icon: str, title: str,
                         width_chars: int = 75, padding: int = 4,
                         max_lines: int = 2, max_y: int = 9999) -> int:
         """Draw a bold coloured tag then wrapped body text on same/next lines.
-        Appends an ellipsis on the last visible line if text was truncated,
-        so cut-off content never reads as a finished sentence."""
+        Assumes text has already been pre-fitted via fit_to_lines() before
+        this is called — no truncation logic needed here."""
         tag_w = tag_font.getlength(tag + " ") if hasattr(tag_font, "getlength") else 80
         first_line_x = x + int(tag_w)
         draw.text((x, y), tag, font=tag_font, fill=tag_color)
-        all_lines = textwrap.TextWrapper(width=width_chars).wrap(text)
-        lines = all_lines[:max_lines]
-        was_truncated = len(all_lines) > max_lines
+        lines = textwrap.TextWrapper(width=width_chars).wrap(text)[:max_lines]
         for i, line in enumerate(lines):
-            if y + lh(body_font) > max_y:
-                was_truncated = True
-                break
-            if was_truncated and i == len(lines) - 1:
-                line = line.rstrip(".,;:—-") + "…"
             tx = first_line_x if i == 0 else x + 8
             draw.text((tx, y), line, font=body_font, fill=body_color)
             y += lh(body_font) + padding
@@ -488,6 +502,7 @@ def generate_threat_card(severity_icon: str, title: str,
 
     # Context block — richer background info
     if card_context:
+        card_context = fit_to_lines(card_context, width_chars=78, max_lines=3)
         y = draw_inline_tag(
             "CONTEXT  ", card_context,
             MX, y,
@@ -499,6 +514,7 @@ def generate_threat_card(severity_icon: str, title: str,
 
     # Impact block
     if card_impact:
+        card_impact = fit_to_lines(card_impact, width_chars=78, max_lines=2)
         y = draw_inline_tag(
             "IMPACT   ", card_impact,
             MX, y,
@@ -532,7 +548,7 @@ def generate_threat_card(severity_icon: str, title: str,
 
     if target:
         draw.text((MX, row_y), "TARGET:", font=f_meta_l, fill=text_secondary)
-        target_text = target if len(target) <= 62 else target[:59] + "…"
+        target_text = fit_single_line(target, max_chars=62)
         draw.text((meta_col2_x, row_y), target_text, font=f_meta_v, fill=text_primary)
         row_y += lh(f_meta_l) + 12
 
