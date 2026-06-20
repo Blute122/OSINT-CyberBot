@@ -32,6 +32,8 @@
             --sev-high: #ffa502;
             --sev-medium: #eccc68;
             --sev-low: #2ed573;
+            --kev-color: #ff2d55;
+            --epss-color: #00b8ff;
             --sev-unknown: #94a3b8;
         }
 
@@ -363,6 +365,62 @@
             border: 1px solid rgba(148, 163, 184, 0.2);
         }
 
+        .intel-card.is-kev {
+            border-color: rgba(255, 45, 85, 0.35);
+            background: linear-gradient(135deg, rgba(255, 45, 85, 0.06), rgba(17, 24, 39, 0.7) 40%);
+        }
+        .intel-card.is-kev::before {
+            width: 4px;
+            opacity: 1;
+            background: var(--kev-color);
+            box-shadow: 0 0 8px rgba(255, 45, 85, 0.6);
+        }
+        .kev-badge {
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            padding: 0.22rem 0.65rem;
+            border-radius: 20px;
+            white-space: nowrap;
+            background: var(--kev-color);
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .kev-badge::before {
+            content: '';
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: #fff;
+            animation: kevpulse 1.6s infinite;
+        }
+        @keyframes kevpulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.7); }
+        }
+        .epss-badge {
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 600;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            white-space: nowrap;
+            background: rgba(0, 184, 255, 0.1);
+            color: var(--epss-color);
+            border: 1px solid rgba(0, 184, 255, 0.25);
+        }
+        .filter-btn.kev-filter {
+            border-color: rgba(255, 45, 85, 0.3);
+            color: var(--kev-color);
+        }
+        .filter-btn.kev-filter.active {
+            background: var(--kev-color);
+            color: #fff;
+        }
+
         /* ── Card content ── */
         .card-content {
             font-size: 0.95rem;
@@ -573,6 +631,7 @@
         <button class="filter-btn" data-sev="high">High</button>
         <button class="filter-btn" data-sev="medium">Medium</button>
         <button class="filter-btn" data-sev="low">Low</button>
+        <button class="filter-btn kev-filter" data-sev="kev">🚨 KEV Only</button>
     </div>
 
     <!-- Auto-refresh indicator -->
@@ -658,7 +717,9 @@
 
             const filtered = activeFilter === 'all'
                 ? allData
-                : allData.filter(item => getSeverity(item.content) === activeFilter);
+                : activeFilter === 'kev'
+                    ? allData.filter(item => item.kev === true)
+                    : allData.filter(item => getSeverity(item.content) === activeFilter);
 
             // Remove existing cards (keep loader if present)
             container.querySelectorAll('.intel-card, .no-results').forEach(el => el.remove());
@@ -674,7 +735,8 @@
             filtered.forEach((item, index) => {
                 const sev = getSeverity(item.content);
                 const card = document.createElement('article');
-                card.className = `intel-card sev-${sev} animate-in`;
+                const kevClass = item.kev ? ' is-kev' : '';
+                card.className = `intel-card sev-${sev}${kevClass} animate-in`;
                 card.style.animationDelay = `${index * 0.06}s`;
                 card.dataset.sev = sev;
 
@@ -683,6 +745,8 @@
                         <div class="card-meta">
                             <span class="date-badge">${escapeHTML(item.date || 'Unknown date')}</span>
                             <span class="sev-badge ${sev}">${severityLabel(sev)}</span>
+                            ${item.kev ? '<span class="kev-badge">🚨 CISA KEV</span>' : ''}
+                            ${item.epss != null ? `<span class="epss-badge">EPSS ${(item.epss * 100).toFixed(1)}%</span>` : ''}
                         </div>
                     </div>
                     <div class="card-content">${escapeHTML(item.content)}</div>

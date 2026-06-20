@@ -42,6 +42,11 @@ else:
     col2.metric("Critical/High Vulnerabilities", len(df[df['Severity'].isin(['Critical', 'High'])]))
     col3.metric("Latest Intelligence", df['date'].max().strftime("%Y-%m-%d %H:%M"))
 
+    kev_count = df['url'].apply(lambda u: False).sum()  # placeholder, see note below
+    if 'kev' in df.columns:
+        kev_count = df['kev'].fillna(False).sum()
+        st.metric("🚨 Actively Exploited (KEV)", int(kev_count))
+
     st.divider()
 
     # Data Visualization: Pie Chart
@@ -65,6 +70,10 @@ else:
             filtered_df = df[df['content'].str.contains(search, case=False, na=False)]
         else:
             filtered_df = df
+            
+        kev_only = st.checkbox("Show only CISA KEV (actively exploited)")
+        if kev_only and 'kev' in df.columns:
+            filtered_df = filtered_df[filtered_df['kev'] == True]
             
         # Display the data cleanly
         st.dataframe(

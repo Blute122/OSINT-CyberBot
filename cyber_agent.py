@@ -12,6 +12,9 @@ from calendar import timegm
 from groq import Groq
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
+from entity_model import (
+    upsert_vulnerability, upsert_actor, cve_already_covered,
+)
 
 # ─────────────────────────────────────────────
 # CONFIG
@@ -78,8 +81,10 @@ _FILLER_WORDS = {
     "network", "networks", "access", "remote", "code", "execution",
 }
 
-DUPLICATE_WINDOW_HOURS = 24
-DUPLICATE_MIN_MATCHES  = 2
+DUPLICATE_WINDOW_HOURS_GENERAL = 24    # same-day keyword overlap (unchanged)
+DUPLICATE_WINDOW_HOURS_LONG    = 168   # 7 days — for CVE/named-entity recurrence
+DUPLICATE_MIN_MATCHES          = 2     # general tier threshold (unchanged)
+DUPLICATE_MIN_ENTITY_MATCHES   = 2     # long-window tier needs 2+ shared proper nouns
 
 
 def extract_keywords(title: str) -> set:
@@ -96,18 +101,37 @@ def extract_keywords(title: str) -> set:
     return meaningful | {c.lower() for c in cves}
 
 
+def extract_entities(title: str) -> set:
+    """Proper-noun-only subset of keywords — used for the longer-window
+    recurrence check. Capitalized tokens only, so generic lowercase words
+    ('breach', 'critical') never count toward long-window matches."""
+    raw_tokens = re.findall(r"[A-Za-z0-9](?:[A-Za-z0-9._-]*[A-Za-z0-9])?", title)
+    return {
+        t.lower() for t in raw_tokens
+        if t[0].isupper() and len(t) >= 4 and t.lower() not in _FILLER_WORDS
+    }
+
+
 def is_duplicate_story(title: str, db_data: list) -> bool:
     """
-    Returns True if 2+ meaningful keywords from the candidate title
-    overlap with any DB entry posted in the last 24 hours.
+    Two-tier check:
+      1. CVE match OR 2+ shared proper-noun entities within 7 days — catches
+         the same CVE/threat-actor/org resurfacing under a different headline
+         days later (e.g. "breach claimed" -> "breach confirmed, N orgs affected").
+      2. General keyword overlap within 24h — original same-day logic, unchanged.
     """
     if not db_data:
         return False
 
-    cutoff        = datetime.now(timezone.utc) - timedelta(hours=DUPLICATE_WINDOW_HOURS)
-    candidate_kw  = extract_keywords(title)
+    now = datetime.now(timezone.utc)
+    candidate_kw = extract_keywords(title)
     if not candidate_kw:
         return False
+    candidate_cves = {k for k in candidate_kw if k.lower().startswith("cve-")}
+    candidate_entities = extract_entities(title)
+
+    cutoff_general = now - timedelta(hours=DUPLICATE_WINDOW_HOURS_GENERAL)
+    cutoff_long     = now - timedelta(hours=DUPLICATE_WINDOW_HOURS_LONG)
 
     for entry in db_data:
         raw_date = entry.get("date", "").replace(" UTC", "").strip()
@@ -115,14 +139,27 @@ def is_duplicate_story(title: str, db_data: list) -> bool:
             entry_time = datetime.strptime(raw_date, "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc)
         except ValueError:
             continue
-        if entry_time < cutoff:
-            continue
 
         stored_headline = entry.get("content", "").split("\n")[0]
-        overlap = candidate_kw & extract_keywords(stored_headline)
-        if len(overlap) >= DUPLICATE_MIN_MATCHES:
-            print(f"Duplicate detected — overlapping keywords: {overlap}")
-            return True
+        stored_kw = extract_keywords(stored_headline)
+
+        if entry_time >= cutoff_long:
+            stored_cves = {k for k in stored_kw if k.lower().startswith("cve-")}
+            if candidate_cves and (candidate_cves & stored_cves):
+                print(f"Duplicate (CVE match, 7d): {candidate_cves & stored_cves}")
+                return True
+
+            stored_entities = extract_entities(stored_headline)
+            ent_overlap = candidate_entities & stored_entities
+            if len(ent_overlap) >= DUPLICATE_MIN_ENTITY_MATCHES:
+                print(f"Duplicate (entity match, 7d): {ent_overlap}")
+                return True
+
+        if entry_time >= cutoff_general:
+            overlap = candidate_kw & stored_kw
+            if len(overlap) >= DUPLICATE_MIN_MATCHES:
+                print(f"Duplicate (keyword overlap, 24h): {overlap}")
+                return True
 
     return False
 
@@ -193,6 +230,56 @@ def get_nvd_cvss(cve_id: str):
 
 
 # ─────────────────────────────────────────────
+# KEV + EPSS ENRICHMENT
+# ─────────────────────────────────────────────
+KEV_CACHE = {"data": None, "fetched_at": 0}
+KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+KEV_TTL_SECONDS = 6 * 60 * 60  # refetch at most every 6 hours
+
+
+def get_kev_catalog() -> set:
+    """Returns a set of CVE IDs in CISA's Known Exploited Vulnerabilities catalog."""
+    now = time.time()
+    if KEV_CACHE["data"] is not None and (now - KEV_CACHE["fetched_at"]) < KEV_TTL_SECONDS:
+        return KEV_CACHE["data"]
+    try:
+        resp = requests.get(KEV_URL, timeout=15)
+        if resp.status_code == 200:
+            vulns = resp.json().get("vulnerabilities", [])
+            cve_set = {v["cveID"].upper() for v in vulns if "cveID" in v}
+            KEV_CACHE["data"] = cve_set
+            KEV_CACHE["fetched_at"] = now
+            return cve_set
+    except Exception as e:
+        print(f"KEV fetch error: {e}")
+    return KEV_CACHE["data"] or set()
+
+
+def is_in_kev(cve_id: str) -> bool:
+    if not cve_id:
+        return False
+    return cve_id.upper() in get_kev_catalog()
+
+
+def get_epss_score(cve_id: str):
+    """Returns (probability, percentile) floats 0-1, or (None, None)."""
+    if not cve_id:
+        return None, None
+    try:
+        resp = requests.get(
+            "https://api.first.org/data/v1/epss",
+            params={"cve": cve_id}, timeout=10,
+        )
+        if resp.status_code == 200:
+            data = resp.json().get("data", [])
+            if data:
+                return float(data[0]["epss"]), float(data[0]["percentile"])
+    except Exception as e:
+        print(f"EPSS fetch error: {e}")
+    return None, None
+
+
+# ─────────────────────────────────────────────
 # GROQ — SINGLE CALL
 # ─────────────────────────────────────────────
 def generate_content(title: str, summary: str, source_name: str) -> dict | None:
@@ -215,8 +302,12 @@ CONTENT FILTER — return exactly {{"skip": true}} if the article is ANY of:
 - A sponsored post or vendor marketing piece
 - An opinion/editorial with no specific incident
 - A "how a story went viral" or human-interest piece
-- An industry award, job posting, or event announcement
-Only proceed if the article reports a SPECIFIC, REAL security incident, vulnerability, breach, or threat.
+- An industry award, job posting, funding round, M&A, hiring/personnel announcement, or event announcement
+- A legal proceeding, court sentencing, extradition, or policy/regulatory memo that does NOT describe an active technical compromise (e.g. lawsuits, government policy debate, legislation, sentence commutations)
+- A product launch, feature release, or general software update with no security vulnerability or incident attached
+- A criminal case involving harm to a person that is not itself a cybersecurity incident (e.g. an arrest unrelated to hacking, network intrusion, or digital fraud)
+- Content with no identifiable technical attack vector, vulnerability, or breach mechanism described anywhere in the source
+Only proceed if the article reports a SPECIFIC, REAL security incident, vulnerability, breach, exploit, or malware campaign with an identifiable technical mechanism.
 
 SEVERITY (pick ONE emoji based strictly on the content):
 🔴 CRITICAL — confirmed data breach, ransomware deployed, active zero-day exploitation, state-sponsored APT
@@ -285,7 +376,8 @@ Summary: {summary}"""
 def generate_threat_card(severity_icon: str, title: str,
                          card_context: str, card_impact: str,
                          cve: str, target: str,
-                         simply_put: str, source_site: str) -> str:
+                         simply_put: str, source_site: str,
+                         kev_flag: bool = False, epss_score: float = None) -> str:
     """
     Card layout (top → bottom):
       ┌─ accent bar ──────────────────────────────┐
@@ -306,7 +398,7 @@ def generate_threat_card(severity_icon: str, title: str,
     """
     W, H       = 1024, 512
     FOOTER_H   = 90
-    META_H     = 85
+    META_H     = 115
     FOOTER_TOP = H - FOOTER_H
     META_TOP   = FOOTER_TOP - META_H
     HEADER_MAX = META_TOP - 12   # Content must not cross this line
@@ -424,6 +516,8 @@ def generate_threat_card(severity_icon: str, title: str,
     if cve:
         draw.text((MX, row_y), "THREAT:", font=f_meta_l, fill=text_secondary)
         cve_text = cve if len(cve) <= 62 else cve[:59] + "…"
+        if epss_score is not None:
+            cve_text += f"  (EPSS: {epss_score*100:.1f}%)"
         draw.text((meta_col2_x, row_y), cve_text, font=f_meta_v, fill=accent_color)
         row_y += lh(f_meta_l) + 12
 
@@ -431,6 +525,12 @@ def generate_threat_card(severity_icon: str, title: str,
         draw.text((MX, row_y), "TARGET:", font=f_meta_l, fill=text_secondary)
         target_text = target if len(target) <= 62 else target[:59] + "…"
         draw.text((meta_col2_x, row_y), target_text, font=f_meta_v, fill=text_primary)
+        row_y += lh(f_meta_l) + 12
+
+    if kev_flag:
+        draw.text((MX, row_y), "KEV:", font=f_meta_l, fill=text_secondary)
+        draw.text((meta_col2_x, row_y), "ACTIVELY EXPLOITED", font=f_meta_v, fill="#ff4757")
+        row_y += lh(f_meta_l) + 12
 
     # If neither CVE nor target, show a "No CVE identified" note
     if not cve and not target:
@@ -570,10 +670,27 @@ def run_agent():
                 card_impact   = data.get("card_impact", "").strip()
                 simply_put    = data.get("simply_put", "").strip()
 
-                # ── NVD CVSS enrichment ───────────────────
+                # ── Guard against empty/garbage Groq output ──
+                if not tweet_text or len(tweet_text.strip()) < 20:
+                    print(f"Skipped — tweet_text too short or empty: '{tweet_text}'")
+                    save_posted_url(entry.link)
+                    continue
+
+                # ── Exact-CVE dedup (catches what title-keyword dedup misses) ──
+                if cve and cve_already_covered(cve, days=7):
+                    print(f"Skipped — {cve} already covered recently with no status change.")
+                    save_posted_url(entry.link)
+                    continue
+
+                # ── NVD + KEV + EPSS enrichment ───────────
+                kev_flag    = False
+                epss_score  = None
                 if cve:
                     print(f"Fetching CVSS for {cve}...")
                     cvss_score = get_nvd_cvss(cve)
+                    kev_flag = is_in_kev(cve)
+                    epss_score, epss_pct = get_epss_score(cve)
+                    print(f"KEV: {kev_flag}  EPSS: {epss_score}")
 
                     try:
                         score_float = float(cvss_score)
@@ -584,17 +701,63 @@ def run_agent():
                     except ValueError:
                         pass
 
-                    score_str  = (f"{cve} (CVSS: {cvss_score}/10)"
-                                  if cvss_score not in ["N/A", "Score Pending"]
-                                  else f"{cve} (CVSS: {cvss_score})")
-                    tweet_text = tweet_text.replace(cve, score_str)
+                    # KEV overrides CVSS-based severity: actively-exploited
+                    # vulns are critical regardless of base score (this is
+                    # the actual rationale behind CISA BOD 22-01).
+                    if kev_flag:
+                        severity_icon = "🔴"
+
+                    score_str = (f"{cve} (CVSS: {cvss_score}/10)"
+                                 if cvss_score not in ["N/A", "Score Pending"]
+                                 else f"{cve} (CVSS: {cvss_score})")
+                    if kev_flag:
+                        score_str += " [CISA KEV: ACTIVELY EXPLOITED]"
+                    if epss_score is not None:
+                        score_str += f" [EPSS: {epss_score*100:.1f}%]"
+
+                    # Position-aware trim: score_str (which carries the
+                    # KEV/EPSS warning) must never be the part that gets
+                    # cut off. Trim the surrounding text instead, splitting
+                    # the remaining budget around wherever the CVE sits.
+                    if cve in tweet_text:
+                        cve_pos = tweet_text.find(cve)
+                        before  = tweet_text[:cve_pos]
+                        after   = tweet_text[cve_pos + len(cve):]
+                        remaining_budget = 278 - len(score_str)
+                        if len(before) > remaining_budget:
+                            before, after = safe_trim(before, limit=remaining_budget), ""
+                        else:
+                            after = safe_trim(after, limit=max(0, remaining_budget - len(before)))
+                        tweet_text = before + score_str + after
+                    else:
+                        tweet_text = safe_trim(tweet_text, limit=278)
+
+                # ── Upsert into entity model (vulnerabilities.json / actors.json) ──
+                if cve:
+                    upsert_vulnerability(
+                        cve=cve,
+                        title=entry.title,
+                        cvss=cvss_score,
+                        kev_flag=kev_flag,
+                        epss_score=epss_score,
+                        source_url=entry.link,
+                        product=target,
+                    )
+                if threat_actor:
+                    upsert_actor(
+                        actor_name=threat_actor,
+                        target=target,
+                        title=entry.title,
+                        source_url=entry.link,
+                    )
 
                 # ── Guarantee emoji leads tweet ───────────
                 if not tweet_text.startswith(severity_icon):
                     tweet_text = f"{severity_icon} {tweet_text.lstrip()}"
-
-                # ── Safe trim after all injections ────────
-                tweet_text = safe_trim(tweet_text, limit=278)
+                    # Re-trim only if adding the emoji pushed us over —
+                    # the CVE branch above already protected the score_str,
+                    # this is just a final length safety net.
+                    tweet_text = safe_trim(tweet_text, limit=278)
 
                 print(f"\nSeverity : {severity_icon}")
                 print(f"CVE      : {cve or 'N/A'}")
@@ -613,6 +776,8 @@ def run_agent():
                         target or threat_actor,
                         simply_put,
                         feed_info["name"],
+                        kev_flag,
+                        epss_score
                     )
                     print(f"Threat card generated: {card_filename}")
                 except Exception as img_e:
@@ -629,6 +794,9 @@ def run_agent():
                     "date":    datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
                     "content": tweet_text,
                     "url":     entry.link,
+                    "cve":     cve or None,
+                    "kev":     kev_flag if cve else None,
+                    "epss":    epss_score if cve else None,
                 })
                 save_db(db_data)
 
