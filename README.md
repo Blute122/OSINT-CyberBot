@@ -1,6 +1,6 @@
 # CyberNews Auto
 
-CyberNews Auto is an automated cyber threat intelligence bot. It watches trusted cybersecurity RSS feeds, uses an LLM to summarize and classify new stories, enriches CVE-based stories with NVD CVSS data, creates a threat-card image, posts the result to X, and stores each posted item in a JSON database for dashboard views.
+CyberNews Auto is an automated cyber threat intelligence bot. It watches trusted cybersecurity RSS feeds, uses an LLM to summarize and classify new stories, enriches CVE-based stories with NVD CVSS, CISA KEV, and FIRST EPSS data, creates a threat-card image, posts the result to X, and stores each posted item in JSON databases for dashboard views and persistent entity tracking.
 
 The project is designed to run on a schedule through GitHub Actions, while also supporting local runs for development and debugging.
 
@@ -10,12 +10,12 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 - Filters out old articles and previously posted URLs.
 - Uses Groq LLaMA to extract severity, CVE, affected target, threat actor, tweet text, card summary, and a plain-English explanation.
 - Validates CVE IDs before enrichment to avoid posting placeholder or invented CVEs.
-- Looks up CVSS scores from the NVD API when a real CVE is present.
+- Looks up CVSS scores from the NVD API, KEV (Known Exploited Vulnerabilities) status from CISA, and EPSS (Exploit Prediction Scoring System) metrics.
+- Tracks vulnerability lifecycles and threat actor campaigns persistently in `vulnerabilities.json` and `actors.json`.
+- Uses exact-match CVE deduplication to only tweet about an existing CVE if its threat status escalates (e.g., Disclosed -> Actively Exploited).
 - Generates a shareable threat-card PNG with severity color, title, summary, target, and simplified explanation.
 - Posts one item per run to X.
-- Stores posted URLs in `posted_urls.txt`.
-- Stores dashboard data in `database.json`.
-- Provides both a Streamlit dashboard and a static HTML dashboard.
+- Provides a dynamic Streamlit dashboard and a highly customized static HTML dashboard with KEV/EPSS visual badges.
 - Sends optional crash alerts to Discord.
 
 ## Project Structure
@@ -24,9 +24,12 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 .
 |-- .github/workflows/twitter_bot.yml  # Scheduled GitHub Actions workflow
 |-- cyber_agent.py                     # Main RSS, LLM, enrichment, image, and posting agent
+|-- entity_model.py                    # Entity lifecycle tracking and exact deduplication logic
 |-- dashboard.py                       # Streamlit dashboard for local analytics
 |-- index.html                         # Static browser dashboard powered by database.json
 |-- database.json                      # Posted threat feed used by dashboards
+|-- vulnerabilities.json               # Relational entity database tracking CVE lifecycles
+|-- actors.json                        # Relational entity database tracking threat actor campaigns
 |-- posted_urls.txt                    # URL history used to avoid duplicate posts
 |-- requirements.txt                   # Python dependencies
 |-- Roboto-Bold.ttf                    # Font used for threat-card image generation
@@ -99,7 +102,7 @@ The agent posts at most one tweet per run. It exits after successfully processin
 
 ### Static Dashboard
 
-The static dashboard is `index.html`. It fetches `database.json` from the same directory and refreshes every five minutes.
+The static dashboard is `index.html`. It fetches `database.json` from the same directory and refreshes every five minutes. It includes visual pulse-badges for actively exploited vulnerabilities.
 
 For best results, serve the folder with a local HTTP server:
 
@@ -121,7 +124,7 @@ Run:
 streamlit run dashboard.py
 ```
 
-The Streamlit dashboard reads `database.json`, shows threat counts, severity distribution, and a searchable threat feed.
+The Streamlit dashboard reads `database.json`, shows threat counts, severity distribution, a KEV active-exploit metric, and a searchable threat feed.
 
 ## GitHub Actions Deployment
 
@@ -136,7 +139,7 @@ It:
 1. Checks out the repository.
 2. Installs Python 3.10 and dependencies.
 3. Runs `python cyber_agent.py`.
-4. Commits updates to `posted_urls.txt` and `database.json`.
+4. Commits updates to `posted_urls.txt`, `database.json`, `vulnerabilities.json`, and `actors.json`.
 
 Add these repository secrets before enabling the workflow:
 
@@ -158,27 +161,16 @@ DISCORD_WEBHOOK_URL
 3. Shuffles the RSS feed list.
 4. Skips articles already present in `posted_urls.txt`.
 5. Skips articles older than the configured maximum age.
-6. Sends the article title and summary to Groq for structured JSON extraction.
-7. Rejects invalid CVE placeholders.
-8. Looks up CVSS from NVD when a valid CVE is found.
-9. Generates a threat-card image.
-10. Posts the tweet and image to X.
-11. Saves the article URL and dashboard record.
-12. Exits after one successful post.
-
-## Configuration
-
-Important constants live near the top of `cyber_agent.py`:
-
-```python
-DAILY_POST_CAP = 7
-ARTICLE_MAX_AGE_HOURS = 12
-RSS_FEEDS = [...]
-HISTORY_FILE = "posted_urls.txt"
-DB_FILE = "database.json"
-```
-
-Change these values to adjust post volume, article freshness, RSS sources, or storage file names.
+6. Performs a fast title-keyword deduplication check against the past 24 hours.
+7. Sends the article title and summary to Groq for structured JSON extraction.
+8. Rejects invalid CVE placeholders.
+9. Performs an exact-CVE deduplication check against `vulnerabilities.json` to only proceed if the threat status has meaningfully escalated.
+10. Looks up CVSS from NVD, KEV status from CISA, and EPSS scores from FIRST.org.
+11. Upserts the extracted threat and actor into `vulnerabilities.json` and `actors.json`.
+12. Generates a threat-card image.
+13. Posts the tweet and image to X.
+14. Saves the article URL and dashboard records.
+15. Exits after one successful post.
 
 ## Data Files
 
@@ -188,17 +180,26 @@ Stores one article URL per line. This prevents duplicate posts across scheduled 
 
 ### `database.json`
 
-Stores dashboard records. Current records use this shape:
+Stores dashboard records for the social feed. Current records use this shape:
 
 ```json
 {
   "date": "2026-05-05 06:51 UTC",
   "content": "Tweet or threat text",
-  "url": "https://example.com/article"
+  "url": "https://example.com/article",
+  "cve": "CVE-2026-1234",
+  "kev": true,
+  "epss": 0.03
 }
 ```
 
-For future improvements, consider storing richer fields such as `title`, `source`, `severity`, `cve`, `cvss`, `target`, `threat_actor`, and `summary`.
+### `vulnerabilities.json`
+
+A relational database keyed by CVE ID tracking the lifecycle of specific vulnerabilities. Fields include `first_seen`, `cvss`, `kev`, `epss`, and a `status_timeline` tracking transitions from "disclosed" to "actively_exploited" to "patched".
+
+### `actors.json`
+
+A relational database keyed by threat actor/group name, tracking aliases and historical campaigns extracted from news sources.
 
 ## Security Notes
 
@@ -233,4 +234,3 @@ For future improvements, consider storing richer fields such as `title`, `source
 - Confirm `database.json` exists and contains a JSON array.
 - If using `index.html`, serve the folder over HTTP instead of opening the file directly.
 - If using Streamlit, run from the project root so `database.json` resolves correctly.
-
