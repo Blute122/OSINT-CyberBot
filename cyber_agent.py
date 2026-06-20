@@ -337,8 +337,10 @@ OUTPUT: Return ONLY a valid JSON object. No markdown, no backticks, no preamble.
 
 RULES:
 - cve: real CVE IDs only (format CVE-YYYY-NNNNN). Empty string if not in article. Never invent.
+- When mentioning a CVE ID inside the tweet field, write it as a bare token (e.g. "...exploit CVE-2026-4020 to..."), never wrapped in your own parentheses or brackets — CVSS/KEV/EPSS detail is appended separately and already uses parentheses/brackets, so double-wrapping creates nested punctuation.
 - tweet: 210 chars MAX before any post-processing. Complete sentence, not truncated.
 - card_context and card_impact must ADD information the tweet does not contain.
+- NEVER state a specific CVSS score, numeric severity rating, or percentage inside card_context or card_impact. CVSS/EPSS/KEV data is injected separately from verified sources — stating your own number risks contradicting it. Describe severity only in qualitative terms (e.g. "a high-severity flaw") if needed.
 - No mitigation advice anywhere.
 - All fields strictly factual, sourced only from the article.
 
@@ -451,16 +453,21 @@ def generate_threat_card(severity_icon: str, title: str,
                         tag_font, body_font, tag_color, body_color,
                         width_chars: int = 75, padding: int = 4,
                         max_lines: int = 2, max_y: int = 9999) -> int:
-        """Draw a bold coloured tag then wrapped body text on same/next lines."""
+        """Draw a bold coloured tag then wrapped body text on same/next lines.
+        Appends an ellipsis on the last visible line if text was truncated,
+        so cut-off content never reads as a finished sentence."""
         tag_w = tag_font.getlength(tag + " ") if hasattr(tag_font, "getlength") else 80
-        # First line: tag + start of text inline
         first_line_x = x + int(tag_w)
         draw.text((x, y), tag, font=tag_font, fill=tag_color)
-        # Wrap remaining text starting after the tag
-        lines = textwrap.TextWrapper(width=width_chars).wrap(text)[:max_lines]
+        all_lines = textwrap.TextWrapper(width=width_chars).wrap(text)
+        lines = all_lines[:max_lines]
+        was_truncated = len(all_lines) > max_lines
         for i, line in enumerate(lines):
             if y + lh(body_font) > max_y:
+                was_truncated = True
                 break
+            if was_truncated and i == len(lines) - 1:
+                line = line.rstrip(".,;:—-") + "…"
             tx = first_line_x if i == 0 else x + 8
             draw.text((tx, y), line, font=body_font, fill=body_color)
             y += lh(body_font) + padding
@@ -771,13 +778,20 @@ def run_agent():
                 # ── Threat card ───────────────────────────
                 card_filename = None
                 try:
+                    # Only pass a target if it adds info beyond the malware/
+                    # actor name already implied by the title — avoids a
+                    # TARGET row that just restates the headline.
+                    display_target = target or threat_actor
+                    if display_target and display_target.lower() in entry.title.lower():
+                        display_target = target if target and target != display_target else ""
+
                     card_filename = generate_threat_card(
                         severity_icon,
                         entry.title,
                         card_context,
                         card_impact,
                         cve,
-                        target or threat_actor,
+                        display_target,
                         simply_put,
                         feed_info["name"],
                         kev_flag,
