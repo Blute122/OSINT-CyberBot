@@ -1,1 +1,21 @@
-{}
+{
+  "CVE-2026-4020": {
+    "first_seen": "2026-06-20 13:09 UTC",
+    "product": "Gravity SMTP, WordPress plugin",
+    "status_timeline": [
+      {
+        "date": "2026-06-20 13:09 UTC",
+        "status": "disclosed",
+        "summary": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+        "source_url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
+    ],
+    "last_updated": "2026-06-20 13:09 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": 0.0298
+  }
+}

@@ -1088,5 +1088,13 @@
         "date": "2026-06-19 17:26 UTC",
         "content": "\ud83d\udd34 Apple patches Beats eavesdropping flaw, while DOT closes Delta CrowdStrike probe. Unpatched AWS Config Connector flaw enables takeover via Popa Android TV botnet linked to Israeli firm. #cybersecurity #AWS #malware",
         "url": "https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/"
+    },
+    {
+        "date": "2026-06-20 13:09 UTC",
+        "content": "\ud83d\udfe1 Threat Alert: Hackers exploit Gravity SMTP WordPress plugin bug (CVE-2026-4020 (CVSS: N/A) [EPSS: 3.0%]) to expose API keys, configuration data, and OAuth tokens. Unauthenticated attackers can extract sensitive data. 100,000 sites impacted. via The Hacker News\u2026",
+        "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+        "cve": "CVE-2026-4020",
+        "kev": false,
+        "epss": 0.0298
     }
 ]
