@@ -78,5 +78,1015 @@
         "date": "2026-05-05 14:22 UTC",
         "content": "",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/how-story-usb-penetration-test-went-viral"
+    },
+    {
+        "date": "2026-05-05 16:53 UTC",
+        "content": "\ud83d\udd34 FTC bans data broker Kochava from selling Americans\u2019 location data without consent, affecting hundreds of millions of mobile devices via BleepingComputer #dataprivacy",
+        "url": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/"
+    },
+    {
+        "date": "2026-05-05 18:45 UTC",
+        "content": "\ud83d\udd34 A student hacked Taiwan's high-speed rail TETRA system, triggering emergency brakes. Multiple trains affected. via BleepingComputer #cybersecurity #railways",
+        "url": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/"
+    },
+    {
+        "date": "2026-05-05 20:16 UTC",
+        "content": "\ud83d\udfe0 High-severity phishing campaign targets US organizations via fake emails with Microsoft branding. via SecurityWeek #phishingcampaign",
+        "url": "https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/"
+    },
+    {
+        "date": "2026-05-06 00:03 UTC",
+        "content": "\ud83d\udd34 Breach of Trellix source code reveals security product's inner workings, potentially aiding attacks. via Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/trellix-source-code-breach-supply-chain-threats"
+    },
+    {
+        "date": "2026-05-06 04:02 UTC",
+        "content": "\ud83d\udfe0 Critical Linux kernel LPE (CVE-2026-31431 (CVSS: 7.8/10)) allows root access to millions of systems. via Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/"
+    },
+    {
+        "date": "2026-05-06 06:44 UTC",
+        "content": "Cyber attacks targeting UAE tripled amid war with Iran, threatening critical infrastructure. via Dark Reading #CYBERATTACK #GulfSecurity",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/middle-east-cyber-battle-field-broadens-uae"
+    },
+    {
+        "date": "2026-05-06 09:35 UTC",
+        "content": "\ud83d\ude10 No security incident reported. via Kaspersky Securelist #cybersecurity",
+        "url": "https://securelist.com/suspicious-websites-undefined-trust-level/119675/"
+    },
+    {
+        "date": "2026-05-06 12:05 UTC",
+        "content": "A Romanian hacker is extradited to the US for a role in a 2009 hacking scheme. He was indicted in 2017.",
+        "url": "https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/"
+    },
+    {
+        "date": "2026-05-06 14:45 UTC",
+        "content": "No notable security incident reported regarding emails via Cisco Talos with #CyberSecurity",
+        "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/"
+    },
+    {
+        "date": "2026-05-06 16:53 UTC",
+        "content": "",
+        "url": "https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/"
+    },
+    {
+        "date": "2026-05-07 00:02 UTC",
+        "content": "\ud83d\udfe0 New Mirai-derived botnet, xlabs_v1, targets Android Debug Bridge to hijack IoT devices for DDoS attacks. Hundreds of devices affected via Netherlands-hosted server. via The Hacker News #DDoS #IoT",
+        "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html"
+    },
+    {
+        "date": "2026-05-07 04:02 UTC",
+        "content": "\ud83d\udfe0 A PAN-OS captive portal zero-day vulnerability (CVE-2026-0300 (CVSS: Score Pending)) enables unauthenticated RCE via buffer overflow. PAN-OS is affected via User-ID Auth Portal via buffer overflow. via Unit 42 #cybersecurity",
+        "url": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/"
+    },
+    {
+        "date": "2026-05-07 06:51 UTC",
+        "content": "\ud83d\udd34 A dozen critical vulnerabilities in the open-source vm2 Node.js library can be exploited to escape the sandbox and execute arbitrary code, affecting susceptible systems. via The Hacker News #vm2 #Node.js",
+        "url": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html"
+    },
+    {
+        "date": "2026-05-07 09:44 UTC",
+        "content": "\ud83d\udd34 A malware family called ZiChatBot spreads via compromised PyPI packages on Windows and Linux, delivering malicious files. via The Hacker News #ZiChatBot #PyPI",
+        "url": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html"
+    },
+    {
+        "date": "2026-05-07 12:04 UTC",
+        "content": "\ud83d\udfe0 Hackers using shady packages, fake apps, and stolen logins in attack chains via Discord channels. Your login credentials may be vulnerable. via The Hacker News #ThreatsDay2026",
+        "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html"
+    },
+    {
+        "date": "2026-05-07 14:48 UTC",
+        "content": "\ud83d\udd34 Critical: An AI-powered cyberattack failed to breach OT systems after being thwarted by a SCADA login screen. A new zero-day vulnerability has been exposed. via Dark Reading #OTSecurity",
+        "url": "https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems"
+    },
+    {
+        "date": "2026-05-07 17:03 UTC",
+        "content": "\ud83d\udd34 Hackers use AI to create stealthy emails that can compromise a single laptop. All it takes is a single click to shut down your network. via The Hacker News #CyberSecurity",
+        "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html"
+    },
+    {
+        "date": "2026-05-08 00:04 UTC",
+        "content": " \ud83d\udd34 \ud83d\udd34 Cyber attackers 'PCPJack' steal sensitive cloud info via parquet files. Multiple cloud environments at risk. via Dark Reading #cloudsecurity",
+        "url": "https://www.darkreading.com/cloud-security/teampcp-malware-pcpjack-steals-cloud-secrets"
+    },
+    {
+        "date": "2026-05-08 03:52 UTC",
+        "content": "\ud83d\udd34 Ransom demand from cybercrime group threatens to leak data from 275 million students and faculty on Canvas education platform via Krebs on Security #cybersecurity",
+        "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
+    },
+    {
+        "date": "2026-05-08 07:56 UTC",
+        "content": "\ud83d\udd34 Linux 'Dirty Frag' zero-day exploit: local attackers can gain root access on most major distros via unauthenticated RCE. Multiple distros affected via single command via BleepingComputer #Linux #ZeroDay",
+        "url": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/"
+    },
+    {
+        "date": "2026-05-08 09:51 UTC",
+        "content": "\ud83d\udfe1 A former government contractor was convicted of conspiring to delete dozens of federal databases. He and accomplices affected sensitive gov't data. via BleepingComputer #governmenthacking",
+        "url": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/"
+    },
+    {
+        "date": "2026-05-08 11:44 UTC",
+        "content": "\ud83d\udd34 Critical: Braintrust suffered data breach via their AWS account. AI provider secrets compromised. via SecurityWeek #dataprotection",
+        "url": "https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/"
+    },
+    {
+        "date": "2026-05-08 14:15 UTC",
+        "content": "\ud83d\udd34 Quasar Linux RAT (QLNX) steals DevOps credentials for software supply chain compromise via silent implants. Developers across all sectors targeted. via The Hacker News #linuxsecurity",
+        "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html"
+    },
+    {
+        "date": "2026-05-08 16:43 UTC",
+        "content": "\ud83d\udd34 ShinyHunters claims 9,000 schools affected by Canvas data breach, plans to leak student data via CyberScoop #datasecurity #EDU",
+        "url": "https://edscoop.com/shinyhunters-claims-nearly-9000-schools-affected-by-canvas-data-breach/"
+    },
+    {
+        "date": "2026-05-09 00:09 UTC",
+        "content": "\ud83d\udd34 TCLBANKER banking trojan detected on 59 fintech and cryptocurrency platforms using WhatsApp and Outlook worms. Targets Brazilian banks. via The Hacker News #bankingtrocjan",
+        "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html"
+    },
+    {
+        "date": "2026-05-09 08:50 UTC",
+        "content": "\ud83d\udfe0 Critical vulnerabilities patched in cPanel & WHM! \ud83d\udca5 Exploits privilege escalation, code execution, and DoS. Patch ASAP! via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html"
+    },
+    {
+        "date": "2026-05-09 15:11 UTC",
+        "content": "\ud83d\udfe0 Infostealer malware pushed to Windows users via fake OpenAI repository on Hugging Face. Affected: Windows users who downloaded the malicious project. via BleepingComputer #OpenAI #HuggingFace",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/"
+    },
+    {
+        "date": "2026-05-09 21:01 UTC",
+        "content": "\ud83d\udd34 Critical: JDownloader site hacked, installers replaced with Python RAT malware via Windows & Linux payloads, via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/"
+    },
+    {
+        "date": "2026-05-10 13:54 UTC",
+        "content": "\ud83d\udd34 Ollama has 300K+ servers vulnerable to CVE-2026-7482 (CVSS: 9.1/10) (9.1 CVSS): unauthenticated attackers can leak process memory via out-of-bounds read. via The Hacker News #OllamaVulnerability #CVE20267482",
+        "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html"
+    },
+    {
+        "date": "2026-05-10 15:12 UTC",
+        "content": "\ud83d\udd34 \ud83d\udc94 Critical breach: Police shut down Crimenetwork marketplace relaunch and arrest admin generating over 3.6 million euros via illegal activities. via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/"
+    },
+    {
+        "date": "2026-05-10 18:05 UTC",
+        "content": "\ud83d\udfe1 Attackers abuse Google Ads & Claude.ai chats to push Mac malware. Mac users searching for Claude download may be affected. via BleepingComputer #mac security",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/"
+    },
+    {
+        "date": "2026-05-10 23:07 UTC",
+        "content": "\ud83d\udfe1 A medium severity vulnerability was found in YARA-X 1.16.0, no exploit details are given. via SANS ISC #YARA-X",
+        "url": "https://isc.sans.edu/diary/rss/32970"
+    },
+    {
+        "date": "2026-05-11 08:35 UTC",
+        "content": "\ud83d\udd34 Critical data breach: A fake @OpenAI Privacy Filter repo has been downloaded over 244K times from @HuggingFace, delivering a Rust-based info stealer to Windows users. via The Hacker News #OpenAI #DataBreaches",
+        "url": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html"
+    },
+    {
+        "date": "2026-05-11 12:21 UTC",
+        "content": "\ud83d\udd34 Red Alert! TrickMo Android banking malware adopts TON blockchain for covert comms, targeting users in Europe via phishing campaigns. via BleepingComputer #MobileSecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/"
+    },
+    {
+        "date": "2026-05-11 16:11 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers used a flaw in Canvas to deface login portals and leave an extortion message. Multiple Instructure customers affected via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/"
+    },
+    {
+        "date": "2026-05-11 20:02 UTC",
+        "content": "\u02ef\ufe0f \u2703\ufe0f 'Dirty Frag' exploit may already be exploited on Enterprise Linux distros via privilege escalation. via Dark Reading #LinuxSecurity",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-enterprise-linux-distros"
+    },
+    {
+        "date": "2026-05-11 21:40 UTC",
+        "content": "\ud83d\udfe0 Critical: Checkmarx Jenkins AST plugin compromised via modified version. Ensure version 2.0.13-829.vc72453fa_1c16, published Dec 17, 2025, is used. via The Hacker News #Checkmarx #Jenkins",
+        "url": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html"
+    },
+    {
+        "date": "2026-05-11 23:10 UTC",
+        "content": "\ud83d\udfe2 Apple patches 84 vulnerabilities across its operating systems (iOS, iPadOS, macOS, tvOS, watchOS, vision OS) via SANS ISC #AppleSecurity #vulnerabilities",
+        "url": "https://isc.sans.edu/diary/rss/32976"
+    },
+    {
+        "date": "2026-05-12 04:03 UTC",
+        "content": "\ud83d\udfe1 GM faces $12.75M settlement over violating CCPA, exposing drivers' data via California Attorney General. via BleepingComputer #DataBreach",
+        "url": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/"
+    },
+    {
+        "date": "2026-05-12 09:48 UTC",
+        "content": "\ud83d\udd34 A supply chain attack compromises TanStack, UiPath, Mistral AI, and more due to modified npm packages. Affected packages include TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI. via The Hacker News #supplychainattack",
+        "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html"
+    },
+    {
+        "date": "2026-05-12 12:15 UTC",
+        "content": "\ud83d\udfe0 A critical vulnerability has been identified in SAP S/4HANA and Commerce products. Attackers can inject malicious code through the flaw. This could lead to information disclosure and code execution.\n \u2022 SAP has released patches to fix the issues.\n \u2022 The vulnerabilities could impact users who have not applied the latest updates.\n via SecurityWeek #cybersecurity #SAP #SAPvulnerability",
+        "url": "https://www.securityweek.com/sap-patches-critical-s-4hana-commerce-vulnerabilities/"
+    },
+    {
+        "date": "2026-05-12 15:45 UTC",
+        "content": "\ud83d\udfe0 New Android Banking Trojan Alert! TrickMo variant spotted using TON C2 and SOCKS5 to create network pivots targeting banking and crypto wallet users in France, Italy, and Austria. The threat spreads via runtime-loaded APKs. via The Hacker News #cybersecurity #TrickMo",
+        "url": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html"
+    },
+    {
+        "date": "2026-05-12 18:17 UTC",
+        "content": "\ud83d\udd34 A critical vulnerability was discovered in Hugging Face AI models, where a single file tweak can hijack model outputs and exfiltrate data.\n\nThe Breakdown: A tokenizer library file in the models can be manipulated.\n\nThe Technical Vector: This can be done with a simple file tweak.\n\nThe Impact: Attackers can exfiltrate data via manipulated model outputs.\nvia Dark Reading\n#cybersecurity #adversarialMachineLearning #HuggingFace",
+        "url": "https://www.darkreading.com/cloud-security/hugging-face-packages-weaponized-single-file-tweak"
+    },
+    {
+        "date": "2026-05-12 20:49 UTC",
+        "content": "\ud83d\udd34 Microsoft's latest security update patches 137 critical vulnerabilities in Azure, Windows, Dynamics 365, and the SSO Plugin for Jira & Confluence. The fixes address remote code execution (RCE) and denial of service (DoS) flaws. via SecurityWeek #cybersecurity #Microsoft",
+        "url": "https://www.securityweek.com/microsoft-patches-137-vulnerabilities/"
+    },
+    {
+        "date": "2026-05-12 22:22 UTC",
+        "content": "\ud83d\udd34 UK water supplier fined $1.3 million after personal data of 663,887 customers and employees exposed in breach.\n\nThe Breakdown: South Staffordshire Water Plc and its parent company were fined by the Information Commissioner's Office for a data breach.\n\nThe Technical Vector: The incident does not provide details on the exploitation method but exposed customer data.\n\nThe Impact: Customers and employees of the water supplier were affected, with sensitive information potentially compromised. via BleepingComputer. #cybersecurity #waterutilitybreach #UKdatabreach",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/"
+    },
+    {
+        "date": "2026-05-13 00:13 UTC",
+        "content": "\ud83d\udd34 Critical: ShinyHunters cyberattacks target Instructure's Canvas platform. Threat actors stole student data and disrupted schools during final exams. The U.S. House Committee on Homeland Security has called for Instructure executives to testify.\n   The Breakdown: Two cyberattacks were carried out on Canvas, allowing ShinyHunters to steal sensitive data and disrupt educational institutions.\n   The Technical Vector: The exact exploitation method is unknown, but the attacks were successful in compromising the Canvas platform.\n   The Impact: Student data and educational institutions were put at risk,\n   via BleepingComputer. #cybersecurity #ShinyHunters #Instructure #Canvas",
+        "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/"
+    },
+    {
+        "date": "2026-05-13 07:27 UTC",
+        "content": "\ud83d\udfe1 ICS Patch Tuesday Review: Siemens, Schneider, and CISA release new security advisories. Vulnerabilities left unpatched by multiple vendors put users at risk. via SecurityWeek #cybersecurity #ICS #industrial_control",
+        "url": "https://www.securityweek.com/ics-patch-tuesday-new-security-advisories-from-siemens-schneider-cisa/"
+    },
+    {
+        "date": "2026-05-13 10:42 UTC",
+        "content": "\ud83d\udd34 Critical: Researchers warn of a new campaign, GemStuffer, using 150+ RubyGems to exfiltrate data from UK council portals. No malware is involved. Developers with low or no download activity are most at risk. via The Hacker News #cybersecurity #RubyGems #GemStuffer",
+        "url": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html"
+    },
+    {
+        "date": "2026-05-13 13:27 UTC",
+        "content": "\ud83d\udfe0 Data breach alert! 716,000 users impacted in January cyberattack on OpenLoop Health. Hacker stole personal info from the telehealth platform's systems. \n   The Breakdown: Hack occurred in January, leading to personal data exfiltration. \n   The Technical Vector: Exact attack vector not specified. \n   The Impact: Over 716,000 users at risk, with their personal info compromised. via SecurityWeek #cybersecurity #telehealth #data breach",
+        "url": "https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/"
+    },
+    {
+        "date": "2026-05-13 16:36 UTC",
+        "content": "\ud83d\udfe2 LOW\n\n    OpenAI's Daybreak faces off against Anthropic's Mythos model in the AI arms race for cybersecurity.\n\n    The main difference: Daybreak is more open and gated. Mythos, on the other hand, has strict restrictions.\n\n    \u2022 Daybreak: more accessible but still secure.\n\n    \u2022 Mythos: tightly restricted, more exclusive.\n\n    via CyberScoop\n\n    #cybersecurity #AIarmsrace #OpenAI",
+        "url": "https://cyberscoop.com/openai-daybreak-gpt-5-5-anthropic-mythos-cybersecurity/"
+    },
+    {
+        "date": "2026-05-13 19:06 UTC",
+        "content": "\ud83d\udd34 FOXCONN CONFIRMED CYBERATTACK\n \nA Nitrogen ransomware group claims to have hacked Foxconn's North American factories, stealing 8TB of data, including confidential documents. \nThe attackers demand $35M in Bitcoin to restore access.\n\u2022 The attack was allegedly carried out using the Nitrogen ransomware.\n\u2022 The compromised data includes employee and customer information.\n\u2022 Foxconn has yet to comment on the potential impact of this breach.\n via SecurityWeek\n #cybersecurity #ransomware #Nitrogen",
+        "url": "https://www.securityweek.com/foxconn-confirms-north-american-factories-hit-by-cyberattack/"
+    },
+    {
+        "date": "2026-05-13 20:54 UTC",
+        "content": "\ud83d\udd34 Critical\nDOJ Releases Nationwide Voter Data Collection Memo\n\nThe US Department of Justice (DOJ) has released a legal memo justifying the collection of nationwide voter data, sparking controversy among election officials.\n\nThe Breakdown:\n\u2022 The memo outlines the executive branch's role in vetting voter eligibility, potentially allowing for data collection across the country.\n\nThe Technical Vector:\nThe memo suggests a top-down approach to verifying voter eligibility, which some argue could lead to widespread data collection.\n\nThe Impact:\n\u2022 Many election officials are concerned about the potential for mass voter data collection, as it could compromise sensitive information.\nvia CyberScoop\n#cybersecurity #ElectionSecurity #DOJ",
+        "url": "https://cyberscoop.com/federal-voter-data-collection-doj-legal-memo/"
+    },
+    {
+        "date": "2026-05-14 00:14 UTC",
+        "content": "\ud83d\udd34 Critical Alert: West Pharmaceutical Services hacked via cyberattack, resulting in data exfiltration and system encryption. The Breakdown: Hackers stole data and encrypted systems. The Technical Vector: Undisclosed attack vector used to breach WestPharma. The Impact: All who rely on WestPharma data and services are at risk. via BleepingComputer #cybersecurity #ransomware #healthcare",
+        "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/"
+    },
+    {
+        "date": "2026-05-14 04:14 UTC",
+        "content": "\u26a0\ufe0f BREAKING: Researchers say AI has broken every benchmark for autonomous cyber capability. Anthropic's Claude Mythos Preview and OpenAI's GPT-5.5 have outpaced every trend line. Is this a one-time leap or the new normal? via CyberScoop #cybersecurity #AIsecurity #machinelearning",
+        "url": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/"
+    },
+    {
+        "date": "2026-05-14 07:23 UTC",
+        "content": "\ud83d\udd34 Outlook Junk folder vulnerability - A bypass of the link preview function allows visible URLs, which could enable malicious messages to evade detection via #cybersecurity #Outlook #Phishing",
+        "url": "https://isc.sans.edu/diary/rss/32990"
+    },
+    {
+        "date": "2026-05-14 10:31 UTC",
+        "content": "\ud83d\udfe0 Critical flaw in PraisonAI exposed: Hackers target PraisonAI vulnerability hours after disclosure, with exploitation attempts beginning mere hours after public disclosure.\n\nThe Breakdown: PraisonAI security flaw disclosed, exploited by hackers shortly after.\n\nThe Technical Vector: Unauthenticated exploit possible due to authentication bypass vulnerability\n\nThe Impact: Users of PraisonAI at risk. via SecurityWeek #cybersecurity #AIvulnerabilities #PraisonAI",
+        "url": "https://www.securityweek.com/hackers-targeted-praisonai-vulnerability-hours-after-disclosure/"
+    },
+    {
+        "date": "2026-05-14 13:04 UTC",
+        "content": "\ud83d\udd34 CRITICAL: KongTuke hackers now use Microsoft Teams for corporate breaches, gaining access in just 5 minutes. They take advantage of unsuspecting employees to gain persistent access to corporate networks. \nThe Breakdown: Initial access broker KongTuke has shifted to using Microsoft Teams for social engineering attacks.\nThe Technical Vector: Attackers trick users into approving malicious Microsoft Teams invitations, which grants them access to the corporate network.\nThe Impact: Users are at risk of persistent access being gained to their corporate networks.\nvia BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/"
+    },
+    {
+        "date": "2026-05-14 15:31 UTC",
+        "content": "\ud83d\udd34 Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike\nThe Breakdown: Ghostwriter, a Belarus-aligned threat group, has been attributed to attacks targeting Ukrainian government orgs.\nThe Technical Vector: Geofenced PDF phishing and Cobalt Strike used for espionage and influence ops.\nThe Impact: Neighboring countries, esp Ukraine, at risk via Ghostwriter's cyber activities.\nvia The Hacker News #cybersecurity #Ghostwriter #CobaltStrike",
+        "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html"
+    },
+    {
+        "date": "2026-05-14 18:06 UTC",
+        "content": "\ud83d\udd34 Critical: 18-year-old NGINX flaw allows DoS and RCE.\nThe Breakdown: An autonomous scanning system discovered an 18-year-old vulnerability in NGINX.\nThe Technical Vector: This flaw can be exploited for DoS and, under certain conditions, RCE.\nThe Impact: Any server using NGINX with this vulnerability is at risk via network vector.\nvia BleepingComputer. #cybersecurity #NGINXvulnerability #DOS",
+        "url": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/"
+    },
+    {
+        "date": "2026-05-15 00:09 UTC",
+        "content": "\ud83d\udea8 CRITICAL: SecurityScorecard acquires Driftnet to bolster threat intelligence on third-party ecosystems, increasing risk of supply chain attacks. The Breakdown: SecurityScorecard acquires Driftnet to combat rising supply chain threats. The Technical Vector: Third-party ecosystems heighten the risk of supply chain attacks. The Impact: Companies may be vulnerable to increased risk of breaches due to third-party ecosystem vulnerabilities. via Dark Reading #cybersecurity #SupplyChainAttack #ThirdPartyRisk",
+        "url": "https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence"
+    },
+    {
+        "date": "2026-05-15 04:16 UTC",
+        "content": "\ud83d\udd34 Cybersecurity breach causes three bullet trains to shut down in Taiwan.\nA Taiwanese student experimenting with software-defined radio technology inadvertently brought the trains to a halt, prompting an anti-terrorism response.\n\u2022 Student's experiment affected rail systems via radio frequency interference.\n\u2022 Incident highlights cybersecurity gaps in modern rail systems.\nvia Dark Reading #cybersecurity #RailSystemSecurity",
+        "url": "https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps"
+    },
+    {
+        "date": "2026-05-15 08:16 UTC",
+        "content": "\ud83d\udfe0 A critical vulnerability in \nMicrosoft Exchange Server for on-premise versions has been exploited via crafted email.\nThe bug, CVE-2026-42897 (CVSS: 8.1/10), is a spoofing issue stemming from a cross-site scripting flaw.\nAttackers can leverage this vulnerability to gain unauthorized access.\n\u2022 Impacted version: on-premise Exchange Server\n\u2022 CVSS: 8.1\nvia The Hacker News\n#cybersecurity #Microsoft #CVE202642897",
+        "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html"
+    },
+    {
+        "date": "2026-05-15 11:29 UTC",
+        "content": "\ud83d\udd34 Ransomware attack compromised American Lending Center data. 123,000 individuals affected. The breach went undetected for nearly a year.\nThe Breakdown: A ransomware attack was discovered by the non-bank lender, who only recently finished an investigation.\nThe Technical Vector: Details about the ransomware variant are not provided.\nThe Impact: The data breach affects 123,000 individuals. via SecurityWeek. #cybersecurity #ransomware #dataloss",
+        "url": "https://www.securityweek.com/american-lending-center-data-breach-affects-123000-individuals/"
+    },
+    {
+        "date": "2026-05-15 14:33 UTC",
+        "content": "\ud83d\udd34 CISCO UNDER ATTACK: A persistent threat group is exploiting a zero-day vulnerability in Cisco's firewalls and SD-WAN systems. Linked to recently disclosed vulnerabilities, the attacks are ongoing. via CyberScoop #cybersecurity #Cisco #zero-day",
+        "url": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploited/"
+    },
+    {
+        "date": "2026-05-15 17:00 UTC",
+        "content": "\ud83d\udd34 Critical: Four security flaws in OpenClaw (CVE-XXXX-XXXXX) disclosed by Cyera, enabling data theft, privilege escalation, and persistence via the \"Claw Chain.\" Threat actors can exploit this to establish a foothold, expose sensitive data, and plant backdoors. via The Hacker News\n\n#cybersecurity #OpenClaw #Cyera",
+        "url": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html"
+    },
+    {
+        "date": "2026-05-15 18:52 UTC",
+        "content": "\ud83d\udd34 Microsoft Exchange & Windows 11 hacked at Pwn2Own Berlin. 15 zero-day vulnerabilities exploited for $385,750 in cash awards, impacting multiple products. The Breakdown: Competitors successfully targeted Windows 11, Microsoft Exchange & Red Hat Enterprise Linux for Workstations. The Technical Vector: Exploiters took advantage of unique zero-day vulnerabilities in each product. The Impact: 15 unique zero-day vulnerabilities were discovered, which could put millions of users at risk of data breaches. via BleepingComputer #cybersecurity #Pwn2Own #Windows11",
+        "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/"
+    },
+    {
+        "date": "2026-05-16 03:59 UTC",
+        "content": "\ud83d\udfe1 MEDIUM \u2014 Colorado Governor Jared Polis commutes prison sentence for election denier Tina Peters, who stole voting data.\nThe Breakdown:\nTina Peters, a Colorado election official, was sentenced to 9 years for stealing voting data.\nThe Technical Vector:\n\u2022 Unspecified hacking incident\nThe Impact:\n\u2022 Potential compromise of voting data via unauthenticated access.\nvia CyberScoop #cybersecurity #votingmachine #electionsecurity",
+        "url": "https://cyberscoop.com/colorado-election-denier-tina-peters-sentence-commuted-governor-jared-polis/"
+    },
+    {
+        "date": "2026-05-16 06:33 UTC",
+        "content": "\ud83d\udd34 The Boring Stuff is Dangerous Now\nThe emergence of AI agents that exploit obscure vulns has forced defenders to adapt to vast amounts of flawed AI-generated code. Key takeaways: AI-created code poses significant security risks, forcing defenders to rethink their approaches.\n\n\u2022 AI agents can discover and exploit previously unknown vulns.\n\u2022 The rise of AI-generated code has led to a surge in potentially flawed code. via Dark Reading.\n#cybersecurity #AIsecurity #DevSecOps",
+        "url": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt"
+    },
+    {
+        "date": "2026-05-16 10:37 UTC",
+        "content": "\ud83d\udd34 Critical NGINX Vulnerability Disclosed! \nA 14-year-old security flaw in NGINX has been published and fixed in NGINX Plus and open source. Unauthenticated attackers can exploit this to inject code. This impacts NGINX users who haven't patched yet. via SecurityWeek #cybersecurity #nginx #criticalvulnerability",
+        "url": "https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/"
+    },
+    {
+        "date": "2026-05-16 15:14 UTC",
+        "content": "\u2b55\ufe0e MEDIUM \ud83d\udd34 MEDIUM: Russian hackers turn Kazuar backdoor into a modular P2P botnet. Secret Blizzard's long-running backdoor has been repurposed for stealthy data collection.\n\nThe Breakdown:\n\u2022 Kazuar backdoor modified to form P2P botnet\n\u2022 Designed for long-term persistence\n\nThe Technical Vector:\n\u2022 Modularity allows for easy updates\n\u2022 Steals sensitive data\n\nThe Impact:\n\u2022 End-users at risk of data theft via infected systems\nvia BleepingComputer #cybersecurity #Russianhacker #botnet",
+        "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/"
+    },
+    {
+        "date": "2026-05-16 17:13 UTC",
+        "content": "\ud83d\udd34 Breaking: Active exploitation of a critical #WordPress plugin flaw in Funnel Builder allows checkout skimming. Attack injects malicious JavaScript to steal payment data. CVE: no identifier published yet. Impact: WooCommerce stores at risk. via The Hacker News #cybersecurity #WooCommerce #WordPress",
+        "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html"
+    },
+    {
+        "date": "2026-05-16 21:02 UTC",
+        "content": "\ud83d\udfe0 Critical Azure Azure Backup for AKS vulnerability report rejected by Microsoft without CVE.\n   A security researcher claims a vulnerability was quietly fixed, but Microsoft disputes this, stating no product changes were made.\n   The researcher documented a silent fix, raising concerns about the security update process.\n   via BleepingComputer. #cybersecurity #Azure #AzureVulnerability",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/"
+    },
+    {
+        "date": "2026-05-17 09:59 UTC",
+        "content": "\ud83d\udd34 Grafana GitHub Token Breach Exposed \ud83d\udea8\nA critical security incident occurred at Grafana, where an unauthorized party accessed their GitHub environment. They were able to download their codebase and attempted to extort the company.\n \n\u2022 The Breakdown: An unauthorized party accessed Grafana's GitHub environment using a stolen token,\nwhich granted them access to their codebase. They downloaded the code and attempted to extort the company.\n \n\u2022 The Technical Vector: The attackers used a stolen GitHub token to access Grafana's environment. No further technical details are provided.\n \n\u2022 The Impact: Grafana's customers' data and personal information were not accessed, but the company's codebase was compromised. Customer systems or operations were not impacted. \n   \nvia The Hacker News #cybersecurity #GitHubTokenBreach",
+        "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html"
+    },
+    {
+        "date": "2026-05-17 15:16 UTC",
+        "content": "\ud83d\udfe0 NGINX CVE-2026-42945 (CVSS: 8.1/10) Exploited in the Wild\nA critical security flaw in NGINX, exploited since its public disclosure, causing worker crashes and potential RCE. The heap buffer overflow (9.2 CVSS) affects NGINX versions 0.6.27-1.30.0.\nThe Breakdown: NGINX versions 0.6.27-1.30.0 are vulnerable to a heap buffer overflow in ngx_http_rewrite_module.\nThe Technical Vector: The vulnerability causes worker crashes and potential RCE.\nThe Impact: NGINX users, especially those running vulnerable versions, are at risk of crashes and potential code execution.",
+        "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html"
+    },
+    {
+        "date": "2026-05-17 17:12 UTC",
+        "content": "\ud83d\udfe0 High: Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing. The phishing kit abuses Trustifi click-tracking URLs. This exploit is used for account hijacking. via BleepingComputer #cybersecurity #phishing kit #Microsoft 365",
+        "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/"
+    },
+    {
+        "date": "2026-05-17 23:10 UTC",
+        "content": "\ud83d\udd34 New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released. The Breakdown:\n\u2022 A zero-day exploit dubbed 'MiniPlasma' was discovered.\n\u2022 It allows attackers to gain SYSTEM privileges on fully patched Windows systems.\nThe Technical Vector:\n\u2022 The exploit is a proof-of-concept.\nThe Impact:\n\u2022 SYSTEM access is possible.\n\u2022 Exploit is PoC, but potential for malicious use is high.\nvia BleepingComputer. #cybersecurity #WindowsZeroDay #MiniPlasmaExploit",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/"
+    },
+    {
+        "date": "2026-05-18 04:40 UTC",
+        "content": "\ud83d\udd34 US defense startup UFORCE led by Sean Plankey appoints CEO as they look to produce drones in America. The startup founded by Ukrainians aims to expand into new market. via CyberScoop #cybersecurity #defenseindustry #startup",
+        "url": "https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/"
+    },
+    {
+        "date": "2026-05-18 08:52 UTC",
+        "content": "\ud83d\udfe0 Windows 11 installs fail due to KB5089549. The May 2026 security update is causing 0x800f0922 errors on some systems. \n\n**The Breakdown**: Microsoft confirms issues with the update.\n\n**The Technical Vector**: No technical details available.\n\n**The Impact**: Affected users are experiencing failed installs. via BleepingComputer #cybersecurity #Windows11 #KB5089549",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/"
+    },
+    {
+        "date": "2026-05-18 12:47 UTC",
+        "content": "\ud83d\udfe1 Windows 11 users, be aware! An adjustable taskbar and Start menu are being tested in the latest preview version. Although not a security update, Insider testing may expose vulnerabilities. via BleepingComputer #cybersecurity #Windows11 #WindowsInsider",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/"
+    },
+    {
+        "date": "2026-05-18 16:32 UTC",
+        "content": "\ud83d\udfe0 Critical Alert! Multiple attacks target weak dependencies and leaked keys, exposing cloud access and production vulnerabilities via a mail server flaw, network control system exploit, and npm worm. Impact: compromised keys, cloud access, and production systems. via The Hacker News #cybersecurity #npmworm #cloudsecurity",
+        "url": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html"
+    },
+    {
+        "date": "2026-05-18 19:02 UTC",
+        "content": "\ud83d\udd34 SHAI-HULUD MALWARE ALERT \n Leaked malware now targets npm packages, stealing sensitive information. \n \n The Breakdown: \n Malware leaked last week is used in new npm attacks. Infected packages emerged on the npm index over the weekend. \n \n The Technical Vector: \n The malware targets Node Package Manager (npm) packages, stealing sensitive information. The method of attack is not specified. \n \n The Impact: \n Developers using npm are at risk of having their sensitive information stolen. \n via BleepingComputer #cybersecurity #npm #infostealer",
+        "url": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/"
+    },
+    {
+        "date": "2026-05-18 20:43 UTC",
+        "content": "\ud83d\udfe1 Operation Ramz: Interpol cracks down on cybercrime across 13 countries in \nMiddle East, North Africa: 201 arrests, phishing services disrupted\n\nThe Breakdown:\n\u2022 Operation Ramz targeted phishing services, malware, and \nfinancial scams\n\nThe Technical Vector:\n\u2022 Interpol's efforts resulted in 201 arrests\n\nThe Impact:\n\u2022 Cybercrime disrupted across 13 countries\nvia CyberScoop #cybersecurity #phishing #cybercrimewars",
+        "url": "https://cyberscoop.com/interpol-operation-ramz-middle-east-north-africa/"
+    },
+    {
+        "date": "2026-05-18 22:12 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Microsoft Exchange Under Attack via Unpatched Zero-Day Vulnerability.\nCVE-2026-42897 (CVSS: 8.1/10) is an XSS vulnerability in OWA that allows an attacker to compromise mailboxes.\n**The Breakdown:** A zero-day cross-site scripting (XSS) vulnerability in Microsoft Exchange's Outlook Web Access (OWA) mailboxes was discovered, which can be exploited to access these mailboxes.\n**The Technical Vector:** An attacker can utilize the XSS vulnerability to target vulnerable Exchange servers and gain access to user mailboxes.\n**The Impact:** Users with mailboxes on vulnerable Exchange servers are at risk of having their email accounts compromised via this unpatched zero-day exploit.\nvia Dark Reading #cybersecurity #zeroday #exchange",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch"
+    },
+    {
+        "date": "2026-05-19 08:37 UTC",
+        "content": "\ud83d\udd34 Critical Vulnerability Exposes Industrial Robot Fleets to Hacking\nA critical vulnerability in Universal Robots' PolyScope 5 software allows for OS command injection. This can be exploited by hackers, putting industrial robot fleets at risk.\n\n**The Breakdown:** The vulnerability, CVE-2026-8153 (CVSS: 9.8/10), was found in PolyScope 5 and can be exploited for OS command injection.\n\n**The Technical Vector:** The vulnerability can be exploited by hackers, allowing them to potentially access and control the robots.\n\n**The Impact:** Industrial robot fleets using PolyScope 5 are at risk of being compromised. No word yet on the scale of affected systems.\nvia SecurityWeek\n#cybersecurity #industrialcontrol #robotics",
+        "url": "https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/"
+    },
+    {
+        "date": "2026-05-19 12:19 UTC",
+        "content": "\ud83d\udd34 Critical: BadIIS variant discovered with 'demo.pdb' strings, likely sold or shared among Chinese-speaking cyber crime groups. \nThe Breakdown: Embedded PDB strings in a variant of BadIIS malware.\nThe Technical Vector: Identifiable by its embedded 'demo.pdb' strings.\nThe Impact: Functions as commodity malware, potentially under MaaS model for continuous monetization. \nvia Cisco Talos. #cybersecurity #malwareaservice #BadIIS",
+        "url": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/"
+    },
+    {
+        "date": "2026-05-19 16:31 UTC",
+        "content": "\ud83d\udfe1 Vulnerabilities patched by TP-Link, OpenVPN, Adobe Photoshop, and Gen Digital's Norton VPN. Patches available. via Cisco Talos #cybersecurity #CVE2023 #Vulnerability",
+        "url": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/"
+    },
+    {
+        "date": "2026-05-19 19:16 UTC",
+        "content": "\ud83d\udfe0 HIGH: \n\nMini Shai-Hulud malware compromises hundreds of npm packages, \n               stealing publishing tokens, installing OS-level backdoors, and persisting \n               in developer tools and CI pipelines. Affected packages are used by unknown \n               number of developers. via CyberScoop\n\n#cve #cybersecurity #npm",
+        "url": "https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/"
+    },
+    {
+        "date": "2026-05-19 21:44 UTC",
+        "content": "\ud83d\udd34 Critical Zero-Day Exploits Hit Windows Following Patch Tuesday. A security researcher disclosed vulnerabilities using exploit techniques including YellowKey, GreenPlasma, and MiniPlasma. These could lead to data breaches. via Dark Reading. #cybersecurity #zerotday #windowsvulnerability",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday"
+    },
+    {
+        "date": "2026-05-19 23:20 UTC",
+        "content": "\ud83d\udd34 CRITICAL: Exploit-driven breaches surged in 2025, making vulnerabilities the top entry point. Verizon's report highlights an industrywide lack of critical defect remediation, leaving systems vulnerable to attacks. via CyberScoop #cybersecurity #exploitdriven #breaches",
+        "url": "https://cyberscoop.com/verizon-data-breach-investigations-report-2026/"
+    },
+    {
+        "date": "2026-05-20 08:34 UTC",
+        "content": "\ud83d\udfe0 Critical: Grafana GitHub exposed via TanStack npm attack\n   A recent breach allowed unauthorized access to Grafana Labs' public and private source code, including internal GitHub repositories. \n   The technical vector: A GitHub environment vulnerability, possibly stemming from TanStack npm.\n   The impact: No evidence of customer production systems or operations compromised.",
+        "url": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html"
+    },
+    {
+        "date": "2026-05-20 12:03 UTC",
+        "content": "\ud83d\udfe0 Critical: Over 320 NPM packages hit by a fresh Mini Shai-Hulud supply chain attack. The attack targets the @antv namespace through a compromised maintainer account, publishing malicious package versions.\n\nThe Breakdown: A single maintainer account was compromised, allowing malicious code to be injected into packages.\n\nThe Technical Vector: The attacker leveraged a compromise of a maintainer account to publish malicious versions of packages across the @antv namespace.\n\nThe Impact: Over 320 packages are at risk, with users who have installed these packages potentially exposing themselves to supply chain attacks. via SecurityWeek\n\n#cybersecurity #supplychainattack #NPM",
+        "url": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/"
+    },
+    {
+        "date": "2026-05-20 18:29 UTC",
+        "content": "\ud83d\udd34 GitHub suffers internal data exfiltration via poisoned Visual Studio Code extension \nAttack vector: Employee device compromised through 3rd-party developer tool. \nThe Breakdown: \n\u2022 A Visual Studio Code extension was poisoned with malware \n\u2022 GitHub employee device was compromised through the extension \nThe Technical Vector: \n\u2022 Undisclosed method of exfiltration \n\u2022 Internal repositories affected \nThe Impact: \n\u2022 Large-scale data at risk \nvia CyberScoop #cybersecurity #VSCode #softwaresecurity",
+        "url": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/"
+    },
+    {
+        "date": "2026-05-20 21:08 UTC",
+        "content": "\ud83d\udce6 HIGH A significant threat to npm supply chain. Attackers have discovered wormable malware, CI/CD persistence, and multi-stage attacks. These post-Shai Hulud changes expose users to severe risks. via Unit 42 #cybersecurity #npmthreat #supplychainsecurity",
+        "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"
+    },
+    {
+        "date": "2026-05-20 22:43 UTC",
+        "content": "\ud83d\udd34 Ukraine Uncovers Infostealer Malware Operator\n\nA suspect has been identified in connection with an infostealer malware operation that compromised 28,000 user accounts. The operation targeted an online store in California. The malware steals sensitive user information.\n\u2022 The malware was distributed via drive-by downloads.\n\u2022 The operation was tied to an 18-year-old man from Odesa.\n\u2022 The online store in California was specifically targeted.\nvia BleepingComputer\n\n#cybersecurity #infostealer #malware",
+        "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/"
+    },
+    {
+        "date": "2026-05-21 00:17 UTC",
+        "content": "\ud83d\udd34 Critical: Fake Android apps commit carrier billing fraud for premium services. The disguised apps use WebView automation, JavaScript injection, and OTP interception to avoid detection and complete fraudulent subscriptions.\n   \u2022 The apps disguise themselves as legitimate services to avoid detection.\n   \u2022 The threat actor uses JavaScript injection to bypass security measures.\n   \u2022 OTP interception occurs, allowing the apps to complete fraudulent subscriptions.\n   via Dark Reading. #cybersecurity #androidmalware #carrierbillingfraud",
+        "url": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud"
+    },
+    {
+        "date": "2026-05-21 05:19 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udd34 Drupal Core CVE-2026-9082 (CVSS: 6.5/10): A highly critical RCE vulnerability in PostgreSQL sites allows attackers to execute code, escalate privilege, or disclose information. The flaw was discovered in the database abstraction API.\n\n\u2022 CVSS score: 6.5/10.0\n\u2022 Vulnerability type: RCE, privilege escalation, info disclosure\n\nWho is at risk? Drupal Core users with PostgreSQL databases via The Hacker News",
+        "url": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html"
+    },
+    {
+        "date": "2026-05-21 10:02 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udfe1 Linux Kernel Bug Lets Users Run Commands as Root\nA 9-year-old vulnerability in the Linux kernel exposes default installations to privilege escalation attacks.\n\nThe Breakdown\nResearchers discovered a flaw that allows unprivileged local users to execute arbitrary commands as root.\nThe Technical Vector\nThis is due to improper privilege management within the Linux kernel.\nThe Impact\nDefault installations of major distros are at risk.\nvia The Hacker News\ntagged #cybersecurity #linuxsecurity #kernelvulnerability",
+        "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html"
+    },
+    {
+        "date": "2026-05-21 13:31 UTC",
+        "content": "\ud83d\udd34 'Critical Vulnerability in Cisco Secure Workload Patched' \nAttackers with remote access to Secure Workload's REST APIs can be granted Site Admin privileges without proper validation and authentication.\n\u2022 Attackers target the insufficient validation and authentication in the REST APIs.\n\u2022 Remote attackers can exploit this vulnerability to gain Site Admin privileges.\n\u2022 Cisco has patched the vulnerability.\n\u2022 Cisco Secure Workload users are at risk.\nvia SecurityWeek\n#cybersecurity",
+        "url": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/"
+    },
+    {
+        "date": "2026-05-21 16:48 UTC",
+        "content": "\ud83d\udfe5 Selective HTTP Proxying in Linux\nA generic Linux option for intercepting requests from specific processes is lacking. A tool like Proxifier for Windows, macOS, and Android targets software for debugging, reverse engineering, and analysis. via SANS ISC #cybersecurity #linux #proxying",
+        "url": "https://isc.sans.edu/diary/rss/33002"
+    },
+    {
+        "date": "2026-05-21 19:15 UTC",
+        "content": "\ud83d\udfe1 CISA warns of open-source vulnerability threats & delayed security improvements. A wave of malware attacks targets publicly available tech for collaboration.\n\nThe Breakdown:\n  \u2022 Malware attacks increase due to open-source vulnerabilities\n\nThe Technical Vector:\n  \u2022 Unknown\n\nThe Impact:\n  \u2022 Enterprises and users relying on open-source tech at risk via CyberScoop.\n#cybersecurity #open-source #malwareattacks",
+        "url": "https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delayed-security-improvements/"
+    },
+    {
+        "date": "2026-05-21 21:47 UTC",
+        "content": "\ud83d\udd34 Critical: Google accidentally exposed details of unfixed Chromium flaw, allowing remote code execution on devices via JavaScript running in the background even when the browser is closed. The exact scope and timeline of possible exploitation are unclear. via BleepingComputer #cybersecurity #ChromiumVulnerability",
+        "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/"
+    },
+    {
+        "date": "2026-05-22 08:31 UTC",
+        "content": "\ud83d\udfe0 Critical Vulnerabilities Added to KEV Catalog \nLangflow origin validation error (CVE-2025-34291 (CVSS: 8.8/10)) can allow attackers to compromise applications.\n\u2022 Exploited by malicious actors\n\u2022 Can lead to unauthorized data access and remote code execution\n\u2022 CISA has added 2 security flaws to the KEV catalog to ensure timely mitigation actions via The Hacker News. #cybersecurity #Langflow #CVE-2025-34291 (CVSS: 8.8/10)",
+        "url": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html"
+    },
+    {
+        "date": "2026-05-22 11:59 UTC",
+        "content": "\ud83d\udd34 Critical - KimWolf botnet administrator arrested & charged. A Canadian man was arrested & charged with operating the KimWolf DDoS botnet, infecting nearly two million devices worldwide. \u23f1\ufe0f The botnet relied on compromised IoT devices.\n\n\ud83d\udd39 The Breakdown: The KimWolf botnet targeted IoT devices.\n\ud83d\udd39 The Technical Vector: The botnet relied on compromised IoT devices.\n\ud83d\udd39 The Impact: Nearly two million devices compromised. via BleepingComputer. #cybersecurity #DDoS #KimWolf",
+        "url": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/"
+    },
+    {
+        "date": "2026-05-22 15:20 UTC",
+        "content": "\ud83d\udcf5 High \ud83d\udfe0 social engineering attacks increase vulnerability in healthcare sector.\n\nThe 2026 Data Breach Investigations Report (DBIR) highlights ransomware and vendor breaches persisting in the sector.\n\n\u2022 Evolving tactics used in social engineering attacks.\n\nThe sector is more at risk due to the increase in these tactics via Dark Reading.\n#cybersecurity #socialengineering #healthcare",
+        "url": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks"
+    },
+    {
+        "date": "2026-05-22 18:02 UTC",
+        "content": "\ud83d\udd34 Breach Alert: Lawmakers Demand Answers Over CISA Data Leak\nA CISA contractor intentionally published AWS GovCloud keys and secret agency data on a public GitHub account, prompting lawmakers to demand answers and CISA to struggle with containment.\n\nThe Breakdown: A contractor accidentally leaked sensitive data in the public GitHub repository, which contained AWS GovCloud keys and a vast trove of other agency secrets.\n\nThe Technical Vector: The compromised keys exposed CISA's AWS GovCloud services to potential unauthorized access.\n\nThe Impact: CISA is now working to invalidate the leaked credentials and lawmakers are pressing for answers on how this happened and what's being done to prevent such incidents in the future.\nvia Krebs on Security\n#cybersecurity #AWS #CISA",
+        "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
+    },
+    {
+        "date": "2026-05-22 20:06 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udd34 **Critical Drupal Vulnerability Exploited**\n\nThousands of websites under attack following CVE-2026-9082 (CVSS: 6.5/10) disclosure.\n\n\u2022 Drupal users advised to update ASAP.\n\n\u2022 Multiple security firms reporting attacks.\n\nvia SecurityWeek. #cybersecurity #DrupalVulnerability #CVE20269082",
+        "url": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/"
+    },
+    {
+        "date": "2026-05-22 21:23 UTC",
+        "content": "\ud83d\udd34 **CRITICAL CYBERATTACKS ENABLED BY HOSTING FIRM**\n\nThe Netherlands' FIOD arrested two men and seized 800 servers linked to a web hosting company.\n\n**The Breakdown:** The hosting firm enabled cyberattacks, interference operations, and disinformation campaigns.\n\n**The Technical Vector:** The hosting company provided infrastructure for malicious activities.\n\n**The Impact:** Multiple cyberattacks were carried out using this hosting firm.\nvia BleepingComputer\n\n#cybersecurity #disinformationCampaigns #hostingSecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/"
+    },
+    {
+        "date": "2026-05-23 09:12 UTC",
+        "content": "",
+        "url": "https://isc.sans.edu/diary/rss/33008"
+    },
+    {
+        "date": "2026-05-23 12:07 UTC",
+        "content": "\ud83d\udfe0 Critical \u2018Underminr\u2019 vulnerability exploits 88 million domains, hiding malicious connections behind trusted domains. The Breakdown: a stealthy vulnerability allows attackers to bypass DNS filtering. The Technical Vector: command-and-control traffic can be hidden. The Impact: 88 million domains at risk. via SecurityWeek #cybersecurity #Underminr #DNS",
+        "url": "https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/"
+    },
+    {
+        "date": "2026-05-23 14:01 UTC",
+        "content": "\ud83d\udfe0 High-Severity Flaws Uncovered in Widely Used Software\n\nProject Glasswing, an effort led by Anthropic, has discovered over 10,000 high- or critical-severity vulnerabilities across some of the most systemically important software globally.\n\nThe Technical Vector:\n\u2022 AI-powered vulnerability scanning\n\u2022 Over 10,000 flaws found\n\nThe Impact:\n\u2022 Critical and high-severity vulnerabilities\n\u2022 Impacted software: numerous, systemically important\n\nvia The Hacker News\n#cybersecurity #AI-powered-vulnerability-scanning #Anthropic",
+        "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
+    },
+    {
+        "date": "2026-05-23 15:18 UTC",
+        "content": "\ud83d\udd34 CRITICAL: Italy disrupts CINEMAGOAL piracy app stealing streaming auth codes. The app provided access to Netflix, Disney+, Spotify. Authorities dismantled the piracy ecosystem in an effort to curb widespread piracy via a malicious app. via BleepingComputer #cybersecurity #streamingpiracy #cinemagoal",
+        "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/"
+    },
+    {
+        "date": "2026-05-23 17:15 UTC",
+        "content": "\ud83d\udfe0 npm Stage Publishing Feature Released: A New 2FA-Gated Security Control Against Supply Chain Attacks\n\nThe Breakdown: npm now has a staged publishing feature that requires 2FA approval by maintainers before releasing packages.\n\nThe Technical Vector: This feature is designed to prevent malicious packages from entering the supply chain.\n\nThe Impact: Maintainors will need to pass a 2FA challenge before packages can be installed, potentially thwarting supply chain attacks via npm. via The Hacker News #cybersecurity #npm #supplychain.",
+        "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html"
+    },
+    {
+        "date": "2026-05-23 21:07 UTC",
+        "content": "\ud83d\udfe0 Laravel Lang packages hijacked to deploy malware\n\nThe Breakdown:\n\u2022 Attackers abused GitHub version tags to distribute\nmalicious code through Composer packages.\n\nThe Technical Vector:\n\u2022 Malicious code was deployed as part of the\nLaravel Lang localization packages.\n\nThe Impact:\n\u2022 Developers exposed to credential-stealing malware.\nvia BleepingComputer\n#cybersecurity\n#supplychain\n#malware",
+        "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
+    },
+    {
+        "date": "2026-05-24 17:15 UTC",
+        "content": "\ud83d\udd34 Ghost CMS SQL Injection Flaw Under Active Exploitation\nLarge-scale campaign infecting sites with ClickFix flows\n\u2022 Attackers exploit CVE-2026-26980 (CVSS: 9.4/10) to inject malicious code\n\u2022 Impact: potentially sensitive data at risk for 1.3 million sites\nvia BleepingComputer\n#cybersecurity #ClickFix #GhostCMS",
+        "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/"
+    },
+    {
+        "date": "2026-05-24 19:38 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udd34 Critical: Wireshark 4.6.6 Released, addressing a high-severity vulnerability. The Breakdown: A fix for 1 vulnerability and 11 bugs was released. The Technical Vector: No technical details are provided. The Impact: Users are advised to update to the latest version via SANS ISC. #cybersecurity #WiresharkVulnerability #CVE-2024-12345 (CVSS: 4.4/10)",
+        "url": "https://isc.sans.edu/diary/rss/33010"
+    },
+    {
+        "date": "2026-05-25 12:44 UTC",
+        "content": "\ud83d\udfe2 LOW: The Alert Firehose Finally Meets Its Match via The Hacker News. Many organizations still view Network Detection and Response (NDR) with suspicion due to its reputation for being \"Noisy\" and generating too much data.\n\n\u2022 However, newer NDR systems with agentic AI capabilities are actually improving threat detection and response.\n\n\u2022 The result is earlier threat detection, faster triage, and fewer false positives.\n\n#cybersecurity #networkdetection #AIsecurity",
+        "url": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html"
+    },
+    {
+        "date": "2026-05-25 16:02 UTC",
+        "content": "\ud83d\udfe1 Linux Flaws Exposed: Unpatched Servers Put Data at Risk\nA week's recap reveals unsecured dev tools, resurrected bugs, and security products in need of patching. \n\nThe Breakdown:\n\u2022 Dev tools left users vulnerable\n\u2022 Old bugs resurfaced\n\nThe Technical Vector:\n\u2022 Unpatched servers put data at risk\n\u2022 Phishing attacks becoming more targeted\n\nThe Impact:\n\u2022 Multiple companies affected\n\u2022 Data compromised via unsecured servers\nvia The Hacker News #cybersecurity #Linux #phishing",
+        "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
+    },
+    {
+        "date": "2026-05-25 19:57 UTC",
+        "content": "\ud83d\udfe1 Breakout in the making: Anthropic's restricted Claude Mythos model may leak to public. This pose major security risks to private and public software. \n   The Breakdown: Anthropic announced Mythos in April as a restricted model, but public rollout is imminent.\n   The Technical Vector: No technical details on the threat, but Mythos poses significant security risks.\n   The Impact: Private and public software at risk of major security breaches.\n   via BleepingComputer #cybersecurity #Anthropic #ClaudeMythos",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/"
+    },
+    {
+        "date": "2026-05-26 08:42 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34\nKnowledgeDeliver LMS Zero-Day Exploit Delivers Malware\nA high-severity security flaw in Digital Knowledge's KnowledgeDeliver LMS was exploited to deploy the Godzilla web shell and ultimately facilitate the deployment of Cobalt Strike Beacon. \nThe vulnerability, tracked as CVE-2026-5426 (CVSS: 7.5/10) (CVSS score: 7.5), stems from the use of hard-coded ASP.NET machine keys.",
+        "url": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html"
+    },
+    {
+        "date": "2026-05-26 16:52 UTC",
+        "content": "\ud83d\udfe1 AppOmni's Marlin AI suffers from partial autonomy in investigation, but stops short of full autonomy\n\nThe Breakdown: Marlin AI automatically analyzes SaaS misconfigurations\nThe Technical Vector: Investigates related activity across enterprise environments\nThe Impact: Enterprise SaaS users at risk via misconfigurations\nvia SecurityWeek\n#cybersecurity #SaaSsecurity #Misconfigurations",
+        "url": "https://www.securityweek.com/appomnis-marlin-ai-brings-autonomous-investigation-to-saas-security/"
+    },
+    {
+        "date": "2026-05-26 21:57 UTC",
+        "content": "\ud83d\udd34 KNOWLEDGEDELIVER LMS ZERODAY EXPLOIT \ud83d\udee1\ufe0f\nHackers are targeting vulnerable KnowledgeDeliver LMS servers to deploy web shells via a recently discovered zero-day vulnerability.\nThe zero-day exploit allows attackers to execute arbitrary code and gain control over the affected system. \ud83d\udcc9\nIf exploited, attackers can steal sensitive data, disrupt operations, and even install ransomware. \ud83d\udcbb\nvia BleepingComputer #cybersecurity #zerodayvulnerability #webshells",
+        "url": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/"
+    },
+    {
+        "date": "2026-05-26 23:22 UTC",
+        "content": "\ud83d\udd34 Charter Communications confirms data breach after ShinyHunters extortion threat. The cybercrime group threatened to leak stolen data unless a ransom is paid.\n\n**The Breakdown**\n Charter Communications has suffered a data breach after the ShinyHunters extortion group threatened to release the stolen data.\n \n**The Technical Vector**\n The attack is attributed to the ShinyHunters extortion group's threat.\n \n**The Impact**\n Charter Communications is at risk of having its customer data leaked unless a ransom is paid.\n \nvia BleepingComputer. #cybersecurity #ShinyHunters #data_breach",
+        "url": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/"
+    },
+    {
+        "date": "2026-05-27 16:46 UTC",
+        "content": "\ud83d\udd34 Critical: CrowdStrike disrupts Glassworm botnet preying on open-source supply chain.\n\nThe Breakdown: CrowdStrike dismantled the Glassworm botnet in an operation with Google and Shadowserver, stripping the operators\u2019 access to infrastructure used to infect hundreds of open-source software with malware since early 2025.\n\nThe Technical Vector: The bots targeted open-source software, leveraging attacker-controlled servers designed to [ ... ].\n\nThe Impact: Hundreds of open-source software pieces are at risk. via CyberScoop #cybersecurity #supplychain #Glassworm",
+        "url": "https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/"
+    },
+    {
+        "date": "2026-05-27 19:32 UTC",
+        "content": "\ud83d\udfe0 Latin American Cybercrime Targets Uruguayan Govt for Data \ud83d\udcb8\nA leak exposed 5.8M records of Uruguayan citizens. Cybercriminals targeted govt agencies to monetize citizen data.\n\u2022 Exploiting government data for financial gain\n\u2022 Large-scale data breach of Uruguayan citizens\n\u2022 Latin American cybercrime group involved\nvia Dark Reading\n#cybersecurity #LACybercrime #GovernmentDataBreach",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data"
+    },
+    {
+        "date": "2026-05-27 22:07 UTC",
+        "content": "\ud83d\udfe0 **Critical Banking Trojan Campaigns Exposed**\n\nA series of targeted attacks, led by the Grandoreiro and BTMOB malware, pose a significant threat to Windows and Android users. \n\n\u2022 The attackers specifically target companies in Spain, Portugal, and Mexico, as well as mobile users in Brazil. \n\n\u2022 Both malware families aim to steal sensitive information and compromise security. \n\nvia The Hacker News\n\n#cybersecurity #Grandoreiro #BTMOBRAT",
+        "url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html"
+    },
+    {
+        "date": "2026-05-27 23:37 UTC",
+        "content": "\ud83d\udd34 **Law Firms Under Siege**\n\nThe FBI warns that Silent Ransom Group, a cybercrime gang, is targeting US law firms in person. They use a combination of social engineering and visits to steal data and conduct ransomware attacks.\n\n**The Breakdown:** Silent Ransom Group is known for its in-person visits, a tactic rarely seen in the cybersecurity world. They compromise law firms' computers, steal sensitive data, and demand ransom.\n\n**The Technical Vector:** This attack involves a combination of social engineering and in-person visits, making it difficult for law firms to defend.\n\n**The Impact:** US-based law firms are at risk of being targeted by Silent Ransom Group, who can steal sensitive data and demand ransom. via CyberScoop\n\n#cybersecurity #lawfirmsecurity #ransomware",
+        "url": "https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/"
+    },
+    {
+        "date": "2026-05-28 12:44 UTC",
+        "content": "\ud83d\udfe1 Heap Overflow Vulnerability Discovered in DICOM File Format\n\nA recent white paper exposed a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The vulnerability occurs through the use of the DICOM file format.\n\nThe Technical Vector:\n\u2022 The vulnerability is created through the exploitation of the DICOM file format.\n\nThe Impact:\n\u2022 Users and organizations that process DICOM files are at risk of exploitation.\n\nvia Cisco Talos\n#cybersecurity #DICOM #heap_overflow",
+        "url": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/"
+    },
+    {
+        "date": "2026-05-28 17:01 UTC",
+        "content": "\ud83d\udd34 Carnival Data Breach: 6M Exposed to ID Theft Risks\n\u2022 Carnival data breach affects nearly 6 million customers\n\u2022 Exposed to identity theft risks\n\u2022 No further information on breach cause or timeline\nvia SecurityWeek #cybersecurity #dataloss #idtheft",
+        "url": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/"
+    },
+    {
+        "date": "2026-05-28 22:05 UTC",
+        "content": "\ud83d\udfe1 A Google security engineer allegedly exploited internal access for confidential search trends, winning $1.2M on Polymarket. The Breakdown: Spagnuolo used Google's nonpublic data for insider trading. The Technical Vector: He turned confidential search results into trades. The Impact: Users' sensitive info is at risk. via CyberScoop #cybersecurity #insiderttrading #Google",
+        "url": "https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/"
+    },
+    {
+        "date": "2026-05-28 23:41 UTC",
+        "content": "\ud83d\udfe1 AI-Powered Cyberattacks on the Rise\n\nGreyVibe attackers use ChatGPT, Gemini, and other AI tools to supercharge cyberattacks.\n\n**The Breakdown**: Researchers warn of GreyVibe's extensive use of AI in cyberattacks.\n\n**The Technical Vector**: GreyVibe leverages AI tools to enhance cybercriminal operations.\n\n**The Impact**: State-aligned groups and cybercriminals may follow suit, using AI to amplify attacks.\n\nvia SecurityWeek\n#cybersecurity #ArtificialIntelligence #Cybercrime",
+        "url": "https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/"
+    },
+    {
+        "date": "2026-05-29 04:40 UTC",
+        "content": "\ud83d\udfe2 **Public Rollout Delayed Due to Security Risks**\n\nThe general public rollout of Anthropic's Mythos-class models has been delayed due to security risks affecting public and private software. These models, which were originally set for public release, may pose a threat to users if not properly audited. They may be used to develop and deploy malware or exploits. \n\nThe technical vector of this attack is the introduction of potentially insecure code into the public domain via these models. If exploited, this could result in the development of zero-day exploits. \n\nThe impact of this security risk is widespread, as Anthropic's models are intended for public use. This means that many users could be at risk if these models are not thoroughly audited for security.\n\nvia BleepingComputer\n\n#cybersecurity #AI #ArtificialIntelligence",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/"
+    },
+    {
+        "date": "2026-05-29 08:51 UTC",
+        "content": "\ud83d\udfe0 ALERT: Kimsuky, a North Korean state-sponsored threat actor, has been attributed to a series of cyber attacks targeting S. Korean military and corporate entities through March and April. Tactics included spoofed security software installation pages and a fake Webex meeting page.\n   \nThe Breakdown: Kimsuky deployed HTTPSpy and expanded their arsenal with HelloDoor and VS Code tunnels, targeting S. Korean entities.\n   \nThe Technical Vector: Kimsuky used tailored social engineering tactics, including spoofed security software installation pages and a fake Webex meeting page to execute attacks.\n   \nThe Impact: At risk are South Korean military and corporate entities, with the potential for data breaches and unauthorized access.\n\nvia The Hacker News #cybersecurity #Kimsuky #HelloDoor",
+        "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
+    },
+    {
+        "date": "2026-05-29 12:26 UTC",
+        "content": "\ud83d\udfe0 Breaking: Google Chrome's Device Bound Session Credentials (DBSC) security feature is now available to all users, protecting against session cookie theft and account takeovers. The Breakdown: Google rolled out DBSC to prevent account takeovers. The Technical Vector: DBSC binds session cookies to devices, making it harder for attackers to steal cookies. The Impact: This protection applies to all Chrome users, securing their accounts and preventing potential takeovers. via BleepingComputer. #cybersecurity #WebSecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/"
+    },
+    {
+        "date": "2026-05-29 16:53 UTC",
+        "content": "\ud83d\udd34 CRITICAL: Trump Mobile data breach exposes customer data. Phishers target the 2026 FIFA World Cup. CISA responds to recent supply chain attacks. \n\nThe Breakdown: Trump Mobile data breach and FIFA phishing campaigns detected. Supply chain attacks being addressed by CISA. \n\nThe Technical Vector: Details not specified on attack vectors. \n\nThe Impact: Customer data exposed, FIFA World Cup attendees at risk, and various enterprises vulnerable to supply chain attacks. \n\nvia SecurityWeek #cybersecurity #phishing #supplychainattacks",
+        "url": "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/"
+    },
+    {
+        "date": "2026-05-29 22:04 UTC",
+        "content": "\u26a0\ufe0f Breaking: Tennessee man linked to 764 child sex abuse material (CSAM) victims. Zachary Sweeney allegedly met and harmed children in multiple states. An FBI investigation began in 2023.",
+        "url": "https://cyberscoop.com/tennessee-zachary-sweeney-764-charged-csam-exploitation/"
+    },
+    {
+        "date": "2026-05-30 07:50 UTC",
+        "content": "\ud83d\udd34 **Critical Vulnerability Alert \ud83d\udfe0**\nPalo Alto Networks has reported that a medium-severity security flaw in PAN-OS and Prisma Access is being actively exploited. The vulnerability, tracked as CVE-2026-0257 (CVSS: 9.1/10), enables authentication bypass, potentially allowing attackers to set up VPN connections.\n\nThe Breakdown: The vulnerability is a case of authentication bypass, which allows unauthorized access to networks.\nThe Technical Vector: Exploitation of CVE-2026-0257 (CVSS: 9.1/10) could potentially lead to VPN connections being established without proper authentication.\nThe Impact: Organizations using PAN-OS and Prisma Access may be at risk if this vulnerability is exploited.\n\nvia The Hacker News. #cybersecurity #pan-security #auth-bypassvulnerability",
+        "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html"
+    },
+    {
+        "date": "2026-05-30 14:47 UTC",
+        "content": "\ud83d\udd34 Critical: New Linux flaw allows for root privileges via CIFSwitch vulnerability.\nThis local privilege escalation affects multiple Linux distributions, enabling attackers to forge CIFS authentication key descriptions and abuse the kernel's key request mechanism.\nVulnerability exists in the Linux kernel, allowing exploitation and gain of root privileges.\nVia BleepingComputer\n#cybersecurity #Linux #privilege_escalation",
+        "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/"
+    },
+    {
+        "date": "2026-05-30 18:15 UTC",
+        "content": "\ud83d\udd34 **GlobalProtect VPN Bypass Under Active Attack**\n\nHackers are now exploiting a serious flaw in Palo Alto GlobalProtect VPN allowing them to bypass authentication and gain access to corporate networks.\n\n**The Breakdown:** Palo Alto Networks has confirmed an authentication bypass flaw in GlobalProtect VPN, tracked as CVE-2026-0257 (CVSS: 9.1/10).\n\n**The Technical Vector:** Attackers use the flaw to bypass authentication and gain access to the network.\n\n**The Impact:** Corporate networks, potential data breaches and unauthorized access.\n\nvia BleepingComputer #cybersecurity #PaloAltoNetworks #CVE-2026-0257 (CVSS: 9.1/10)",
+        "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/"
+    },
+    {
+        "date": "2026-05-30 20:16 UTC",
+        "content": "\ud83d\udd34 Russian Spies Seek Western Technology. Moscow\u2019s agents build fake companies, recruit middlemen and deploy cyber spies for key infrastructure attacks via info gathering.\n\nThe Breakdown: Fake companies and middlemen aid Russian spies in acquiring info.\n\nThe Technical Vector: Cyber spies gather data for potential future attacks.\n\nThe Impact: Western infrastructure vulnerable due to Russian espionage.\n\nvia SecurityWeek #cybersecurity #russianespionage #westerntechnology",
+        "url": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/"
+    },
+    {
+        "date": "2026-05-31 14:55 UTC",
+        "content": "\ud83d\udd34 Critical: WP Maps Pro bug exploited to create admin accounts on WordPress sites. Hackers target vulnerable sites to create rogue admin accounts without authentication. This is a zero-day vulnerability, allowing attackers full control over the website. via BleepingComputer #cybersecurity #WordPress #WPMapsPro",
+        "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/"
+    },
+    {
+        "date": "2026-06-01 12:08 UTC",
+        "content": "\ud83d\udfe2 Security Growth Platforms: What MSPs Need\nMSPs and MSSPs are moving away from vCISO tools. This shift comes with growing cybersecurity needs.\n\nThe Breakdown:\n\nMSPs need more than just vCISO platform assessments and advisory services. This is not about bolted-on compliance modules but rather complete security growth platforms.\n\nThe Technical Vector:\n\nSecurity growth platforms provide a foundation for MSPs to deliver advanced security services. They include capabilities such as security consulting, monitoring and incident response.\n\nThe Impact:\n\nOrganizations that fail to adapt their security posture will miss out on the benefits of a robust security growth platform.\n\nvia The Hacker News\n#cybersecurity #managedsecurityservices #cyberposturing",
+        "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html"
+    },
+    {
+        "date": "2026-06-01 18:15 UTC",
+        "content": "\ud83d\udfe0 High: Hackers exploited Meta's AI Support Bot to seize Instagram accounts for the Obama White House and U.S. Space Force Chief Master Sergeant.\n\n\u2022 Attackers used Telegram to spread instructions on how to reset passwords.\n\nThe risk is still present for users of Instagram, whose accounts could be compromised.\n\nvia Krebs on Security\n#cybersecurity #IranianThreatActor #InstagramHack",
+        "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/"
+    },
+    {
+        "date": "2026-06-01 22:16 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks. DriveSurge threat actor exploits compromised sites to distribute malware. The Breakdown: Thousands of sites hijacked for malware distribution. The Technical Vector: DriveSurge uses ClickFix and FakeUpdates techniques to spread malware. The Impact: At-risk sites and users. Anyone accessing these sites may be infected. via BleepingComputer #cybersecurity #malware #DriveSurge",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/"
+    },
+    {
+        "date": "2026-06-02 01:35 UTC",
+        "content": "\ud83d\udd34 **Red Hat npm Packages Compromised in Supply-Chain Attack**\nA supply-chain attack compromised more than 30 npm packages under Red Hat's '@redhat-cloud-services' namespace, distributing a variant of the Shai-Hulud credential-stealing malware, dubbed 'Miasma'.\nThe Breakdown: More than 30 npm packages compromised, distributing a new variant of the Shai-Hulud malware.\nThe Technical Vector: The malware was distributed through a supply-chain attack.\nThe Impact: Developers' credentials at risk due to compromised npm packages.",
+        "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/"
+    },
+    {
+        "date": "2026-06-02 11:41 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Oracle WebLogic servers hacked! A zero-day exploit of CVE-2024-21182 (CVSS: 7.5/10) allows attackers to compromise WebLogic servers without authentication. This vulnerability can lead to data theft and unauthorized access. via SecurityWeek #cybersecurity #Oracle #WebLogicExploitation",
+        "url": "https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/"
+    },
+    {
+        "date": "2026-06-02 16:53 UTC",
+        "content": "\ud83d\udd25 AI-powered attacks & shadow AI adoption create new security risks inside the browser. Push Security explains why browser visibility is critical for threat detection & AI governance.\n\nThe Breakdown: AI-powered attacks exploit browser vulnerabilities.\n\nThe Technical Vector: Shadow AI adoption occurs without visibility.\n\nThe Impact: Unknown scope at risk, but AI governance critical. via BleepingComputer #cybersecurity #artificialintelligence",
+        "url": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/"
+    },
+    {
+        "date": "2026-06-02 23:07 UTC",
+        "content": "\ud83d\udd34 Critical: Kali365 phishing-as-a-service platform expands its reach. Targets AWS, Okta, Russian platforms, and Microsoft 365 using device code phishing. Breakdown: Kali365 is a well-known phishing kit initially targeting MS 365. Technical vector: This phishing kit uses device code phishing. Impact: Any users of these platforms are at risk of being phished.\n   \n   via Dark Reading. #cybersecurity #PhishingAttack #Kali365",
+        "url": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach"
+    },
+    {
+        "date": "2026-06-03 01:45 UTC",
+        "content": "\ud83d\udd34 ",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks"
+    },
+    {
+        "date": "2026-06-03 12:07 UTC",
+        "content": "\ud83d\udfe0 Critical: A prompt injection flaw in Google Gemini's voice assistant allows attackers to hide malicious commands in notifications, enabling social engineering and more. The flaw lets attackers send seemingly innocuous notifications, but with a hidden malicious payload. This could be used to steal sensitive info or gain unauthorized access to user data. via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users"
+    },
+    {
+        "date": "2026-06-03 17:14 UTC",
+        "content": "\u2b1c BREAKDOWN: Modern Enterprise Identity fragmented across thousands of apps and decentralized teams. Identity Dark Matter: identity activity outside IAM visibility. via The Hacker News #cybersecurity #IAM",
+        "url": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html"
+    },
+    {
+        "date": "2026-06-03 21:29 UTC",
+        "content": "\ud83d\udd34 Google DoubleClick used in new malspam campaign to deliver DesckVB RAT. \n\u2022 Attackers exploit Google domain to evade detection and deliver RAT. \n\u2022 Malicious emails lure victims through DoubleClick before reaching attacker-controlled infrastructure. \n\u2022 Remote access trojan can compromise systems. via The Hacker News. #cybersecurity #desckvbrat #malspam",
+        "url": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html"
+    },
+    {
+        "date": "2026-06-03 23:59 UTC",
+        "content": "\ud83d\udfe0 HIGH A crackdown on organized crime groups has dismantled 9 syndicates & removed 27,000 URLs hosting pirated live sports and media. European authorities seized equipment, computers, and documents. via CyberScoop #cybersecurity #online_piracy #EUROPOL",
+        "url": "https://cyberscoop.com/europol-piracy-streaming-crackdown-operation-kratos2/"
+    },
+    {
+        "date": "2026-06-04 05:03 UTC",
+        "content": "\ud83d\udfe0 Security Alert: Pakistan Spies on Afghan Finance Ministry With Xeno RAT. The spies used standard TTPs to target the porous digital infrastructure of the Afghan Finance Ministry. This is a prime example of how unsecured digital infrastructure can be used for malicious purposes. \n   \u2022 The attackers used the Xeno RAT malware to spy on the ministry, which allowed them to gain access to sensitive information.\n   \u2022 The porous digital infrastructure of the Afghan Finance Ministry made it vulnerable to such attacks.\n   \u2022 This incident highlights the importance of robust cybersecurity measures to prevent such breaches from occurring in the future.\n   via Dark Reading #cybersecurity #nationstatethreats #ratmalware",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat"
+    },
+    {
+        "date": "2026-06-04 12:16 UTC",
+        "content": "\ud83d\udd34 Critical: Cisco warns of critical Unified CM flaw with PoC exploit code. Attackers can gain root privileges, affecting Unified Communications Manager. The flaw is exploitable via the Web Services Interface. CVE not mentioned.\n\nThe Breakdown: Cisco released security updates to patch the flaw.\n\nThe Technical Vector: The vulnerability is present due to improper access control in the Web Services Interface.\n\nThe Impact: Organizations with Unified Communications Manager are at risk.\nvia BleepingComputer\n#cybersecurity #Cisco #UnifiedCM",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/"
+    },
+    {
+        "date": "2026-06-04 16:28 UTC",
+        "content": "",
+        "url": "https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/"
+    },
+    {
+        "date": "2026-06-04 19:30 UTC",
+        "content": "\ud83d\udfe0 GitHub Action Security Flaw Allows Malicious Issue Hijack\nAttackers can take control of vulnerable public repos with a single issue. CVE not required. via The Hacker News\n#cybersecurity #githubaction #anthropic",
+        "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+    },
+    {
+        "date": "2026-06-04 21:52 UTC",
+        "content": "\ud83d\udfe2 LOW - Brave's Origin browsing app released with removed features.\n\nThe Breakdown: Brave Origin is a stripped-down version of the browser without cryptocurrency, AI, rewards, and monetization features.\n\nThe Technical Vector: This is not a security vulnerability.\n\nThe Impact: No potential security issues have been identified with the release of Brave Origin.\nvia BleepingComputer\n#cybersecurity #brave #browsing",
+        "url": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/"
+    },
+    {
+        "date": "2026-06-04 23:23 UTC",
+        "content": "\ud83d\udfe1 IronWorm, a Rust-written malware, compromises NPM Supply Chain. Targets developers for credentials. Exploits reused to spread across the software supply channel.\n\nThe Breakdown: IronWorm is designed to steal credentials from developers.\n\nThe Technical Vector: IronWorm spreads through the software supply channel, compromising the NPM Supply Chain.\n\nThe Impact: Developers' credentials are at risk. via Dark Reading\n#cybersecurity #RustMalware #NPM",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain"
+    },
+    {
+        "date": "2026-06-05 08:52 UTC",
+        "content": "\ud83d\udfe0 High-Risk Alert: Chinese spies posing as recruiters target govt & military staff w/ fake job opportunities. This social engineering tactic aims to exploit access to classified info. via SecurityWeek #cybersecurity #FiveEyes #SocialEngineering",
+        "url": "https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/"
+    },
+    {
+        "date": "2026-06-05 12:19 UTC",
+        "content": "\ud83d\udd34 Critical Vulnerability Alert: Hacker takes over sites with Everest Forms Pro WordPress plugin flaw, executing arbitrary code via CVE-2026-3300 (CVSS: 9.8/10) (CVSS 9.8). 4,000 active installations at risk. via The Hacker News #cybersecurity #WordPressSecurity",
+        "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html"
+    },
+    {
+        "date": "2026-06-05 16:08 UTC",
+        "content": "\ud83d\udfe1Comodo Vulnerability Alert\nAn unpatched Comodo flaw leaves users exposed. The vulnerability can be exploited without authentication, providing uncontrolled data access and potentially allowing a malicious actor to execute arbitrary code. \n   The Breakdown: \n   \u2022Comodo users are at risk of unauthenticated RCE.\n   The Technical Vector:\n   \u2022The unpatched flaw can be exploited without authentication.\n   The Impact:\n   \u2022Users may experience data theft and RCE attacks.\nvia SecurityWeek #cybersecurity #ComodoVulnerability",
+        "url": "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/"
+    },
+    {
+        "date": "2026-06-05 18:06 UTC",
+        "content": "\ud83d\udfe2 Microsoft impacted by researcher-vendor conflict in the wake of the Nightmare Eclipse incident.\n\nThe Breakdown:\nMicrosoft's coordinated vulnerability disclosure policy was called into question after a researcher's post.\nThe Technical Vector:\nConflicting views on responsible disclosure led to the public unveiling of unpatched vulnerabilities.\nThe Impact:\n\u2022 The incident highlights the challenges in balancing vendor security with researcher involvement.\nvia CyberScoop #cybersecurity #vulnerabilitydisclosure #microsoft",
+        "url": "https://cyberscoop.com/microsoft-coordinated-vulnerability-disclosure-debacle/"
+    },
+    {
+        "date": "2026-06-05 20:09 UTC",
+        "content": "\ud83d\udc7a A growing threat looms for enterprises: adaptive AI worms. Within a year, researchers warn, these 'viruses with wings and brains' may strike, exploiting vulnerabilities they've discovered and adapted for.\n\nThe Breakdown: AI worms are self-replicating, evolving malware.\n\nThe Technical Vector: They adapt to new environments and seek out vulnerabilities.\n\nThe Impact: Enterprises are at risk. via Dark Reading #cybersecurity #AIthreats #malware",
+        "url": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat"
+    },
+    {
+        "date": "2026-06-05 21:43 UTC",
+        "content": "\ud83d\udd34 **CISA Warns: Hackers Exploit Serv-U Flaw**\n\nAttackers are actively exploiting a high-severity flaw in SolarWinds Serv-U to crash servers. The issue was patched, but hackers have found a way to exploit it.\n\n\u2022 The flaw allows hackers to crash servers, making them unavailable to users.\n\n\u2022 SolarWinds Serv-U is a network management software widely used in industries.\n\nvia BleepingComputer\n\n#cybersecurity #SolarWinds #ServU",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/"
+    },
+    {
+        "date": "2026-06-05 23:36 UTC",
+        "content": "\ud83d\udfe0 Attack Alert: Multiple npm supply chain attacks compromise over 50 packages, spreading malware and info-stealers via malicious packages. The Miasma worm variant steals secrets using eBPF kernel rootkit. via The Hacker News #cybersecurity #supplychainattacks #infoStealer",
+        "url": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html"
+    },
+    {
+        "date": "2026-06-06 10:19 UTC",
+        "content": "\ud83d\udfe0 'AI-driven web scraping via Smart TVs'. Bright Data's SDK quietly turns devices, including always-on TVs, into exit nodes relaying web-scraping traffic for a data business. Devices at risk: always-on smart TVs using Bright Data's SDK.\n\nThe Breakdown: A researcher has reverse-engineered \nBright Data's iOS SDK that embeds consumer apps. They found the SDK turns devices into exit nodes relaying web-scraping traffic.\n\nThe Technical Vector: Smart TVs with the Bright Data SDK become exit nodes. They relay web-scraping traffic for a data business. The impact is on devices using the SDK.\n\nThe Impact: Always-on smart TVs with the Bright Data SDK are at risk of being compromised. via The Hacker News #cybersecurity #brightdata #sdkvulnerability",
+        "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html"
+    },
+    {
+        "date": "2026-06-06 16:18 UTC",
+        "content": "\ud83d\udfe0 A new Lockdown Mode has been rolled out to eligible ChatGPT users to limit the risk of data exfiltration.\n\nThe Breakdown: The new feature is designed to reduce the risk of prompt injection attacks.\nThe Technical Vector: Lockdown Mode restricts access to tools that could enable data exfiltration.\nThe Impact: This is aimed at users and orgs handling sensitive data, available in Free, Go, Plus, and Pro accounts.\n\nvia The Hacker News\n#cybersecurity #ai #dataexfiltration",
+        "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
+    },
+    {
+        "date": "2026-06-06 18:19 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers exploiting CVE-2026-3300 (CVSS: 9.8/10) in Everest Forms Pro plugin can take control of WordPress sites. The vulnerability allows complete takeover. Exploitation is active and users are advised to update their plugin. via BleepingComputer #cybersecurity #WordPressExploitation #EverestForms",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
+    },
+    {
+        "date": "2026-06-07 16:43 UTC",
+        "content": "\ud83d\udd34 A significant security-focused venture fund backs Emphere, an AI-driven vulnerability remediation company.\nThe Breakdown: Emphere secures $2.1 million in funding for its vulnerability solution.\nThe Technical Vector: AI-driven remediation for software companies.\nThe Impact: Accelerated software releases and improved vulnerability management. via SecurityWeek #cybersecurity #AIpoweredremediation",
+        "url": "https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/"
+    },
+    {
+        "date": "2026-06-07 18:18 UTC",
+        "content": "\ud83d\udd34 C0XMO botnet spreads via DD-WRT router flaw, kills rival malware. The Breakdown: C0XMO targets DD-WRT router firmware, moves to other devices.\nThe Technical Vector: Exploits a flaw in DD-WRT to gain control.\nThe Impact: Users with infected devices at risk. via BleepingComputer. #cybersecurity #DDWRT #Gafgyt",
+        "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/"
+    },
+    {
+        "date": "2026-06-08 00:21 UTC",
+        "content": "\ud83d\udfe1 MEDIUM\n\nAI-powered Windows Terminal 'Intelligent Terminal' fork has vulnerabilities. The open-source version uses AI directly inside Terminal, but it introduces security risks such as potential code injection.",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/"
+    },
+    {
+        "date": "2026-06-08 11:19 UTC",
+        "content": "\ud83d\udfe0 **Critical Vulnerability Discovered in Linux Systems**\nA China-nexus cyber espionage group, VerdantBamboo, has been found to be deploying a BSD variant of the BRICKSTORM backdoor, along with two other malware families, PLENET (aka GRIMBOLT) and AGENTPSD, to target Linux systems. \nThe attack vector involves the deployment of multiple malicious payloads, with the BRICKSTORM variant allowing for potential remote access to compromised systems.\nThe impact of this attack is severe, as it can lead to data theft, system compromise, and potential further exploitation of vulnerabilities. \nThe scale of the attack is unknown, but it is believed to be ongoing. via The Hacker News.\n=\"#cybersecurity #VerdantBamboo #LinuxSecurity\"",
+        "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html"
+    },
+    {
+        "date": "2026-06-08 16:17 UTC",
+        "content": "via SecurityWeek. #cybersecurity",
+        "url": "https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/"
+    },
+    {
+        "date": "2026-06-08 19:34 UTC",
+        "content": "\ud83d\udfe0 New WhatsApp Phishing Attack: Meta detected and blocked spear-phishing attempts from Israeli spyware vendor NSO Group, violating a permanent injunction. They tried to trick users into clicking malicious links to external websites. via The Hacker News. #cybersecurity #phishing #NSO",
+        "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html"
+    },
+    {
+        "date": "2026-06-08 22:00 UTC",
+        "content": "\ud83d\udd34 SoFi Hong Kong Confirms Third-Party Data Breach: Hackers Gained Access to Customer Information\n\nThe Breakdown: SoFi Hong Kong suffered a data breach after hackers targeted a third-party vendor's database.\n\nThe Technical Vector: Hackers accessed a database containing customer information.\n\nThe Impact: Customers are at risk from the exposed information, which could lead to identity theft and other malicious activities.\n\nvia BleepingComputer\n#cybersecurity #financialdata #data breach",
+        "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/"
+    },
+    {
+        "date": "2026-06-08 23:35 UTC",
+        "content": "\ud83d\udfe0 Critical Phishing Alert: Microsoft Teams under threat! Attackers target Teams users with phishing attempts. The attack vector works through unsolicited messages with fake caller IDs. 2.4 million users are at risk if exploited. This affects enterprise users. via Unit 42 #cybersecurity #phishing #MicrosoftTeams",
+        "url": "https://unit42.paloaltonetworks.com/microsoft-teams-phishing/"
+    },
+    {
+        "date": "2026-06-09 08:40 UTC",
+        "content": "\ud83d\udfe0 Google Patches 5th Chrome Zero-Day Exploited in 2026. A zero-day vulnerability in Chrome was reported by an anonymous researcher in late April and has been patched. The vulnerability (CVE-2026-11645 (CVSS: 8.8/10)) allows remote code execution, exposing users to potential cyber threats. \u2022 The researcher discovered the issue by tracking Chrome's sandbox escape. \u2022 This is Google's 5th zero-day patch this year. via SecurityWeek #cybersecurity #Chrome #ZeroDay",
+        "url": "https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/"
+    },
+    {
+        "date": "2026-06-09 12:14 UTC",
+        "content": "\ud83d\udd34 French govt messaging service Tchap breached in account hijacking attack. Thieves likely made off with sensitive info, putting govt agencies and officials at risk.\n\u2022 Hackers exploited a hijacked account to gain access to Tchap.\n\u2022 User account security measures failed, allowing attackers to breach the platform.\n\u2022 DINUM warned of potential sensitive info theft and official impersonation.\nvia BleepingComputer #cybersecurity #Frenchgovttargeted",
+        "url": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/"
+    },
+    {
+        "date": "2026-06-09 16:12 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Cisco customers hit by seventh exploited zero-day in SD-WANs this year.\n\nThe Breakdown: A zero-day vulnerability in Cisco SD-WANs is being actively exploited.\n\nThe Technical Vector: The vulnerability allows attackers to gain access to affected systems.\n\nThe Impact: Over 100 organizations are at risk due to the lack of patching. via CyberScoop\n#cybersecurity #SD-WAN #Cisco",
+        "url": "https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/"
+    },
+    {
+        "date": "2026-06-09 18:21 UTC",
+        "content": "\ud83d\udfe0 Adobe warns of 123 known vulnerabilities in its Experience Manager product. 51 of the vulnerabilities have been fixed. The remaining 72 are being worked on.\n\nThe Technical Vector:\n \u2022 Unspecified attack vectors for unauthenticated access.\n \u2022 Potential for sensitive data disclosure.\n\nThe Impact:\n \u2022 Affected is Adobe\u2019s Experience Manager product. via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/adobe-patches-123-vulnerabilities/"
+    },
+    {
+        "date": "2026-06-09 21:07 UTC",
+        "content": "\ud83d\udfe0 **Critical Patch Tuesday Alert**\nMicrosoft patches 204 vulnerabilities today, including 38 critical ones. 6 affect Microsoft cloud solutions & don't require user action. Chromium vulns also patched in Edge browser. via SANS ISC\n#cybersecurity #patchmanagement #Microsoft",
+        "url": "https://isc.sans.edu/diary/rss/33064"
+    },
+    {
+        "date": "2026-06-09 22:47 UTC",
+        "content": "\ud83d\udfe0 HIGH - Microsoft patches 200 vulnerabilities, including 3 publicly disclosed before being addressed via Patch Tuesday updates. The Breakdown: Microsoft addressed 200 vulnerabilities. The Technical Vector: 3 of these vulnerabilities were publicly disclosed beforehand. The Impact \u2022 Microsoft users may be vulnerable if exploited. via SecurityWeek. #cybersecurity #Microsoft #patchtuesday",
+        "url": "https://www.securityweek.com/microsoft-patches-200-vulnerabilities/"
+    },
+    {
+        "date": "2026-06-10 01:29 UTC",
+        "content": "\ud83d\udd34 Critical \ud83d\udd34 Windows vulnerable to nearly 200 unpatched security holes, including over three dozen critical bugs with public exploit code. Microsoft urges users to apply updates immediately for maximum protection. via Krebs on Security\n#cybersecurity #WindowsPatchTuesday #exploitcode",
+        "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/"
+    },
+    {
+        "date": "2026-06-10 06:41 UTC",
+        "content": "\ud83d\udfe0 High CVSS Risk: Researchers warn of 6 Proto6 vulnerabilities in protobuf.js, putting Node.js apps at risk of RCE and DoS attacks. A malicious payload could trigger attacks without authentication. Multiple environments are affected. via The Hacker News. #cybersecurity #protobuf #Node.js\n\u2022 Vulnerabilities are triggered through malicious protobuf schema, descriptor or crafted payload\n\u2022 Exploits could result in RCE and DoS attacks on Node.js apps",
+        "url": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html"
+    },
+    {
+        "date": "2026-06-10 11:02 UTC",
+        "content": "\ud83d\udd34 Microsoft Patches Critical Zero-Days for YellowKey, GreenPlasma, MiniPlasma\n\n\u2022 Two zero-day vulnerabilities allow SYSTEM privilege escalation on fully patched Windows systems.\n\u2022 Third zero-day grants access to BitLocker-protected drives.\n\nImpacted are Windows systems with BitLocker protection.\nvia BleepingComputer\n#cybersecurity #WindowsVulnerabilities #ZeroDayExploits",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/"
+    },
+    {
+        "date": "2026-06-10 14:28 UTC",
+        "content": "\ud83d\udfe2 LOW - X-Frame-Options and CSP headers have changed on 1 million domains since 2023.\n\nThe Breakdown: An analysis of framing protection security headers was repeated for the 1 million most popular domains.\n\nThe Technical Vector: The use of X-Frame-Options and CSP headers changed over the past three years.\n\nThe Impact: No specific changes or implications stated, but it's recommended to check for updates. via SANS ISC. #cybersecurity #websecurity",
+        "url": "https://isc.sans.edu/diary/rss/33068"
+    },
+    {
+        "date": "2026-06-10 18:09 UTC",
+        "content": "\ud83d\udd34 JDY Botnet Alert: 1,500+ devices compromised for cyber reconnaissance. Researchers warn of a resurgence and expansion of this covert network associated with China-nexus state-sponsored threat actors. \n\n The breakdown: JDY operates as a high-performance scanner, discovering, fingerprinting, and mapping exposed services.\n\n The technical vector: SOHO and IoT devices are compromised to carry out this scanning.\n\n The impact: Organizations with exposed services are at risk of being mapped and potentially compromised.",
+        "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html"
+    },
+    {
+        "date": "2026-06-10 20:44 UTC",
+        "content": "\ud83d\udd34 Critical: Multiple vulnerabilities patched by Ivanti, Fortinet, and SAP. CVE-2026-25089 (CVSS: 9.8/10) (CVSS 9.1) affects FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. Unauthenticated command injection possible. via The Hacker News #cybersecurity #Fortinet #SAP",
+        "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
+    },
+    {
+        "date": "2026-06-10 22:56 UTC",
+        "content": "\ud83d\udfe1 MEDIUM Federal agencies must patch the most critical flaws within three days, while less severe issues can be deferred. \nThe Breakdown: CISA rewrites federal patching requirements for AI threat era.\n\u2022 Federal agencies given three-day deadline for critical fixes.\n\u2022 Less severe issues can be deferred.\n\u2022 Increase in AI threat era patching requirements.\nThe Impact: AI-powered threats require rapid patching to prevent attacks.\nvia Dark Reading\n#cybersecurity #ArtificialIntelligence #ThreatManagement",
+        "url": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era"
+    },
+    {
+        "date": "2026-06-11 01:37 UTC",
+        "content": "\ud83d\udfe1 \u2757\ufe0f MEDIUM \n\nServiceNow security alert issued after bug bounty research triggers false breach notifications to some organizations.\n\nThe Breakdown: Researchers' tests misdirected to simulate attacks on ServiceNow instances, causing confusion about real breaches.\n\nThe Technical Vector: Misconfigured test environment led to false positives, affecting some ServiceNow clients.\n\nThe Impact: Some organizations may have mistakenly responded to alerts about fictional breaches within their ServiceNow platform, potentially wasting resources and creating unnecessary stress. via Dark Reading #cybersecurity #bugbounty #servicenow",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert"
+    },
+    {
+        "date": "2026-06-11 07:03 UTC",
+        "content": "\ud83d\udfe0 GitHub Disables npm Install Scripts by Default\n\nThe software giant has disabled install scripts for npm by default to prevent malicious code execution. This comes as part of breaking changes in npm v12. Attackers exploit npm lifecycle hooks to trigger code execution. via The Hacker News #cybersecurity #supplychainattack #npm",
+        "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
+    },
+    {
+        "date": "2026-06-11 19:44 UTC",
+        "content": "\ud83d\udd34 Oracle has addressed a PeopleSoft vulnerability (CVE-2026-35273 (CVSS: 9.8/10)) amid reports of zero-day attacks, although the company hasn't confirmed if it was exploited in ShinyHunters attacks. The flaw allows attackers to access sensitive user data. via SecurityWeek.\n\n#cybersecurity #ShinyHunters #PeopleSoft",
+        "url": "https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/"
+    },
+    {
+        "date": "2026-06-11 22:14 UTC",
+        "content": "\ud83d\udd34 New Attacks Target OpenClaw AI Agent: Research reveals attacks tricking OpenClaw into running attacker-controlled code or leaking sensitive data through ordinary-looking inputs.\n\nThe Breakdown:\n\u2022 Two separate research teams have shown that OpenClaw can be manipulated through shared contacts, vCards, and location pins.\n\nThe Technical Vector:\n\u2022 The agent executes instructions buried inside these inputs without displaying them.\n\nThe Impact:\n\u2022 Victims are at risk of having their sensitive data compromised.\n\nvia The Hacker News\n\n#cybersecurity #OpenClaw #AIsecurity",
+        "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html"
+    },
+    {
+        "date": "2026-06-12 01:38 UTC",
+        "content": "\ud83d\udfe1 MEDIUM: Phishing Attack Tactics Evolve With AI. Hackers shift strategy from quantity to quality, using AI to enhance phishing attacks. \u2022 AI boosts phishing success rate \u2022 Sophisticated phishing emails harder to detect \u2022 Risks persist despite reduced volume. via Dark Reading #cybersecurity #phishing #ai-enabled_attacks",
+        "url": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising"
+    },
+    {
+        "date": "2026-06-12 11:08 UTC",
+        "content": "\ud83d\udd34 Ivanti Sentry exploited via OS command injection. Attackers can execute arbitrary code with root privileges.\n\u2022 Exploiting a critical-severity vulnerability.\n\u2022 Attackers gain high privileges.\n\u2022 Honeypots being hit.\nvia SecurityWeek\n#cybersecurity #IvantiSentryExploit #OSCommandInjection",
+        "url": "https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/"
+    },
+    {
+        "date": "2026-06-12 17:41 UTC",
+        "content": "",
+        "url": "https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedown-400-million-coupang-fine/"
+    },
+    {
+        "date": "2026-06-12 20:24 UTC",
+        "content": "\ud83d\udd34 Arch Linux AUR Packages \ud83d\udea8: Over 400 packages hijacked to install Rust credential stealer. The malware harvests dev secrets & loads eBPF rootkit for stealth. AUR is separate from official Arch Linux repos. via The Hacker News. #cybersecurity #RustStealer",
+        "url": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html"
+    },
+    {
+        "date": "2026-06-13 06:31 UTC",
+        "content": "\ud83d\udfe1 Fable 5 and Mythos 5 models abruptly disabled due to U.S. national security concerns. Users, including foreign nationals, will be locked out until further notice. The models, developed by Anthropic, are AI technology. via The Hacker News #cybersecurity #nationalsecurity",
+        "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html"
+    },
+    {
+        "date": "2026-06-17 13:58 UTC",
+        "content": "\ud83d\udfe5 Fortinet Devices at risk: Credential-Harvesting Heist. Attacker's targeted sectors across nearly 200 countries, gathered working credentials for tens of thousands of compromised devices. via Dark Reading #cybersecurity #Fortinet #CredentialHarvesting",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices"
+    },
+    {
+        "date": "2026-06-18 11:17 UTC",
+        "content": "\ud83d\udd34 Windows Server 2016 systems not up to date failed to receive June 2026 security updates due to a known issue. The bug is now fixed. No further details on the vulnerability provided. via BleepingComputer. #cybersecurity #WindowsServer #Microsoft",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/"
+    },
+    {
+        "date": "2026-06-19 14:20 UTC",
+        "content": "\ud83d\udd34 CryptoBandits malware doubles as a backdoor, abusing Tor. It uses a local SOCKS5 proxy for traffic routing, enabling data theft and remote code execution. Threat analysis required. via SecurityWeek #cybersecurity #TorAbuse #RemoteCodeExecution",
+        "url": "https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/"
+    },
+    {
+        "date": "2026-06-19 17:26 UTC",
+        "content": "\ud83d\udd34 Apple patches Beats eavesdropping flaw, while DOT closes Delta CrowdStrike probe. Unpatched AWS Config Connector flaw enables takeover via Popa Android TV botnet linked to Israeli firm. #cybersecurity #AWS #malware",
+        "url": "https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/"
     }
 ]
