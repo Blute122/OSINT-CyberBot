@@ -1096,5 +1096,13 @@
         "cve": "CVE-2026-4020",
         "kev": false,
         "epss": 0.0298
+    },
+    {
+        "date": "2026-06-20 17:48 UTC",
+        "content": "\ud83d\udd34 Beware of \ud83d\udd34 Prinz Eugen ransomware targeting recent files. No ransom note left on encrypted systems. via BleepingComputer #ransomware",
+        "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
