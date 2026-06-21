@@ -1112,5 +1112,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-21 16:08 UTC",
+        "content": "\ud83d\udd34 Thousands of D-Link routers globally compromised in AryStinger botnet attack, used to route malicious traffic via proxies via BleepingComputer #RouterExploit #BotnetAttack",
+        "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
