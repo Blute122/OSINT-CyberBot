@@ -1128,5 +1128,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-22 17:47 UTC",
+        "content": "\ud83d\udfe1 Experts warn AI-powered hacking models could disrupt cybersecurity faster than expected. Impacting organizations worldwide via advanced AI attacks. via CyberScoop #Cybersecurity",
+        "url": "https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
