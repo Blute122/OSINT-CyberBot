@@ -1144,5 +1144,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-22 22:55 UTC",
+        "content": "\ud83d\udd34 WhatsApp users targeted by a phishing attack that uses fake business docs to steal access via VBScript files, affecting multiple countries. via BleepingComputer #WhatsAppPhishing",
+        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

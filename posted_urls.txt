@@ -270,3 +270,4 @@ https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousa
 https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html
 https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/
 https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
+https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/
