@@ -1136,5 +1136,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-22 21:12 UTC",
+        "content": "CRITICAL: FFmpeg 'PixelSmash' flaw exploited for RCE on Jellyfin servers, DoS on Kodi, Nextcloud, and others via vulnerable video decoder via BleepingComputer #FFmpeg #PixelSmash",
+        "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

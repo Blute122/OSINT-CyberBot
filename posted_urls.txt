@@ -269,3 +269,4 @@ https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-
 https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/
 https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html
 https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/
+https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
