@@ -1120,5 +1120,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-22 12:24 UTC",
+        "content": "\u262d Attackers use legacy infrastructure to hijack AI agents. 71% of organizations are piloting AI agents. via The Hacker News #AISecurity #LegacyInfrastructure",
+        "url": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
