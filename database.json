@@ -1184,5 +1184,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-23 15:25 UTC",
+        "content": "\ud83d\udd34 Critical alert: SocGholish malware uses TDSs to breach networks for cybercrime groups like Evil Corp via Dark Reading #malware #cybersecurity",
+        "url": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

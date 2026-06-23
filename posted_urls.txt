@@ -277,3 +277,4 @@ https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html
 https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
 https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/
 https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html
+https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats

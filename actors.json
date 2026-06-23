@@ -46,5 +46,19 @@
         "source_url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html"
       }
     ]
+  },
+  "cybercrime groups including evil corp": {
+    "aliases": [
+      "cybercrime groups including Evil Corp"
+    ],
+    "first_seen": "2026-06-23 15:25 UTC",
+    "campaigns": [
+      {
+        "target": "victims' networks",
+        "date": "2026-06-23 15:25 UTC",
+        "summary": "SocGholish Takedown Highlights Malicious TDS Threats",
+        "source_url": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats"
+      }
+    ]
   }
 }
