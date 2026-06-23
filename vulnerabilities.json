@@ -17,5 +17,24 @@
     "cvss": "N/A",
     "kev": false,
     "epss": 0.0298
+  },
+  "CVE-2024-40766": {
+    "first_seen": "2026-06-23 05:13 UTC",
+    "product": "",
+    "status_timeline": [
+      {
+        "date": "2026-06-23 05:13 UTC",
+        "status": "actively_exploited",
+        "summary": "CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)",
+        "source_url": "https://isc.sans.edu/diary/rss/33094"
+      }
+    ],
+    "related_posts": [
+      "https://isc.sans.edu/diary/rss/33094"
+    ],
+    "last_updated": "2026-06-23 05:13 UTC",
+    "cvss": "N/A",
+    "kev": true,
+    "epss": 0.15694
   }
 }

@@ -272,3 +272,4 @@ https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-
 https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
 https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/
 https://cyberscoop.com/court-rules-save-database-illegal-orders-dismantling/
+https://isc.sans.edu/diary/rss/33094

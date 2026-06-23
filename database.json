@@ -1160,5 +1160,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-23 05:13 UTC",
+        "content": "\ud83d\udd34 Critical CVE-2024-40766 (CVSS: N/A) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 15.7%]: A vulnerability was patched but still exploited because misconfigured systems weren't fixed. via SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33094",
+        "cve": "CVE-2024-40766",
+        "kev": true,
+        "epss": 0.15694
     }
 ]
