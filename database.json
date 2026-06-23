@@ -1200,5 +1200,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-23 20:21 UTC",
+        "content": "\ud83d\udd34 Critical: \ud83d\udfe0 Malicious pull requests threaten developer workflows in Azure Sentinel, AI dev kit, analytics database, SDK, and code analysis tool via Dark Reading #devsecops #threats",
+        "url": "https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
