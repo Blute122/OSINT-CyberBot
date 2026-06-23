@@ -1152,5 +1152,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-23 00:19 UTC",
+        "content": "\ud83d\udd34 Court orders dismantling of SAVE database over privacy law violations via CyberScoop #privacy #security",
+        "url": "https://cyberscoop.com/court-rules-save-database-illegal-orders-dismantling/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
