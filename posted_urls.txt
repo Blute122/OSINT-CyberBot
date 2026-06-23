@@ -273,3 +273,5 @@ https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-w
 https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/
 https://cyberscoop.com/court-rules-save-database-illegal-orders-dismantling/
 https://isc.sans.edu/diary/rss/33094
+https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html
+https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html

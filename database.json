@@ -1168,5 +1168,13 @@
         "cve": "CVE-2024-40766",
         "kev": true,
         "epss": 0.15694
+    },
+    {
+        "date": "2026-06-23 08:38 UTC",
+        "content": "\ud83d\udfe0 A high-severity vulnerability affects software patched by OpenAI's GPT-5.5-Cyber model. Trusted defenders can use the model to help fix flaws. via The Hacker News #cybersecurity #vulnerability",
+        "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
