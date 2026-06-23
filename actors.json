@@ -32,5 +32,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/"
       }
     ]
+  },
+  "an npm user named": {
+    "aliases": [
+      "an npm user named"
+    ],
+    "first_seen": "2026-06-23 12:14 UTC",
+    "campaigns": [
+      {
+        "target": "Windows-based systems via malicious npm packages",
+        "date": "2026-06-23 12:14 UTC",
+        "summary": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+        "source_url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html"
+      }
+    ]
   }
 }

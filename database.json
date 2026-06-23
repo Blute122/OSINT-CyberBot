@@ -1176,5 +1176,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-23 12:14 UTC",
+        "content": "\ud83d\udd34 Hackers use npm packages to deliver Windows RAT, targeting unknown number of users via malicious packages like postcss-minify-selector-parser. via The Hacker News #cybersecurity #Windows",
+        "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
