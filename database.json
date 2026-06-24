@@ -1232,5 +1232,13 @@
         "cve": "CVE-2026-20230",
         "kev": false,
         "epss": 0.20442
+    },
+    {
+        "date": "2026-06-24 11:59 UTC",
+        "content": "\ud83d\udd34 The US DoJ seizes a cloud computing account linked to HuiOne Group subsidiaries over cyber scam money laundering via The Hacker News #cybercrime",
+        "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
