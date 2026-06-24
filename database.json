@@ -1240,5 +1240,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-24 14:52 UTC",
+        "content": "\ud83d\udd34 Global cybercrime toolkit Amadey & StealC disrupted in record court takedown of 200+ C2 servers via Microsoft & law enforcement. via CyberScoop",
+        "url": "https://cyberscoop.com/microsoft-amadey-stealc-takedown/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
