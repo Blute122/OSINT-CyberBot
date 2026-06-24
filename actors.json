@@ -74,5 +74,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/"
       }
     ]
+  },
+  "huione group": {
+    "aliases": [
+      "Huione Group"
+    ],
+    "first_seen": "2026-06-24 00:09 UTC",
+    "campaigns": [
+      {
+        "target": "Cambodian company Huione Group and associates",
+        "date": "2026-06-24 00:09 UTC",
+        "summary": "Justice Department seizes infrastructure used by cyber scam and criminal marketplace",
+        "source_url": "https://cyberscoop.com/doj-huione-group-cybercrime-seizure/"
+      }
+    ]
   }
 }

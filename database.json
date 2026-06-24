@@ -1208,5 +1208,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-24 00:09 UTC",
+        "content": "<strong>Criminals are out of commission: US justice department seizes infrastructure used by cyber scam and criminal marketplace via CyberScoop #cybercrime #infosec>",
+        "url": "https://cyberscoop.com/doj-huione-group-cybercrime-seizure/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
