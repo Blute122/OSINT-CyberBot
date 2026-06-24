@@ -1216,5 +1216,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-24 04:33 UTC",
+        "content": "\ud83d\udd34 Anthropic's Mythos Model found vulnerabilities in Classified US Government Systems, but not all exploitable. via SecurityWeek #AI #SecurityVulnerabilities",
+        "url": "https://www.securityweek.com/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
