@@ -1256,5 +1256,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-24 20:04 UTC",
+        "content": "\ud83d\udd34 Critical: CISA warns of max severity flaws exploited in attacks on Ubiquity UniFi OS and Lantronix serial-to-ethernet servers via BleepingComputer #cybersecurity #ubiquiti",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

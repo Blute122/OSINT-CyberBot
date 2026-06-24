@@ -288,3 +288,4 @@ https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html
 https://cyberscoop.com/microsoft-amadey-stealc-takedown/
 https://www.securityweek.com/microsoft-and-allies-smash-shared-infrastructure-of-amadey-and-stealc-malware/
 https://www.securityweek.com/exclusive-meet-aivex-a-new-triage-model-built-to-reduce-supply-chain-threat-and-risk/
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/
