@@ -36,5 +36,24 @@
     "cvss": "N/A",
     "kev": true,
     "epss": 0.15694
+  },
+  "CVE-2026-20230": {
+    "first_seen": "2026-06-24 08:32 UTC",
+    "product": "Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME)",
+    "status_timeline": [
+      {
+        "date": "2026-06-24 08:32 UTC",
+        "status": "disclosed",
+        "summary": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+        "source_url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html"
+    ],
+    "last_updated": "2026-06-24 08:32 UTC",
+    "cvss": 8.6,
+    "kev": false,
+    "epss": 0.20442
   }
 }
