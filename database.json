@@ -1248,5 +1248,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-24 17:17 UTC",
+        "content": "\ud83d\udfe0 A new triage model (AIVEX) to reduce AI supply chain risks. Targets operational, safety, & business risks. via SecurityWeek #SupplyChainSecurity",
+        "url": "https://www.securityweek.com/exclusive-meet-aivex-a-new-triage-model-built-to-reduce-supply-chain-threat-and-risk/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
