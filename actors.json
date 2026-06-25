@@ -102,5 +102,19 @@
         "source_url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html"
       }
     ]
+  },
+  "handala": {
+    "aliases": [
+      "Handala"
+    ],
+    "first_seen": "2026-06-25 15:10 UTC",
+    "campaigns": [
+      {
+        "target": "California water utility, Cal Water",
+        "date": "2026-06-25 15:10 UTC",
+        "summary": "Cal Water Finds No Evidence of OT Activity After Hackers Claimed They Could Disrupt Water Supply",
+        "source_url": "https://www.securityweek.com/cal-water-finds-no-evidence-of-ot-activity-after-hackers-claimed-they-could-disrupt-water-supply/"
+      }
+    ]
   }
 }

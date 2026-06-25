@@ -1280,5 +1280,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-25 15:10 UTC",
+        "content": "\ud83d\udfe0 Critical water supply threat averted as Cal Water finds no evidence of OT activity after Handala hack. via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/cal-water-finds-no-evidence-of-ot-activity-after-hackers-claimed-they-could-disrupt-water-supply/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

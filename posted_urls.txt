@@ -293,3 +293,5 @@ https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-control
 https://isc.sans.edu/diary/rss/33104
 https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
 https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+https://www.securityweek.com/runlayer-raises-30-million-in-series-a-funding/
+https://www.securityweek.com/cal-water-finds-no-evidence-of-ot-activity-after-hackers-claimed-they-could-disrupt-water-supply/
