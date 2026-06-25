@@ -1264,5 +1264,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-25 08:30 UTC",
+        "content": "\ud83d\udd34 Hackers exploited a zero-day vulnerability in Cisco Catalyst SD-WAN to gain root access, months before disclosure via Mandiant. Cisco systems at risk via CVE-2026-20245 (CVSS: N/A) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 9.9%] via The Hacker News #CiscoSD_WAN #ZeroDayExploit",
+        "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "cve": "CVE-2026-20245",
+        "kev": true,
+        "epss": 0.09922
     }
 ]

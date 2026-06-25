@@ -88,5 +88,19 @@
         "source_url": "https://cyberscoop.com/doj-huione-group-cybercrime-seizure/"
       }
     ]
+  },
+  "unknown": {
+    "aliases": [
+      "Unknown"
+    ],
+    "first_seen": "2026-06-25 08:30 UTC",
+    "campaigns": [
+      {
+        "target": "Cisco Catalyst SD-WAN",
+        "date": "2026-06-25 08:30 UTC",
+        "summary": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+        "source_url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html"
+      }
+    ]
   }
 }

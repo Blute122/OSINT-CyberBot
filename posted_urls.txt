@@ -291,3 +291,4 @@ https://www.securityweek.com/exclusive-meet-aivex-a-new-triage-model-built-to-re
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/
 https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/
 https://isc.sans.edu/diary/rss/33104
+https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
