@@ -296,3 +296,5 @@ https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
 https://www.securityweek.com/runlayer-raises-30-million-in-series-a-funding/
 https://www.securityweek.com/cal-water-finds-no-evidence-of-ot-activity-after-hackers-claimed-they-could-disrupt-water-supply/
 https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/
+https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
+https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense

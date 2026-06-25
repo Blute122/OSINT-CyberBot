@@ -1296,5 +1296,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-25 22:44 UTC",
+        "content": "\ud83d\udd34 New APT 'Gamaredon' malware upgrade requires new defenses. FSB-state sponsored. via Dark Reading #APT #malware",
+        "url": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
