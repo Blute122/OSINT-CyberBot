@@ -1288,5 +1288,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-25 20:21 UTC",
+        "content": "033fc\ufe0f Shop's order-tracking app abused for callback phishing attacks via fake receipts. Users targeted for sensitive data & RAS. via BleepingComputer #phishing #cyberattack",
+        "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
