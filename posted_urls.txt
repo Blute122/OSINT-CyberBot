@@ -292,3 +292,4 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiqui
 https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/
 https://isc.sans.edu/diary/rss/33104
 https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/

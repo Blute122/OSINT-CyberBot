@@ -1272,5 +1272,13 @@
         "cve": "CVE-2026-20245",
         "kev": true,
         "epss": 0.09922
+    },
+    {
+        "date": "2026-06-25 11:49 UTC",
+        "content": "Windows under threat from COM-based malware \ud83d\udfe0, attackers target Windows technology via COM exploitation, via Cisco Talos #WindowsSecurity",
+        "url": "https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
