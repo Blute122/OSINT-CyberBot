@@ -144,5 +144,19 @@
         "source_url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html"
       }
     ]
+  },
+  "hackers": {
+    "aliases": [
+      "Hackers"
+    ],
+    "first_seen": "2026-06-26 18:03 UTC",
+    "campaigns": [
+      {
+        "target": "Klue-Salesforce",
+        "date": "2026-06-26 18:03 UTC",
+        "summary": "More Klue Breach Victims Identified as Hackers Get Hacked",
+        "source_url": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/"
+      }
+    ]
   }
 }

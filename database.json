@@ -1344,5 +1344,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 18:03 UTC",
+        "content": "\ud83d\udd34 Cyberattackers breached @Klue, impacting 24+ clients. Hacker info got compromised too. via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
