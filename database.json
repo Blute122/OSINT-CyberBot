@@ -1320,5 +1320,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 09:50 UTC",
+        "content": "&#x1F534; Russian authorities bypassed iPhone security after sales cutoff: used Cellebrite's UFED on activist's device months later. Puts spotlight on Russia-Belarus forensic tool usage via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

@@ -130,5 +130,19 @@
         "source_url": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense"
       }
     ]
+  },
+  "russian authorities": {
+    "aliases": [
+      "Russian authorities"
+    ],
+    "first_seen": "2026-06-26 09:50 UTC",
+    "campaigns": [
+      {
+        "target": "Cellebrite's UFED forensic tools, Andrey Pivovarov's iPhone",
+        "date": "2026-06-26 09:50 UTC",
+        "summary": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
+        "source_url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html"
+      }
+    ]
   }
 }
