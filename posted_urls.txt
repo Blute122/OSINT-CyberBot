@@ -302,3 +302,4 @@ https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
 https://www.securityweek.com/philip-martin-joins-uber-as-chief-information-security-officer/
 https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html
 https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
+https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/

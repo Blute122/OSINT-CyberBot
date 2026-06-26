@@ -1336,5 +1336,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 15:33 UTC",
+        "content": "\ud83d\udd34 Amazon's cloud credential theft exposed via malicious repositories. Hundreds of AWS accounts at risk. via SecurityWeek #cloudsecurity #credentialtheft",
+        "url": "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
