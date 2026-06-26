@@ -298,3 +298,4 @@ https://www.securityweek.com/cal-water-finds-no-evidence-of-ot-activity-after-ha
 https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/
 https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
 https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
+https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/

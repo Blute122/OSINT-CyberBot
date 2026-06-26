@@ -1304,5 +1304,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 00:22 UTC",
+        "content": "\u2757 Southeast Asian Governments and Critical Infrastructure targeted in espionage campaign via custom TinyRCT backdoor via Unit 42 #cybersecurity",
+        "url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
