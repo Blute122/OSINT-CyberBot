@@ -1328,5 +1328,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 12:25 UTC",
+        "content": "\ud83d\udd34 Miasma malware compromises npm packages & GitHub Actions via supply chain attack, targeting LeoPlatform & RStreams packages via malicious releases and workflow abuse. via The Hacker News #SupplyChainAttacks",
+        "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
