@@ -1312,5 +1312,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 05:21 UTC",
+        "content": "\ud83d\udfe2 LOW impact security role change: Philip Martin joins Uber as Chief Information Security Officer. via SecurityWeek #infosec",
+        "url": "https://www.securityweek.com/philip-martin-joins-uber-as-chief-information-security-officer/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

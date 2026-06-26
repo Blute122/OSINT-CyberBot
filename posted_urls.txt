@@ -299,3 +299,4 @@ https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to
 https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
 https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
 https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
+https://www.securityweek.com/philip-martin-joins-uber-as-chief-information-security-officer/
