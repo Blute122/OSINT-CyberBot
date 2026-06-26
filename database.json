@@ -1352,5 +1352,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-26 20:06 UTC",
+        "content": "\ud83d\udfe0 Russia hacked an activist's phone using Cellebrite tools.  via SecurityWeek #Ransomware",
+        "url": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

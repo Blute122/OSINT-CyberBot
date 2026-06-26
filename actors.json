@@ -158,5 +158,19 @@
         "source_url": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/"
       }
     ]
+  },
+  "russia": {
+    "aliases": [
+      "Russia"
+    ],
+    "first_seen": "2026-06-26 20:06 UTC",
+    "campaigns": [
+      {
+        "target": "Activist's phone",
+        "date": "2026-06-26 20:06 UTC",
+        "summary": "In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs",
+        "source_url": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/"
+      }
+    ]
   }
 }

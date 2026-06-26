@@ -304,3 +304,4 @@ https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html
 https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
 https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/
 https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/
+https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/
