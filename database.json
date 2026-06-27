@@ -1376,5 +1376,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-27 16:18 UTC",
+        "content": "\ud83d\udd34 Malware hidden in cloned GitHub repos tricks AI coding agents via unseen payload! Multiple tools affected, stay alert! via BleepingComputer #AISecurity #Maldarepo",
+        "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
