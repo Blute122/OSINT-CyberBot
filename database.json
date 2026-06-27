@@ -1360,5 +1360,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-27 12:16 UTC",
+        "content": "\u2b24CRITICAL \u2b24 Threat actors using the legitimate DCloud Uni-App toolkit to sell investment scam templates, impacting 200,000 scam sites, via SecurityWeek #scams #investment",
+        "url": "https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

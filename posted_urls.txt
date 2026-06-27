@@ -305,3 +305,4 @@ https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
 https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/
 https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/
 https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/
+https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/
