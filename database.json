@@ -1384,5 +1384,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-27 18:17 UTC",
+        "content": "\ud83d\udd34 Russian spies used fake support texts to steal Ukrainian government messaging credentials via U.S. Federal Bureau of Investigation (FBI) assistance and Security Service of Ukraine, affecting government officials, military personnel, politicians, and activists in Ukraine\u2026",
+        "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]

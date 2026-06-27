@@ -172,5 +172,19 @@
         "source_url": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/"
       }
     ]
+  },
+  "russian intelligence services": {
+    "aliases": [
+      "Russian intelligence services"
+    ],
+    "first_seen": "2026-06-27 18:17 UTC",
+    "campaigns": [
+      {
+        "target": "messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S.",
+        "date": "2026-06-27 18:17 UTC",
+        "summary": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+        "source_url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
+      }
+    ]
   }
 }
