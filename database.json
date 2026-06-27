@@ -1368,5 +1368,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-27 14:54 UTC",
+        "content": "\ud83d\udd34 Ransomware attacks on education institutes threaten student data. Educators must prioritize vendor risk management. via Dark Reading #EdTech #Cybersecurity",
+        "url": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
