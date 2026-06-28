@@ -309,3 +309,4 @@ https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/
 https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk
 https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
 https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
+https://isc.sans.edu/diary/rss/33106

@@ -1392,5 +1392,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-28 08:28 UTC",
+        "content": "\ud83d\udfe1 MEDIUM Severity: Bugfixes made in recent versions of YARA-X &&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s, via SANS ISC #InfoSec",
+        "url": "https://isc.sans.edu/diary/rss/33106",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
