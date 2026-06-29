@@ -1438,5 +1438,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-29 21:45 UTC",
+        "content": "\ud83d\udfe0 High-severity Chrome extension intercepts searches and address bar input, sending sensitive data to attacker-controlled servers via Google via The Hacker News #Malware",
+        "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
