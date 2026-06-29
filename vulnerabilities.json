@@ -74,5 +74,26 @@
     "cvss": "N/A",
     "kev": true,
     "epss": 0.09922
+  },
+  "CVE-2026-48558": {
+    "first_seen": "2026-06-29 23:14 UTC",
+    "product": "SimpleHelp, cloud, AI credentials, development, admin environments, enterprise systems",
+    "status_timeline": [
+      {
+        "date": "2026-06-29 23:14 UTC",
+        "status": "actively_exploited",
+        "summary": "'Djinn' Stealer Targets Cloud, AI Credentials",
+        "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials"
+      }
+    ],
+    "related_posts": [
+      "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials"
+    ],
+    "last_updated": "2026-06-29 23:14 UTC",
+    "cvss": 10.0,
+    "kev": true,
+    "epss": 0.00721,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

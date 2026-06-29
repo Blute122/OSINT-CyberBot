@@ -1448,5 +1448,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-29 23:14 UTC",
+        "content": "\ud83d\udd34 'Djinn' stealer uses CVE-2026-48558 (CVSS: 10.0/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 0.7%] to steal cloud, AI, and enterprise credentials. Cloud, AI, and enterprise users targeted via authentication bypass vulnerability in SimpleHelp. via Dark Reading #cybersecurity\u2026",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
+        "cve": "CVE-2026-48558",
+        "kev": true,
+        "epss": 0.00721,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]
