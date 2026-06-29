@@ -29,7 +29,10 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 |-- entity_model.py                    # Entity lifecycle tracking and exact deduplication logic
 |-- scoring.py                         # Risk-prioritization model (CVSS + EPSS + KEV + recency)
 |-- semantic.py                        # Dependency-free TF-IDF cosine near-duplicate detection
-|-- tests/                             # pytest unit suite for the engine's pure logic + persistence
+|-- api.py                             # Read-only FastAPI service over the JSON data
+|-- requirements-api.txt               # API-only dependencies (kept out of the lean bot runtime)
+|-- render.yaml                        # One-click free deploy of the API to Render
+|-- tests/                             # pytest unit suite (engine logic, persistence, scoring, API)
 |-- dashboard.py                       # Streamlit dashboard for local analytics
 |-- index.html                         # Static browser dashboard powered by database.json
 |-- database.json                      # Posted threat feed used by dashboards
@@ -201,6 +204,45 @@ pytest -q
 
 CI runs the same suite on every push and pull request via
 `.github/workflows/tests.yml`.
+
+## REST API
+
+`api.py` is a read-only [FastAPI](https://fastapi.tiangolo.com/) service that
+exposes the same threat-intelligence data over HTTP. It is stateless — it reads
+`database.json` / `vulnerabilities.json` / `actors.json` and reuses `scoring.py`,
+so risk scores match the engine and dashboard exactly. No database required.
+
+Run it locally:
+
+```bash
+pip install -r requirements-api.txt
+uvicorn api:app --reload
+```
+
+Interactive OpenAPI docs are served at `http://127.0.0.1:8000/docs`.
+
+### Endpoints
+
+| Method & path | Description |
+|---|---|
+| `GET /health` | Service status + record counts |
+| `GET /api/cves` | List CVEs; filters: `kev`, `min_risk`, `status`; `sort=risk\|recent`; `limit`/`offset` |
+| `GET /api/cves/{cve_id}` | Single CVE dossier (case-insensitive; 404 if unknown) |
+| `GET /api/actors` | List threat actors; `sort=campaigns\|recent`; pagination |
+| `GET /api/actors/{name}` | Single actor by name or alias (404 if unknown) |
+| `GET /api/feed` | Live feed, newest first; `kev` filter; pagination |
+| `GET /api/search?q=` | Unified search across CVEs, actors, and feed |
+| `GET /api/stats` | Summary analytics (totals, severity & risk-band breakdowns, top products/actors) |
+
+Responses use typed Pydantic models, so the data is self-documenting in `/docs`.
+
+### Deploying the API (free)
+
+`render.yaml` is a Render Blueprint. On [render.com](https://render.com): **New →
+Blueprint →** connect this repo. Render runs
+`uvicorn api:app --host 0.0.0.0 --port $PORT` and health-checks `/health`. No
+environment variables are required. (The free tier sleeps when idle and
+cold-starts on the next request.)
 
 ## GitHub Actions Deployment
 

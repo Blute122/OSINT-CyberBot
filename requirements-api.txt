@@ -1,0 +1,5 @@
+# Dependencies for the read-only REST API (api.py).
+# Kept separate from the bot's requirements.txt so the scheduled agent stays lean.
+fastapi
+uvicorn[standard]
+httpx        # used by FastAPI's TestClient in the API tests

@@ -1,0 +1,16 @@
+# Render.com Blueprint — deploys the read-only REST API (api.py) for free.
+#
+# To deploy:
+#   1. Push this repo to GitHub (already done).
+#   2. On render.com: New → Blueprint → connect this repo.
+#   3. Render reads this file and provisions the service. No env vars required.
+#
+# The free tier sleeps after inactivity and cold-starts on the next request.
+services:
+  - type: web
+    name: cybernews-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-api.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
