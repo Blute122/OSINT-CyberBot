@@ -117,6 +117,8 @@ At the top of the page is an **intel-search bar**. Typing a query (for example `
 
 The search runs entirely client-side against the already-published JSON, so it works on GitHub Pages with no backend and no exposed API keys.
 
+Every report is **shareable**: the URL hash reflects the current view (`#q=CVE-2026-4020`, `#analytics`, `#graph`, …), so a link opens straight to that report or tab and the browser's back/forward buttons work. Each report has a **Copy link** button and an **Export PDF** button (a dependency-free print stylesheet that isolates the report and preserves the dark theme).
+
 The dashboard also has an **Analytics** tab with custom, dependency-free SVG charts computed live in the browser: threats over time, a severity-distribution donut, risk-priority bands, top targeted products, and the most active threat actors. Like the search, it reads the existing JSON — no chart library, no backend.
 
 A **Threat Graph** tab renders an interactive, force-directed network (also hand-rolled, no library) linking threat actors, CVEs, and their targets/products. CVE nodes are sized and colored by risk score; hovering highlights a node's connections, dragging repositions nodes, and clicking an actor or CVE opens its dossier via the intel search.

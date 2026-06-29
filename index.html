@@ -1057,6 +1057,38 @@
             border-color: rgba(0, 255, 170, 0.3);
         }
 
+        .report-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        /* Print / Export-to-PDF: isolate the report and keep the dark theme */
+        @media print {
+            body {
+                background: #0b0f19 !important;
+                padding: 0 !important;
+            }
+
+            body > *:not(#panel-report) {
+                display: none !important;
+            }
+
+            #panel-report {
+                display: block !important;
+                max-width: 100% !important;
+            }
+
+            .report-actions {
+                display: none !important;
+            }
+
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+
         .report-section-title {
             font-family: var(--font-mono);
             font-size: 0.74rem;
@@ -1848,27 +1880,63 @@
             }
         });
 
-        // ── Boot ───────────────────────────────────────────────────────
-
-        fetchData().then(() => startRefreshCountdown());
-
         // ── Tab switching ────────────────────────────────────────────
+
+        const KNOWN_VIEWS = ['feed', 'vulns', 'analytics', 'graph'];
+
+        function activateView(view) {
+            document.getElementById('panel-report').classList.remove('active');
+            document.querySelectorAll('.view-tab').forEach(t => t.classList.toggle('active', t.dataset.view === view));
+            document.getElementById('panel-feed').classList.toggle('active', view === 'feed');
+            document.getElementById('panel-vulns').classList.toggle('active', view === 'vulns');
+            document.getElementById('panel-analytics').classList.toggle('active', view === 'analytics');
+            document.getElementById('panel-graph').classList.toggle('active', view === 'graph');
+            if (view === 'vulns' && !vulnsLoaded) fetchVulns();
+            if (view === 'analytics') renderAnalytics();
+            if (view === 'graph') renderGraph(); else stopGraph();
+        }
 
         document.querySelectorAll('.view-tab').forEach(tab => {
             tab.addEventListener('click', () => {
-                document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                const view = tab.dataset.view;
-                document.getElementById('panel-report').classList.remove('active');
-                document.getElementById('panel-feed').classList.toggle('active', view === 'feed');
-                document.getElementById('panel-vulns').classList.toggle('active', view === 'vulns');
-                document.getElementById('panel-analytics').classList.toggle('active', view === 'analytics');
-                document.getElementById('panel-graph').classList.toggle('active', view === 'graph');
-                if (view === 'vulns' && !vulnsLoaded) fetchVulns();
-                if (view === 'analytics') renderAnalytics();
-                if (view === 'graph') renderGraph(); else stopGraph();
+                activateView(tab.dataset.view);
+                setHash(tab.dataset.view);
             });
         });
+
+        // ── Hash routing (shareable deep links) ──────────────────────
+        // #q=<query> opens an intel report; #feed|#vulns|#analytics|#graph
+        // opens a tab. Links are shareable and the back/forward buttons work.
+
+        let isRouting = false;
+
+        function hashForQuery(q) { return 'q=' + encodeURIComponent(q); }
+
+        function setHash(h) {
+            if (location.hash.slice(1) === h) return;
+            isRouting = true;            // suppress our own hashchange echo
+            location.hash = h;
+        }
+
+        function applyHash() {
+            let raw = location.hash.slice(1);
+            if (!raw) { activateView('feed'); return; }
+            if (raw.startsWith('q=')) {
+                let q = raw.slice(2);
+                try { q = decodeURIComponent(q); } catch (e) { /* leave as-is */ }
+                if (q) runSearch(q);
+                return;
+            }
+            if (KNOWN_VIEWS.includes(raw)) activateView(raw);
+        }
+
+        window.addEventListener('hashchange', () => {
+            if (isRouting) { isRouting = false; return; }
+            applyHash();
+        });
+
+        // ── Boot ───────────────────────────────────────────────────────
+
+        fetchData().then(() => { startRefreshCountdown(); applyHash(); });
 
         // ── Vulnerability tracker ─────────────────────────────────────
 
@@ -2406,10 +2474,16 @@
 
         function clearReport() {
             document.getElementById('search-input').value = '';
-            document.getElementById('panel-report').classList.remove('active');
-            document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
-            document.querySelector('.view-tab[data-view="feed"]').classList.add('active');
-            document.getElementById('panel-feed').classList.add('active');
+            activateView('feed');
+            setHash('feed');
+        }
+
+        function copyShareLink(btn) {
+            navigator.clipboard.writeText(location.href).then(() => {
+                const prev = btn.textContent;
+                btn.textContent = '✓ Copied!';
+                setTimeout(() => { btn.textContent = prev; }, 1500);
+            }).catch(() => { /* clipboard unavailable */ });
         }
 
         function cvssColor(score) {
@@ -2456,6 +2530,7 @@
             );
 
             renderReport(query, cveMatches, actorMatches, feedMatches);
+            setHash(hashForQuery(query));   // make the report shareable
         }
 
         function renderReport(query, cveMatches, actorMatches, feedMatches) {
@@ -2465,7 +2540,11 @@
             let html = `
                 <div class="report-head">
                     <div class="report-query">intel query: <b>"${escapeHTML(query)}"</b> · ${total} result${total === 1 ? '' : 's'}</div>
-                    <button class="report-clear" id="report-clear">✕ Clear</button>
+                    <div class="report-actions">
+                        <button class="report-clear" id="report-copy" title="Copy a shareable link to this report">🔗 Copy link</button>
+                        <button class="report-clear" id="report-export" title="Save this report as a PDF">🖨 Export PDF</button>
+                        <button class="report-clear" id="report-clear">✕ Clear</button>
+                    </div>
                 </div>`;
 
             if (total === 0) {
@@ -2630,6 +2709,8 @@
         });
         document.addEventListener('click', e => {
             if (e.target.closest('#report-clear')) clearReport();
+            else if (e.target.closest('#report-copy')) copyShareLink(e.target.closest('#report-copy'));
+            else if (e.target.closest('#report-export')) window.print();
         });
     </script>
 
