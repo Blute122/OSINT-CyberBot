@@ -30,6 +30,7 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 |-- scoring.py                         # Risk-prioritization model (CVSS + EPSS + KEV + recency)
 |-- semantic.py                        # Dependency-free TF-IDF cosine near-duplicate detection
 |-- api.py                             # Read-only FastAPI service over the JSON data
+|-- guardrails.py                      # Input-sanitation layer for the API (injection/abuse screening)
 |-- requirements-api.txt               # API-only dependencies (kept out of the lean bot runtime)
 |-- render.yaml                        # One-click free deploy of the API to Render
 |-- tests/                             # pytest unit suite (engine logic, persistence, scoring, API)
@@ -235,6 +236,34 @@ Interactive OpenAPI docs are served at `http://127.0.0.1:8000/docs`.
 | `GET /api/stats` | Summary analytics (totals, severity & risk-band breakdowns, top products/actors) |
 
 Responses use typed Pydantic models, so the data is self-documenting in `/docs`.
+
+### Security & operational guardrails
+
+The API is built to behave like a real intelligence feed, not just an open dump:
+
+- **Input validation & guardrails** — query params are constrained by Pydantic
+  (types, ranges, max length), and free-text inputs pass through a
+  sanitation layer (`guardrails.py`) that rejects prompt-injection, code/script,
+  SQL-style, and path-traversal payloads with a `400` before they reach the
+  engine. (Defense-in-depth: the API is read-only and doesn't feed input to the
+  LLM today, but the path is screened in case it ever does.)
+- **Rate limiting** — IP-based via `slowapi` (default `60/minute`, configurable),
+  returning `429` on abuse. Health/meta routes are exempt.
+- **Response caching** — an in-memory TTL cache (default 60s) serves popular
+  queries (CVE lookups, search, stats) without recomputation. Swap for Redis if
+  the service is ever scaled across multiple instances.
+- **Optional API-key auth** — set `API_KEYS` to require an `X-API-Key` header on
+  the `/api/*` routes (the `Authorize` button appears in `/docs`). Left unset,
+  the API is open for the public demo. `/health` stays public either way.
+
+Configuration (all optional, via environment variables):
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `API_KEYS` | _(unset → open)_ | Comma-separated valid API keys |
+| `API_RATE_LIMIT` | `60/minute` | slowapi limit string |
+| `API_CACHE_TTL` | `60` | Response cache TTL in seconds |
+| `DATA_DIR` | repo root | Where the JSON data lives |
 
 ### Deploying the API (free)
 

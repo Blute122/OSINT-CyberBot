@@ -17,11 +17,18 @@ the DATA_DIR environment variable (used by the tests).
 """
 import json
 import os
+import time
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Path, Depends, Security
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import APIKeyHeader
 from pydantic import BaseModel
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
+from slowapi.middleware import SlowAPIMiddleware
+from slowapi.util import get_remote_address
 
+import guardrails
 from scoring import compute_risk_score, risk_band
 from entity_model import _age_days
 
@@ -44,6 +51,62 @@ app.add_middleware(
     allow_methods=["GET"],
     allow_headers=["*"],
 )
+
+# ─────────────────────────────────────────────
+# RATE LIMITING (slowapi, in-memory, keyed by client IP)
+# ─────────────────────────────────────────────
+RATE_LIMIT = os.environ.get("API_RATE_LIMIT", "60/minute")
+limiter = Limiter(key_func=get_remote_address, default_limits=[RATE_LIMIT])
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+app.add_middleware(SlowAPIMiddleware)
+
+# ─────────────────────────────────────────────
+# AUTH (optional API key — open by default for the public demo)
+# ─────────────────────────────────────────────
+# Set API_KEYS="key1,key2" in the environment to require an X-API-Key header on
+# the /api/* routes. Left unset, the API is open (demo mode).
+API_KEYS = {k.strip() for k in os.environ.get("API_KEYS", "").split(",") if k.strip()}
+_api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+
+
+def require_api_key(api_key: str = Security(_api_key_header)):
+    """Enforce the API key only when API_KEYS is configured."""
+    if not API_KEYS:
+        return  # open / demo mode
+    if api_key not in API_KEYS:
+        raise HTTPException(status_code=401, detail="Invalid or missing API key (X-API-Key header)")
+
+
+# ─────────────────────────────────────────────
+# RESPONSE CACHE (in-memory TTL — popular queries served without recompute)
+# ─────────────────────────────────────────────
+# Lightweight and dependency-free; swap for Redis if the API is ever scaled
+# horizontally across multiple instances.
+CACHE_TTL = int(os.environ.get("API_CACHE_TTL", "60"))
+_resp_cache = {}
+
+
+def cache_get(key):
+    hit = _resp_cache.get(key)
+    if hit and (time.time() - hit[0]) < CACHE_TTL:
+        return hit[1]
+    return None
+
+
+def cache_set(key, value):
+    if len(_resp_cache) > 512:        # crude bound; clears wholesale
+        _resp_cache.clear()
+    _resp_cache[key] = (time.time(), value)
+    return value
+
+
+def guard_query(q: str):
+    """Reject inputs flagged by the guardrail layer before they hit the engine."""
+    reasons = guardrails.check_query(q)
+    if reasons:
+        raise HTTPException(status_code=400,
+                            detail={"error": "input rejected by guardrails", "reasons": reasons})
 
 
 # ─────────────────────────────────────────────
@@ -228,11 +291,13 @@ class SearchResponse(BaseModel):
 # ROUTES
 # ─────────────────────────────────────────────
 @app.get("/", tags=["meta"])
+@limiter.exempt
 def root():
     return {
         "name": "CyberNews Auto API",
         "version": app.version,
         "docs": "/docs",
+        "auth": "open" if not API_KEYS else "api-key required (X-API-Key)",
         "endpoints": ["/health", "/api/cves", "/api/cves/{cve_id}",
                       "/api/actors", "/api/actors/{name}", "/api/feed",
                       "/api/search", "/api/stats"],
@@ -240,6 +305,7 @@ def root():
 
 
 @app.get("/health", tags=["meta"])
+@limiter.exempt
 def health():
     return {
         "status": "ok",
@@ -249,7 +315,7 @@ def health():
     }
 
 
-@app.get("/api/cves", response_model=CVEPage, tags=["cves"])
+@app.get("/api/cves", response_model=CVEPage, tags=["cves"], dependencies=[Depends(require_api_key)])
 def list_cves(
     kev: bool | None = Query(None, description="Filter to CISA KEV (actively exploited)"),
     min_risk: int = Query(0, ge=0, le=100, description="Minimum risk score"),
@@ -271,16 +337,20 @@ def list_cves(
     return paginate(items, limit, offset)
 
 
-@app.get("/api/cves/{cve_id}", response_model=CVE, tags=["cves"])
-def get_cve(cve_id: str):
+@app.get("/api/cves/{cve_id}", response_model=CVE, tags=["cves"], dependencies=[Depends(require_api_key)])
+def get_cve(cve_id: str = Path(..., max_length=40)):
+    ck = f"cve:{cve_id.upper()}"
+    cached = cache_get(ck)
+    if cached is not None:
+        return cached
     vulns = load_vulns()
     key = next((k for k in vulns if k.upper() == cve_id.upper()), None)
     if key is None:
         raise HTTPException(status_code=404, detail=f"CVE '{cve_id}' not found")
-    return cve_model(key, vulns[key])
+    return cache_set(ck, cve_model(key, vulns[key]))
 
 
-@app.get("/api/actors", response_model=ActorPage, tags=["actors"])
+@app.get("/api/actors", response_model=ActorPage, tags=["actors"], dependencies=[Depends(require_api_key)])
 def list_actors(
     sort: str = Query("campaigns", pattern="^(campaigns|recent)$"),
     limit: int = Query(50, ge=1, le=200),
@@ -294,8 +364,9 @@ def list_actors(
     return paginate(items, limit, offset)
 
 
-@app.get("/api/actors/{name}", response_model=Actor, tags=["actors"])
-def get_actor(name: str):
+@app.get("/api/actors/{name}", response_model=Actor, tags=["actors"], dependencies=[Depends(require_api_key)])
+def get_actor(name: str = Path(..., max_length=guardrails.MAX_QUERY_LEN)):
+    guard_query(name)
     actors = load_actors()
     key = next((k for k in actors if k.lower() == name.lower()), None)
     if key is None:
@@ -309,7 +380,7 @@ def get_actor(name: str):
     return actor_model(key, actors[key])
 
 
-@app.get("/api/feed", response_model=FeedPage, tags=["feed"])
+@app.get("/api/feed", response_model=FeedPage, tags=["feed"], dependencies=[Depends(require_api_key)])
 def get_feed(
     kev: bool | None = Query(None),
     limit: int = Query(50, ge=1, le=200),
@@ -321,11 +392,17 @@ def get_feed(
     return paginate(items, limit, offset)
 
 
-@app.get("/api/search", response_model=SearchResponse, tags=["search"])
+@app.get("/api/search", response_model=SearchResponse, tags=["search"], dependencies=[Depends(require_api_key)])
 def search(
-    q: str = Query(..., min_length=1, description="CVE id, actor, malware, or vendor"),
+    q: str = Query(..., min_length=1, max_length=guardrails.MAX_QUERY_LEN,
+                   description="CVE id, actor, malware, or vendor"),
     limit: int = Query(20, ge=1, le=100),
 ):
+    guard_query(q)
+    ck = f"search:{q.lower()}:{limit}"
+    cached = cache_get(ck)
+    if cached is not None:
+        return cached
     ql = q.lower()
 
     cves = [cve_model(cid, v) for cid, v in load_vulns().items()
@@ -343,17 +420,20 @@ def search(
     feed = [f for f in reversed(load_feed())
             if ql in (f.get("content") or "").lower() or ql in (f.get("cve") or "").lower()]
 
-    return {
+    return cache_set(ck, {
         "query": q,
         "total": len(cves) + len(actors) + len(feed),
         "cves": cves[:limit],
         "actors": actors[:limit],
         "feed": feed[:limit],
-    }
+    })
 
 
-@app.get("/api/stats", tags=["stats"])
+@app.get("/api/stats", tags=["stats"], dependencies=[Depends(require_api_key)])
 def stats():
+    cached = cache_get("stats")
+    if cached is not None:
+        return cached
     feed = load_feed()
     vulns = load_vulns()
     actors = load_actors()
@@ -376,7 +456,7 @@ def stats():
     actor_counts = {(a.get("aliases") or [k])[0]: len(a.get("campaigns", []) or [])
                     for k, a in actors.items()}
 
-    return {
+    return cache_set("stats", {
         "totals": {
             "feed": len(feed),
             "cves": len(vulns),
@@ -387,4 +467,4 @@ def stats():
         "risk_band_breakdown": bands,
         "top_products": top(products, 6),
         "top_actors": top(actor_counts, 6),
-    }
+    })
