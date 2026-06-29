@@ -312,3 +312,5 @@ https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
 https://isc.sans.edu/diary/rss/33106
 https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
 https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/
+https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
+https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
