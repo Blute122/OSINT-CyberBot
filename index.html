@@ -1388,6 +1388,102 @@
             .analytics-stats { grid-template-columns: repeat(2, 1fr); }
             .analytics-grid { grid-template-columns: 1fr; }
         }
+
+        /* ── Relationship graph ── */
+        #panel-graph {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        .graph-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .graph-legend {
+            display: flex;
+            gap: 1.1rem;
+            flex-wrap: wrap;
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            color: var(--text-secondary);
+        }
+
+        .graph-legend .leg {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .graph-legend .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .graph-canvas {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            overflow: hidden;
+            backdrop-filter: blur(8px);
+        }
+
+        .graph-canvas svg {
+            display: block;
+            width: 100%;
+            height: 560px;
+            cursor: grab;
+            touch-action: none;
+        }
+
+        .graph-canvas svg:active { cursor: grabbing; }
+
+        .glink {
+            stroke: rgba(255, 255, 255, 0.12);
+            stroke-width: 1;
+            transition: stroke-opacity 0.2s;
+        }
+
+        .glink.faded { stroke-opacity: 0.04; }
+
+        .gnode { cursor: pointer; }
+
+        .gnode circle {
+            stroke: var(--bg-color);
+            stroke-width: 2;
+            transition: opacity 0.2s;
+        }
+
+        .gnode.actor circle { fill: var(--accent-alt); }
+        .gnode.target circle { fill: var(--text-muted); }
+        .gnode.cve.critical circle { fill: var(--sev-critical); }
+        .gnode.cve.high circle     { fill: var(--sev-high); }
+        .gnode.cve.medium circle   { fill: var(--sev-medium); }
+        .gnode.cve.low circle      { fill: var(--sev-low); }
+        .gnode.kev circle { stroke: var(--kev-color); stroke-width: 2.5; }
+
+        .gnode text {
+            fill: var(--text-secondary);
+            font-family: var(--font-mono);
+            font-size: 9px;
+            pointer-events: none;
+        }
+
+        .gnode.faded { opacity: 0.15; }
+
+        .graph-hint {
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+        }
     </style>
 </head>
 
@@ -1413,6 +1509,7 @@
         <button class="view-tab active" data-view="feed">Live Feed</button>
         <button class="view-tab" data-view="vulns">🛡️ Vulnerability Tracker</button>
         <button class="view-tab" data-view="analytics">📊 Analytics</button>
+        <button class="view-tab" data-view="graph">🕸️ Threat Graph</button>
     </div>
 
     <div class="view-panel active" id="panel-feed">
@@ -1474,6 +1571,8 @@
     </div>
 
     <div class="view-panel" id="panel-analytics"></div>
+
+    <div class="view-panel" id="panel-graph"></div>
 
     <div class="view-panel" id="panel-report"></div>
 
@@ -1764,8 +1863,10 @@
                 document.getElementById('panel-feed').classList.toggle('active', view === 'feed');
                 document.getElementById('panel-vulns').classList.toggle('active', view === 'vulns');
                 document.getElementById('panel-analytics').classList.toggle('active', view === 'analytics');
+                document.getElementById('panel-graph').classList.toggle('active', view === 'graph');
                 if (view === 'vulns' && !vulnsLoaded) fetchVulns();
                 if (view === 'analytics') renderAnalytics();
+                if (view === 'graph') renderGraph(); else stopGraph();
             });
         });
 
@@ -2011,6 +2112,254 @@
                         ${actorItems.length ? barListHTML(actorItems) : '<p class="no-results">No actors.</p>'}
                     </div>
                 </div>`;
+        }
+
+        // ── Relationship graph ─────────────────────────────────────────
+        // Custom force-directed network (no library). Nodes = threat actors,
+        // CVEs, and targets/products; edges = "targets" and "affects".
+
+        const SVGNS = 'http://www.w3.org/2000/svg';
+        let graphRAF = null;
+
+        function svgEl(tag, attrs) {
+            const el = document.createElementNS(SVGNS, tag);
+            for (const k in attrs) el.setAttribute(k, attrs[k]);
+            return el;
+        }
+
+        function buildGraph() {
+            const nodeMap = new Map();
+            const linkSet = new Set();
+            const links = [];
+
+            const getNode = (id, type, label, extra) => {
+                if (!nodeMap.has(id)) {
+                    nodeMap.set(id, Object.assign(
+                        { id, type, label, x: 0, y: 0, vx: 0, vy: 0, neighbors: new Set() },
+                        extra || {}));
+                }
+                return nodeMap.get(id);
+            };
+            const targetId = s => 'tgt:' + s.trim().toLowerCase();
+            const addLink = (a, b) => {
+                const key = a.id + '|' + b.id;
+                if (linkSet.has(key)) return;
+                linkSet.add(key);
+                links.push({ source: a, target: b });
+                a.neighbors.add(b); b.neighbors.add(a);
+            };
+
+            // Actors -> targets
+            Object.entries(actorData || {}).forEach(([key, a]) => {
+                const name = (a.aliases && a.aliases[0]) || key;
+                const an = getNode('actor:' + key, 'actor', name,
+                    { campaigns: (a.campaigns || []).length, search: name });
+                (a.campaigns || []).forEach(c => {
+                    const t = (c.target || '').trim();
+                    if (!t || t.toLowerCase() === 'unspecified') return;
+                    addLink(an, getNode(targetId(t), 'target', t, { search: t }));
+                });
+            });
+
+            // CVEs -> products
+            Object.entries(vulnData || {}).forEach(([cve, v]) => {
+                const risk = riskForVuln(v);
+                const cn = getNode('cve:' + cve, 'cve', cve,
+                    { risk, band: riskBand(risk), kev: !!v.kev, search: cve });
+                const p = (v.product || '').trim();
+                if (p) addLink(cn, getNode(targetId(p), 'target', p, { search: p }));
+            });
+
+            return { nodes: [...nodeMap.values()], links };
+        }
+
+        function nodeRadius(n) {
+            if (n.type === 'actor') return 6 + Math.min(n.campaigns || 1, 6) * 1.4;
+            if (n.type === 'cve') return 7 + (n.risk || 0) / 14;
+            return 4.5;
+        }
+
+        function stopGraph() {
+            if (graphRAF) { cancelAnimationFrame(graphRAF); graphRAF = null; }
+        }
+
+        async function renderGraph() {
+            stopGraph();
+            const panel = document.getElementById('panel-graph');
+            panel.innerHTML = `<div class="report-scan">MAPPING THREAT RELATIONSHIPS…<div class="scan-bar"></div></div>`;
+
+            await loadEntityData();
+            await new Promise(r => setTimeout(r, 350));
+
+            const { nodes, links } = buildGraph();
+            if (!nodes.length) {
+                panel.innerHTML = '<div class="state-box"><p>No relationships to map yet.</p></div>';
+                return;
+            }
+
+            const W = Math.max(320, panel.clientWidth || 920);
+            const H = 560, cx = W / 2, cy = H / 2, margin = 24;
+
+            panel.innerHTML = `
+                <div class="graph-toolbar">
+                    <div class="graph-legend">
+                        <span class="leg"><span class="dot" style="background:var(--accent-alt)"></span>Threat actor</span>
+                        <span class="leg"><span class="dot" style="background:var(--sev-critical)"></span>CVE (by risk)</span>
+                        <span class="leg"><span class="dot" style="background:var(--text-muted)"></span>Target / product</span>
+                    </div>
+                    <button class="report-clear" id="graph-reheat">↻ Re-layout</button>
+                </div>
+                <div class="graph-canvas">
+                    <svg id="graph-svg" viewBox="0 0 ${W} ${H}"></svg>
+                </div>
+                <p class="graph-hint">Drag nodes to explore · hover to highlight connections · click an actor or CVE to open its dossier</p>`;
+
+            const svg = document.getElementById('graph-svg');
+
+            // Seed positions on a circle around the center
+            nodes.forEach((n, i) => {
+                const ang = (i / nodes.length) * Math.PI * 2;
+                n.x = cx + Math.cos(ang) * 120 + (Math.random() - 0.5) * 40;
+                n.y = cy + Math.sin(ang) * 120 + (Math.random() - 0.5) * 40;
+                n.vx = n.vy = 0; n.fixed = false;
+            });
+
+            // Build edge + node DOM once, then mutate positions each tick
+            links.forEach(l => {
+                l.el = svgEl('line', { class: 'glink' });
+                svg.appendChild(l.el);
+            });
+            nodes.forEach(n => {
+                n.r = nodeRadius(n);
+                const g = svgEl('g', { class: `gnode ${n.type}${n.type === 'cve' ? ' ' + n.band : ''}${n.kev ? ' kev' : ''}` });
+                g.appendChild(svgEl('circle', { r: n.r, cx: 0, cy: 0 }));
+                const title = svgEl('title', {});
+                title.textContent = n.type === 'cve'
+                    ? `${n.label} — risk ${n.risk}${n.kev ? ' · CISA KEV' : ''}`
+                    : n.type === 'actor'
+                        ? `${n.label} — ${n.campaigns} campaign(s)`
+                        : `Target: ${n.label}`;
+                g.appendChild(title);
+                if (n.type !== 'target') {
+                    const label = n.label.length > 16 ? n.label.slice(0, 15) + '…' : n.label;
+                    const txt = svgEl('text', { x: n.r + 3, y: 3 });
+                    txt.textContent = label;
+                    g.appendChild(txt);
+                    n.labelEl = txt;
+                }
+                n.el = g;
+                svg.appendChild(g);
+            });
+
+            // ── Force simulation ──
+            const REP = 2400, SPRING = 0.025, REST = 78, CENTER = 0.006, DAMP = 0.85;
+            let alpha = 1.0;
+
+            function tick() {
+                if (!panel.classList.contains('active')) { graphRAF = null; return; }  // paused when hidden
+
+                for (let i = 0; i < nodes.length; i++) {
+                    for (let j = i + 1; j < nodes.length; j++) {
+                        const a = nodes[i], b = nodes[j];
+                        let dx = a.x - b.x, dy = a.y - b.y;
+                        let d2 = dx * dx + dy * dy + 0.01, d = Math.sqrt(d2);
+                        const f = REP / d2, fx = f * dx / d, fy = f * dy / d;
+                        a.vx += fx; a.vy += fy; b.vx -= fx; b.vy -= fy;
+                    }
+                }
+                for (const l of links) {
+                    const a = l.source, b = l.target;
+                    let dx = b.x - a.x, dy = b.y - a.y, d = Math.sqrt(dx * dx + dy * dy) + 0.01;
+                    const f = SPRING * (d - REST), fx = f * dx / d, fy = f * dy / d;
+                    a.vx += fx; a.vy += fy; b.vx -= fx; b.vy -= fy;
+                }
+                for (const n of nodes) {
+                    if (n.fixed) { n.vx = n.vy = 0; continue; }
+                    n.vx += (cx - n.x) * CENTER; n.vy += (cy - n.y) * CENTER;
+                    n.vx *= DAMP; n.vy *= DAMP;
+                    n.x += n.vx * alpha; n.y += n.vy * alpha;
+                    const r = nodeRadius(n);
+                    n.x = Math.max(margin + r, Math.min(W - margin - r, n.x));
+                    n.y = Math.max(margin + r, Math.min(H - margin - r, n.y));
+                }
+
+                for (const l of links) {
+                    l.el.setAttribute('x1', l.source.x); l.el.setAttribute('y1', l.source.y);
+                    l.el.setAttribute('x2', l.target.x); l.el.setAttribute('y2', l.target.y);
+                }
+                for (const n of nodes) {
+                    n.el.setAttribute('transform', `translate(${n.x},${n.y})`);
+                    if (n.labelEl) {
+                        // Flip the label to the left for nodes near the right edge
+                        // so text isn't clipped by the canvas.
+                        if (n.x > W - 95) {
+                            n.labelEl.setAttribute('x', -(n.r + 3));
+                            n.labelEl.setAttribute('text-anchor', 'end');
+                        } else {
+                            n.labelEl.setAttribute('x', n.r + 3);
+                            n.labelEl.setAttribute('text-anchor', 'start');
+                        }
+                    }
+                }
+
+                alpha *= 0.99;
+                if (alpha > 0.02 || draggingNode) graphRAF = requestAnimationFrame(tick);
+                else graphRAF = null;
+            }
+            const startSim = () => { if (!graphRAF) graphRAF = requestAnimationFrame(tick); };
+
+            // ── Hover highlight ──
+            nodes.forEach(n => {
+                n.el.addEventListener('mouseenter', () => {
+                    nodes.forEach(m => m.el.classList.toggle('faded', !(m === n || n.neighbors.has(m))));
+                    links.forEach(l => l.el.classList.toggle('faded', !(l.source === n || l.target === n)));
+                });
+                n.el.addEventListener('mouseleave', () => {
+                    nodes.forEach(m => m.el.classList.remove('faded'));
+                    links.forEach(l => l.el.classList.remove('faded'));
+                });
+            });
+
+            // ── Drag + click-through ──
+            let draggingNode = null, downPt = null, moved = false;
+            const toSvg = e => {
+                const r = svg.getBoundingClientRect();
+                return { x: (e.clientX - r.left) / r.width * W, y: (e.clientY - r.top) / r.height * H };
+            };
+            nodes.forEach(n => {
+                n.el.addEventListener('pointerdown', e => {
+                    e.preventDefault();
+                    draggingNode = n; moved = false; downPt = toSvg(e);
+                    n.fixed = true; svg.setPointerCapture(e.pointerId);
+                    startSim();
+                });
+            });
+            svg.addEventListener('pointermove', e => {
+                if (!draggingNode) return;
+                const p = toSvg(e);
+                if (Math.abs(p.x - downPt.x) > 3 || Math.abs(p.y - downPt.y) > 3) moved = true;
+                draggingNode.x = p.x; draggingNode.y = p.y; alpha = Math.max(alpha, 0.25);
+                startSim();
+            });
+            const endDrag = () => {
+                if (!draggingNode) return;
+                const n = draggingNode; draggingNode = null; n.fixed = false;
+                if (!moved && n.type !== 'target') runSearch(n.search);   // click -> dossier
+                else if (!moved) runSearch(n.search);                     // target -> keyword search
+            };
+            svg.addEventListener('pointerup', endDrag);
+            svg.addEventListener('pointercancel', endDrag);
+
+            document.getElementById('graph-reheat').addEventListener('click', () => {
+                nodes.forEach((n, i) => {
+                    const ang = (i / nodes.length) * Math.PI * 2;
+                    n.x = cx + Math.cos(ang) * 120 + (Math.random() - 0.5) * 40;
+                    n.y = cy + Math.sin(ang) * 120; n.vx = n.vy = 0; n.fixed = false;
+                });
+                alpha = 1.0; startSim();
+            });
+
+            startSim();
         }
 
         // ── Intel Search ──────────────────────────────────────────────

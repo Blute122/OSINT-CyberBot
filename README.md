@@ -119,6 +119,8 @@ The search runs entirely client-side against the already-published JSON, so it w
 
 The dashboard also has an **Analytics** tab with custom, dependency-free SVG charts computed live in the browser: threats over time, a severity-distribution donut, risk-priority bands, top targeted products, and the most active threat actors. Like the search, it reads the existing JSON — no chart library, no backend.
 
+A **Threat Graph** tab renders an interactive, force-directed network (also hand-rolled, no library) linking threat actors, CVEs, and their targets/products. CVE nodes are sized and colored by risk score; hovering highlights a node's connections, dragging repositions nodes, and clicking an actor or CVE opens its dossier via the intel search.
+
 For best results, serve the folder with a local HTTP server:
 
 ```bash
