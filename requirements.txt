@@ -1,6 +1,7 @@
 feedparser
 tweepy
 groq
+pydantic
 requests
 streamlit
 pandas

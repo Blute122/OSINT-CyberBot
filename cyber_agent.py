@@ -14,6 +14,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from calendar import timegm
 from groq import Groq
+from pydantic import BaseModel, ValidationError
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 from entity_model import (
@@ -100,6 +101,12 @@ DAILY_POST_CAP        = 7   # Max tweets per day (UTC)
 ARTICLE_MAX_AGE_HOURS = 6   # Skip articles older than this
 TWEET_CHAR_LIMIT      = 278 # X free/Basic tier hard caps posts at 280 chars.
                              # Raise to ~24900 if/when back on X Premium.
+
+# LLM extraction resilience: try the primary model, fall back to a larger one;
+# each model gets a few attempts with exponential backoff on transient errors.
+GROQ_MODELS        = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"]
+GROQ_MAX_ATTEMPTS  = 2   # attempts per model before falling back
+GROQ_BACKOFF_BASE  = 2   # seconds; doubles each retry
 
 RSS_FEEDS = [
     # ── Tier 1: Breaking news ────────────────────────────────────────
@@ -362,8 +369,40 @@ def get_epss_score(cve_id: str):
 
 
 # ─────────────────────────────────────────────
-# GROQ — SINGLE CALL
+# GROQ — EXTRACTION  (schema-validated, retried, with model fallback)
 # ─────────────────────────────────────────────
+class ExtractionResult(BaseModel):
+    """Schema the LLM must satisfy. Structural validation stops malformed
+    output from ever reaching the pipeline; missing fields fall back to
+    sensible defaults."""
+    skip: bool = False
+    severity_icon: str = "🟡"
+    cve: str | None = ""
+    threat_actor: str | None = ""
+    target: str | None = ""
+    tweet: str | None = ""
+    card_context: str | None = ""
+    card_impact: str | None = ""
+    simply_put: str | None = ""
+
+
+def _call_groq(model: str, prompt: str) -> str:
+    """One Groq completion → raw content string. Raises on API error."""
+    client = Groq(api_key=GROQ_API_KEY)
+    response = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        response_format={"type": "json_object"},
+    )
+    return response.choices[0].message.content.strip()
+
+
+def _parse_and_validate(raw: str) -> ExtractionResult:
+    """Parse JSON and validate against ExtractionResult. Raises
+    JSONDecodeError or ValidationError on malformed output."""
+    return ExtractionResult.model_validate(json.loads(raw))
+
+
 def generate_content(title: str, summary: str, source_name: str) -> dict | None:
     """
     One Groq call. Each output field serves a DISTINCT purpose:
@@ -372,10 +411,10 @@ def generate_content(title: str, summary: str, source_name: str) -> dict | None:
                      the attack works, scope. Richer than the tweet.
       card_impact  — who is at risk right now, real-world consequences
       simply_put   — one plain-English sentence for non-technical readers
-    Returns None if the article should be skipped.
+    Validates the output against a schema and retries with exponential backoff,
+    falling back to a second model. Returns a normalized dict, or None if the
+    article should be skipped or extraction ultimately fails.
     """
-    client = Groq(api_key=GROQ_API_KEY)
-
     prompt = f"""You are a cyber threat intelligence analyst. Analyze the article below and return a JSON object.
 
 CONTENT FILTER — return exactly {{"skip": true}} if the article is ANY of:
@@ -428,30 +467,48 @@ ARTICLE:
 Title: {title}
 Summary: {summary}"""
 
-    response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
-        messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"},
-    )
+    last_err = None
+    for model in GROQ_MODELS:
+        for attempt in range(1, GROQ_MAX_ATTEMPTS + 1):
+            try:
+                result = _parse_and_validate(_call_groq(model, prompt))
+            except (json.JSONDecodeError, ValidationError) as e:
+                # Bad/malformed content — a retry (often on the fallback model)
+                # may produce valid output.
+                last_err = e
+                log.warning("Groq output invalid (model=%s, attempt=%d): %s", model, attempt, e)
+                time.sleep(1)
+                continue
+            except Exception as e:
+                # Transient API / network / rate-limit error — back off and retry.
+                last_err = e
+                wait = GROQ_BACKOFF_BASE * (2 ** (attempt - 1))
+                log.warning("Groq call failed (model=%s, attempt=%d): %s — retrying in %ds",
+                            model, attempt, e, wait)
+                time.sleep(wait)
+                continue
 
-    raw = response.choices[0].message.content.strip()
+            # ── Success: normalize and return ──
+            if result.skip:
+                return None
+            cve = (result.cve or "").strip()
+            if cve and not CVE_PATTERN.fullmatch(cve):
+                log.warning("Rejected invalid CVE: '%s'", cve)
+                cve = ""
+            return {
+                "severity_icon": result.severity_icon or "🟡",
+                "cve": cve,
+                "threat_actor": (result.threat_actor or "").strip(),
+                "target": (result.target or "").strip(),
+                "tweet": (result.tweet or "").strip(),
+                "card_context": (result.card_context or "").strip(),
+                "card_impact": (result.card_impact or "").strip(),
+                "simply_put": (result.simply_put or "").strip(),
+            }
+        log.warning("Model '%s' exhausted after %d attempts; trying fallback.", model, GROQ_MAX_ATTEMPTS)
 
-    try:
-        data = json.loads(raw)
-    except json.JSONDecodeError:
-        log.warning("Failed to parse Groq JSON:\n%s", raw)
-        return None
-
-    if data.get("skip"):
-        return None
-
-    # Validate CVE — reject placeholders
-    cve = data.get("cve", "").strip()
-    if cve and not CVE_PATTERN.fullmatch(cve):
-        log.warning("Rejected invalid CVE: '%s'", cve)
-        data["cve"] = ""
-
-    return data
+    log.error("All Groq models/attempts failed: %s", last_err)
+    return None
 
 
 # ─────────────────────────────────────────────

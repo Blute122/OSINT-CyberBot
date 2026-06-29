@@ -8,7 +8,7 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 
 - Pulls cybersecurity articles from RSS feeds such as The Hacker News, BleepingComputer, Dark Reading, CyberScoop, and Krebs on Security.
 - Filters out old articles and previously posted URLs.
-- Uses Groq LLaMA to extract severity, CVE, affected target, threat actor, tweet text, card summary, and a plain-English explanation.
+- Uses Groq LLaMA to extract severity, CVE, affected target, threat actor, tweet text, card summary, and a plain-English explanation. Extraction is hardened with Pydantic schema validation, retries with exponential backoff, and automatic fallback to a second model.
 - Validates CVE IDs before enrichment to avoid posting placeholder or invented CVEs.
 - Looks up CVSS scores from the NVD API, KEV (Known Exploited Vulnerabilities) status from CISA, and EPSS (Exploit Prediction Scoring System) metrics.
 - Tracks vulnerability lifecycles and threat actor campaigns persistently in `vulnerabilities.json` and `actors.json`.
@@ -280,7 +280,7 @@ DISCORD_WEBHOOK_URL
 4. Skips articles already present in `posted_urls.txt`.
 5. Skips articles older than the configured maximum age.
 6. Performs layered deduplication against recent history: exact URL match, a fast title-keyword/entity overlap check (24h general, 7-day for CVEs and named entities), and a TF-IDF cosine similarity fallback (`semantic.py`) that catches reworded headlines across sources within the 7-day window.
-7. Sends the article title and summary to Groq for structured JSON extraction.
+7. Sends the article title and summary to Groq for structured JSON extraction, validated against a Pydantic schema with retries/backoff and a fallback model.
 8. Rejects invalid CVE placeholders.
 9. Performs an exact-CVE deduplication check against `vulnerabilities.json` to only proceed if the threat status has meaningfully escalated.
 10. Looks up CVSS from NVD, KEV status from CISA, and EPSS scores from FIRST.org.
