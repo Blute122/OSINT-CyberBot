@@ -874,7 +874,315 @@
             .stat-divider {
                 display: none;
             }
+
+            .search-shell {
+                flex-wrap: wrap;
+            }
         }
+
+        /* ── Hero command search ── */
+        .intel-search {
+            max-width: 720px;
+            margin: 0 auto 2.25rem;
+        }
+
+        .search-shell {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 0.5rem 0.6rem 0.5rem 1rem;
+            backdrop-filter: blur(8px);
+            transition: border-color 0.25s, box-shadow 0.25s;
+        }
+
+        .search-shell:focus-within {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(0, 255, 170, 0.1), 0 0 28px rgba(0, 255, 170, 0.12);
+        }
+
+        .search-prompt {
+            font-family: var(--font-mono);
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 1rem;
+            user-select: none;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 140px;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            font-size: 0.95rem;
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-btn {
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 0.55rem 1.1rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            white-space: nowrap;
+            background: linear-gradient(90deg, var(--accent), var(--accent-alt));
+            color: #001b14;
+            transition: transform 0.15s, filter 0.15s;
+        }
+
+        .search-btn:hover {
+            filter: brightness(1.12);
+            transform: translateY(-1px);
+        }
+
+        .search-examples {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 0.85rem;
+            flex-wrap: wrap;
+        }
+
+        .example-chip {
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 0.3rem 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .example-chip:hover {
+            color: var(--accent);
+            border-color: rgba(0, 255, 170, 0.3);
+        }
+
+        .example-chip .chip-label {
+            color: var(--text-muted);
+            margin-right: 0.4rem;
+        }
+
+        /* ── Report panel ── */
+        #panel-report {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .report-scan {
+            text-align: center;
+            padding: 3.5rem 0;
+            font-family: var(--font-mono);
+            color: var(--accent);
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .scan-bar {
+            width: 200px;
+            height: 3px;
+            margin: 1.1rem auto 0;
+            background: rgba(0, 255, 170, 0.12);
+            border-radius: 3px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .scan-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -40%;
+            width: 40%;
+            height: 100%;
+            background: var(--accent);
+            box-shadow: 0 0 10px var(--accent);
+            animation: scanmove 0.9s ease-in-out infinite;
+        }
+
+        @keyframes scanmove {
+            to {
+                left: 110%;
+            }
+        }
+
+        .report-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.85rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .report-query {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .report-query b {
+            color: var(--accent);
+        }
+
+        .report-clear {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: transparent;
+            border-radius: 20px;
+            padding: 0.3rem 0.8rem;
+            transition: all 0.2s;
+        }
+
+        .report-clear:hover {
+            color: var(--accent);
+            border-color: rgba(0, 255, 170, 0.3);
+        }
+
+        .report-section-title {
+            font-family: var(--font-mono);
+            font-size: 0.74rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin: 1.75rem 0 0.85rem;
+        }
+
+        /* ── Dossier card ── */
+        .dossier {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            backdrop-filter: blur(8px);
+            animation: fadeUp 0.4s ease forwards;
+        }
+
+        .dossier.is-kev {
+            border-color: rgba(255, 45, 85, 0.35);
+            background: linear-gradient(135deg, rgba(255, 45, 85, 0.06), var(--card-bg) 40%);
+        }
+
+        .dossier-title {
+            font-family: var(--font-mono);
+            font-size: 1.4rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent), var(--accent-alt));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .dossier-sub {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            gap: 0.75rem;
+            margin: 1.3rem 0;
+        }
+
+        .metric-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 10px;
+            padding: 0.85rem;
+            text-align: center;
+        }
+
+        .metric-box .m-val {
+            font-family: var(--font-mono);
+            font-size: 1.35rem;
+            font-weight: 700;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .metric-box .m-lbl {
+            font-size: 0.64rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-top: 0.3rem;
+            display: block;
+        }
+
+        .cvss-track {
+            height: 6px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.08);
+            margin-top: 0.55rem;
+            overflow: hidden;
+        }
+
+        .cvss-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.6s ease;
+        }
+
+        /* ── Risk priority score ── */
+        .risk-pill {
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 0.2rem 0.55rem;
+            border-radius: 20px;
+            white-space: nowrap;
+        }
+
+        .risk-pill.critical {
+            background: rgba(255, 71, 87, 0.15);
+            color: var(--sev-critical);
+            border: 1px solid rgba(255, 71, 87, 0.3);
+        }
+
+        .risk-pill.high {
+            background: rgba(255, 165, 2, 0.15);
+            color: var(--sev-high);
+            border: 1px solid rgba(255, 165, 2, 0.3);
+        }
+
+        .risk-pill.medium {
+            background: rgba(236, 204, 104, 0.15);
+            color: var(--sev-medium);
+            border: 1px solid rgba(236, 204, 104, 0.3);
+        }
+
+        .risk-pill.low {
+            background: rgba(46, 213, 115, 0.15);
+            color: var(--sev-low);
+            border: 1px solid rgba(46, 213, 115, 0.3);
+        }
+
+        .m-val.risk-critical { color: var(--sev-critical); }
+        .m-val.risk-high     { color: var(--sev-high); }
+        .m-val.risk-medium   { color: var(--sev-medium); }
+        .m-val.risk-low      { color: var(--sev-low); }
     </style>
 </head>
 
@@ -885,6 +1193,16 @@
         <h1>Cyber Threat Dashboard</h1>
         <p>Real-time security advisories aggregated from top infosec sources via RSS + LLM extraction</p>
     </header>
+
+    <section class="intel-search">
+        <div class="search-shell">
+            <span class="search-prompt">&gt;_</span>
+            <input id="search-input" class="search-input" type="text" autocomplete="off" spellcheck="false"
+                placeholder="Search a CVE, threat actor, malware, or vendor…  e.g. CVE-2026-4020" />
+            <button class="search-btn" id="search-btn">RUN INTEL</button>
+        </div>
+        <div class="search-examples" id="search-examples"></div>
+    </section>
 
     <div class="view-tabs">
         <button class="view-tab active" data-view="feed">Live Feed</button>
@@ -949,6 +1267,8 @@
         <div class="vuln-container" id="vuln-container" style="max-width:860px; margin:0 auto;"></div>
     </div>
 
+    <div class="view-panel" id="panel-report"></div>
+
     <script>
         // ── Helpers ────────────────────────────────────────────────────
 
@@ -990,6 +1310,63 @@
             return { critical: 'Critical', high: 'High', medium: 'Medium', low: 'Low', unknown: 'Unknown' }[sev] || 'Unknown';
         }
 
+        // ── Risk prioritization score ──────────────────────────────────
+        // MIRRORS scoring.py — keep the weights/floor in sync with the engine.
+        const RISK_W = { cvss: 35, epss: 30, kev: 25, recency: 10 };
+        const RISK_RECENCY_DAYS = 30;
+        const RISK_KEV_FLOOR = 85;
+
+        function ageDaysFrom(dateStr) {
+            if (!dateStr) return 0;
+            // Stored as "YYYY-MM-DD HH:MM UTC"
+            const d = new Date(dateStr.replace(' UTC', 'Z').replace(' ', 'T'));
+            if (isNaN(d.getTime())) return 0;
+            return Math.max(0, (Date.now() - d.getTime()) / 86400000);
+        }
+
+        function computeRiskScore(cvss, epss, kev, ageDays) {
+            let cvssV = parseFloat(cvss);
+            cvssV = isNaN(cvssV) ? null : Math.max(0, Math.min(cvssV, 10));
+            let epssV = parseFloat(epss);
+            epssV = isNaN(epssV) ? 0 : Math.max(0, Math.min(epssV, 1));
+            const kevV = kev ? 1 : 0;
+            const rec = Math.max(0, 1 - Math.max(0, ageDays || 0) / RISK_RECENCY_DAYS);
+
+            let score;
+            if (cvssV === null) {
+                const total = RISK_W.epss + RISK_W.kev + RISK_W.recency;
+                score = ((RISK_W.epss / total) * epssV
+                    + (RISK_W.kev / total) * kevV
+                    + (RISK_W.recency / total) * rec) * 100;
+            } else {
+                score = RISK_W.cvss * (cvssV / 10)
+                    + RISK_W.epss * epssV
+                    + RISK_W.kev * kevV
+                    + RISK_W.recency * rec;
+            }
+            if (kev) score = Math.max(score, RISK_KEV_FLOOR);
+            return Math.round(Math.max(0, Math.min(score, 100)));
+        }
+
+        function riskBand(score) {
+            if (score >= 80) return 'critical';
+            if (score >= 60) return 'high';
+            if (score >= 35) return 'medium';
+            return 'low';
+        }
+
+        // Prefer the engine-persisted score; fall back to computing it live
+        // (so historical records without a stored score still rank/display).
+        function riskForVuln(v) {
+            if (typeof v.risk_score === 'number') return v.risk_score;
+            return computeRiskScore(v.cvss, v.epss, v.kev, ageDaysFrom(v.first_seen || v.last_updated));
+        }
+
+        function riskPillHTML(score) {
+            if (score == null || isNaN(score)) return '';
+            return `<span class="risk-pill ${riskBand(score)}">RISK ${score}</span>`;
+        }
+
         // ── Dynamic base path (works on GitHub Pages subfolders) ──────
 
         function getDataUrl() {
@@ -1004,6 +1381,11 @@
         let activeFilter = 'all';
         let refreshTimer = null;
         const REFRESH_INTERVAL = 5 * 60; // seconds
+
+        // Entity databases (loaded on demand for search / tracker)
+        let vulnData = {};
+        let actorData = {};
+        let entitiesLoaded = false;
 
         // ── Render cards ───────────────────────────────────────────────
 
@@ -1040,6 +1422,7 @@
                         <div class="card-meta">
                             <span class="date-badge">${escapeHTML(item.date || 'Unknown date')}</span>
                             <span class="sev-badge ${sev}">${severityLabel(sev)}</span>
+                            ${riskPillHTML(item.risk_score)}
                             ${item.kev ? '<span class="kev-badge">🚨 CISA KEV</span>' : ''}
                             ${item.epss != null ? `<span class="epss-badge">EPSS ${(item.epss * 100).toFixed(1)}%</span>` : ''}
                         </div>
@@ -1169,6 +1552,7 @@
                 document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
                 tab.classList.add('active');
                 const view = tab.dataset.view;
+                document.getElementById('panel-report').classList.remove('active');
                 document.getElementById('panel-feed').classList.toggle('active', view === 'feed');
                 document.getElementById('panel-vulns').classList.toggle('active', view === 'vulns');
                 if (view === 'vulns' && !vulnsLoaded) fetchVulns();
@@ -1199,9 +1583,11 @@
                 return;
             }
 
-            // KEV first, then most recently updated
+            // Highest priority score first (the score already floors KEV
+            // items high), tie-broken by most recently updated.
             entries.sort((a, b) => {
-                if (a[1].kev !== b[1].kev) return (b[1].kev ? 1 : 0) - (a[1].kev ? 1 : 0);
+                const ra = riskForVuln(a[1]), rb = riskForVuln(b[1]);
+                if (rb !== ra) return rb - ra;
                 return new Date(b[1].last_updated) - new Date(a[1].last_updated);
             });
 
@@ -1215,6 +1601,7 @@
 
                 const cvssDisplay = (v.cvss && v.cvss !== 'N/A') ? `CVSS ${v.cvss}` : 'CVSS N/A';
                 const epssDisplay = v.epss != null ? `EPSS ${(v.epss * 100).toFixed(1)}%` : '';
+                const risk = riskForVuln(v);
 
                 card.innerHTML = `
                     <div class="vuln-header-row">
@@ -1223,6 +1610,7 @@
                             <div class="vuln-product">${escapeHTML(v.product || 'Unspecified product')}</div>
                         </div>
                         <div class="vuln-badges">
+                            ${riskPillHTML(risk)}
                             <span class="status-pill ${latestStatus}">${statusLabel(latestStatus)}</span>
                             ${v.kev ? '<span class="kev-badge">🚨 CISA KEV</span>' : ''}
                             <span class="cvss-pill">${cvssDisplay}</span>
@@ -1259,6 +1647,7 @@
                 const response = await fetch(getVulnDataUrl());
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const raw = await response.json();
+                vulnData = raw;
                 loader.style.display = 'none';
                 renderVulnTracker(raw);
                 vulnsLoaded = true;
@@ -1272,6 +1661,276 @@
                     </div>`;
             }
         }
+
+        // ── Intel Search ──────────────────────────────────────────────
+
+        function getActorDataUrl() {
+            const base = window.location.pathname.replace(/\/[^/]*$/, '');
+            return `${window.location.origin}${base}/actors.json?v=${Date.now()}`;
+        }
+
+        // Loads the CVE + actor entity databases on demand (cached after first call)
+        async function loadEntityData() {
+            if (entitiesLoaded) return;
+            try {
+                const [vResp, aResp] = await Promise.all([
+                    fetch(getVulnDataUrl()),
+                    fetch(getActorDataUrl())
+                ]);
+                vulnData = vResp.ok ? await vResp.json() : {};
+                actorData = aResp.ok ? await aResp.json() : {};
+                entitiesLoaded = true;
+            } catch (err) {
+                console.error('Entity load error:', err);
+            }
+        }
+
+        const SEARCH_EXAMPLES = [
+            { label: 'CVE', q: 'CVE-2026-4020' },
+            { label: 'Actor', q: 'Sapphire Sleet' },
+            { label: 'Malware', q: 'ransomware' },
+            { label: 'Vendor', q: 'WordPress' }
+        ];
+
+        function buildExamples() {
+            document.getElementById('search-examples').innerHTML = SEARCH_EXAMPLES.map(e =>
+                `<span class="example-chip" data-q="${escapeHTML(e.q)}"><span class="chip-label">${e.label}</span>${escapeHTML(e.q)}</span>`
+            ).join('');
+        }
+
+        function showReportView() {
+            document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById('panel-report').classList.add('active');
+        }
+
+        function clearReport() {
+            document.getElementById('search-input').value = '';
+            document.getElementById('panel-report').classList.remove('active');
+            document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+            document.querySelector('.view-tab[data-view="feed"]').classList.add('active');
+            document.getElementById('panel-feed').classList.add('active');
+        }
+
+        function cvssColor(score) {
+            const s = parseFloat(score);
+            if (isNaN(s)) return 'var(--sev-unknown)';
+            if (s >= 9) return 'var(--sev-critical)';
+            if (s >= 7) return 'var(--sev-high)';
+            if (s >= 4) return 'var(--sev-medium)';
+            return 'var(--sev-low)';
+        }
+
+        async function runSearch(rawQuery) {
+            const query = (rawQuery || '').trim();
+            if (!query) return;
+
+            document.getElementById('search-input').value = query;
+            showReportView();
+            const panel = document.getElementById('panel-report');
+            panel.innerHTML = `<div class="report-scan">QUERYING THREAT INTELLIGENCE…<div class="scan-bar"></div></div>`;
+
+            await loadEntityData();
+            // Brief scan delay sells the "live response" moment; data is already local.
+            await new Promise(r => setTimeout(r, 550));
+
+            const q = query.toLowerCase();
+
+            const cveMatches = Object.entries(vulnData).filter(([id, v]) =>
+                id.toLowerCase().includes(q) ||
+                (v.product || '').toLowerCase().includes(q) ||
+                (v.status_timeline || []).some(e => (e.summary || '').toLowerCase().includes(q))
+            );
+
+            const actorMatches = Object.entries(actorData).filter(([name, a]) =>
+                name.toLowerCase().includes(q) ||
+                (a.aliases || []).some(al => al.toLowerCase().includes(q)) ||
+                (a.campaigns || []).some(c =>
+                    (c.summary || '').toLowerCase().includes(q) ||
+                    (c.target || '').toLowerCase().includes(q))
+            );
+
+            const feedMatches = allData.filter(item =>
+                (item.content || '').toLowerCase().includes(q) ||
+                (item.cve || '').toLowerCase().includes(q)
+            );
+
+            renderReport(query, cveMatches, actorMatches, feedMatches);
+        }
+
+        function renderReport(query, cveMatches, actorMatches, feedMatches) {
+            const panel = document.getElementById('panel-report');
+            const total = cveMatches.length + actorMatches.length + feedMatches.length;
+
+            let html = `
+                <div class="report-head">
+                    <div class="report-query">intel query: <b>"${escapeHTML(query)}"</b> · ${total} result${total === 1 ? '' : 's'}</div>
+                    <button class="report-clear" id="report-clear">✕ Clear</button>
+                </div>`;
+
+            if (total === 0) {
+                html += `
+                    <div class="state-box">
+                        <p style="color:var(--text-secondary);font-size:1rem;">No intelligence found for "${escapeHTML(query)}".</p>
+                        <p>Try a CVE ID, threat actor, malware family, or vendor name.</p>
+                    </div>`;
+                panel.innerHTML = html;
+                return;
+            }
+
+            if (cveMatches.length) {
+                html += `<div class="report-section-title">Vulnerability Dossier${cveMatches.length > 1 ? ` · ${cveMatches.length}` : ''}</div>`;
+                html += cveMatches.map(([id, v]) => renderCveDossier(id, v)).join('');
+            }
+            if (actorMatches.length) {
+                html += `<div class="report-section-title">Threat Actor Dossier${actorMatches.length > 1 ? ` · ${actorMatches.length}` : ''}</div>`;
+                html += actorMatches.map(([name, a]) => renderActorDossier(name, a)).join('');
+            }
+            if (feedMatches.length) {
+                html += `<div class="report-section-title">Related Intel Feed · ${feedMatches.length}</div>`;
+                html += feedMatches.map(renderFeedRow).join('');
+            }
+
+            panel.innerHTML = html;
+        }
+
+        function renderCveDossier(id, v) {
+            const timeline = v.status_timeline || [];
+            const latest = timeline.length ? timeline[timeline.length - 1].status : 'disclosed';
+            const cvss = (v.cvss && v.cvss !== 'N/A') ? v.cvss : null;
+            const cvssPct = cvss ? Math.min(parseFloat(cvss) / 10 * 100, 100) : 0;
+            const epss = v.epss != null ? (v.epss * 100).toFixed(1) + '%' : '—';
+            const risk = riskForVuln(v);
+            const band = riskBand(risk);
+
+            return `
+                <div class="dossier ${v.kev ? 'is-kev' : ''}">
+                    <div class="vuln-header-row">
+                        <div>
+                            <div class="dossier-title">${escapeHTML(id)}</div>
+                            <div class="dossier-sub">${escapeHTML(v.product || 'Unspecified product')}</div>
+                        </div>
+                        <div class="vuln-badges">
+                            ${riskPillHTML(risk)}
+                            <span class="status-pill ${latest}">${statusLabel(latest)}</span>
+                            ${v.kev ? '<span class="kev-badge">🚨 CISA KEV</span>' : ''}
+                        </div>
+                    </div>
+                    <div class="metric-grid">
+                        <div class="metric-box">
+                            <span class="m-val risk-${band}">${risk}</span>
+                            <span class="m-lbl">Priority Score</span>
+                            <div class="cvss-track"><div class="cvss-fill" style="width:${risk}%;background:var(--sev-${band})"></div></div>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val" style="color:${cvssColor(v.cvss)}">${cvss || 'N/A'}</span>
+                            <span class="m-lbl">CVSS</span>
+                            <div class="cvss-track"><div class="cvss-fill" style="width:${cvssPct}%;background:${cvssColor(v.cvss)}"></div></div>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val" style="color:var(--epss-color)">${epss}</span>
+                            <span class="m-lbl">EPSS</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val" style="color:${v.kev ? 'var(--kev-color)' : 'var(--text-secondary)'}">${v.kev ? 'YES' : 'NO'}</span>
+                            <span class="m-lbl">Exploited</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val">${timeline.length}</span>
+                            <span class="m-lbl">Events</span>
+                        </div>
+                    </div>
+                    <div class="report-section-title" style="margin:0.5rem 0 0.75rem;">Lifecycle Timeline</div>
+                    <div class="timeline-track">
+                        ${timeline.map(ev => `
+                            <div class="timeline-event status-${ev.status}">
+                                <div class="timeline-date">${escapeHTML(ev.date)}</div>
+                                <div class="timeline-status ${ev.status}">${statusLabel(ev.status)}</div>
+                                <div class="timeline-summary">${escapeHTML(ev.summary)}</div>
+                                <a href="${escapeHTML(ev.source_url)}" target="_blank" rel="noopener noreferrer" class="timeline-link">Source →</a>
+                            </div>`).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function renderActorDossier(name, a) {
+            const campaigns = a.campaigns || [];
+            const displayName = (a.aliases && a.aliases[0]) ? a.aliases[0] : name;
+            const sub = (a.aliases && a.aliases.length > 1)
+                ? 'Aliases: ' + escapeHTML(a.aliases.join(', '))
+                : 'Threat actor / group';
+
+            return `
+                <div class="dossier">
+                    <div class="vuln-header-row">
+                        <div>
+                            <div class="dossier-title">${escapeHTML(displayName)}</div>
+                            <div class="dossier-sub">${sub}</div>
+                        </div>
+                    </div>
+                    <div class="metric-grid">
+                        <div class="metric-box">
+                            <span class="m-val" style="color:var(--accent)">${campaigns.length}</span>
+                            <span class="m-lbl">Campaigns</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="m-val" style="font-size:0.82rem;color:var(--text-secondary)">${escapeHTML(a.first_seen || '—')}</span>
+                            <span class="m-lbl">First Seen</span>
+                        </div>
+                    </div>
+                    <div class="report-section-title" style="margin:0.5rem 0 0.75rem;">Campaign History</div>
+                    <div class="timeline-track">
+                        ${campaigns.map(c => `
+                            <div class="timeline-event status-actively_exploited">
+                                <div class="timeline-date">${escapeHTML(c.date)}</div>
+                                <div class="timeline-summary" style="color:var(--text-primary);font-weight:500;">${escapeHTML(c.summary)}</div>
+                                <div class="timeline-summary">Target: ${escapeHTML(c.target || '—')}</div>
+                                <a href="${escapeHTML(c.source_url)}" target="_blank" rel="noopener noreferrer" class="timeline-link">Source →</a>
+                            </div>`).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function renderFeedRow(item) {
+            const sev = getSeverity(item.content);
+            return `
+                <article class="intel-card sev-${sev}${item.kev ? ' is-kev' : ''}">
+                    <div class="card-header">
+                        <div class="card-meta">
+                            <span class="date-badge">${escapeHTML(item.date || 'Unknown date')}</span>
+                            <span class="sev-badge ${sev}">${severityLabel(sev)}</span>
+                            ${riskPillHTML(item.risk_score)}
+                            ${item.kev ? '<span class="kev-badge">🚨 CISA KEV</span>' : ''}
+                            ${item.epss != null ? `<span class="epss-badge">EPSS ${(item.epss * 100).toFixed(1)}%</span>` : ''}
+                        </div>
+                    </div>
+                    <div class="card-content">${escapeHTML(item.content)}</div>
+                    <div class="card-footer">
+                        <a href="${escapeHTML(item.url || '#')}" target="_blank" rel="noopener noreferrer" class="read-more" aria-label="Read source article">
+                            View source
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>`;
+        }
+
+        // ── Search wiring ─────────────────────────────────────────────
+
+        buildExamples();
+        document.getElementById('search-btn').addEventListener('click', () =>
+            runSearch(document.getElementById('search-input').value));
+        document.getElementById('search-input').addEventListener('keydown', e => {
+            if (e.key === 'Enter') runSearch(e.target.value);
+        });
+        document.getElementById('search-examples').addEventListener('click', e => {
+            const chip = e.target.closest('.example-chip');
+            if (chip) runSearch(chip.dataset.q);
+        });
+        document.addEventListener('click', e => {
+            if (e.target.closest('#report-clear')) clearReport();
+        });
     </script>
 
 </body>

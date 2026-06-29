@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Tests
+.pytest_cache/
+
+# Atomic-write temp files (should never linger, but never commit them)
+.tmp_*.json
+
+# Secrets / local env
+.env

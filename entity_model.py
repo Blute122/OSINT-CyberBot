@@ -1,7 +1,10 @@
 import os
 import re
 import json
+import tempfile
 from datetime import datetime, timezone
+
+from scoring import compute_risk_score, risk_band
 
 VULN_FILE  = "vulnerabilities.json"
 ACTOR_FILE = "actors.json"
@@ -31,9 +34,37 @@ def load_json_safe(path: str) -> dict:
         return {}
 
 
-def save_json_safe(path: str, data: dict):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
+def _age_days(date_str: str) -> float:
+    """Days between a 'YYYY-MM-DD HH:MM UTC' timestamp and now. 0 on parse error."""
+    try:
+        seen = datetime.strptime(
+            date_str.replace(" UTC", ""), "%Y-%m-%d %H:%M"
+        ).replace(tzinfo=timezone.utc)
+    except (ValueError, AttributeError, TypeError):
+        return 0.0
+    return max(0.0, (datetime.now(timezone.utc) - seen).total_seconds() / 86400)
+
+
+def save_json_safe(path: str, data):
+    """
+    Atomic write: serialize to a temp file in the same directory, then
+    os.replace() over the target. os.replace is atomic on the same
+    filesystem, so a crash mid-write can never leave a truncated or
+    half-written database behind — readers always see either the old
+    file or the fully-written new one.
+    """
+    dir_name = os.path.dirname(os.path.abspath(path)) or "."
+    fd, tmp_path = tempfile.mkstemp(dir=dir_name, prefix=".tmp_", suffix=".json")
+    try:
+        with os.fdopen(fd, "w") as f:
+            json.dump(data, f, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp_path, path)
+    except Exception:
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
+        raise
 
 
 def resolve_status(vuln_status: str, title: str, kev_flag: bool, was_kev_before: bool) -> str:
@@ -90,6 +121,15 @@ def upsert_vulnerability(cve: str, title: str, cvss, kev_flag: bool,
     entry["cvss"] = cvss
     entry["kev"] = kev_flag
     entry["epss"] = epss_score
+
+    # Risk prioritization score — recomputed on every update from the latest
+    # verified signals. Recency is measured from first_seen.
+    score = compute_risk_score(
+        cvss=cvss, epss=epss_score, kev=kev_flag,
+        age_days=_age_days(entry.get("first_seen", now_str)),
+    )
+    entry["risk_score"] = score
+    entry["risk_band"] = risk_band(score)
 
     last_status = entry["status_timeline"][-1]["status"] if entry["status_timeline"] else None
     status_changed = (status != last_status)

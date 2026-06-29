@@ -1,7 +1,11 @@
 feedparser
 tweepy
 groq
+requests
 streamlit
 pandas
 plotly
 pillow
+
+# ── dev / test ──
+pytest

@@ -3,11 +3,14 @@ import os
 import random
 import re
 import time
+import logging
+import tempfile
 import feedparser
 import tweepy
 import requests
 import traceback
 import json
+from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from calendar import timegm
 from groq import Groq
@@ -16,6 +19,72 @@ import textwrap
 from entity_model import (
     upsert_vulnerability, upsert_actor, cve_already_covered,
 )
+from scoring import compute_risk_score, risk_band
+from semantic import max_similarity as max_semantic_similarity
+
+# ─────────────────────────────────────────────
+# LOGGING
+# ─────────────────────────────────────────────
+logging.basicConfig(
+    level=os.environ.get("LOG_LEVEL", "INFO"),
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+)
+log = logging.getLogger("cyber_agent")
+
+
+# ─────────────────────────────────────────────
+# RUN METRICS
+# ─────────────────────────────────────────────
+@dataclass
+class RunStats:
+    """Per-run observability counters. Surfaced in the end-of-run summary
+    and a natural source for a future dashboard 'system health' panel."""
+    feeds_scanned: int = 0
+    articles_seen: int = 0
+    posted: int = 0
+    skipped: dict = field(default_factory=dict)
+
+    def skip(self, reason: str):
+        self.skipped[reason] = self.skipped.get(reason, 0) + 1
+
+    def summary(self) -> str:
+        skip_detail = ", ".join(f"{k}={v}" for k, v in sorted(self.skipped.items())) or "none"
+        return (
+            f"Run summary — feeds: {self.feeds_scanned}, articles: {self.articles_seen}, "
+            f"posted: {self.posted}, skipped: [{skip_detail}]"
+        )
+
+
+# ─────────────────────────────────────────────
+# ARTICLE
+# ─────────────────────────────────────────────
+@dataclass
+class Article:
+    """Normalized view of one RSS entry flowing through the pipeline."""
+    url: str
+    title: str
+    summary: str
+    source_name: str
+    published: datetime | None = None
+
+
+def atomic_write_json(path: str, data, indent: int = 4):
+    """Crash-safe JSON write (temp file + os.replace). See entity_model
+    for rationale; this variant keeps the dashboard's indent=4 format."""
+    dir_name = os.path.dirname(os.path.abspath(path)) or "."
+    fd, tmp_path = tempfile.mkstemp(dir=dir_name, prefix=".tmp_", suffix=".json")
+    try:
+        with os.fdopen(fd, "w") as f:
+            json.dump(data, f, indent=indent)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp_path, path)
+    except Exception:
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
+        raise
+
 
 # ─────────────────────────────────────────────
 # CONFIG
@@ -87,6 +156,7 @@ DUPLICATE_WINDOW_HOURS_GENERAL = 24    # same-day keyword overlap (unchanged)
 DUPLICATE_WINDOW_HOURS_LONG    = 168   # 7 days — for CVE/named-entity recurrence
 DUPLICATE_MIN_MATCHES          = 2     # general tier threshold (unchanged)
 DUPLICATE_MIN_ENTITY_MATCHES   = 2     # long-window tier needs 2+ shared proper nouns
+SEMANTIC_DUP_THRESHOLD         = 0.6   # TF-IDF cosine similarity over the 7-day window
 
 
 def extract_keywords(title: str) -> set:
@@ -135,6 +205,8 @@ def is_duplicate_story(title: str, db_data: list) -> bool:
     cutoff_general = now - timedelta(hours=DUPLICATE_WINDOW_HOURS_GENERAL)
     cutoff_long     = now - timedelta(hours=DUPLICATE_WINDOW_HOURS_LONG)
 
+    recent_headlines = []   # 7-day window, for the semantic fallback pass
+
     for entry in db_data:
         raw_date = entry.get("date", "").replace(" UTC", "").strip()
         try:
@@ -146,22 +218,31 @@ def is_duplicate_story(title: str, db_data: list) -> bool:
         stored_kw = extract_keywords(stored_headline)
 
         if entry_time >= cutoff_long:
+            recent_headlines.append(stored_headline)
             stored_cves = {k for k in stored_kw if k.lower().startswith("cve-")}
             if candidate_cves and (candidate_cves & stored_cves):
-                print(f"Duplicate (CVE match, 7d): {candidate_cves & stored_cves}")
+                log.info("Duplicate (CVE match, 7d): %s", candidate_cves & stored_cves)
                 return True
 
             stored_entities = extract_entities(stored_headline)
             ent_overlap = candidate_entities & stored_entities
             if len(ent_overlap) >= DUPLICATE_MIN_ENTITY_MATCHES:
-                print(f"Duplicate (entity match, 7d): {ent_overlap}")
+                log.info("Duplicate (entity match, 7d): %s", ent_overlap)
                 return True
 
         if entry_time >= cutoff_general:
             overlap = candidate_kw & stored_kw
             if len(overlap) >= DUPLICATE_MIN_MATCHES:
-                print(f"Duplicate (keyword overlap, 24h): {overlap}")
+                log.info("Duplicate (keyword overlap, 24h): %s", overlap)
                 return True
+
+    # ── Semantic fallback: TF-IDF cosine over the 7-day window ──
+    # Catches reworded headlines that share distinctive terms but slipped
+    # past the lexical thresholds above.
+    sim = max_semantic_similarity(title, recent_headlines)
+    if sim >= SEMANTIC_DUP_THRESHOLD:
+        log.info("Duplicate (semantic similarity %.2f, 7d)", sim)
+        return True
 
     return False
 
@@ -204,8 +285,7 @@ def load_db() -> list:
         return []
 
 def save_db(db_data: list):
-    with open(DB_FILE, "w") as f:
-        json.dump(db_data, f, indent=4)
+    atomic_write_json(DB_FILE, db_data, indent=4)
 
 
 # ─────────────────────────────────────────────
@@ -227,7 +307,7 @@ def get_nvd_cvss(cve_id: str):
                     return metrics["cvssMetricV3"][0]["cvssData"]["baseScore"]
                 return "Score Pending"
     except Exception as e:
-        print(f"NVD API Error: {e}")
+        log.error("NVD API Error: %s", e)
     return "N/A"
 
 
@@ -253,7 +333,7 @@ def get_kev_catalog() -> set:
             KEV_CACHE["fetched_at"] = now
             return cve_set
     except Exception as e:
-        print(f"KEV fetch error: {e}")
+        log.error("KEV fetch error: %s", e)
     return KEV_CACHE["data"] or set()
 
 
@@ -277,7 +357,7 @@ def get_epss_score(cve_id: str):
             if data:
                 return float(data[0]["epss"]), float(data[0]["percentile"])
     except Exception as e:
-        print(f"EPSS fetch error: {e}")
+        log.error("EPSS fetch error: %s", e)
     return None, None
 
 
@@ -359,7 +439,7 @@ Summary: {summary}"""
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
-        print(f"Failed to parse Groq JSON:\n{raw}")
+        log.warning("Failed to parse Groq JSON:\n%s", raw)
         return None
 
     if data.get("skip"):
@@ -368,7 +448,7 @@ Summary: {summary}"""
     # Validate CVE — reject placeholders
     cve = data.get("cve", "").strip()
     if cve and not CVE_PATTERN.fullmatch(cve):
-        print(f"Rejected invalid CVE: '{cve}'")
+        log.warning("Rejected invalid CVE: '%s'", cve)
         data["cve"] = ""
 
     return data
@@ -599,7 +679,7 @@ def post_tweet(text: str, media_path: str = None):
         kwargs["media_ids"] = [media_id]
 
     response = client_v2.create_tweet(**kwargs)
-    print(f"Tweet posted. ID: {response.data['id']}")
+    log.info("Tweet posted. ID: %s", response.data['id'])
 
 
 # ─────────────────────────────────────────────
@@ -618,6 +698,65 @@ def safe_trim(text: str, limit: int = 278) -> str:
 
 
 # ─────────────────────────────────────────────
+# TWEET COMPOSITION  (pure — unit tested)
+# ─────────────────────────────────────────────
+def severity_from_cvss(cvss_score, current_icon: str, kev_flag: bool) -> str:
+    """Derive the severity emoji from the verified CVSS base score, falling
+    back to the LLM-provided icon if the score is non-numeric. KEV always
+    forces critical (CISA BOD 22-01 rationale): an actively-exploited vuln
+    is critical regardless of its base score."""
+    icon = current_icon
+    try:
+        score_float = float(cvss_score)
+        if score_float >= 9.0:   icon = "🔴"
+        elif score_float >= 7.0: icon = "🟠"
+        elif score_float >= 4.0: icon = "🟡"
+        else:                    icon = "🟢"
+    except (ValueError, TypeError):
+        pass
+    if kev_flag:
+        icon = "🔴"
+    return icon
+
+
+def build_score_str(cve: str, cvss_score, kev_flag: bool, epss_score) -> str:
+    """Assemble the verified-enrichment suffix appended into the tweet:
+    CVE id + CVSS, plus KEV and EPSS flags when present."""
+    score_str = (f"{cve} (CVSS: {cvss_score}/10)"
+                 if cvss_score not in ["N/A", "Score Pending"]
+                 else f"{cve} (CVSS: {cvss_score})")
+    if kev_flag:
+        score_str += " [CISA KEV: ACTIVELY EXPLOITED]"
+    if epss_score is not None:
+        score_str += f" [EPSS: {epss_score*100:.1f}%]"
+    return score_str
+
+
+def inject_score(tweet_text: str, cve: str, score_str: str, limit: int = 278) -> str:
+    """Splice the enrichment suffix in at the CVE's position, trimming the
+    surrounding prose so the KEV/EPSS warning is never the part cut off.
+    Falls back to a plain trim if the CVE token isn't present in the text."""
+    if cve in tweet_text:
+        cve_pos = tweet_text.find(cve)
+        before  = tweet_text[:cve_pos]
+        after   = tweet_text[cve_pos + len(cve):]
+        remaining_budget = limit - len(score_str)
+        if len(before) > remaining_budget:
+            before, after = safe_trim(before, limit=remaining_budget), ""
+        else:
+            after = safe_trim(after, limit=max(0, remaining_budget - len(before)))
+        return before + score_str + after
+    return safe_trim(tweet_text, limit=limit)
+
+
+def ensure_leading_emoji(tweet_text: str, severity_icon: str) -> str:
+    """Guarantee the tweet opens with the severity emoji."""
+    if not tweet_text.startswith(severity_icon):
+        return f"{severity_icon} {tweet_text.lstrip()}"
+    return tweet_text
+
+
+# ─────────────────────────────────────────────
 # DISCORD ERROR ALERTS
 # ─────────────────────────────────────────────
 def send_discord_alert(error_message: str):
@@ -632,217 +771,238 @@ def send_discord_alert(error_message: str):
     try:
         requests.post(DISCORD_WEBHOOK_URL, json=data)
     except Exception as e:
-        print(f"Failed to send Discord alert: {e}")
+        log.error("Failed to send Discord alert: %s", e)
 
 
 # ─────────────────────────────────────────────
-# MAIN AGENT
+# PIPELINE STAGES
 # ─────────────────────────────────────────────
-def run_agent():
-    print("Agent waking up. Checking for new cybersecurity news...")
+def parse_article(entry, source_name: str) -> Article:
+    """INGEST — normalize a raw feedparser entry into an Article."""
+    published = None
+    if getattr(entry, "published_parsed", None):
+        published = datetime.fromtimestamp(timegm(entry.published_parsed), timezone.utc)
+    return Article(
+        url=entry.link,
+        title=entry.title,
+        summary=getattr(entry, "description", ""),
+        source_name=source_name,
+        published=published,
+    )
+
+
+def pre_llm_skip_reason(article: Article, posted_urls: list, db_data: list) -> str | None:
+    """DEDUP/FILTER — decide whether to skip a candidate BEFORE spending a
+    Groq call. Returns a reason code ('url_seen' | 'old' | 'duplicate') or
+    None if the article should proceed. Pure decision logic, no side effects."""
+    if article.url in posted_urls:
+        return "url_seen"
+    if article.published is not None:
+        age = datetime.now(timezone.utc) - article.published
+        if age > timedelta(hours=ARTICLE_MAX_AGE_HOURS):
+            return "old"
+    if is_duplicate_story(article.title, db_data):
+        return "duplicate"
+    return None
+
+
+def enrich_cve(cve: str) -> dict:
+    """ENRICH — gather verified external signals for a CVE: NVD CVSS,
+    CISA KEV status, and FIRST EPSS score."""
+    log.info("Fetching CVSS for %s...", cve)
+    cvss_score = get_nvd_cvss(cve)
+    kev_flag = is_in_kev(cve)
+    epss_score, epss_pct = get_epss_score(cve)
+    log.info("KEV: %s  EPSS: %s", kev_flag, epss_score)
+    return {"cvss": cvss_score, "kev": kev_flag, "epss": epss_score, "epss_pct": epss_pct}
+
+
+def process_article(article: Article, db_data: list, stats: RunStats) -> bool:
+    """EXTRACT → ENRICH → SCORE → PERSIST → DISTRIBUTE for one candidate.
+    Returns True if it resulted in a published post, False if skipped.
+    Raises on hard errors (fail-fast, mirroring the original loop)."""
+    # ── EXTRACT (single Groq call) ───────────────────────
+    log.info("Calling Groq...")
+    data = generate_content(article.title, article.summary, article.source_name)
+    if data is None:
+        save_posted_url(article.url)
+        stats.skip("filtered")
+        log.info("Skipped (non-threat / filtered content).")
+        return False
+
+    severity_icon = data.get("severity_icon", "🟡")
+    cve           = data.get("cve", "").strip()
+    threat_actor  = data.get("threat_actor", "").strip()
+    target        = data.get("target", "").strip()
+    tweet_text    = data.get("tweet", "").strip()
+    card_context  = data.get("card_context", "").strip()
+    card_impact   = data.get("card_impact", "").strip()
+    simply_put    = data.get("simply_put", "").strip()
+
+    if not tweet_text or len(tweet_text.strip()) < 20:
+        log.warning("Skipped — tweet_text too short or empty: '%s'", tweet_text)
+        save_posted_url(article.url)
+        stats.skip("short_tweet")
+        return False
+
+    # Exact-CVE dedup catches what title-keyword dedup misses
+    if cve and cve_already_covered(cve, days=7):
+        log.info("Skipped — %s already covered recently with no status change.", cve)
+        save_posted_url(article.url)
+        stats.skip("cve_recent")
+        return False
+
+    # ── ENRICH + SCORE ───────────────────────────────────
+    cvss_score = None
+    kev_flag   = False
+    epss_score = None
+    if cve:
+        enrichment = enrich_cve(cve)
+        cvss_score = enrichment["cvss"]
+        kev_flag   = enrichment["kev"]
+        epss_score = enrichment["epss"]
+
+        severity_icon = severity_from_cvss(cvss_score, severity_icon, kev_flag)
+        score_str = build_score_str(cve, cvss_score, kev_flag, epss_score)
+        tweet_text = inject_score(tweet_text, cve, score_str, limit=278)
+
+    # ── PERSIST entities (vulnerabilities.json / actors.json) ──
+    if cve:
+        upsert_vulnerability(
+            cve=cve,
+            title=article.title,
+            cvss=cvss_score,
+            kev_flag=kev_flag,
+            epss_score=epss_score,
+            source_url=article.url,
+            product=target,
+        )
+    if threat_actor:
+        upsert_actor(
+            actor_name=threat_actor,
+            target=target,
+            title=article.title,
+            source_url=article.url,
+        )
+
+    # ── Finalize tweet text ──────────────────────────────
+    tweet_text = ensure_leading_emoji(tweet_text, severity_icon)
+    # Final safety trim — UNCONDITIONAL. X's free/Basic API tier hard-caps
+    # posts at 280 chars. If you resubscribe to X Premium, raise the limit
+    # in CONFIG instead of removing this line.
+    tweet_text = safe_trim(tweet_text, limit=TWEET_CHAR_LIMIT)
+
+    log.info("Severity: %s | CVE: %s | Target: %s",
+             severity_icon, cve or "N/A", target or "N/A")
+    log.info("Tweet (%d chars): %s", len(tweet_text), tweet_text)
+
+    # ── Threat card ──────────────────────────────────────
+    card_filename = None
+    try:
+        # Only pass a target if it adds info beyond the malware/actor name
+        # already implied by the title — avoids a TARGET row that just
+        # restates the headline.
+        display_target = target or threat_actor
+        if display_target and display_target.lower() in article.title.lower():
+            display_target = target if target and target != display_target else ""
+
+        card_filename = generate_threat_card(
+            severity_icon,
+            article.title,
+            card_context,
+            card_impact,
+            cve,
+            display_target,
+            simply_put,
+            article.source_name,
+            kev_flag,
+            epss_score,
+        )
+        log.info("Threat card generated: %s", card_filename)
+    except Exception as img_e:
+        log.error("Threat card failed: %s", img_e)
+
+    # Priority score for the feed record (fresh item => recency factor 1.0)
+    risk = compute_risk_score(cvss=cvss_score, epss=epss_score, kev=kev_flag) if cve else None
+
+    # ── DISTRIBUTE + persist feed record ─────────────────
+    log.info("Posting to X...")
+    post_tweet(tweet_text, media_path=card_filename)
+    save_posted_url(article.url)
+    db_data.append({
+        "date":    datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "content": tweet_text,
+        "url":     article.url,
+        "cve":     cve or None,
+        "kev":     kev_flag if cve else None,
+        "epss":    epss_score if cve else None,
+        "risk_score": risk,
+        "risk_band":  risk_band(risk) if risk is not None else None,
+    })
+    save_db(db_data)
+    stats.posted += 1
+    return True
+
+
+# ─────────────────────────────────────────────
+# MAIN AGENT  (orchestration)
+# ─────────────────────────────────────────────
+def run_agent() -> RunStats:
+    log.info("Agent waking up. Checking for new cybersecurity news...")
+    stats = RunStats()
 
     # ── Daily cap ────────────────────────────────────────
     todays_count = get_todays_post_count()
     if todays_count >= DAILY_POST_CAP:
-        print(f"Daily cap of {DAILY_POST_CAP} reached ({todays_count} today). Exiting.")
-        return
+        log.info("Daily cap of %d reached (%d today). Exiting.", DAILY_POST_CAP, todays_count)
+        return stats
 
     random.shuffle(RSS_FEEDS)
     posted_urls = get_posted_urls()
     db_data     = load_db()   # Loaded once, reused for duplicate check
 
     for feed_info in RSS_FEEDS:
-        print(f"Checking feed: {feed_info['name']}")
+        log.info("Checking feed: %s", feed_info["name"])
+        stats.feeds_scanned += 1
         feed = feedparser.parse(feed_info["url"])
 
         for entry in feed.entries:
+            article = parse_article(entry, feed_info["name"])
 
-            # ── URL dedup ─────────────────────────────────
-            if entry.link in posted_urls:
+            # URL dedup — already posted, skip silently
+            if article.url in posted_urls:
                 continue
 
-            print(f"New article found: {entry.title}")
+            stats.articles_seen += 1
+            log.info("New article found: %s", article.title)
 
-            # ── Age filter ────────────────────────────────
-            if hasattr(entry, "published_parsed") and entry.published_parsed:
-                article_time = datetime.fromtimestamp(timegm(entry.published_parsed), timezone.utc)
-                if datetime.now(timezone.utc) - article_time > timedelta(hours=ARTICLE_MAX_AGE_HOURS):
-                    print("Skipping old article.")
-                    continue
-
-            # ── Duplicate story check (before Groq call) ──
-            if is_duplicate_story(entry.title, db_data):
-                save_posted_url(entry.link)   # Mark URL so we don't recheck it
-                print("Skipping duplicate story.")
+            reason = pre_llm_skip_reason(article, posted_urls, db_data)
+            if reason == "old":
+                log.info("Skipping old article.")
+                stats.skip("old")
+                continue
+            if reason == "duplicate":
+                save_posted_url(article.url)   # Mark URL so we don't recheck it
+                log.info("Skipping duplicate story.")
+                stats.skip("duplicate")
                 continue
 
             try:
-                # ── Single Groq call ──────────────────────
-                print("Calling Groq...")
-                data = generate_content(entry.title, entry.description, feed_info["name"])
-
-                if data is None:
-                    save_posted_url(entry.link)
-                    print("Skipped (non-threat / filtered content).")
-                    continue
-
-                severity_icon = data.get("severity_icon", "🟡")
-                cve           = data.get("cve", "").strip()
-                threat_actor  = data.get("threat_actor", "").strip()
-                target        = data.get("target", "").strip()
-                tweet_text    = data.get("tweet", "").strip()
-                card_context  = data.get("card_context", "").strip()
-                card_impact   = data.get("card_impact", "").strip()
-                simply_put    = data.get("simply_put", "").strip()
-
-                # ── Guard against empty/garbage Groq output ──
-                if not tweet_text or len(tweet_text.strip()) < 20:
-                    print(f"Skipped — tweet_text too short or empty: '{tweet_text}'")
-                    save_posted_url(entry.link)
-                    continue
-
-                # ── Exact-CVE dedup (catches what title-keyword dedup misses) ──
-                if cve and cve_already_covered(cve, days=7):
-                    print(f"Skipped — {cve} already covered recently with no status change.")
-                    save_posted_url(entry.link)
-                    continue
-
-                # ── NVD + KEV + EPSS enrichment ───────────
-                kev_flag    = False
-                epss_score  = None
-                if cve:
-                    print(f"Fetching CVSS for {cve}...")
-                    cvss_score = get_nvd_cvss(cve)
-                    kev_flag = is_in_kev(cve)
-                    epss_score, epss_pct = get_epss_score(cve)
-                    print(f"KEV: {kev_flag}  EPSS: {epss_score}")
-
-                    try:
-                        score_float = float(cvss_score)
-                        if score_float >= 9.0:   severity_icon = "🔴"
-                        elif score_float >= 7.0: severity_icon = "🟠"
-                        elif score_float >= 4.0: severity_icon = "🟡"
-                        else:                    severity_icon = "🟢"
-                    except ValueError:
-                        pass
-
-                    # KEV overrides CVSS-based severity: actively-exploited
-                    # vulns are critical regardless of base score (this is
-                    # the actual rationale behind CISA BOD 22-01).
-                    if kev_flag:
-                        severity_icon = "🔴"
-
-                    score_str = (f"{cve} (CVSS: {cvss_score}/10)"
-                                 if cvss_score not in ["N/A", "Score Pending"]
-                                 else f"{cve} (CVSS: {cvss_score})")
-                    if kev_flag:
-                        score_str += " [CISA KEV: ACTIVELY EXPLOITED]"
-                    if epss_score is not None:
-                        score_str += f" [EPSS: {epss_score*100:.1f}%]"
-
-                    # Position-aware trim: score_str (which carries the
-                    # KEV/EPSS warning) must never be the part that gets
-                    # cut off. Trim the surrounding text instead, splitting
-                    # the remaining budget around wherever the CVE sits.
-                    if cve in tweet_text:
-                        cve_pos = tweet_text.find(cve)
-                        before  = tweet_text[:cve_pos]
-                        after   = tweet_text[cve_pos + len(cve):]
-                        remaining_budget = 278 - len(score_str)
-                        if len(before) > remaining_budget:
-                            before, after = safe_trim(before, limit=remaining_budget), ""
-                        else:
-                            after = safe_trim(after, limit=max(0, remaining_budget - len(before)))
-                        tweet_text = before + score_str + after
-                    else:
-                        tweet_text = safe_trim(tweet_text, limit=278)
-
-                # ── Upsert into entity model (vulnerabilities.json / actors.json) ──
-                if cve:
-                    upsert_vulnerability(
-                        cve=cve,
-                        title=entry.title,
-                        cvss=cvss_score,
-                        kev_flag=kev_flag,
-                        epss_score=epss_score,
-                        source_url=entry.link,
-                        product=target,
-                    )
-                if threat_actor:
-                    upsert_actor(
-                        actor_name=threat_actor,
-                        target=target,
-                        title=entry.title,
-                        source_url=entry.link,
-                    )
-
-                # ── Guarantee emoji leads tweet ───────────
-                if not tweet_text.startswith(severity_icon):
-                    tweet_text = f"{severity_icon} {tweet_text.lstrip()}"
-
-                # ── Final safety trim — UNCONDITIONAL. Always runs, since
-                # X's free/Basic API tier hard-caps posts at 280 chars.
-                # If you resubscribe to X Premium, raise the limit here
-                # instead of removing this line.
-                tweet_text = safe_trim(tweet_text, limit=TWEET_CHAR_LIMIT)
-
-                print(f"\nSeverity : {severity_icon}")
-                print(f"CVE      : {cve or 'N/A'}")
-                print(f"Target   : {target or 'N/A'}")
-                print(f"Tweet    : {tweet_text}  [{len(tweet_text)} chars]\n")
-
-                # ── Threat card ───────────────────────────
-                card_filename = None
-                try:
-                    # Only pass a target if it adds info beyond the malware/
-                    # actor name already implied by the title — avoids a
-                    # TARGET row that just restates the headline.
-                    display_target = target or threat_actor
-                    if display_target and display_target.lower() in entry.title.lower():
-                        display_target = target if target and target != display_target else ""
-
-                    card_filename = generate_threat_card(
-                        severity_icon,
-                        entry.title,
-                        card_context,
-                        card_impact,
-                        cve,
-                        display_target,
-                        simply_put,
-                        feed_info["name"],
-                        kev_flag,
-                        epss_score
-                    )
-                    print(f"Threat card generated: {card_filename}")
-                except Exception as img_e:
-                    print(f"Threat card failed: {img_e}")
-
-                # ── Post ──────────────────────────────────
-                print("Posting to X...")
-                post_tweet(tweet_text, media_path=card_filename)
-
-                # ── Persist ───────────────────────────────
-                save_posted_url(entry.link)
-
-                db_data.append({
-                    "date":    datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-                    "content": tweet_text,
-                    "url":     entry.link,
-                    "cve":     cve or None,
-                    "kev":     kev_flag if cve else None,
-                    "epss":    epss_score if cve else None,
-                })
-                save_db(db_data)
-
-                print("Agent finished successfully. Exiting.")
-                return  # One tweet per GitHub Actions run
-
+                posted = process_article(article, db_data, stats)
             except Exception as e:
-                print(f"Error processing article: {e}")
+                log.error("Error processing article: %s", e)
                 traceback.print_exc()
-                return
+                log.info(stats.summary())
+                return stats
 
-    print("No new articles found. Exiting.")
+            if posted:
+                log.info("Agent finished successfully. Exiting.")
+                log.info(stats.summary())
+                return stats  # One tweet per GitHub Actions run
+
+    log.info("No new articles found. Exiting.")
+    log.info(stats.summary())
+    return stats
 
 
 # ─────────────────────────────────────────────
@@ -853,6 +1013,6 @@ if __name__ == "__main__":
         run_agent()
     except Exception as e:
         error_details = traceback.format_exc()
-        print(f"CRITICAL ERROR: {e}")
+        log.critical("CRITICAL ERROR: %s", e)
         send_discord_alert(error_details)
         raise e

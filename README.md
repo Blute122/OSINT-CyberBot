@@ -16,6 +16,7 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 - Generates a shareable threat-card PNG with severity color, title, summary, target, and simplified explanation.
 - Posts one item per run to X.
 - Provides a dynamic Streamlit dashboard and a highly customized static HTML dashboard with KEV/EPSS visual badges.
+- Includes an instant intel-search bar on the static dashboard: type a CVE ID, threat actor, malware family, or vendor and get a rendered dossier (CVSS/EPSS/KEV metrics, lifecycle timeline, campaign history, and related feed items) generated client-side from the existing JSON databases.
 - Sends optional crash alerts to Discord.
 
 ## Project Structure
@@ -23,8 +24,12 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 ```text
 .
 |-- .github/workflows/twitter_bot.yml  # Scheduled GitHub Actions workflow
-|-- cyber_agent.py                     # Main RSS, LLM, enrichment, image, and posting agent
+|-- .github/workflows/tests.yml        # CI: runs the unit tests on push / PR
+|-- cyber_agent.py                     # Staged pipeline: ingest, dedup, extract, enrich, score, persist, distribute
 |-- entity_model.py                    # Entity lifecycle tracking and exact deduplication logic
+|-- scoring.py                         # Risk-prioritization model (CVSS + EPSS + KEV + recency)
+|-- semantic.py                        # Dependency-free TF-IDF cosine near-duplicate detection
+|-- tests/                             # pytest unit suite for the engine's pure logic + persistence
 |-- dashboard.py                       # Streamlit dashboard for local analytics
 |-- index.html                         # Static browser dashboard powered by database.json
 |-- database.json                      # Posted threat feed used by dashboards
@@ -104,6 +109,14 @@ The agent posts at most one tweet per run. It exits after successfully processin
 
 The static dashboard is `index.html`. It fetches `database.json` from the same directory and refreshes every five minutes. It includes visual pulse-badges for actively exploited vulnerabilities.
 
+At the top of the page is an **intel-search bar**. Typing a query (for example `CVE-2026-4020`, `Sapphire Sleet`, `ransomware`, or `WordPress`) searches across `database.json`, `vulnerabilities.json`, and `actors.json` and renders an intelligence report in place:
+
+- **CVE matches** produce a vulnerability dossier with CVSS, EPSS, KEV, an event count, and the full lifecycle timeline.
+- **Threat-actor matches** produce an actor dossier with aliases, first-seen date, and campaign history.
+- **Keyword matches** also list related items from the live feed.
+
+The search runs entirely client-side against the already-published JSON, so it works on GitHub Pages with no backend and no exposed API keys.
+
 For best results, serve the folder with a local HTTP server:
 
 ```bash
@@ -125,6 +138,63 @@ streamlit run dashboard.py
 ```
 
 The Streamlit dashboard reads `database.json`, shows threat counts, severity distribution, a KEV active-exploit metric, and a searchable threat feed.
+
+## Architecture
+
+The agent runs as an explicit, stage-based pipeline rather than one monolithic
+loop. Each candidate article flows through:
+
+```text
+Ingest → Dedup/Filter → Extract (LLM) → Enrich (NVD/KEV/EPSS) → Score → Persist → Distribute
+```
+
+These map to discrete, individually testable functions in `cyber_agent.py`
+(`parse_article`, `pre_llm_skip_reason`, `generate_content`, `enrich_cve`,
+`severity_from_cvss` / `build_score_str` / `inject_score`, the entity upserts,
+and `process_article`), orchestrated by `run_agent()`. Each run emits a
+`RunStats` summary (feeds scanned, articles seen, posted, and skip reasons).
+
+Persistence is crash-safe: all JSON databases are written atomically
+(temp file + `os.replace`), so an interrupted run can never corrupt
+`database.json`, `vulnerabilities.json`, or `actors.json`.
+
+### Risk prioritization score
+
+`scoring.py` collapses the verified enrichment signals into a single 0-100
+**priority score**, mirroring how vulnerability-management programs decide what
+to patch first:
+
+| Signal | Weight | Rationale |
+|---|---|---|
+| CVSS base score | 35 | technical severity |
+| EPSS | 30 | probability of exploitation |
+| CISA KEV | 25 | confirmed active exploitation |
+| Recency | 10 | urgency decays over 30 days |
+
+KEV (actively-exploited) items are floored at 85 so they always rank near the
+top, and a missing CVSS is not penalized — its weight is redistributed across
+the remaining signals. The score (and its band: critical / high / medium / low)
+is persisted on each `vulnerabilities.json` entry and each `database.json`
+feed record. The dashboard mirrors the identical formula in
+`index.html` (`computeRiskScore`) so engine and UI always agree, and uses it
+to rank the vulnerability tracker and headline the CVE dossier.
+
+## Testing
+
+Unit tests live in `tests/` and cover the deterministic, network-free parts of
+the engine: deduplication, CVE validation, severity scoring, tweet composition,
+atomic writes, and the entity-upsert lifecycle. The network-bound stages (Groq,
+NVD, KEV, EPSS, X) are not exercised.
+
+Run them locally:
+
+```bash
+pip install -r requirements.txt
+pytest -q
+```
+
+CI runs the same suite on every push and pull request via
+`.github/workflows/tests.yml`.
 
 ## GitHub Actions Deployment
 
@@ -161,7 +231,7 @@ DISCORD_WEBHOOK_URL
 3. Shuffles the RSS feed list.
 4. Skips articles already present in `posted_urls.txt`.
 5. Skips articles older than the configured maximum age.
-6. Performs a fast title-keyword deduplication check against the past 24 hours.
+6. Performs layered deduplication against recent history: exact URL match, a fast title-keyword/entity overlap check (24h general, 7-day for CVEs and named entities), and a TF-IDF cosine similarity fallback (`semantic.py`) that catches reworded headlines across sources within the 7-day window.
 7. Sends the article title and summary to Groq for structured JSON extraction.
 8. Rejects invalid CVE placeholders.
 9. Performs an exact-CVE deduplication check against `vulnerabilities.json` to only proceed if the threat status has meaningfully escalated.
@@ -189,7 +259,9 @@ Stores dashboard records for the social feed. Current records use this shape:
   "url": "https://example.com/article",
   "cve": "CVE-2026-1234",
   "kev": true,
-  "epss": 0.03
+  "epss": 0.03,
+  "risk_score": 91,
+  "risk_band": "critical"
 }
 ```
 
