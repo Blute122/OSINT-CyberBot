@@ -1418,5 +1418,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-29 17:47 UTC",
+        "content": "\u26a0\ufe0f A new attack abuses Claude Code and harmless-looking repositories to hijack developer machines via reverse shell. via SecurityWeek #ClaudeCode #DeveloperSecurity",
+        "url": "https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

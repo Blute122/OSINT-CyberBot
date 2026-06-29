@@ -314,3 +314,5 @@ https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-mil
 https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/
 https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
 https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
+https://www.securityweek.com/whatsapp-rolling-out-username-feature-to-bolster-phone-number-privacy/
+https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/
