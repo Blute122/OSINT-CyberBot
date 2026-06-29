@@ -186,5 +186,19 @@
         "source_url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
       }
     ]
+  },
+  "unc5792 and unc4221": {
+    "aliases": [
+      "UNC5792 and UNC4221"
+    ],
+    "first_seen": "2026-06-29 09:57 UTC",
+    "campaigns": [
+      {
+        "target": "US government officials, military leaders, and allied personnel",
+        "date": "2026-06-29 09:57 UTC",
+        "summary": "US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve",
+        "source_url": "https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/"
+      }
+    ]
   }
 }

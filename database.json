@@ -1400,5 +1400,13 @@
         "cve": null,
         "kev": null,
         "epss": null
+    },
+    {
+        "date": "2026-06-29 09:57 UTC",
+        "content": "\ud83d\udd34 Red alert: US military and officials targeted by Russian hackers UNC5792 and UNC4221. 10M bounty offered via via SecurityWeek  #CyberSecurity #Hacking",
+        "url": "https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/",
+        "cve": null,
+        "kev": null,
+        "epss": null
     }
 ]
