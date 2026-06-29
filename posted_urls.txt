@@ -316,3 +316,4 @@ https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
 https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
 https://www.securityweek.com/whatsapp-rolling-out-username-feature-to-bolster-phone-number-privacy/
 https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/
+https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition

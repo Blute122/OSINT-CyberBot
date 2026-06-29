@@ -1428,5 +1428,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-29 20:14 UTC",
+        "content": "\ud83d\uda33 Minor bug with no active exploitation found in facial recognition systems via graphic tees via Dark Reading #facialrecognition",
+        "url": "https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
