@@ -117,6 +117,8 @@ At the top of the page is an **intel-search bar**. Typing a query (for example `
 
 The search runs entirely client-side against the already-published JSON, so it works on GitHub Pages with no backend and no exposed API keys.
 
+The dashboard also has an **Analytics** tab with custom, dependency-free SVG charts computed live in the browser: threats over time, a severity-distribution donut, risk-priority bands, top targeted products, and the most active threat actors. Like the search, it reads the existing JSON — no chart library, no backend.
+
 For best results, serve the folder with a local HTTP server:
 
 ```bash

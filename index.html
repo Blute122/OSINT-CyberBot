@@ -1183,6 +1183,211 @@
         .m-val.risk-high     { color: var(--sev-high); }
         .m-val.risk-medium   { color: var(--sev-medium); }
         .m-val.risk-low      { color: var(--sev-low); }
+
+        /* ── Analytics view ── */
+        #panel-analytics {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        .analytics-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .astat {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            backdrop-filter: blur(8px);
+        }
+
+        .astat-v {
+            font-family: var(--font-mono);
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: var(--accent);
+            display: block;
+            line-height: 1.1;
+        }
+
+        .astat-l {
+            font-size: 0.66rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-top: 0.3rem;
+            display: block;
+        }
+
+        .analytics-grid {
+            display: grid;
+            /* minmax(0, 1fr) — not 1fr — so columns stay equal and bar/label
+               content can shrink + ellipsize instead of blowing out a column. */
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .chart-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 1.25rem;
+            backdrop-filter: blur(8px);
+        }
+
+        .chart-card.chart-wide {
+            grid-column: 1 / -1;
+        }
+
+        .chart-title {
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .bar-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .bar-label {
+            flex: 0 0 38%;
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .bar-track {
+            flex: 1;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 6px;
+            transition: width 0.6s ease;
+        }
+
+        .bar-value {
+            flex: 0 0 auto;
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            color: var(--text-primary);
+            min-width: 1.5rem;
+            text-align: right;
+        }
+
+        .timebars {
+            display: flex;
+            align-items: flex-end;
+            gap: 4px;
+            height: 160px;
+        }
+
+        .timebar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+        }
+
+        .timebar-fill {
+            width: 100%;
+            max-width: 22px;
+            background: linear-gradient(180deg, var(--accent), var(--accent-alt));
+            border-radius: 4px 4px 0 0;
+            transition: height 0.5s ease;
+        }
+
+        .timebar-label {
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            color: var(--text-muted);
+            margin-top: 0.35rem;
+            transform: rotate(-45deg);
+            white-space: nowrap;
+        }
+
+        .donut-wrap {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+        }
+
+        .donut {
+            width: 120px;
+            height: 120px;
+            flex: 0 0 auto;
+        }
+
+        .donut-total {
+            fill: var(--text-primary);
+            font-family: var(--font-mono);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .donut-sub {
+            fill: var(--text-muted);
+            font-family: var(--font-mono);
+            font-size: 8px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .legend {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .legend-item {
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .legend-item b {
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        @media (max-width: 600px) {
+            .analytics-stats { grid-template-columns: repeat(2, 1fr); }
+            .analytics-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 
@@ -1207,6 +1412,7 @@
     <div class="view-tabs">
         <button class="view-tab active" data-view="feed">Live Feed</button>
         <button class="view-tab" data-view="vulns">🛡️ Vulnerability Tracker</button>
+        <button class="view-tab" data-view="analytics">📊 Analytics</button>
     </div>
 
     <div class="view-panel active" id="panel-feed">
@@ -1266,6 +1472,8 @@
         </div>
         <div class="vuln-container" id="vuln-container" style="max-width:860px; margin:0 auto;"></div>
     </div>
+
+    <div class="view-panel" id="panel-analytics"></div>
 
     <div class="view-panel" id="panel-report"></div>
 
@@ -1555,7 +1763,9 @@
                 document.getElementById('panel-report').classList.remove('active');
                 document.getElementById('panel-feed').classList.toggle('active', view === 'feed');
                 document.getElementById('panel-vulns').classList.toggle('active', view === 'vulns');
+                document.getElementById('panel-analytics').classList.toggle('active', view === 'analytics');
                 if (view === 'vulns' && !vulnsLoaded) fetchVulns();
+                if (view === 'analytics') renderAnalytics();
             });
         });
 
@@ -1660,6 +1870,147 @@
                         <p>${escapeHTML(err.message)}</p>
                     </div>`;
             }
+        }
+
+        // ── Analytics ──────────────────────────────────────────────────
+
+        function aggCountBy(arr, keyFn) {
+            const m = {};
+            arr.forEach(x => {
+                const k = keyFn(x);
+                if (k == null || k === '') return;
+                m[k] = (m[k] || 0) + 1;
+            });
+            return m;
+        }
+
+        function topN(obj, n) {
+            return Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, n);
+        }
+
+        function barListHTML(items) {
+            const max = Math.max(1, ...items.map(i => i.value));
+            return `<div class="bar-list">` + items.map(i => {
+                const pct = (i.value / max) * 100;
+                const color = i.band ? `var(--sev-${i.band})` : 'var(--accent)';
+                const label = escapeHTML(String(i.label));
+                return `<div class="bar-row">
+                    <div class="bar-label" title="${label}">${label}</div>
+                    <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
+                    <div class="bar-value">${i.value}</div>
+                </div>`;
+            }).join('') + `</div>`;
+        }
+
+        function donutHTML(segments) {
+            const total = segments.reduce((s, x) => s + x.value, 0) || 1;
+            const R = 50, C = 2 * Math.PI * R;
+            let offset = 0;
+            const rings = segments.filter(s => s.value > 0).map(s => {
+                const len = (s.value / total) * C;
+                const ring = `<circle cx="60" cy="60" r="${R}" fill="none" stroke="${s.color}" stroke-width="16"
+                    stroke-dasharray="${len.toFixed(2)} ${(C - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}"
+                    transform="rotate(-90 60 60)"/>`;
+                offset += len;
+                return ring;
+            }).join('');
+            const legend = segments.map(s =>
+                `<div class="legend-item"><span class="legend-dot" style="background:${s.color}"></span>${escapeHTML(s.label)} <b>${s.value}</b></div>`
+            ).join('');
+            return `<div class="donut-wrap">
+                <svg viewBox="0 0 120 120" class="donut" role="img" aria-label="distribution chart">
+                    <circle cx="60" cy="60" r="${R}" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="16"/>
+                    ${rings}
+                    <text x="60" y="58" text-anchor="middle" class="donut-total">${total}</text>
+                    <text x="60" y="73" text-anchor="middle" class="donut-sub">items</text>
+                </svg>
+                <div class="legend">${legend}</div>
+            </div>`;
+        }
+
+        function timeBarsHTML(series) {
+            const max = Math.max(1, ...series.map(s => s.count));
+            return `<div class="timebars">` + series.map(s => {
+                const h = Math.max(3, (s.count / max) * 100);
+                return `<div class="timebar" title="${escapeHTML(s.day)}: ${s.count}">
+                    <div class="timebar-fill" style="height:${h}%"></div>
+                    <div class="timebar-label">${escapeHTML(s.day.slice(5))}</div>
+                </div>`;
+            }).join('') + `</div>`;
+        }
+
+        async function renderAnalytics() {
+            const panel = document.getElementById('panel-analytics');
+            panel.innerHTML = `<div class="report-scan">CRUNCHING INTELLIGENCE…<div class="scan-bar"></div></div>`;
+
+            await loadEntityData();
+            await new Promise(r => setTimeout(r, 400));
+
+            const feed = allData || [];
+            const vulns = Object.values(vulnData || {});
+            const actors = Object.entries(actorData || {});
+
+            // Stat strip
+            const stats = [
+                { v: feed.length, l: 'Threats Tracked' },
+                { v: Object.keys(vulnData || {}).length, l: 'CVEs Tracked' },
+                { v: vulns.filter(v => v.kev).length, l: 'CISA KEV' },
+                { v: actors.length, l: 'Threat Actors' },
+            ];
+
+            // Threats over time (most recent 21 days present in data)
+            const byDay = aggCountBy(feed, x => (x.date || '').slice(0, 10));
+            const series = Object.keys(byDay).filter(Boolean).sort().slice(-21)
+                .map(d => ({ day: d, count: byDay[d] }));
+
+            // Severity distribution (feed)
+            const sevCounts = aggCountBy(feed, x => getSeverity(x.content));
+            const sevSegments = ['critical', 'high', 'medium', 'low', 'unknown']
+                .filter(s => sevCounts[s])
+                .map(s => ({ label: severityLabel(s), value: sevCounts[s], color: `var(--sev-${s})` }));
+
+            // Risk priority bands (tracked CVEs)
+            const bandCounts = { critical: 0, high: 0, medium: 0, low: 0 };
+            vulns.forEach(v => { bandCounts[riskBand(riskForVuln(v))]++; });
+            const bandItems = ['critical', 'high', 'medium', 'low']
+                .filter(b => bandCounts[b])
+                .map(b => ({ label: b[0].toUpperCase() + b.slice(1), value: bandCounts[b], band: b }));
+
+            // Top targeted products
+            const vendors = topN(aggCountBy(vulns, v => (v.product || '').trim()), 6)
+                .map(([label, value]) => ({ label, value }));
+
+            // Most active threat actors
+            const actorItems = actors
+                .map(([key, a]) => ({ label: (a.aliases && a.aliases[0]) || key, value: (a.campaigns || []).length }))
+                .sort((x, y) => y.value - x.value).slice(0, 6);
+
+            panel.innerHTML = `
+                <div class="analytics-stats">
+                    ${stats.map(s => `<div class="astat"><span class="astat-v">${s.v}</span><span class="astat-l">${escapeHTML(s.l)}</span></div>`).join('')}
+                </div>
+                <div class="analytics-grid">
+                    <div class="chart-card chart-wide">
+                        <div class="chart-title">Threats over time</div>
+                        ${series.length ? timeBarsHTML(series) : '<p class="no-results">No dated items yet.</p>'}
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-title">Severity distribution</div>
+                        ${sevSegments.length ? donutHTML(sevSegments) : '<p class="no-results">No data.</p>'}
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-title">Risk priority bands</div>
+                        ${bandItems.length ? barListHTML(bandItems) : '<p class="no-results">No scored CVEs.</p>'}
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-title">Top targeted products</div>
+                        ${vendors.length ? barListHTML(vendors) : '<p class="no-results">No products.</p>'}
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-title">Most active threat actors</div>
+                        ${actorItems.length ? barListHTML(actorItems) : '<p class="no-results">No actors.</p>'}
+                    </div>
+                </div>`;
         }
 
         // ── Intel Search ──────────────────────────────────────────────
