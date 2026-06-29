@@ -447,9 +447,9 @@ OUTPUT: Return ONLY a valid JSON object. No markdown, no backticks, no preamble.
 
   "tweet": "<Twitter hook. Lead with severity emoji. State WHAT happened and WHO is affected in plain language. End with 'via {source_name}' and 1-2 hashtags. MAX 210 CHARS — count carefully.>",
 
-  "card_context": "<This is the MAIN BODY of the threat card image — it must contain DIFFERENT and RICHER information than the tweet. Include: background on the affected product/org, how the attack vector works (e.g. unauthenticated RCE, supply chain, phishing lure type), known exploitation timeline, and the scale or scope (number of users/systems at risk if stated). 2-3 sentences max. Never repeat the tweet text.>",
+  "card_context": "<MAIN BODY of the threat card image — DIFFERENT and RICHER than the tweet. Cover: background on the affected product/org, how the attack vector works (e.g. unauthenticated RCE, supply chain, phishing lure type), and the scale/scope (users or systems at risk if stated). 1-2 COMPLETE sentences, each ending with a period. HARD LIMIT 200 characters — be concise so nothing is cut off. Never repeat the tweet text.>",
 
-  "card_impact": "<Real-world impact statement for the card. What can an attacker DO if this is exploited? What data or access is at stake? Who is concretely affected (enterprises, consumers, specific sectors)? 1-2 sentences. No speculation — only what the article states.>",
+  "card_impact": "<Real-world impact for the card: what an attacker can DO if this is exploited and who is concretely affected (enterprises, consumers, a specific sector). ONE COMPLETE sentence ending with a period. HARD LIMIT 120 characters. No speculation — only what the article states.>",
 
   "simply_put": "<One sentence a non-technical person fully understands. Avoid all jargon. Max 110 chars.>"
 }}
@@ -459,6 +459,7 @@ RULES:
 - When mentioning a CVE ID inside the tweet field, write it as a bare token (e.g. "...exploit CVE-2026-4020 to..."), never wrapped in your own parentheses or brackets — CVSS/KEV/EPSS detail is appended separately and already uses parentheses/brackets, so double-wrapping creates nested punctuation.
 - tweet: 210 chars MAX before any post-processing. Complete sentence, not truncated.
 - card_context and card_impact must ADD information the tweet does not contain.
+- card_context and card_impact MUST be complete sentences that each end with a period, and MUST stay within their character limits so the threat-card text is never cut off mid-sentence. Prefer fewer words over an unfinished thought.
 - NEVER state a specific CVSS score, numeric severity rating, or percentage inside card_context or card_impact. CVSS/EPSS/KEV data is injected separately from verified sources — stating your own number risks contradicting it. Describe severity only in qualitative terms (e.g. "a high-severity flaw") if needed.
 - No mitigation advice anywhere.
 - All fields strictly factual, sourced only from the article.
@@ -514,6 +515,38 @@ Summary: {summary}"""
 # ─────────────────────────────────────────────
 # THREAT CARD
 # ─────────────────────────────────────────────
+def fit_to_lines(text: str, width_chars: int, max_lines: int) -> str:
+    """Fit text within max_lines WITHOUT ever showing an ellipsis: keep the
+    longest run of COMPLETE sentences that fits. Enforced in code because LLMs
+    don't reliably obey character-count instructions. Only if the very first
+    sentence is itself too long does it fall back to a clean word-boundary cut
+    (still no '…')."""
+    if not text:
+        return text
+    wrapper = textwrap.TextWrapper(width=width_chars)
+    if len(wrapper.wrap(text)) <= max_lines:
+        return text
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    kept = ""
+    for s in sentences:
+        candidate = f"{kept} {s}".strip() if kept else s
+        if len(wrapper.wrap(candidate)) <= max_lines:
+            kept = candidate
+        else:
+            break
+    if kept:
+        return kept
+    return " ".join(wrapper.wrap(text)[:max_lines])
+
+
+def fit_single_line(text: str, max_chars: int) -> str:
+    """Single-line fit for fields like TARGET — clean word-boundary cut,
+    no ellipsis."""
+    if not text or len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(" ", 1)[0].rstrip(".,;:—-")
+
+
 def generate_threat_card(severity_icon: str, title: str,
                          card_context: str, card_impact: str,
                          cve: str, target: str,
@@ -573,27 +606,6 @@ def generate_threat_card(severity_icon: str, title: str,
     def lh(font) -> int:
         b = font.getbbox("Ag")
         return b[3] - b[1]
-
-    def fit_to_lines(text: str, width_chars: int, max_lines: int) -> str:
-        """Guarantees text fits within max_lines by truncating at a word
-        boundary and appending '…'. This is enforced in code regardless of
-        what the LLM prompt asked for, since LLMs don't reliably obey
-        character-count instructions."""
-        if not text:
-            return text
-        all_lines = textwrap.TextWrapper(width=width_chars).wrap(text)
-        if len(all_lines) <= max_lines:
-            return text
-        kept = all_lines[:max_lines]
-        kept[-1] = kept[-1].rstrip(".,;:—-") + "…"
-        return " ".join(kept)
-
-    def fit_single_line(text: str, max_chars: int) -> str:
-        """Same guarantee as fit_to_lines, for single-line fields like TARGET."""
-        if not text or len(text) <= max_chars:
-            return text
-        cut = text[:max_chars].rsplit(" ", 1)[0]
-        return cut.rstrip(".,;:—-") + "…"
 
     def draw_wrapped(text: str, font, x: int, y: int, fill,
                      width_chars: int = 85, padding: int = 4,
@@ -677,7 +689,7 @@ def generate_threat_card(severity_icon: str, title: str,
 
     if cve:
         draw.text((MX, row_y), "THREAT:", font=f_meta_l, fill=text_secondary)
-        cve_text = cve if len(cve) <= 62 else cve[:59] + "…"
+        cve_text = cve if len(cve) <= 62 else cve[:62]
         if epss_score is not None:
             cve_text += f"  (EPSS: {epss_score*100:.1f}%)"
         draw.text((meta_col2_x, row_y), cve_text, font=f_meta_v, fill=accent_color)
