@@ -1518,5 +1518,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-30 21:03 UTC",
+        "content": "\ud83d\udfe1 No updates on CISA staffing via CyberScoop",
+        "url": "https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
