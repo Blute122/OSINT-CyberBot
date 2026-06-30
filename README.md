@@ -127,6 +127,12 @@ The dashboard also has an **Analytics** tab with custom, dependency-free SVG cha
 
 A **Threat Graph** tab renders an interactive, force-directed network (also hand-rolled, no library) linking threat actors, CVEs, and their targets/products. CVE nodes are sized and colored by risk score; hovering highlights a node's connections, dragging repositions nodes, and clicking an actor or CVE opens its dossier via the intel search.
 
+The dashboard prefers the **live REST API** (`api.py`, deployed) for its data
+and transparently falls back to the static JSON snapshot if the API is
+unreachable (cold free-tier instance, offline, or local dev). A small badge in
+the refresh bar shows which source is in use (`● live API` / `● cached
+snapshot`). Set `API_BASE = ''` in `index.html` to force static-only mode.
+
 For best results, serve the folder with a local HTTP server:
 
 ```bash

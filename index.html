@@ -1579,6 +1579,8 @@
                 <span class="refresh-dot"></span>
                 <span id="refresh-label">Auto-refreshes in 5:00</span>
             </span>
+            <span class="refresh-badge" id="src-badge" style="cursor:default; margin-left:0.5rem;"
+                  title="Data source">● cached snapshot</span>
         </div>
 
         <!-- Main feed -->
@@ -1714,6 +1716,74 @@
             return `${origin}${base}/database.json?v=${Date.now()}`;
         }
 
+        // ── Live API (with static-JSON fallback) ─────────────────────
+        // The dashboard prefers the deployed REST API; if it's unreachable
+        // (cold free-tier instance, offline, or local dev), it transparently
+        // falls back to the static JSON snapshot. Set API_BASE = '' to force
+        // static-only mode.
+        let API_BASE = 'https://cybernews-api-tdwb.onrender.com';
+        const API_TIMEOUT_MS = 2800;   // fall back fast if the instance is cold
+        let dataSource = 'cached snapshot';
+
+        async function fetchJSON(url, timeoutMs) {
+            const ctrl = new AbortController();
+            const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+            try {
+                const r = await fetch(url, { signal: ctrl.signal, cache: 'no-store' });
+                if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                return await r.json();
+            } finally {
+                clearTimeout(timer);
+            }
+        }
+
+        function setDataSource(src) {
+            dataSource = src;
+            const el = document.getElementById('src-badge');
+            if (el) {
+                el.textContent = (src === 'live API' ? '● live API' : '● cached snapshot');
+                el.title = (src === 'live API')
+                    ? 'Served from the live REST API'
+                    : 'Served from the static JSON snapshot (API unavailable)';
+            }
+        }
+
+        // Feed → newest-first array (the shape renderCards/updateStats expect)
+        async function loadFeedData() {
+            if (API_BASE) {
+                try {
+                    const d = await fetchJSON(`${API_BASE}/api/feed?limit=1000`, API_TIMEOUT_MS);
+                    setDataSource('live API');
+                    return d.items || [];                       // API feed is newest-first
+                } catch (e) { console.warn('Feed: API unavailable, using snapshot —', e.message); }
+            }
+            const raw = await fetchJSON(getDataUrl(), 8000);
+            setDataSource('cached snapshot');
+            return Array.isArray(raw) ? [...raw].reverse() : []; // static JSON is oldest-first
+        }
+
+        // CVEs → dict keyed by CVE id (the shape the tracker/graph/search expect)
+        async function loadVulnData() {
+            if (API_BASE) {
+                try {
+                    const d = await fetchJSON(`${API_BASE}/api/cves?limit=1000`, API_TIMEOUT_MS);
+                    return Object.fromEntries((d.items || []).map(i => [i.id, i]));
+                } catch (e) { console.warn('CVEs: API unavailable, using snapshot —', e.message); }
+            }
+            return await fetchJSON(getVulnDataUrl(), 8000);
+        }
+
+        // Actors → dict keyed by lowercased name (matches raw actors.json shape)
+        async function loadActorData() {
+            if (API_BASE) {
+                try {
+                    const d = await fetchJSON(`${API_BASE}/api/actors?limit=1000`, API_TIMEOUT_MS);
+                    return Object.fromEntries((d.items || []).map(i => [(i.name || '').toLowerCase(), i]));
+                } catch (e) { console.warn('Actors: API unavailable, using snapshot —', e.message); }
+            }
+            return await fetchJSON(getActorDataUrl(), 8000);
+        }
+
         // ── State ──────────────────────────────────────────────────────
 
         let allData = [];
@@ -1805,14 +1875,11 @@
             const container = document.getElementById('feed-container');
 
             try {
-                const response = await fetch(getDataUrl());
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-                const raw = await response.json();
+                allData = await loadFeedData();
 
                 document.getElementById('loader').style.display = 'none';
 
-                if (!Array.isArray(raw) || raw.length === 0) {
+                if (!allData.length) {
                     container.innerHTML = `
                         <div class="state-box">
                             <p style="font-size:1rem; color: var(--text-secondary);">No threat data yet.</p>
@@ -1821,8 +1888,6 @@
                     return;
                 }
 
-                // Newest first
-                allData = [...raw].reverse();
                 updateStats();
                 renderCards();
 
@@ -2023,12 +2088,9 @@
         async function fetchVulns() {
             const loader = document.getElementById('vuln-loader');
             try {
-                const response = await fetch(getVulnDataUrl());
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                const raw = await response.json();
-                vulnData = raw;
+                vulnData = await loadVulnData();
                 loader.style.display = 'none';
-                renderVulnTracker(raw);
+                renderVulnTracker(vulnData);
                 vulnsLoaded = true;
             } catch (err) {
                 console.error('Vuln fetch error:', err);
@@ -2441,12 +2503,7 @@
         async function loadEntityData() {
             if (entitiesLoaded) return;
             try {
-                const [vResp, aResp] = await Promise.all([
-                    fetch(getVulnDataUrl()),
-                    fetch(getActorDataUrl())
-                ]);
-                vulnData = vResp.ok ? await vResp.json() : {};
-                actorData = aResp.ok ? await aResp.json() : {};
+                [vulnData, actorData] = await Promise.all([loadVulnData(), loadActorData()]);
                 entitiesLoaded = true;
             } catch (err) {
                 console.error('Entity load error:', err);

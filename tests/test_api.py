@@ -103,6 +103,13 @@ def test_cves_pagination(client):
     body = r.json()
     assert body["total"] == 2 and len(body["items"]) == 1
 
+def test_list_limit_cap_allows_1000(client):
+    # the dashboard requests limit=1000; the cap must permit it (regression guard)
+    assert client.get("/api/cves", params={"limit": 1000}).status_code == 200
+    assert client.get("/api/feed", params={"limit": 1000}).status_code == 200
+    assert client.get("/api/actors", params={"limit": 1000}).status_code == 200
+    assert client.get("/api/cves", params={"limit": 1001}).status_code == 422
+
 def test_get_cve_case_insensitive(client):
     r = client.get("/api/cves/cve-2026-0001")
     assert r.status_code == 200

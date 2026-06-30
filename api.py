@@ -321,7 +321,7 @@ def list_cves(
     min_risk: int = Query(0, ge=0, le=100, description="Minimum risk score"),
     status: str | None = Query(None, description="Latest lifecycle status, e.g. actively_exploited"),
     sort: str = Query("risk", pattern="^(risk|recent)$", description="risk | recent"),
-    limit: int = Query(50, ge=1, le=200),
+    limit: int = Query(50, ge=1, le=1000),
     offset: int = Query(0, ge=0),
 ):
     items = [cve_model(cid, v) for cid, v in load_vulns().items()]
@@ -353,7 +353,7 @@ def get_cve(cve_id: str = Path(..., max_length=40)):
 @app.get("/api/actors", response_model=ActorPage, tags=["actors"], dependencies=[Depends(require_api_key)])
 def list_actors(
     sort: str = Query("campaigns", pattern="^(campaigns|recent)$"),
-    limit: int = Query(50, ge=1, le=200),
+    limit: int = Query(50, ge=1, le=1000),
     offset: int = Query(0, ge=0),
 ):
     items = [actor_model(k, a) for k, a in load_actors().items()]
@@ -383,7 +383,7 @@ def get_actor(name: str = Path(..., max_length=guardrails.MAX_QUERY_LEN)):
 @app.get("/api/feed", response_model=FeedPage, tags=["feed"], dependencies=[Depends(require_api_key)])
 def get_feed(
     kev: bool | None = Query(None),
-    limit: int = Query(50, ge=1, le=200),
+    limit: int = Query(50, ge=1, le=1000),
     offset: int = Query(0, ge=0),
 ):
     items = list(reversed(load_feed()))   # newest first
