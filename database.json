@@ -1488,5 +1488,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-30 14:41 UTC",
+        "content": "\ud83d\udd34 Zero-day exploitation ofCVE-2026-33825 (CVSS: 7.8/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 6.7%] in ransomware attacks hits Microsoft Defender users via active zero-day exploitation via SecurityWeek #ransomware #cybersecurity",
+        "url": "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/",
+        "cve": "CVE-2026-33825",
+        "kev": true,
+        "epss": 0.06749,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

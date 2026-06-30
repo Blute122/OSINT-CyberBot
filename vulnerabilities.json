@@ -95,5 +95,26 @@
     "epss": 0.00721,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-33825": {
+    "first_seen": "2026-06-30 14:40 UTC",
+    "product": "Microsoft Defender",
+    "status_timeline": [
+      {
+        "date": "2026-06-30 14:40 UTC",
+        "status": "actively_exploited",
+        "summary": "BlueHammer Vulnerability Exploited in Ransomware Attacks",
+        "source_url": "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/"
+    ],
+    "last_updated": "2026-06-30 14:40 UTC",
+    "cvss": 7.8,
+    "kev": true,
+    "epss": 0.06749,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

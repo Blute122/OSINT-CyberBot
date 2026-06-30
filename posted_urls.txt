@@ -323,3 +323,4 @@ https://isc.sans.edu/diary/rss/33112
 https://www.securityweek.com/quantifind-raises-200-million-for-ai-native-risk-intelligence/
 https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/
 https://isc.sans.edu/diary/rss/33114
+https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/
