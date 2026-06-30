@@ -1498,5 +1498,15 @@
         "epss": 0.06749,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-06-30 17:14 UTC",
+        "content": "\ud83d\udfe1 Email scams aren't just phishing. They're a coordinated operation involving compromised accounts & cash-out networks. via BleepingComputer #BEC",
+        "url": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

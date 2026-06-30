@@ -324,3 +324,5 @@ https://www.securityweek.com/quantifind-raises-200-million-for-ai-native-risk-in
 https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/
 https://isc.sans.edu/diary/rss/33114
 https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/
+https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/
+https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/
