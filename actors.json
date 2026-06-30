@@ -200,5 +200,19 @@
         "source_url": "https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/"
       }
     ]
+  },
+  "not specified": {
+    "aliases": [
+      "Not specified"
+    ],
+    "first_seen": "2026-06-30 04:22 UTC",
+    "campaigns": [
+      {
+        "target": "Not specified",
+        "date": "2026-06-30 04:22 UTC",
+        "summary": "ISC Stormcast For Tuesday, June 30th, 2026 https://isc.sans.edu/podcastdetail/9988, (Tue, Jun 30th)",
+        "source_url": "https://isc.sans.edu/diary/rss/33112"
+      }
+    ]
   }
 }
