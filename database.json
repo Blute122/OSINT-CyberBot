@@ -1508,5 +1508,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-30 19:06 UTC",
+        "content": "\ue0b6 US government revives critical infrastructure cybersecurity information sharing effort to strengthen nerve center between government and private sector. via CyberScoop #cybersecurity",
+        "url": "https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
