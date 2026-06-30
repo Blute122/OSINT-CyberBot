@@ -1478,5 +1478,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-30 11:50 UTC",
+        "content": "\ud83d\udfe1 :LOW Apple released software updates for iOS/iPadOS, macOS, and Safari, but not visionOS, watchOS, or tvOS. via SANS ISC #AppleUpdates",
+        "url": "https://isc.sans.edu/diary/rss/33114",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
