@@ -463,6 +463,8 @@ RULES:
 - NEVER state a specific CVSS score, numeric severity rating, or percentage inside card_context or card_impact. CVSS/EPSS/KEV data is injected separately from verified sources — stating your own number risks contradicting it. Describe severity only in qualitative terms (e.g. "a high-severity flaw") if needed.
 - No mitigation advice anywhere.
 - NEVER include a URL, link, domain name, or "http"/"www" in ANY field. The tweet must end with "via {source_name}" using the PLAIN source NAME only (e.g. "via SecurityWeek") — never a web address. Do not invent or append article URLs; the post carries no link.
+- The word "via" appears EXACTLY ONCE in the tweet — as the final attribution "via {source_name}". Never write "via" elsewhere and never repeat the attribution.
+- If no CVE is stated in the article, do NOT mention a CVE in the tweet at all. Never write "CVE-unknown", "CVE pending", "no CVE", "unknown CVE", or any similar placeholder — simply omit any CVE reference.
 - All fields strictly factual, sourced only from the article.
 
 ARTICLE:
