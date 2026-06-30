@@ -115,6 +115,20 @@ def guard_query(q: str):
 _cache = {}
 
 
+def _scrub(obj):
+    """Recursively strip lone surrogate code points from strings. Some stored
+    records contain half-emoji/surrogate chars (tolerated by the browser's
+    JSON.parse but rejected by Python's strict UTF-8 JSON serializer, which
+    would 500 the response). Cleaning on load keeps the API robust to that."""
+    if isinstance(obj, str):
+        return obj.encode("utf-8", "ignore").decode("utf-8")
+    if isinstance(obj, list):
+        return [_scrub(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: _scrub(v) for k, v in obj.items()}
+    return obj
+
+
 def _load(name, default):
     """Load a JSON file from DATA_DIR, cached and invalidated by mtime."""
     path = os.path.join(DATA_DIR, name)
@@ -127,7 +141,7 @@ def _load(name, default):
         return hit[1]
     try:
         with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+            data = _scrub(json.load(f))
     except (json.JSONDecodeError, OSError):
         return default
     _cache[name] = (mtime, data)

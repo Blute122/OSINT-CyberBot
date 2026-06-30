@@ -146,6 +146,21 @@ def test_feed_kev_filter(client):
     items = r.json()["items"]
     assert len(items) == 1 and items[0]["cve"] == "CVE-2026-0001"
 
+def test_feed_handles_surrogate_chars(tmp_path, monkeypatch):
+    # A real record had a lone surrogate (half-emoji) that broke JSON serialization.
+    feed = [{"date": "2026-06-01 10:00 UTC", "content": "broken \ud83d emoji here", "url": "http://x"}]
+    (tmp_path / "database.json").write_text(json.dumps(feed), encoding="utf-8")
+    (tmp_path / "vulnerabilities.json").write_text("{}", encoding="utf-8")
+    (tmp_path / "actors.json").write_text("{}", encoding="utf-8")
+    monkeypatch.setattr(api, "DATA_DIR", str(tmp_path))
+    api._cache.clear()
+    api._resp_cache.clear()
+    monkeypatch.setattr(api.limiter, "enabled", False)
+    c = TestClient(api.app)
+    r = c.get("/api/feed?limit=1000")
+    assert r.status_code == 200
+    assert "\ud83d" not in r.json()["items"][0]["content"]   # surrogate scrubbed
+
 
 # ── search ────────────────────────────────────────────────────────
 def test_search_cve(client):
