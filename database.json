@@ -1468,5 +1468,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-06-30 08:37 UTC",
+        "content": "\ud83d\udd34 Critical flaw in Daktronics highway sign & billboard controllers allows remote hacking. Hundreds of thousands of signs worldwide at risk via CVE- unknown yet via <https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/> via\u2026",
+        "url": "https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

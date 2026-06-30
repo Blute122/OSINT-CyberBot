@@ -320,3 +320,5 @@ https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition
 https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html
 https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
 https://isc.sans.edu/diary/rss/33112
+https://www.securityweek.com/quantifind-raises-200-million-for-ai-native-risk-intelligence/
+https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/
