@@ -14,7 +14,7 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 - Tracks vulnerability lifecycles and threat actor campaigns persistently in `vulnerabilities.json` and `actors.json`.
 - Uses exact-match CVE deduplication to only tweet about an existing CVE if its threat status escalates (e.g., Disclosed -> Actively Exploited).
 - Generates a shareable threat-card PNG with severity color, title, summary, target, and simplified explanation.
-- Posts one item per run to X.
+- Posts one item per run to X. Posts are kept link-free on purpose — the prompt forbids URLs and a `strip_links` safety net removes any the model slips in — because X bills posts containing a link at a much higher rate; dotted technical terms (e.g. `Node.js`, `asp.net`, `.io`) and the CVSS/EPSS suffix are preserved.
 - Provides a dynamic Streamlit dashboard and a highly customized static HTML dashboard with KEV/EPSS visual badges.
 - Includes an instant intel-search bar on the static dashboard: type a CVE ID, threat actor, malware family, or vendor and get a rendered dossier (CVSS/EPSS/KEV metrics, lifecycle timeline, campaign history, and related feed items) generated client-side from the existing JSON databases.
 - Sends optional crash alerts to Discord.

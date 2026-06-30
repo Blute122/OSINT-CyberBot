@@ -462,6 +462,7 @@ RULES:
 - card_context and card_impact MUST be complete sentences that each end with a period, and MUST stay within their character limits so the threat-card text is never cut off mid-sentence. Prefer fewer words over an unfinished thought.
 - NEVER state a specific CVSS score, numeric severity rating, or percentage inside card_context or card_impact. CVSS/EPSS/KEV data is injected separately from verified sources — stating your own number risks contradicting it. Describe severity only in qualitative terms (e.g. "a high-severity flaw") if needed.
 - No mitigation advice anywhere.
+- NEVER include a URL, link, domain name, or "http"/"www" in ANY field. The tweet must end with "via {source_name}" using the PLAIN source NAME only (e.g. "via SecurityWeek") — never a web address. Do not invent or append article URLs; the post carries no link.
 - All fields strictly factual, sourced only from the article.
 
 ARTICLE:
@@ -818,6 +819,52 @@ def inject_score(tweet_text: str, cve: str, score_str: str, limit: int = 278) ->
     return safe_trim(tweet_text, limit=limit)
 
 
+# Match only ACTUAL links X would turn into a billable t.co link, while leaving
+# dotted tech terms (Node.js, asp.net, config.php, ".io") intact. A bare
+# domain is stripped only for the common source TLDs (com/org/gov/edu/info);
+# anything with a scheme, "www.", or a /path is always stripped.
+_URL_RE = re.compile(
+    r"""<?\s*
+        (?:
+            https?://[^\s<>]+                       # scheme URL
+          | www\.[^\s<>]+                           # www URL
+          | (?:[a-z0-9-]+\.)+[a-z]{2,}/[^\s<>]*     # any domain WITH a path
+          | (?:[a-z0-9-]+\.)+(?:com|org|gov|edu|info)\b   # bare common source domain
+        )
+        \s*>?
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+
+def strip_links(tweet_text: str) -> str:
+    """Remove any URL / domain the model slipped in despite the prompt rule.
+
+    Safety net for the 'no links in posts' requirement: the LLM occasionally
+    appends a (often hallucinated) article URL after 'via', e.g.
+    'via <securityweek.com/new-controller...>'. We strip any web address and
+    tidy up the dangling 'via', brackets, and whitespace it leaves behind.
+    """
+    cleaned = _URL_RE.sub(" ", tweet_text)
+    # Collapse a now-empty "via <>" / "via" tail and stray brackets/punctuation.
+    cleaned = re.sub(r"\bvia\s*<\s*>", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bvia\s*(?=$|\s+via\b)", "", cleaned, flags=re.IGNORECASE)
+    # Drop an orphaned link-intro connector left dangling before the 'via'
+    # attribution, so 'Read at <url> via Krebs' becomes a clean 'via Krebs'.
+    cleaned = re.sub(
+        r"(?:\b(?:read(?:ing)?|see|more|details?|story|info|learn|view|full|here|at|on|the)\b[\s,:.\-–—]*)+(?=via\b)",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(r"[<>]", "", cleaned)
+    cleaned = re.sub(r"\s{2,}", " ", cleaned)
+    # Tidy a space before sentence punctuation, but only at a word boundary so
+    # leading-dot tech terms (".io", ".NET", ".env") keep their space.
+    cleaned = re.sub(r"\s+([.,;:])(?=\s|$)", r"\1", cleaned)
+    return cleaned.strip()
+
+
 def ensure_leading_emoji(tweet_text: str, severity_icon: str) -> str:
     """Guarantee the tweet opens with the severity emoji."""
     if not tweet_text.startswith(severity_icon):
@@ -955,6 +1002,9 @@ def process_article(article: Article, db_data: list, stats: RunStats) -> bool:
         )
 
     # ── Finalize tweet text ──────────────────────────────
+    # Hard safety net: strip any URL/domain the model slipped in (posts carry
+    # no link). Runs AFTER score injection so we don't touch CVSS/EPSS suffixes.
+    tweet_text = strip_links(tweet_text)
     tweet_text = ensure_leading_emoji(tweet_text, severity_icon)
     # Final safety trim — UNCONDITIONAL. X's free/Basic API tier hard-caps
     # posts at 280 chars. If you resubscribe to X Premium, raise the limit
