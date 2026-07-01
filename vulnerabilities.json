@@ -116,5 +116,26 @@
     "epss": 0.06749,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-8451": {
+    "first_seen": "2026-07-01 00:19 UTC",
+    "product": "NetScaler",
+    "status_timeline": [
+      {
+        "date": "2026-07-01 00:19 UTC",
+        "status": "patched",
+        "summary": "Citrix patches a new NetScaler flaw with echoes of CitrixBleed",
+        "source_url": "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/"
+      }
+    ],
+    "related_posts": [
+      "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/"
+    ],
+    "last_updated": "2026-07-01 00:19 UTC",
+    "cvss": "Score Pending",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }

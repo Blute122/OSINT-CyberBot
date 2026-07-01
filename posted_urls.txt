@@ -328,3 +328,4 @@ https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chro
 https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/
 https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/
 https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/
+https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/

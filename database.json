@@ -1528,5 +1528,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-01 00:19 UTC",
+        "content": "\ud83d\udfe0 Citrix patches critical NetScaler flaw \ud83d\udfe0 with echoes of CitrixBleed, affecting unknown number of users. via CyberScoop #Citrix #NetScaler",
+        "url": "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
+        "cve": "CVE-2026-8451",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]
