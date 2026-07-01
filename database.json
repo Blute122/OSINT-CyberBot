@@ -1558,5 +1558,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-01 12:46 UTC",
+        "content": "\ud83d\udfe0 Over 900 Oracle E-Business instances exposed to ongoing attacks, leaving them vulnerable. Affected systems remain at risk via critical security flaw. via BleepingComputer #Oracle #Cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

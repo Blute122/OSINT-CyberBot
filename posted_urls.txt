@@ -333,3 +333,4 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-resto
 https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
 https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
 https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html
+https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/
