@@ -1548,5 +1548,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-01 10:10 UTC",
+        "content": "\ud83d\udd34 Cyber attackers launch massive password spray attack against Azure CLI, affecting 78+ Microsoft accounts via 81M+ attempts. via The Hacker News #AzureCLI #PasswordSprayAttack",
+        "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

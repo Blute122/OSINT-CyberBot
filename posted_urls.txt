@@ -330,3 +330,6 @@ https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/
 https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/
 https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
+https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
+https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html
