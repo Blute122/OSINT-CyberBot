@@ -1568,5 +1568,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-01 15:48 UTC",
+        "content": "\ud83d\udfe2 A new integration has been released for OpenCTI with Criminal IP, enhancing threat indicators with risk scoring and phishing analysis. via BleepingComputer #ThreatIntel",
+        "url": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
