@@ -1538,5 +1538,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-01 05:53 UTC",
+        "content": "\u2193 LOW impact update: Export controls lifted on Claude's Fable 5 and Mythos 5 models. Anthropic is set to restore Claude's access on Wednesday. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
