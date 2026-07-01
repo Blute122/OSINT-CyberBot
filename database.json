@@ -1588,5 +1588,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-01 20:53 UTC",
+        "content": "\ud83d\udfe1 Microsoft blocks unauthorized AI bots from meetings: new Teams admin policy requires org approval for automated participants in sensitive meetings. via SecurityWeek",
+        "url": "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -338,3 +338,4 @@ https://www.bleepingcomputer.com/news/security/turning-indicators-into-intellige
 https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
 https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security
 https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/
+https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/
