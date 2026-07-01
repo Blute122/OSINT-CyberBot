@@ -335,3 +335,6 @@ https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
 https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html
 https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/
 https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/
+https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
+https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security
+https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/

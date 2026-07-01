@@ -1578,5 +1578,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-01 18:15 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers breach HSIN info-sharing platform used by US federal and private partners via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
