@@ -228,5 +228,19 @@
         "source_url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html"
       }
     ]
+  },
+  "scattered spider": {
+    "aliases": [
+      "Scattered Spider"
+    ],
+    "first_seen": "2026-07-02 17:00 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-07-02 17:00 UTC",
+        "summary": "Alleged longstanding member of Scattered Spider extradited to US",
+        "source_url": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/"
+      }
+    ]
   }
 }
