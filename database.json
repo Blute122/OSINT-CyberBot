@@ -1608,5 +1608,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-02 05:09 UTC",
+        "content": "\ud83d\udfe0 Critical vulnerability found in popular software suite via SANS ISC #Cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33120",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

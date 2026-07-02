@@ -340,3 +340,4 @@ https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital
 https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/
 https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/
 https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os
+https://isc.sans.edu/diary/rss/33120
