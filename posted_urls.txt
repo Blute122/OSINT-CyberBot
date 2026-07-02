@@ -345,3 +345,4 @@ https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
 https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/
 https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/
 https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/
+https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses
