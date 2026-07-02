@@ -1598,5 +1598,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-02 00:20 UTC",
+        "content": "\ud83d\udfe1 Critical phishing campaigns adapt to victim's device and OS, compromising more users and generating profits via Dark Reading #phishing",
+        "url": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
