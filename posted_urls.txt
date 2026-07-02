@@ -342,3 +342,4 @@ https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthor
 https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os
 https://isc.sans.edu/diary/rss/33120
 https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
+https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/
