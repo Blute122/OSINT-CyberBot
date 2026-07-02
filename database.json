@@ -1618,5 +1618,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-02 08:23 UTC",
+        "content": "\ud83d\udd23 Attackers hide a data-stealing trojan, called ChocoPoC, inside fake PoC exploit code on GitHub aimed at bug hunters. ChocoPoC quietly steals passwords, cookies, and files, giving attackers remote access via The Hacker News #infosec",
+        "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

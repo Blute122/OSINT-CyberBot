@@ -214,5 +214,19 @@
         "source_url": "https://isc.sans.edu/diary/rss/33112"
       }
     ]
+  },
+  "attackers": {
+    "aliases": [
+      "Attackers"
+    ],
+    "first_seen": "2026-07-02 08:23 UTC",
+    "campaigns": [
+      {
+        "target": "Vulnerability researchers via fake PoC exploit repositories on GitHub",
+        "date": "2026-07-02 08:23 UTC",
+        "summary": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+        "source_url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html"
+      }
+    ]
   }
 }
