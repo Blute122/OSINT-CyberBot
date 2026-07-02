@@ -343,3 +343,4 @@ https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-v
 https://isc.sans.edu/diary/rss/33120
 https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
 https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/
+https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/

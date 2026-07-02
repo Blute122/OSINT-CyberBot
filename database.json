@@ -1638,5 +1638,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-02 14:27 UTC",
+        "content": "\ud83d\udfe0 High-severity flaw in Microsoft 365 lets hackers hijack accounts in 3 seconds. Attack uses fake OAuth prompts for MFA bypass. via BleepingComputer #Microsoft",
+        "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
