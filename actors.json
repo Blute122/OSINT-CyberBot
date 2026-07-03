@@ -263,5 +263,19 @@
         "source_url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
       }
     ]
+  },
+  "armored likho": {
+    "aliases": [
+      "Armored Likho"
+    ],
+    "first_seen": "2026-07-03 14:30 UTC",
+    "campaigns": [
+      {
+        "target": "government agencies and the electric power sector across Russia, Brazil, and Kazakhstan",
+        "date": "2026-07-03 14:30 UTC",
+        "summary": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
+        "source_url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
+      }
+    ]
   }
 }

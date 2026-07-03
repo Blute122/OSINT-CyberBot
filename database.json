@@ -1698,5 +1698,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-03 14:30 UTC",
+        "content": "\ud83d\udd34 Armored Likho steals sensitive data from government agencies and power plants with BusySnake Stealer via The Hacker News #cyberespionage",
+        "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

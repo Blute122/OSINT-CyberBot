@@ -353,3 +353,4 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relau
 https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
 https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
 https://thehackernews.com/2026/07/european-parliament-member.html
+https://thehackernews.com/2026/07/armored-likho-targets-government.html
