@@ -1708,5 +1708,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-03 16:44 UTC",
+        "content": "\ud83d\udfe0 High-severity phishing campaign found on PhaaS platform ARToken. Exposes Microsoft 365 user credentials. via BleepingComputer #Microsoft365 #Phishing",
+        "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

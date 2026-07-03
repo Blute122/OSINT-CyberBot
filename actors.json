@@ -277,5 +277,19 @@
         "source_url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
       }
     ]
+  },
+  "eviltokens": {
+    "aliases": [
+      "EvilTokens"
+    ],
+    "first_seen": "2026-07-03 16:44 UTC",
+    "campaigns": [
+      {
+        "target": "Microsoft 365",
+        "date": "2026-07-03 16:44 UTC",
+        "summary": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+        "source_url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
+      }
+    ]
   }
 }
