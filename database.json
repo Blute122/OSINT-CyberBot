@@ -1688,5 +1688,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-03 11:40 UTC",
+        "content": "\ud83d\udfe0 European Parliament Member hacked with Pegasus spyware, exposing investigation into spyware abuse. Member's mobile device repeatedly targeted while investigating commercial surveillance. via The Hacker News #spyware #PegasusAttack",
+        "url": "https://thehackernews.com/2026/07/european-parliament-member.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

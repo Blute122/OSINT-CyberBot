@@ -91,7 +91,8 @@
   },
   "unknown": {
     "aliases": [
-      "Unknown"
+      "Unknown",
+      "unknown"
     ],
     "first_seen": "2026-06-25 08:30 UTC",
     "campaigns": [
@@ -100,6 +101,12 @@
         "date": "2026-06-25 08:30 UTC",
         "summary": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
         "source_url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html"
+      },
+      {
+        "target": "Stelios Kouloglou's mobile device",
+        "date": "2026-07-03 11:40 UTC",
+        "summary": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
+        "source_url": "https://thehackernews.com/2026/07/european-parliament-member.html"
       }
     ]
   },
