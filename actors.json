@@ -291,5 +291,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
       }
     ]
+  },
+  "anonymous-linked canadian hacker": {
+    "aliases": [
+      "Anonymous-linked Canadian hacker"
+    ],
+    "first_seen": "2026-07-03 18:38 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-07-03 18:38 UTC",
+        "summary": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting",
+        "source_url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/"
+      }
+    ]
   }
 }

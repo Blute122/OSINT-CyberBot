@@ -1718,5 +1718,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-03 18:38 UTC",
+        "content": "\ud83d\udfe0 Hackers found & exploited open-source vulnerabilities, ATMs hit in jackpotting crimes via SecurityWeek #hacking",
+        "url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -355,3 +355,4 @@ https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level
 https://thehackernews.com/2026/07/european-parliament-member.html
 https://thehackernews.com/2026/07/armored-likho-targets-government.html
 https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
+https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/
