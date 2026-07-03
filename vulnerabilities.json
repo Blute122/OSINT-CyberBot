@@ -137,5 +137,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-46242": {
+    "first_seen": "2026-07-03 20:21 UTC",
+    "product": "Linux kernel, Android, Linux desktops, servers",
+    "status_timeline": [
+      {
+        "date": "2026-07-03 20:21 UTC",
+        "status": "disclosed",
+        "summary": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+        "source_url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+    ],
+    "last_updated": "2026-07-03 20:21 UTC",
+    "cvss": 7.8,
+    "kev": false,
+    "epss": 0.00123,
+    "risk_score": 37,
+    "risk_band": "medium"
   }
 }
