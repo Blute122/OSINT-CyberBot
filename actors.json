@@ -242,5 +242,19 @@
         "source_url": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/"
       }
     ]
+  },
+  "popa botnet": {
+    "aliases": [
+      "Popa botnet"
+    ],
+    "first_seen": "2026-07-03 00:18 UTC",
+    "campaigns": [
+      {
+        "target": "NetNut proxy platform and millions of compromised devices",
+        "date": "2026-07-03 00:18 UTC",
+        "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+        "source_url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
+      }
+    ]
   }
 }

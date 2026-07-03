@@ -1668,5 +1668,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-03 00:18 UTC",
+        "content": "\ud83d\udd34 FBI seizes NetNut proxy platform, takes down Popa botnet with 2+ million compromised devices via Krebs on Security #cybersecurity",
+        "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

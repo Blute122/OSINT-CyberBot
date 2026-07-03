@@ -346,3 +346,4 @@ https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-
 https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/
 https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/
 https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses
+https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
