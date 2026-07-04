@@ -358,3 +358,4 @@ https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-
 https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/
 https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/
 https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
+https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
