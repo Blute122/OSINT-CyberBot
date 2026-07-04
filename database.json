@@ -1748,5 +1748,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-04 12:16 UTC",
+        "content": "\ud83d\udd34 Critical North Korean hackers publish 108 malicious packages & extensions via npm, Packagist, Go, and Google Chrome. Threat actors target browser maintainers via Compromise campaigns. via The Hacker News #hacking #ransomware",
+        "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

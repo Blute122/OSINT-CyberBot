@@ -305,5 +305,19 @@
         "source_url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/"
       }
     ]
+  },
+  "north korean hackers": {
+    "aliases": [
+      "North Korean hackers"
+    ],
+    "first_seen": "2026-07-04 12:16 UTC",
+    "campaigns": [
+      {
+        "target": "npm, Packagist, Go, Google Chrome",
+        "date": "2026-07-04 12:16 UTC",
+        "summary": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+        "source_url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
+      }
+    ]
   }
 }
