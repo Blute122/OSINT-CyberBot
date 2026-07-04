@@ -1758,5 +1758,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-04 14:44 UTC",
+        "content": "\ud83d\udd34 \ud83d\udca5 Critical data breach hits a US government entity after they paid $1M in extortion. Hackers called Kairos threaten to leak stolen files via The Hacker News #ransom #cyberattack",
+        "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
