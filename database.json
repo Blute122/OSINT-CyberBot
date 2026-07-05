@@ -1778,5 +1778,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-05 14:51 UTC",
+        "content": "\ud83d\udfe0 High-severity flaw found in Flipper Zero firmware development via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
