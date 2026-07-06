@@ -1808,5 +1808,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-06 16:29 UTC",
+        "content": "\u2757\ufe0e Attacks use prompt injections to trick AI agents into making crypto payments. Autonomous AI browsing the web is at risk via SecurityWeek #AIsecurity",
+        "url": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -365,3 +365,8 @@ https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-age
 https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
 https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
 https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html
+https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/
+https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/
+https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/
+https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/
+https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/
