@@ -1818,5 +1818,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-06 19:04 UTC",
+        "content": "\u2693 RCS/DNS vulnerability found, via SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33124",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
