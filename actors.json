@@ -333,5 +333,19 @@
         "source_url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html"
       }
     ]
+  },
+  "iran's ministry of intelligence and security (mois) affiliated hacking group": {
+    "aliases": [
+      "Iran's Ministry of Intelligence and Security (MOIS) affiliated hacking group"
+    ],
+    "first_seen": "2026-07-06 20:59 UTC",
+    "campaigns": [
+      {
+        "target": "Israeli organizations, IT providers, and government sectors",
+        "date": "2026-07-06 20:59 UTC",
+        "summary": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+        "source_url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
+      }
+    ]
   }
 }

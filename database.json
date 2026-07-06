@@ -1828,5 +1828,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-06 20:59 UTC",
+        "content": "\ud83d\udd34 Critical: Iran-linked hackers use Cavern C2 framework to target Israeli orgs, IT providers, and government sectors. via The Hacker News #Iran Hacker Group #Cybersecurity",
+        "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
