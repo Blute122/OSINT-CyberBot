@@ -364,3 +364,4 @@ https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
 https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/
 https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
 https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html

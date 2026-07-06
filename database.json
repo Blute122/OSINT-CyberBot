@@ -1798,5 +1798,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-06 12:57 UTC",
+        "content": "\ud83d\udfe1 AI SOC platform weaknesses could lead to material impact. Experts say leaders separate themselves with robust platforms, not bolt-on chat assistants. via The Hacker News #ArtificialIntelligence #Cybersecurity",
+        "url": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
