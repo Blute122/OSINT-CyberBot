@@ -372,3 +372,4 @@ https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epo
 https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/
 https://isc.sans.edu/diary/rss/33124
 https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
+https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks

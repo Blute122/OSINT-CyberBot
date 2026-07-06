@@ -1838,5 +1838,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-06 22:35 UTC",
+        "content": "\ud83d\udd34 BusySnake infostealer targets critical infrastructure networks in Russia, Brazil, and Kazakhstan via Armored Likho via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

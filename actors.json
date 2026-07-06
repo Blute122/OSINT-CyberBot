@@ -275,6 +275,12 @@
         "date": "2026-07-03 14:30 UTC",
         "summary": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
         "source_url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
+      },
+      {
+        "target": "government agencies, electrical power entities",
+        "date": "2026-07-06 22:35 UTC",
+        "summary": "'BusySnake' Infostealer Slithers into Critical Infrastructure Networks",
+        "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks"
       }
     ]
   },
