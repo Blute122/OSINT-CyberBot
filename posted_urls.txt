@@ -380,3 +380,4 @@ https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allo
 https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
 https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/
 https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
+https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
