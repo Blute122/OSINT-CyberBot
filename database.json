@@ -1848,5 +1848,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-07 00:18 UTC",
+        "content": "\u2697 Sophisticated 'Veil#Drop' attacks deliver Blogspot-hosted payloads to evade detection via PowerShell & fileless techniques. Multiple compromised websites impacted. via SecurityWeek #infosec #malware",
+        "url": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
