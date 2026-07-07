@@ -353,5 +353,19 @@
         "source_url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
       }
     ]
+  },
+  "uat-7810": {
+    "aliases": [
+      "UAT-7810"
+    ],
+    "first_seen": "2026-07-07 20:11 UTC",
+    "campaigns": [
+      {
+        "target": "internet-facing networking devices, primarily unpatched Ruckus routers",
+        "date": "2026-07-07 20:11 UTC",
+        "summary": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+        "source_url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/"
+      }
+    ]
   }
 }
