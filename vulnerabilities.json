@@ -179,5 +179,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-20896": {
+    "first_seen": "2026-07-07 17:25 UTC",
+    "product": "Gitea",
+    "status_timeline": [
+      {
+        "date": "2026-07-07 17:25 UTC",
+        "status": "disclosed",
+        "summary": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
+        "source_url": "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/"
+    ],
+    "last_updated": "2026-07-07 17:25 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.00783,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }

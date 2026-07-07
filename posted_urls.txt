@@ -378,3 +378,4 @@ https://isc.sans.edu/diary/rss/33126
 https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
 https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/
 https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
+https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/
