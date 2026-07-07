@@ -1868,5 +1868,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-07 12:08 UTC",
+        "content": "\ud83d\udd34 Critical Linux flaw allows VM escape on Intel, AMD devices via BleepingComputer #LinuxSecurity",
+        "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

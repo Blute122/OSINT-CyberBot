@@ -376,3 +376,4 @@ https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-cri
 https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/
 https://isc.sans.edu/diary/rss/33126
 https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/
