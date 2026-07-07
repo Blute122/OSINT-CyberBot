@@ -1878,5 +1878,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-07 15:11 UTC",
+        "content": "03325 A public GitHub issue can trick GitHub Agentic Workflows into leaking private repo data. Any org w/ read access across repos affected. via The Hacker News #GitHub #security",
+        "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
