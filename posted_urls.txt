@@ -375,3 +375,4 @@ https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
 https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks
 https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/
 https://isc.sans.edu/diary/rss/33126
+https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html

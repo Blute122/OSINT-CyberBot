@@ -1858,5 +1858,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-07 08:38 UTC",
+        "content": "\ud83d\udfe0 High-severity vulnerability discovered in Tenda router firmware, enabling attackers to bypass password verification via an undocumented backdoor. Multiple firmware versions affected. via The Hacker News #tendavulnerability #routersecurity",
+        "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+        "cve": "CVE-2026-11405",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

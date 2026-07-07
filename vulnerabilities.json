@@ -158,5 +158,26 @@
     "epss": 0.00123,
     "risk_score": 37,
     "risk_band": "medium"
+  },
+  "CVE-2026-11405": {
+    "first_seen": "2026-07-07 08:38 UTC",
+    "product": "Tenda router firmware",
+    "status_timeline": [
+      {
+        "date": "2026-07-07 08:38 UTC",
+        "status": "disclosed",
+        "summary": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+        "source_url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html"
+    ],
+    "last_updated": "2026-07-07 08:38 UTC",
+    "cvss": "Score Pending",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }
