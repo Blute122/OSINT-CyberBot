@@ -1918,5 +1918,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-08 00:11 UTC",
+        "content": "\ud83d\udfe0 High-severity attack linked to Russian hacktivists in Spain via CyberScoop #cybersecurity",
+        "url": "https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

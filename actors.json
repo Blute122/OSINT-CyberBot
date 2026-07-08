@@ -367,5 +367,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/"
       }
     ]
+  },
+  "cyber army of russia reborn and noname": {
+    "aliases": [
+      "Cyber Army of Russia Reborn and NoName"
+    ],
+    "first_seen": "2026-07-08 00:11 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-07-08 00:11 UTC",
+        "summary": "Spain arrests suspected hacker linked to Russian hacktivist campaign",
+        "source_url": "https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/"
+      }
+    ]
   }
 }
