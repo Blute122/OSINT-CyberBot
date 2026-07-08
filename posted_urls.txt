@@ -382,3 +382,4 @@ https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-resea
 https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
 https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
 https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/
+https://isc.sans.edu/diary/rss/33136

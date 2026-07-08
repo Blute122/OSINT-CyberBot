@@ -1928,5 +1928,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-08 03:43 UTC",
+        "content": "\ud83d\udfe0 A high-severity flaw in a widely used software allows attackers to exploit CVE-2026-4020; no information on who is impacted via SecurityWeek #infosec",
+        "url": "https://isc.sans.edu/diary/rss/33136",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
