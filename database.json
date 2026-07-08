@@ -1958,5 +1958,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-08 11:56 UTC",
+        "content": "\ud83d\udfe0 Multiple email accounts compromised in data breach affecting over 12 million people. Email addresses and passwords exposed in breach of Japanese ISPs via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
