@@ -381,5 +381,19 @@
         "source_url": "https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/"
       }
     ]
+  },
+  "a pair of far-right conspiracy theorists and convicted felons": {
+    "aliases": [
+      "a pair of far-right conspiracy theorists and convicted felons"
+    ],
+    "first_seen": "2026-07-08 14:38 UTC",
+    "campaigns": [
+      {
+        "target": "a cybersecurity startup with a business model relying on acquiring zero-day security vulnerabilities",
+        "date": "2026-07-08 14:38 UTC",
+        "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+        "source_url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
+      }
+    ]
   }
 }

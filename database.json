@@ -1968,5 +1968,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-08 14:38 UTC",
+        "content": "\ud83d\udd34 A cybersecurity startup with ties to convicted felons is buying zero-day security vulnerabilities in popular software via Krebs on Security #cybersecurity",
+        "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
