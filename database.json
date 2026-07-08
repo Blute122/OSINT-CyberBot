@@ -1948,5 +1948,15 @@
         "epss": 0.01021,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-07-08 09:34 UTC",
+        "content": "\ud83d\udfe1 Critical UniFi OS vulnerability exploited in command injection attacks via BleepingComputer #UniFiOS",
+        "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

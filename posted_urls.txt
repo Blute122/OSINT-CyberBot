@@ -385,3 +385,7 @@ https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/
 https://isc.sans.edu/diary/rss/33136
 https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
 https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html
+https://isc.sans.edu/diary/rss/33138
+https://cyberscoop.com/ai-executive-order-cybersecurity-clearinghouse-vulnerability-patching-gap/
+https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
