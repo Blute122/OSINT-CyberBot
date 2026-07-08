@@ -391,3 +391,4 @@ https://cyberscoop.com/ai-executive-order-cybersecurity-clearinghouse-vulnerabil
 https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
 https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/
 https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html
