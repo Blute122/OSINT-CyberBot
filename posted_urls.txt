@@ -383,3 +383,5 @@ https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash
 https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
 https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/
 https://isc.sans.edu/diary/rss/33136
+https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html

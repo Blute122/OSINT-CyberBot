@@ -200,5 +200,26 @@
     "epss": 0.00783,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-48282": {
+    "first_seen": "2026-07-08 06:37 UTC",
+    "product": "Adobe ColdFusion",
+    "status_timeline": [
+      {
+        "date": "2026-07-08 06:37 UTC",
+        "status": "actively_exploited",
+        "summary": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+        "source_url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+    ],
+    "last_updated": "2026-07-08 06:37 UTC",
+    "cvss": 10.0,
+    "kev": true,
+    "epss": 0.01021,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

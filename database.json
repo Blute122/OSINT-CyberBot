@@ -1938,5 +1938,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-08 06:37 UTC",
+        "content": "\ud83d\udd34 Critical: New KEV adds Adobe ColdFusion path traversal flaw (CVE-2026-48282 (CVSS: 10.0/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 1.0%]) exploited for arbitrary code execution. Adobe ColdFusion users at risk. via The Hacker News #cybersecurity #KEV",
+        "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+        "cve": "CVE-2026-48282",
+        "kev": true,
+        "epss": 0.01021,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]
