@@ -1998,5 +1998,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-09 05:04 UTC",
+        "content": "\ud83d\udd34 A state-sponsored APT exploited a previously unknown vulnerability to breach a major enterprise via SANS ISC #threatintelligence",
+        "url": "https://isc.sans.edu/diary/rss/33140",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
