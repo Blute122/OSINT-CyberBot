@@ -2018,5 +2018,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-09 12:14 UTC",
+        "content": "\ud83d\udd34 'GodDamn' ransomware is using compromised Microsoft kernel drivers to evade security software and attack US companies via Dark Reading #ransomware #cybersecurity",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

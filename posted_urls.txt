@@ -396,3 +396,4 @@ https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test
 https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
 https://isc.sans.edu/diary/rss/33140
 https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
+https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies
