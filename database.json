@@ -2038,5 +2038,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-09 18:07 UTC",
+        "content": "\ud83d\udfe1 npm 12 disables install scripts by default to reduce supply chain risk, affecting users via The Hacker News #supply_chain_security",
+        "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
