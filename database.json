@@ -2028,5 +2028,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-09 16:08 UTC",
+        "content": "\u2f9d Microsoft 365 accounts are being Phished via a new Forg365 service that uses AI-generated lures. Threat actors are using adversary-in-the-middle and device code methods to steal accounts. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

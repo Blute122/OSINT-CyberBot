@@ -397,3 +397,4 @@ https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-env
 https://isc.sans.edu/diary/rss/33140
 https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
 https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies
+https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/
