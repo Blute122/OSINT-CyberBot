@@ -2048,5 +2048,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-09 20:02 UTC",
+        "content": "\ud83d\udfe1 No severity impact via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

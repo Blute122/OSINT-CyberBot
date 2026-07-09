@@ -400,3 +400,5 @@ https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-
 https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/
 https://blog.talosintelligence.com/winning-54-of-the-time/
 https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html
+https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans
+https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/
