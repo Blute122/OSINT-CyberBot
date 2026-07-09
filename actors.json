@@ -395,5 +395,19 @@
         "source_url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
       }
     ]
+  },
+  "a lone attacker": {
+    "aliases": [
+      "A lone attacker"
+    ],
+    "first_seen": "2026-07-09 00:19 UTC",
+    "campaigns": [
+      {
+        "target": "an AWS cloud environment",
+        "date": "2026-07-09 00:19 UTC",
+        "summary": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
+        "source_url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment"
+      }
+    ]
   }
 }
