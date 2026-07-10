@@ -2108,5 +2108,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-10 18:43 UTC",
+        "content": "\ud83d\udd34 Critical: Injective Labs GitHub compromise leads to wallet-key-stealing npm packages via unknown attackers. Affected: Injective Labs SDK project users via The Hacker News #npm #cryptocurrency",
+        "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

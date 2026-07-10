@@ -437,5 +437,19 @@
         "source_url": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/"
       }
     ]
+  },
+  "unknown threat actors": {
+    "aliases": [
+      "Unknown threat actors"
+    ],
+    "first_seen": "2026-07-10 18:43 UTC",
+    "campaigns": [
+      {
+        "target": "Injective Labs SDK project's GitHub repository and npm registry",
+        "date": "2026-07-10 18:43 UTC",
+        "summary": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+        "source_url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
+      }
+    ]
   }
 }

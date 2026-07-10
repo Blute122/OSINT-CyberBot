@@ -409,3 +409,4 @@ https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html
 https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/
 https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/
 https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/
+https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
