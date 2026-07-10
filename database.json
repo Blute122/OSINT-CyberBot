@@ -2068,5 +2068,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-10 07:51 UTC",
+        "content": "\ud83d\udfe2 A software update issue causes minor disruptions to some services. via SANS ISC #softwareupdate #disruptions",
+        "url": "https://isc.sans.edu/diary/rss/33142",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

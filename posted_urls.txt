@@ -403,3 +403,4 @@ https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html
 https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans
 https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/
 https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/
+https://isc.sans.edu/diary/rss/33142
