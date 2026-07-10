@@ -409,5 +409,19 @@
         "source_url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment"
       }
     ]
+  },
+  "angelo martino": {
+    "aliases": [
+      "Angelo Martino"
+    ],
+    "first_seen": "2026-07-10 04:12 UTC",
+    "campaigns": [
+      {
+        "target": "DigitalMint and U.S.-based clients",
+        "date": "2026-07-10 04:12 UTC",
+        "summary": "Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail",
+        "source_url": "https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/"
+      }
+    ]
   }
 }
