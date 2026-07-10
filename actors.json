@@ -423,5 +423,19 @@
         "source_url": "https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/"
       }
     ]
+  },
+  "china, india-linked hackers": {
+    "aliases": [
+      "China, India-Linked Hackers"
+    ],
+    "first_seen": "2026-07-10 17:05 UTC",
+    "campaigns": [
+      {
+        "target": "Balochistan Police force in Pakistan",
+        "date": "2026-07-10 17:05 UTC",
+        "summary": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
+        "source_url": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/"
+      }
+    ]
   }
 }

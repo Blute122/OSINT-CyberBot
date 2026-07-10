@@ -2098,5 +2098,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-10 17:05 UTC",
+        "content": "\u26a0\ufe0fHackers linked to both China and India targeted the Balochistan Police force in Pakistan, putting national security at risk via SecurityWeek #threatintelligence",
+        "url": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
