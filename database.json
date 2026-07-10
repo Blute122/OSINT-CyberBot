@@ -2088,5 +2088,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-10 14:49 UTC",
+        "content": "\u219e HIGH WhatsApp-to-Host Attack Exploits OpenClaw Flaws for Credential Theft, Privilege Escalation via CVE-2023-1234 via The Hacker News #ThreatIntelligence #Cybersecurity",
+        "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

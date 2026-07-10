@@ -405,3 +405,4 @@ https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-go
 https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/
 https://isc.sans.edu/diary/rss/33142
 https://isc.sans.edu/diary/rss/33144
+https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html
