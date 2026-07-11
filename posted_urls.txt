@@ -416,3 +416,4 @@ https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
 https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
 https://isc.sans.edu/diary/rss/33146
 https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/
+https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/

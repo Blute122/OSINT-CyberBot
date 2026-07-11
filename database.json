@@ -2178,5 +2178,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-11 15:13 UTC",
+        "content": "\ud83d\udfe1 A global exploitation campaign targets vulnerable CMS platforms, putting many systems at risk. via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
