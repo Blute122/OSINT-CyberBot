@@ -2158,5 +2158,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-11 10:32 UTC",
+        "content": "\ud83d\udfe0 Exploit multiple flaws in Wireshark 4.6.7, via SANS ISC #WiresharkVulnerability",
+        "url": "https://isc.sans.edu/diary/rss/33146",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
