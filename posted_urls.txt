@@ -413,3 +413,4 @@ https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
 https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html
 https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/
 https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
+https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
