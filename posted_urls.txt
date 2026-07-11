@@ -411,3 +411,4 @@ https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-he
 https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/
 https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
 https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html
+https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/

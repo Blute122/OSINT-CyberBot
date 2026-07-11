@@ -2128,5 +2128,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-11 00:10 UTC",
+        "content": "\ud83d\udd34 Critical U-Boot firmware flaws allow stealthy attacks, enabling malware installation. Six vulnerabilities could compromise security protections. via BleepingComputer #firmwareattacks #UBoot",
+        "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
