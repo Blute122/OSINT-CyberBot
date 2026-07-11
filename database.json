@@ -2138,5 +2138,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-11 03:39 UTC",
+        "content": "\ud83d\udfe0 Critical: The Gentlemen ransomware uses an affiliate model to rapidly grow. Affected organizations are targeted by ransom attacks via Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
