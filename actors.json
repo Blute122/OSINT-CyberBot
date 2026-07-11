@@ -451,5 +451,19 @@
         "source_url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
       }
     ]
+  },
+  "empty": {
+    "aliases": [
+      "empty"
+    ],
+    "first_seen": "2026-07-11 19:29 UTC",
+    "campaigns": [
+      {
+        "target": "jscrambler version 8.14.0 npm package",
+        "date": "2026-07-11 19:29 UTC",
+        "summary": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+        "source_url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+      }
+    ]
   }
 }

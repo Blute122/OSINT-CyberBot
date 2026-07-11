@@ -2188,5 +2188,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-11 19:29 UTC",
+        "content": "\ud83d\udd34 Critical: jscrambler 8.14.0 npm package drops Rust infostealer during install on Windows, macOS, Linux via The Hacker News #jscrambler #npm",
+        "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
