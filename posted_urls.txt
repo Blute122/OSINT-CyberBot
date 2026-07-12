@@ -418,3 +418,4 @@ https://isc.sans.edu/diary/rss/33146
 https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/
 https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/
 https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/
