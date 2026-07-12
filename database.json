@@ -2208,5 +2208,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-12 21:04 UTC",
+        "content": "\udc17\udc0f LOW - Anthropic temporarily extends access to powerful model Claude Fable 5 for paid subs until July 19. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
