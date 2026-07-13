@@ -2248,5 +2248,15 @@
         "epss": 0.00857,
         "risk_score": 45,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-07-13 15:09 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udfe0 High-severity phishing attack alert: Open-source 'ScamBuster' uses AI to engage scammers, giving orgs and law enforcement data on cybercrime via Dark Reading #phishing",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
