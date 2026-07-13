@@ -424,3 +424,4 @@ https://isc.sans.edu/diary/rss/33148
 https://isc.sans.edu/diary/rss/33150
 https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
 https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster
+https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html

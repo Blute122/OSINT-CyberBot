@@ -2258,5 +2258,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-13 17:21 UTC",
+        "content": "\ud83d\udfe1 A security tool was compromised in attacks using AI-powered coding attacks, affecting ShareFile and Citrix, via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
