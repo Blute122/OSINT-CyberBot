@@ -2278,5 +2278,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-13 21:11 UTC",
+        "content": "\ud83d\udd34 CRITICAL \ud83d\udd34 macOS malware CrashStealer steals sensitive data from compromised systems via notarized Dropper passing Gatekeeper checks via The Hacker News #macOS #malware",
+        "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

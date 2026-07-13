@@ -426,3 +426,4 @@ https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerabilit
 https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster
 https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html
 https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/
+https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
