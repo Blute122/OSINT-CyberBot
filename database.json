@@ -2228,5 +2228,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-13 07:34 UTC",
+        "content": "\u2726 Someone is scanning for your MCP servers & AI Assistant credentials, leaving potential risks via SANS ISC #mcpsecurity",
+        "url": "https://isc.sans.edu/diary/rss/33150",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
