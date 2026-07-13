@@ -2268,5 +2268,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-13 19:46 UTC",
+        "content": "\ud83d\udfe1 The EU and its allies take action against Russia's Turla espionage group & FSB agents behind winter cyberattacks vs Poland's energy grid \ud83d\udfe0 via CyberScoop #cyberattack",
+        "url": "https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -465,5 +465,19 @@
         "source_url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
       }
     ]
+  },
+  "turla, fsb": {
+    "aliases": [
+      "Turla, FSB"
+    ],
+    "first_seen": "2026-07-13 19:46 UTC",
+    "campaigns": [
+      {
+        "target": "EU, EU members, UK, Poland's energy grid",
+        "date": "2026-07-13 19:46 UTC",
+        "summary": "Europe strikes out against Russia\u2019s Turla over espionage, \u2018destructive attacks\u2019",
+        "source_url": "https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/"
+      }
+    ]
   }
 }
