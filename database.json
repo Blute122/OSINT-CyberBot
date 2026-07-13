@@ -2238,5 +2238,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-13 11:27 UTC",
+        "content": "\ud83d\udd34 Critical code execution flaw in Zimbra emails: Opens malicious emails and executes embedded code. via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/",
+        "cve": "CVE-2024-0001",
+        "kev": false,
+        "epss": 0.00857,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]

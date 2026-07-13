@@ -422,3 +422,4 @@ https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-
 https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/
 https://isc.sans.edu/diary/rss/33148
 https://isc.sans.edu/diary/rss/33150
+https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/

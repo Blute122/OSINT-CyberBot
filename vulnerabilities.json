@@ -221,5 +221,26 @@
     "epss": 0.01021,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2024-0001": {
+    "first_seen": "2026-07-13 11:27 UTC",
+    "product": "Zimbra",
+    "status_timeline": [
+      {
+        "date": "2026-07-13 11:27 UTC",
+        "status": "patched",
+        "summary": "Zimbra Patches Critical Code Execution Vulnerability",
+        "source_url": "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
+    ],
+    "last_updated": "2026-07-13 11:27 UTC",
+    "cvss": 10.0,
+    "kev": false,
+    "epss": 0.00857,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }
