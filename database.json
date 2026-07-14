@@ -2288,5 +2288,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 00:06 UTC",
+        "content": "\ud83d\udd34 A Japanese taxi operator shut down part of its system after a cyberattack. Nihon Kotsu's systems were compromised, affecting users via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
