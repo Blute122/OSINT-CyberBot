@@ -2348,5 +2348,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 17:33 UTC",
+        "content": "\ud83d\udfe0 A high-severity flaw in ClickFix's ecosystem demands new defense tactics, as attackers evade AV and EDR via the rentable attack vector. via Dark Reading #infosec",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
