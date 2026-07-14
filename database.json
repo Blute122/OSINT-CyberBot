@@ -2308,5 +2308,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 09:15 UTC",
+        "content": "\u26a0\ufe0f U.S. sanctions First VPN Service and ransomware cryptor seller for aiding ransomware actors. Americans affected. via The Hacker News #ransomware #cybercrime",
+        "url": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
