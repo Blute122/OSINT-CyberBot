@@ -2328,5 +2328,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 14:10 UTC",
+        "content": "\ud83d\udd34 Exploit allows attackers to bypass Secure Boot on most systems via 11 old, Microsoft-signed UEFI apps. Enable deployment of malicious UEFI bootkits or malware. via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
