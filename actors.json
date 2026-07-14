@@ -219,6 +219,12 @@
         "date": "2026-06-30 04:22 UTC",
         "summary": "ISC Stormcast For Tuesday, June 30th, 2026 https://isc.sans.edu/podcastdetail/9988, (Tue, Jun 30th)",
         "source_url": "https://isc.sans.edu/diary/rss/33112"
+      },
+      {
+        "target": "unspecified",
+        "date": "2026-07-14 03:30 UTC",
+        "summary": "ISC Stormcast For Tuesday, July 14th, 2026 https://isc.sans.edu/podcastdetail/10006, (Tue, Jul 14th)",
+        "source_url": "https://isc.sans.edu/diary/rss/33152"
       }
     ]
   },

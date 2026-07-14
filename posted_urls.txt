@@ -428,3 +428,4 @@ https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html
 https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/
 https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
 https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/
+https://isc.sans.edu/diary/rss/33152

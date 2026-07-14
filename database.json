@@ -2298,5 +2298,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 03:30 UTC",
+        "content": "\ud83d\udd34 Critical global network outage due to widespread DDoS attack. Unknown targets, but widespread internet issues reported. via SANS ISC #ddosattack",
+        "url": "https://isc.sans.edu/diary/rss/33152",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
