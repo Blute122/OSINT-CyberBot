@@ -2318,5 +2318,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 11:42 UTC",
+        "content": "\ud83d\udfe1 A new integration helps reduce uncertainty and provides proactive protections across Cisco technologies via Cisco Talos #cybersecurity",
+        "url": "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
