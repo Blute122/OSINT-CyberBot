@@ -432,3 +432,4 @@ https://isc.sans.edu/diary/rss/33152
 https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html
 https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
 https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html
+https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/

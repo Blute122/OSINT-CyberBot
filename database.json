@@ -2338,5 +2338,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-14 15:43 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udd34 7 severe vulnerabilities patched in VMware Avi Load Balancer via SecurityWeek",
+        "url": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
