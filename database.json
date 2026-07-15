@@ -2398,5 +2398,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-15 11:46 UTC",
+        "content": "\ud83d\udfe0 IoT botnet framework TuxBot v3 uses LLM-assisted development for malicious activities via Unit 42 #iot",
+        "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
