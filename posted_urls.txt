@@ -441,3 +441,4 @@ https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-z
 https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits
 https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/
 https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/
+https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/

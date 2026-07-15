@@ -2408,5 +2408,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-15 14:07 UTC",
+        "content": "\ud83d\udfe0 Critical Windows flaw hides malware from EDR tools; researchers expose new bind link attacks via SecurityWeek #WindowsSecurity",
+        "url": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
