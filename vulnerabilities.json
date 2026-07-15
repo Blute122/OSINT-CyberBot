@@ -242,5 +242,26 @@
     "epss": 0.00857,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-15410": {
+    "first_seen": "2026-07-15 06:26 UTC",
+    "product": "SonicWall SMA1000",
+    "status_timeline": [
+      {
+        "date": "2026-07-15 06:26 UTC",
+        "status": "actively_exploited",
+        "summary": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+        "source_url": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/"
+    ],
+    "last_updated": "2026-07-15 06:26 UTC",
+    "cvss": 7.2,
+    "kev": true,
+    "epss": null,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

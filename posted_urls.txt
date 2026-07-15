@@ -437,3 +437,4 @@ https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bo
 https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense
 https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/
 https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/
+https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/
