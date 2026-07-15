@@ -2368,5 +2368,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-15 03:30 UTC",
+        "content": "\ud83d\udfe1 No AI cyber threats intel processing system has been compromised via White House 'Gold Eagle' clearinghouse. Intelligence on vulnerabilities and prioritized patches received.",
+        "url": "https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

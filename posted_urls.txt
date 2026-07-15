@@ -436,3 +436,4 @@ https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load
 https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook
 https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense
 https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/
+https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/
