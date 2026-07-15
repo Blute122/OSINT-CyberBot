@@ -438,3 +438,5 @@ https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-deman
 https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/
 https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/
 https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/
+https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits
+https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/

@@ -2388,5 +2388,15 @@
         "epss": null,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-07-15 09:20 UTC",
+        "content": "\ud83d\udfe0 Several critical vulnerabilities fixed in Siemens, Schneider, and Rockwell ICS products after Patch Tuesday. Multiple advisories issued by CISA and VDE CERT. via SecurityWeek",
+        "url": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
