@@ -2358,5 +2358,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-15 00:04 UTC",
+        "content": "\ud83d\udfe0 Microsoft patches 622 vulnerabilities, including 2 exploited zero-days in Active Directory & SharePoint Server via SecurityWeek #CyberSecurity",
+        "url": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
