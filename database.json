@@ -2468,5 +2468,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-16 11:52 UTC",
+        "content": "\ud83d\udd34 Critical alert: CISA orders feds to patch Oracle flaw by Saturday to prevent ongoing attacks via BleepingComputer #Oracle",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
