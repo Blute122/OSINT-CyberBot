@@ -2428,5 +2428,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-16 00:10 UTC",
+        "content": "\ud83d\udd34 SonicWall customers under threat after attackers exploit 2 zero-days. All users of unpatched products at risk of attack via chained exploits. via CyberScoop #cybersecurity #zeroday",
+        "url": "https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

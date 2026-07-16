@@ -443,3 +443,6 @@ https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-
 https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/
 https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/
 https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html
+https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
+https://cyberscoop.com/google-chrome-sync-cyberstalking-exploit/
+https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
