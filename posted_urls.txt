@@ -448,3 +448,4 @@ https://cyberscoop.com/google-chrome-sync-cyberstalking-exploit/
 https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
 https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/
 https://isc.sans.edu/diary/rss/33160
+https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain

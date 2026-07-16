@@ -499,5 +499,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/"
       }
     ]
+  },
+  "iberian hackers": {
+    "aliases": [
+      "Iberian hackers"
+    ],
+    "first_seen": "2026-07-16 09:26 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-07-16 09:26 UTC",
+        "summary": "Police Disrupt a \u20ac140M Cyber Fraud Ring in Spain",
+        "source_url": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain"
+      }
+    ]
   }
 }

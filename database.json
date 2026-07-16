@@ -2458,5 +2458,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-16 09:26 UTC",
+        "content": "\ud83d\udd34Police disrupt massive \u20ac140M cyber fraud ring in Spain, carried out by Iberian hackers via Dark Reading #cybercrime",
+        "url": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
