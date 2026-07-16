@@ -513,5 +513,19 @@
         "source_url": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain"
       }
     ]
+  },
+  "uat-11795": {
+    "aliases": [
+      "UAT-11795"
+    ],
+    "first_seen": "2026-07-16 14:18 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-07-16 14:18 UTC",
+        "summary": "UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign",
+        "source_url": "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/"
+      }
+    ]
   }
 }
