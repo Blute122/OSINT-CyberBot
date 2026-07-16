@@ -2488,5 +2488,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-16 16:39 UTC",
+        "content": "\u26ab LOW \u26ab AI agents broke the traditional security playbook for environments that changed at human speed.",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
