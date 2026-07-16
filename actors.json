@@ -485,5 +485,19 @@
         "source_url": "https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/"
       }
     ]
+  },
+  "suspected investment fraud ring": {
+    "aliases": [
+      "suspected investment fraud ring"
+    ],
+    "first_seen": "2026-07-16 03:34 UTC",
+    "campaigns": [
+      {
+        "target": "investors",
+        "date": "2026-07-16 03:34 UTC",
+        "summary": "Dutch police bust investment fraud ring stealing over \u20ac100 million",
+        "source_url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/"
+      }
+    ]
   }
 }

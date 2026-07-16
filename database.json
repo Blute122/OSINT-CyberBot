@@ -2438,5 +2438,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-16 03:34 UTC",
+        "content": "\u2191 HIGH High-risk investment scam steals over \u20ac100 million from tens of thousands of victims via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
