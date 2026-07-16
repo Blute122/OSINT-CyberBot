@@ -2448,5 +2448,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-16 06:29 UTC",
+        "content": "\ud83d\udfe1 ISC Stormcast reports a medium-severity vulnerability discovered in a software product, affecting users via SANS ISC #vulnerability",
+        "url": "https://isc.sans.edu/diary/rss/33160",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

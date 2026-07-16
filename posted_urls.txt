@@ -447,3 +447,4 @@ https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
 https://cyberscoop.com/google-chrome-sync-cyberstalking-exploit/
 https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
 https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/
+https://isc.sans.edu/diary/rss/33160
