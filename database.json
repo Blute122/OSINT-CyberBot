@@ -2548,5 +2548,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-17 14:00 UTC",
+        "content": "\u26a1 Google ordered to grant rival AI assistants access to Android camera, mic, screen. Rival AI assistants to gain the same access to Android resources as Gemini via The Hacker News #Android #EUregulation",
+        "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
