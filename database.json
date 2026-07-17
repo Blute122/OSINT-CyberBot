@@ -2518,5 +2518,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-17 06:25 UTC",
+        "content": "\u26a0\ufe0f \ud83d\udea8 Coca-Cola suspended US Fairlife production due to a ransomware attack. No quality/safety issues reported, Canada production unaffected via SecurityWeek #ransomware",
+        "url": "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -456,3 +456,5 @@ https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-play
 https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions
 https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters
 https://unit42.paloaltonetworks.com/ai-incident-response-report/
+https://isc.sans.edu/diary/rss/33162
+https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/
