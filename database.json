@@ -2498,5 +2498,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-17 00:10 UTC",
+        "content": "\ud83d\udd34 Critical: 1+ million emails using hidden text to evade AI security filters. This impacts AI security systems, allowing phishing emails to reach users. via Dark Reading #phishing",
+        "url": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

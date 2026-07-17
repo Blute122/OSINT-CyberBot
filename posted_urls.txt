@@ -453,3 +453,5 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-activel
 https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/
 https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
 https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/
+https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions
+https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters
