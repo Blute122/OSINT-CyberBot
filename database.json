@@ -2538,5 +2538,15 @@
         "epss": 0.01296,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-07-17 11:39 UTC",
+        "content": "\ud83d\udd34 Critical zero-day exploits on Siemens ROX II OT switches allow privilege escalation & persistent root access. Devices at risk via unknown threat actors. via Unit 42 #Siemens #ZeroDay",
+        "url": "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

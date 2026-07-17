@@ -459,3 +459,4 @@ https://unit42.paloaltonetworks.com/ai-incident-response-report/
 https://isc.sans.edu/diary/rss/33162
 https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/
 https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
+https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
