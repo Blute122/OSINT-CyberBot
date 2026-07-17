@@ -2528,5 +2528,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-17 09:20 UTC",
+        "content": "\ud83d\udd34 Critical RCE zero-day CVE-2026-58644 (CVSS: 9.8/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 1.3%] exploited in SharePoint Server, Federal agencies must patch by July 19, 2026 via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+        "cve": "CVE-2026-58644",
+        "kev": true,
+        "epss": 0.01296,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

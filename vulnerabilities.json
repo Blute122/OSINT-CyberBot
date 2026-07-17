@@ -263,5 +263,26 @@
     "epss": null,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-58644": {
+    "first_seen": "2026-07-17 09:20 UTC",
+    "product": "Microsoft SharePoint Server",
+    "status_timeline": [
+      {
+        "date": "2026-07-17 09:20 UTC",
+        "status": "actively_exploited",
+        "summary": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+        "source_url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+    ],
+    "last_updated": "2026-07-17 09:20 UTC",
+    "cvss": 9.8,
+    "kev": true,
+    "epss": 0.01296,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }
