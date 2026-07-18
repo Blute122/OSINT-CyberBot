@@ -463,3 +463,4 @@ https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
 https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html
 https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/
 https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/
