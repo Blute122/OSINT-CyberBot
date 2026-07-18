@@ -2598,5 +2598,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-18 21:03 UTC",
+        "content": "\ud83d\udfe0 New vulnerability patched in 7-Zip: Malicious archives can execute RCE exploiting CVE-xxxx flaw. Update 7-Zip versions 26.02+ via BleepingComputer #threatintel",
+        "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
