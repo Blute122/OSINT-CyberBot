@@ -2568,5 +2568,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-18 00:06 UTC",
+        "content": "\ud83d\udd34 Critical: Unauthenticated attackers can run arbitrary code on WordPress sites v6.9 and v7.0 before patches. via The Hacker News #WordPress #security",
+        "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
