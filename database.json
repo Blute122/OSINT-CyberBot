@@ -2588,5 +2588,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-18 18:07 UTC",
+        "content": "\ud83d\udd34 WordPress Core RCE flaws publicly exploited; patch now. All WordPress admins must update immediately via BleepingComputer #WordPressSecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
