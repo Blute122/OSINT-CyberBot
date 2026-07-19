@@ -2618,5 +2618,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-19 16:10 UTC",
+        "content": "\ud83d\udfe1 MEDIUM severity flaw detected in Hikvision Intelligent Security API via SecurityWeek #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33164",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
