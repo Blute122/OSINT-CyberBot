@@ -284,5 +284,26 @@
     "epss": 0.01296,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-42533": {
+    "first_seen": "2026-07-19 22:07 UTC",
+    "product": "NGINX",
+    "status_timeline": [
+      {
+        "date": "2026-07-19 22:07 UTC",
+        "status": "disclosed",
+        "summary": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+        "source_url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+    ],
+    "last_updated": "2026-07-19 22:07 UTC",
+    "cvss": 8.1,
+    "kev": false,
+    "epss": 0.0083,
+    "risk_score": 39,
+    "risk_band": "medium"
   }
 }

@@ -2648,5 +2648,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-19 22:07 UTC",
+        "content": "\ud83d\udfe0 Critical NGINX vuln lets attacker crash worker or do RCE, no auth needed. Unpatched users should upgrade to 1.30.4 (stable), 1.31.3 (mainline), or NGINX Plus 37.0.3.1 via The Hacker News #NGINX #websecurity",
+        "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+        "cve": "CVE-2026-42533",
+        "kev": false,
+        "epss": 0.0083,
+        "risk_score": 39,
+        "risk_band": "medium"
     }
 ]
