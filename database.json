@@ -2628,5 +2628,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-19 17:14 UTC",
+        "content": "\ud83d\udd34 Russian state-sponsored actors UAC-0145 use ClickFix CAPTCHAs to infect Ukrainian devices with malware via their own download. Ukrainian targets tricked into infecting own devices via ClickFix CAPTCHAs via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

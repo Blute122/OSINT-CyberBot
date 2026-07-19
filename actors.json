@@ -553,5 +553,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
       }
     ]
+  },
+  "uac-0145, gru, russia's state-sponsored threat actors, sandworm": {
+    "aliases": [
+      "UAC-0145, GRU, Russia's state-sponsored threat actors, Sandworm"
+    ],
+    "first_seen": "2026-07-19 17:14 UTC",
+    "campaigns": [
+      {
+        "target": "Ukrainian devices, data-stealing malware",
+        "date": "2026-07-19 17:14 UTC",
+        "summary": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+        "source_url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
+      }
+    ]
   }
 }

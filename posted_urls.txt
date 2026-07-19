@@ -469,3 +469,4 @@ https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws
 https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
 https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/
 https://isc.sans.edu/diary/rss/33164
+https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
