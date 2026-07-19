@@ -539,5 +539,19 @@
         "source_url": "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/"
       }
     ]
+  },
+  "advanced threat actor": {
+    "aliases": [
+      "advanced threat actor"
+    ],
+    "first_seen": "2026-07-19 15:12 UTC",
+    "campaigns": [
+      {
+        "target": "ViPNet software",
+        "date": "2026-07-19 15:12 UTC",
+        "summary": "Hackers abuse ViPNet software to target Russian govt agencies",
+        "source_url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
+      }
+    ]
   }
 }
