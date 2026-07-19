@@ -567,5 +567,19 @@
         "source_url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
       }
     ]
+  },
+  "uta0533": {
+    "aliases": [
+      "UTA0533"
+    ],
+    "first_seen": "2026-07-19 18:09 UTC",
+    "campaigns": [
+      {
+        "target": "SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances",
+        "date": "2026-07-19 18:09 UTC",
+        "summary": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+        "source_url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html"
+      }
+    ]
   }
 }

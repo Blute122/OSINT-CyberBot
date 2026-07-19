@@ -2638,5 +2638,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-19 18:09 UTC",
+        "content": "\ud83d\udfe0 Ransomware attackers exploited SonicWall VPN vulnerabilities to gain root access via zero-day exploits. SonicWall users are at risk. via The Hacker News #SonicWall #RansomwareAttack",
+        "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
