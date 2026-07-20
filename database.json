@@ -2658,5 +2658,15 @@
         "epss": 0.0083,
         "risk_score": 39,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-07-20 04:00 UTC",
+        "content": "\ud83d\udfe0 High-severity flaw discovered in popular software via SANS ISC #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33166",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -472,3 +472,4 @@ https://isc.sans.edu/diary/rss/33164
 https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
 https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
 https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+https://isc.sans.edu/diary/rss/33166
