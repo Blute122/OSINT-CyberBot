@@ -2678,5 +2678,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-20 11:11 UTC",
+        "content": "\u2757 MEDIUM Medium-severity flaw in Windows 11 update causes some Dell PCs to shutdown via Microsoft. Microsoft has released emergency updates to fix the issue. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
