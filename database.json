@@ -2718,5 +2718,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-20 22:11 UTC",
+        "content": "\ud83d\udfe0 Critical security vulnerabilities found in Cursor, Codex, Gemini CLI, and Antigravity; attackers can escape sandboxes via AI-written files, via BleepingComputer #sandboxescape",
+        "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
