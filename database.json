@@ -2698,5 +2698,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-20 18:17 UTC",
+        "content": "\ud83d\udd34 Critical: New HollowGraph malware uses Microsoft Graph for C2 comms via compromised Microsoft 365 accounts, potentially exfiltrating data, via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
