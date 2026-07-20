@@ -2668,5 +2668,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-20 07:25 UTC",
+        "content": "\ud83d\udd34 Critical \ud83d\udc94 attack: CVE-2026-60137 and CVE-2026-63030 exploited in the wild via WordPress vulnerabilities. WordPress users are at risk. via SecurityWeek #WordPress #security",
+        "url": "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
