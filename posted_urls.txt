@@ -479,3 +479,4 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-caus
 https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/
 https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/
 https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/
+https://cyberscoop.com/director-of-commerce-ai-standards-office-out-after-three-months/

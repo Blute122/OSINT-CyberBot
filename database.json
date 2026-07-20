@@ -2708,5 +2708,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-20 20:38 UTC",
+        "content": "\ud83d\udfe1 AI standards office director resigns 3mos into role via CyberScoop",
+        "url": "https://cyberscoop.com/director-of-commerce-ai-standards-office-out-after-three-months/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
