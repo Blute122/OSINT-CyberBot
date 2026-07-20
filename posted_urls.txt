@@ -476,3 +476,4 @@ https://isc.sans.edu/diary/rss/33166
 https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/
+https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/
