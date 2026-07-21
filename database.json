@@ -2788,5 +2788,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 16:40 UTC",
+        "content": "\ud83d\udfe1 Firefox captive portal detection tool flags legitimate traffic via SANS ISC #infosec",
+        "url": "https://isc.sans.edu/diary/rss/33172",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

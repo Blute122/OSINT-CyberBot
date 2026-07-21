@@ -487,3 +487,9 @@ https://isc.sans.edu/diary/rss/33170
 https://www.securityweek.com/clover-health-investments-discloses-data-breach/
 https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/
 https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies
+https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/
+https://www.securityweek.com/securityweek-launches-critical-impact-awards-to-recognize-excellence-in-industrial-cybersecurity/
+https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/
+https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/
+https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
+https://isc.sans.edu/diary/rss/33172
