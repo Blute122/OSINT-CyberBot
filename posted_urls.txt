@@ -484,3 +484,4 @@ https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravi
 https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
 https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
 https://isc.sans.edu/diary/rss/33170
+https://www.securityweek.com/clover-health-investments-discloses-data-breach/

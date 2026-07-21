@@ -2758,5 +2758,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 09:37 UTC",
+        "content": "\ud83d\udd34 Critical: Clover Health Investments discloses data breach after employee accounts compromised via social engineering. Personal and health info at risk via SecurityWeek #data breach",
+        "url": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
