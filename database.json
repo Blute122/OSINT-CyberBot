@@ -2748,5 +2748,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 06:39 UTC",
+        "content": "\ud83d\udfe0 High-severity flaw detected. Multiple products impacted. Investigation ongoing. via SANS ISC #Cybersec",
+        "url": "https://isc.sans.edu/diary/rss/33170",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
