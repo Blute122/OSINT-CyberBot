@@ -482,3 +482,4 @@ https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-micr
 https://cyberscoop.com/director-of-commerce-ai-standards-office-out-after-three-months/
 https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/
 https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
+https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/

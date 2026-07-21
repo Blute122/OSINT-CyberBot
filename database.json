@@ -2738,5 +2738,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 03:42 UTC",
+        "content": "\ud83d\udfe0 Critical data breach via Oracle E-Business Suite flaw affects Est\u00e9e Lauder customers via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
