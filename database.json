@@ -2728,5 +2728,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 00:10 UTC",
+        "content": "\ud83d\udd34 WordPress Sites at risk of remote takeover due to exploited CVE-2026-60137 and CVE-2026-63030 via Dark Reading #WordPressSecurity",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

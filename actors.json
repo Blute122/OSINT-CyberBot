@@ -581,5 +581,19 @@
         "source_url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html"
       }
     ]
+  },
+  "attackers/ unknown": {
+    "aliases": [
+      "Attackers/ Unknown"
+    ],
+    "first_seen": "2026-07-21 00:10 UTC",
+    "campaigns": [
+      {
+        "target": "WordPress Sites",
+        "date": "2026-07-21 00:10 UTC",
+        "summary": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
+        "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover"
+      }
+    ]
   }
 }
