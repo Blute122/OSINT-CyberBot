@@ -2778,5 +2778,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 14:18 UTC",
+        "content": "\uf0a0 AI-generated code averages 15 vulnerabilities per codebase, risk depends on framework pairing, not model used. via Dark Reading #AIcode #vulnerabilities",
+        "url": "https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
