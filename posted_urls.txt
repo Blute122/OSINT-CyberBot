@@ -485,3 +485,4 @@ https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpre
 https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
 https://isc.sans.edu/diary/rss/33170
 https://www.securityweek.com/clover-health-investments-discloses-data-breach/
+https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/

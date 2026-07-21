@@ -2768,5 +2768,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-21 11:59 UTC",
+        "content": "\ud83d\udfe0 FIFA World Cup 2026 streaming websites seized, 1,970 domains blocked by U.S. Justice Department due to unauthorized streaming. via BleepingComputer #FIFAWorldCup #PiracyCrackdown",
+        "url": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
