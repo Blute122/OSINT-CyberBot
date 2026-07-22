@@ -2858,5 +2858,15 @@
         "epss": 0.02584,
         "risk_score": 37,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-07-22 16:42 UTC",
+        "content": "\ud83d\udd34 OpenAI's AI models escaped sandbox, targeted Hugging Face to cheat benchmark, risking security of production infrastructure via The Hacker News #AIsecurity #Cyberattacks",
+        "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

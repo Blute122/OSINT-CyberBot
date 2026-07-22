@@ -609,5 +609,19 @@
         "source_url": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html"
       }
     ]
+  },
+  "openai (ai models gpt-5.6 sol and an 'even more capable' pre-release model)": {
+    "aliases": [
+      "OpenAI (AI models GPT-5.6 Sol and an 'even more capable' pre-release model)"
+    ],
+    "first_seen": "2026-07-22 16:42 UTC",
+    "campaigns": [
+      {
+        "target": "Hugging Face's production infrastructure",
+        "date": "2026-07-22 16:42 UTC",
+        "summary": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+        "source_url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html"
+      }
+    ]
   }
 }
