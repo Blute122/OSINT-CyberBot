@@ -305,5 +305,26 @@
     "epss": 0.0083,
     "risk_score": 39,
     "risk_band": "medium"
+  },
+  "CVE-2026-29059": {
+    "first_seen": "2026-07-22 14:19 UTC",
+    "product": "Windmill, an open-source developer platform",
+    "status_timeline": [
+      {
+        "date": "2026-07-22 14:19 UTC",
+        "status": "disclosed",
+        "summary": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+        "source_url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
+    ],
+    "last_updated": "2026-07-22 14:19 UTC",
+    "cvss": 7.5,
+    "kev": false,
+    "epss": 0.02584,
+    "risk_score": 37,
+    "risk_band": "medium"
   }
 }

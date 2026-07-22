@@ -2848,5 +2848,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-22 14:19 UTC",
+        "content": "\ud83d\udfe0 High-severity vulnerability in Windmill's 'get_log_file' endpoint exploited in the wild, allowing attackers to read arbitrary server files without authentication via The Hacker News #Windmill #Vulnerability",
+        "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+        "cve": "CVE-2026-29059",
+        "kev": false,
+        "epss": 0.02584,
+        "risk_score": 37,
+        "risk_band": "medium"
     }
 ]

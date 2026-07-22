@@ -498,3 +498,4 @@ https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-
 https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
 https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
 https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html
+https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
