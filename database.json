@@ -2808,5 +2808,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-22 03:42 UTC",
+        "content": "\ud83d\udfe1 LG to suspend smart TV apps that use TVs as residential proxy nodes, after 42% of apps found vulnerable to 3rd-party traffic routing via #smartTV via Krebs on Security",
+        "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
