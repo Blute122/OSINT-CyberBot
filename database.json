@@ -2818,5 +2818,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-22 06:40 UTC",
+        "content": "\ud83d\udd34 Critical: Trojanized Newtonsoft.Json fork rigs live game results on Digitain via NuGet registry. Developers beware of tainted package.",
+        "url": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

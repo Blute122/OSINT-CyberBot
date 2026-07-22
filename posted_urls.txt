@@ -495,3 +495,4 @@ https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-
 https://isc.sans.edu/diary/rss/33172
 https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
 https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
+https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
