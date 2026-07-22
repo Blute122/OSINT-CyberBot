@@ -497,3 +497,4 @@ https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
 https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
 https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
 https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
+https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html
