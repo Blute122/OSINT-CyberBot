@@ -595,5 +595,19 @@
         "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover"
       }
     ]
+  },
+  "tyler murphy, co-founder of easyoptouts": {
+    "aliases": [
+      "Tyler Murphy, co-founder of EasyOptOuts"
+    ],
+    "first_seen": "2026-07-22 00:04 UTC",
+    "campaigns": [
+      {
+        "target": "Apple, Hide My Email service",
+        "date": "2026-07-22 00:04 UTC",
+        "summary": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+        "source_url": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html"
+      }
+    ]
   }
 }

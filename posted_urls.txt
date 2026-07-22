@@ -493,3 +493,4 @@ https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calend
 https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/
 https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
 https://isc.sans.edu/diary/rss/33172
+https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
