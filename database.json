@@ -2828,5 +2828,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-22 09:37 UTC",
+        "content": "\ud83d\udfe0 High-severity flaw found at Chick-fil-A after credential stuffing attacks. Customers' data breached via hacking of restaurant chain accounts. via BleepingComputer #Cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
