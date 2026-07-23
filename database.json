@@ -2878,5 +2878,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-23 03:43 UTC",
+        "content": "\ud83d\udd34 Critical ransomware attack hits Japanese frozen-food chain: thousands of clients, incl. @KFC, affected via Dark Reading #ransomware",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
