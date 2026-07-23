@@ -2908,5 +2908,15 @@
         "epss": null,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-07-23 12:00 UTC",
+        "content": "\ud83d\udd34 Critical: Local Linux users can gain persistent root access on default RHEL installs due to the RefluXFS flaw. All default installations of RHEL, Fedora Server, and Amazon Linux are at risk. via The Hacker News #LinuxSecurity",
+        "url": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+        "cve": "CVE-2026-64600",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

@@ -506,3 +506,5 @@ https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanes
 https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/
 https://isc.sans.edu/diary/rss/33178
 https://thehackernews.com/2026/07/check-point-patches-exploited.html
+https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/
+https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html
