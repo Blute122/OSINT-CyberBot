@@ -509,3 +509,4 @@ https://thehackernews.com/2026/07/check-point-patches-exploited.html
 https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/
 https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html
 https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/
+https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/

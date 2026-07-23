@@ -2928,5 +2928,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-23 16:43 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers exploit Notepad++ plugins to stealthily install malware. Ukraine's CERT warns of malicious plugins disguised as legitimate software via BleepingComputer #infosecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
