@@ -2898,5 +2898,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-23 09:34 UTC",
+        "content": "\ud83d\udd34 Check Point patches critical SmartConsole flaw granting full admin access via CVE-2026-16232 (CVSS: 9.1/10) [CISA KEV: ACTIVELY EXPLOITED]. Multiple Security Management and MDSM products affected. via The Hacker News #CheckPoint #SecurityManagement",
+        "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+        "cve": "CVE-2026-16232",
+        "kev": true,
+        "epss": null,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

@@ -326,5 +326,26 @@
     "epss": 0.02584,
     "risk_score": 37,
     "risk_band": "medium"
+  },
+  "CVE-2026-16232": {
+    "first_seen": "2026-07-23 09:34 UTC",
+    "product": "Check Point Security Management and Multi-Domain Management (MDSM) products",
+    "status_timeline": [
+      {
+        "date": "2026-07-23 09:34 UTC",
+        "status": "actively_exploited",
+        "summary": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+        "source_url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/check-point-patches-exploited.html"
+    ],
+    "last_updated": "2026-07-23 09:34 UTC",
+    "cvss": 9.1,
+    "kev": true,
+    "epss": null,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

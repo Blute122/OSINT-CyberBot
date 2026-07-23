@@ -505,3 +505,4 @@ https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-milli
 https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain
 https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/
 https://isc.sans.edu/diary/rss/33178
+https://thehackernews.com/2026/07/check-point-patches-exploited.html
