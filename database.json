@@ -2918,5 +2918,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-23 14:27 UTC",
+        "content": "\u2191 \ud83d\udd34 Abstract raises $25M, expands security ops platform via SecurityWeek #securityfunding",
+        "url": "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
