@@ -2888,5 +2888,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-23 06:38 UTC",
+        "content": "\ud83d\udfe0 High: A remote code execution vulnerability exists in certain software products, potentially impacting several organizations. Severity remains unclear at this time. via SANS ISC #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33178",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
