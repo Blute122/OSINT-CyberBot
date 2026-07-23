@@ -2868,5 +2868,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-23 00:11 UTC",
+        "content": "\ud83d\udd34 Hackers stole data from Upbound Group's systems, using it to create $13M in fraudulent Acima leases via BleepingComputer #cyberattack",
+        "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

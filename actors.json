@@ -623,5 +623,19 @@
         "source_url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html"
       }
     ]
+  },
+  "threat actors": {
+    "aliases": [
+      "threat actors"
+    ],
+    "first_seen": "2026-07-23 00:11 UTC",
+    "campaigns": [
+      {
+        "target": "Upbound Group",
+        "date": "2026-07-23 00:11 UTC",
+        "summary": "Upbound says hack caused $13 million in fraudulent Acima leases",
+        "source_url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/"
+      }
+    ]
   }
 }
