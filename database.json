@@ -2968,5 +2968,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-24 09:31 UTC",
+        "content": "\ud83d\udfe1 Critical flaw in multilingual AI security layer exposes vulnerability to jailbreaking. AI products in various languages are at risk via Dark Reading #AIsecurity",
+        "url": "https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

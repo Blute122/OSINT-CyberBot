@@ -513,3 +513,4 @@ https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-p
 https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
 https://isc.sans.edu/diary/rss/33182
 https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/
+https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps
