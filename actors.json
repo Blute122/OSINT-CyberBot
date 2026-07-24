@@ -651,5 +651,19 @@
         "source_url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
       }
     ]
+  },
+  "not named in article": {
+    "aliases": [
+      "not named in article"
+    ],
+    "first_seen": "2026-07-24 14:08 UTC",
+    "campaigns": [
+      {
+        "target": "OpenAI's ChatGPT Workspace Agents",
+        "date": "2026-07-24 14:08 UTC",
+        "summary": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+        "source_url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
+      }
+    ]
   }
 }

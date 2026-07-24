@@ -515,3 +515,4 @@ https://isc.sans.edu/diary/rss/33182
 https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/
 https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps
 https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html
+https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html

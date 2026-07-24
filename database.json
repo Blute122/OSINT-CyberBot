@@ -2988,5 +2988,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-24 14:08 UTC",
+        "content": "\u2757\ufe0f MEDIUM \u2757\ufe0f Critical ChatGPT AgentForger flaw lets rogue AI agents be deployed via phishing link. OpenAI Workspaces vulnerable. via The Hacker News #infosecurity",
+        "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
