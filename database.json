@@ -2998,5 +2998,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-24 15:42 UTC",
+        "content": "\ud83d\udd34 CRITICAL A Vatican prayer app exposed 700K+ users' PII (names, emails, etc.) via a simple browser request. via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
