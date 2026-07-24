@@ -2958,5 +2958,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-24 06:38 UTC",
+        "content": "\ud83d\udd34 A hacker breaches Origin Energy, exposing 2 million customer via SecurityWeek #Cybersecurity #DataBreach",
+        "url": "https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

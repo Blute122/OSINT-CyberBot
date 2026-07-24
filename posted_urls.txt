@@ -512,3 +512,4 @@ https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-sec
 https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/
 https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
 https://isc.sans.edu/diary/rss/33182
+https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/
