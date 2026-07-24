@@ -231,16 +231,23 @@
         "status": "patched",
         "summary": "Zimbra Patches Critical Code Execution Vulnerability",
         "source_url": "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
+      },
+      {
+        "date": "2026-07-24 00:10 UTC",
+        "status": "actively_exploited",
+        "summary": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+        "source_url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
       }
     ],
     "related_posts": [
-      "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
+      "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/",
+      "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
     ],
-    "last_updated": "2026-07-13 11:27 UTC",
+    "last_updated": "2026-07-24 00:10 UTC",
     "cvss": 10.0,
     "kev": false,
     "epss": 0.00857,
-    "risk_score": 45,
+    "risk_score": 42,
     "risk_band": "medium"
   },
   "CVE-2026-15410": {

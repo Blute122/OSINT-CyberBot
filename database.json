@@ -2938,5 +2938,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-24 00:10 UTC",
+        "content": "\ud83d\udd34 A Russian state-sponsored group exploited Zimbra's zero-day flaw to steal mail and 2FA codes via compromised webmail clients via The Hacker News #CyberSecurity #Espionage",
+        "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+        "cve": "CVE-2024-0001",
+        "kev": false,
+        "epss": 0.00857,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]
