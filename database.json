@@ -2978,5 +2978,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-24 11:54 UTC",
+        "content": "\ud83d\udfe0 High-security risk: AI agents often lack control & enforcement leading to potential exploits. Many approaches are employed to mitigate, but intent detection remains a challenge. via The Hacker News #AIsecurity",
+        "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
