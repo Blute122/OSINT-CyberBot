@@ -3068,5 +3068,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-25 18:07 UTC",
+        "content": "\ud83d\udfe0 High-severity: ShinyHunters data breaches fuel sextortion emails demanding $2,000 Bitcoin. Thousands of victims targeted. via BleepingComputer #ShinyHunters",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

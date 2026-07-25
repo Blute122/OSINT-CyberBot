@@ -693,5 +693,19 @@
         "source_url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
       }
     ]
+  },
+  "shinyhunters": {
+    "aliases": [
+      "ShinyHunters"
+    ],
+    "first_seen": "2026-07-25 18:07 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-07-25 18:07 UTC",
+        "summary": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+        "source_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
+      }
+    ]
   }
 }
