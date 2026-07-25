@@ -3048,5 +3048,15 @@
         "epss": 0.00413,
         "risk_score": 42,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-07-25 15:17 UTC",
+        "content": "\ud83d\udd34 Critical: DevMan RaaS portal centralizes ransomware builds & victim management. Ransomware operators, known as Funky Mantis, oversee earnings & victim tracking. via The Hacker News #ransomware",
+        "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -679,5 +679,19 @@
         "source_url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"
       }
     ]
+  },
+  "funky mantis (devman ransomware-as-a-service)": {
+    "aliases": [
+      "Funky Mantis (DevMan ransomware-as-a-service)"
+    ],
+    "first_seen": "2026-07-25 15:17 UTC",
+    "campaigns": [
+      {
+        "target": "devman RaaS scheme, victims of Funky Mantis",
+        "date": "2026-07-25 15:17 UTC",
+        "summary": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+        "source_url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
+      }
+    ]
   }
 }
