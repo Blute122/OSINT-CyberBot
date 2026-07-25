@@ -375,5 +375,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-16723": {
+    "first_seen": "2026-07-25 13:59 UTC",
+    "product": "Fastjson 1.x, Spring Boot applications",
+    "status_timeline": [
+      {
+        "date": "2026-07-25 13:59 UTC",
+        "status": "patched",
+        "summary": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+        "source_url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+    ],
+    "last_updated": "2026-07-25 13:59 UTC",
+    "cvss": 9.0,
+    "kev": false,
+    "epss": 0.00413,
+    "risk_score": 42,
+    "risk_band": "medium"
   }
 }
