@@ -518,3 +518,5 @@ https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html
 https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html
 https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii
 https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
+https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/
