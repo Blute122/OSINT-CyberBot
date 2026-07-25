@@ -520,3 +520,4 @@ https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-
 https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
 https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/
+https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
