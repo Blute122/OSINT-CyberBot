@@ -665,5 +665,19 @@
         "source_url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
       }
     ]
+  },
+  "yuhang wu": {
+    "aliases": [
+      "Yuhang Wu"
+    ],
+    "first_seen": "2026-07-25 09:10 UTC",
+    "campaigns": [
+      {
+        "target": "GitLab",
+        "date": "2026-07-25 09:10 UTC",
+        "summary": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+        "source_url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"
+      }
+    ]
   }
 }

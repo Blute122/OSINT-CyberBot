@@ -3008,5 +3008,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-25 09:10 UTC",
+        "content": "\ud83d\udfe0 Security researcher publishes PoC exploit for unpatched self-managed #GitLab 18.11.3, allowing authenticated users to run commands as git. \ud83d\udfe0 via The Hacker News #GitLab Exploit",
+        "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
