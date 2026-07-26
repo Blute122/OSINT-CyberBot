@@ -3088,5 +3088,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-26 15:18 UTC",
+        "content": "\ud83d\udfe0 GitHub and PyPI deploy time-base defenses vs supply-chain attacks via BleepingComputer #supplychainsecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

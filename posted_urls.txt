@@ -528,3 +528,4 @@ https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to
 https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
 https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
 https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
+https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
