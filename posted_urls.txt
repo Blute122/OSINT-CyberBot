@@ -526,3 +526,5 @@ https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
 https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
 https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/
 https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
+https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
+https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
