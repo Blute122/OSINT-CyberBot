@@ -438,5 +438,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2023-123456": {
+    "first_seen": "2026-07-27 18:44 UTC",
+    "product": "PTC Windchill",
+    "status_timeline": [
+      {
+        "date": "2026-07-27 18:44 UTC",
+        "status": "disclosed",
+        "summary": "PTC Windchill Vulnerability Exploited in Ransomware Campaign",
+        "source_url": "https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/"
+    ],
+    "last_updated": "2026-07-27 18:44 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }

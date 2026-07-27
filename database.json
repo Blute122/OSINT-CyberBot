@@ -3158,5 +3158,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-27 18:44 UTC",
+        "content": "\ud83d\udd34 Critical vulnerability exploited in ransomware campaign targeting PTC Windchill. Attackers can execute arbitrary code without authentication via remote deserialization. via SecurityWeek #ransomware",
+        "url": "https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/",
+        "cve": "CVE-2023-123456",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

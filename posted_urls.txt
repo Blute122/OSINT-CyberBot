@@ -537,3 +537,5 @@ https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ranso
 https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html
 https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
 https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
+https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
+https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/
