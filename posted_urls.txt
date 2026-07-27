@@ -530,3 +530,4 @@ https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
 https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
 https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
 https://isc.sans.edu/diary/rss/33184
+https://isc.sans.edu/diary/rss/33186

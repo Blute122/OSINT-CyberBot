@@ -3108,5 +3108,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-27 04:00 UTC",
+        "content": "\ue6a3 A zero-day exploit for Internet Explorer has been deployed in targeted attacks. Affected users include enterprise Windows users via SANS ISC #exploited",
+        "url": "https://isc.sans.edu/diary/rss/33186",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
