@@ -3168,5 +3168,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-27 20:41 UTC",
+        "content": "\ud83d\udfe2 Autonomous security tools' confidence is declining due to adversaries reading the security rulebooks via Dark Reading #cybersecurity #threatintelligence",
+        "url": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

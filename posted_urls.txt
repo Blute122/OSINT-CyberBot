@@ -539,3 +539,4 @@ https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
 https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
 https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
 https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/
+https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
