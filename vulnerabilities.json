@@ -417,5 +417,26 @@
     "epss": 0.00185,
     "risk_score": 29,
     "risk_band": "low"
+  },
+  "CVE-2023-3902": {
+    "first_seen": "2026-07-27 17:06 UTC",
+    "product": "vBulletin 6.2.1 and earlier, 6.1.6 and earlier",
+    "status_timeline": [
+      {
+        "date": "2026-07-27 17:06 UTC",
+        "status": "patched",
+        "summary": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+        "source_url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html"
+    ],
+    "last_updated": "2026-07-27 17:06 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }

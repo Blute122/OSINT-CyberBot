@@ -3148,5 +3148,15 @@
         "epss": 0.00185,
         "risk_score": 29,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-27 17:06 UTC",
+        "content": "\ud83d\udfe1 A public exploit details a pre-auth code execution flaw in vBulletin that can execute code on an unpatched server without any interaction. vBulletin 6.2.1 and earlier, 6.1.6 and earlier, are affected. via The Hacker News #vBulletin #securityflaw",
+        "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+        "cve": "CVE-2023-3902",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]
