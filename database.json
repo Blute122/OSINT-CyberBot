@@ -3118,5 +3118,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-27 07:47 UTC",
+        "content": "\ud83d\udd34 \u26a0\ufe0f Critical data breach: MCBS, a medical business management company, was hit by PEAR ransomware, stealing 3 TB of info affecting 1.2M individuals via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

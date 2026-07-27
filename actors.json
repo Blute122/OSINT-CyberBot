@@ -707,5 +707,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
       }
     ]
+  },
+  "pear ransomware group": {
+    "aliases": [
+      "PEAR ransomware group"
+    ],
+    "first_seen": "2026-07-27 07:47 UTC",
+    "campaigns": [
+      {
+        "target": "MCBS medical business management company",
+        "date": "2026-07-27 07:47 UTC",
+        "summary": "MCBS Data Breach Affects 1.2 Million Individuals",
+        "source_url": "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/"
+      }
+    ]
   }
 }

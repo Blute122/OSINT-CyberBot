@@ -531,3 +531,4 @@ https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infe
 https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
 https://isc.sans.edu/diary/rss/33184
 https://isc.sans.edu/diary/rss/33186
+https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/
