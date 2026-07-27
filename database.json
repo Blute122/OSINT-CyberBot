@@ -3138,5 +3138,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-27 15:10 UTC",
+        "content": "\ud83d\udfe1 \ud83d\udfe0 n8n vulnerability lets workflow editors run OS commands as the n8n process. Versions 2.31.5 and =2.32.0,2.32.1 affected. via The Hacker News #n8n #vulnerability",
+        "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+        "cve": "CVE-2026-27578",
+        "kev": false,
+        "epss": 0.00185,
+        "risk_score": 29,
+        "risk_band": "low"
     }
 ]

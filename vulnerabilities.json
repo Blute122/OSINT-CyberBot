@@ -396,5 +396,26 @@
     "epss": 0.00413,
     "risk_score": 42,
     "risk_band": "medium"
+  },
+  "CVE-2026-27578": {
+    "first_seen": "2026-07-27 15:10 UTC",
+    "product": "n8n automation platform",
+    "status_timeline": [
+      {
+        "date": "2026-07-27 15:10 UTC",
+        "status": "disclosed",
+        "summary": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+        "source_url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
+    ],
+    "last_updated": "2026-07-27 15:10 UTC",
+    "cvss": 5.4,
+    "kev": false,
+    "epss": 0.00185,
+    "risk_score": 29,
+    "risk_band": "low"
   }
 }
