@@ -3128,5 +3128,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-27 11:36 UTC",
+        "content": "\ud83d\udd34 Coca-Cola confirms data breach after Fairlife ransomware attack by Anubis group. Users data at risk via SecurityWeek #ransomware",
+        "url": "https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

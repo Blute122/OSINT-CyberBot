@@ -532,3 +532,5 @@ https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defens
 https://isc.sans.edu/diary/rss/33184
 https://isc.sans.edu/diary/rss/33186
 https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/
+https://isc.sans.edu/diary/rss/33188
+https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/
