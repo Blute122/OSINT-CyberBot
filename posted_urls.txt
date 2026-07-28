@@ -542,3 +542,5 @@ https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware
 https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
 https://cyberscoop.com/microsoft-ai-cybersecurity-project-perception/
 https://isc.sans.edu/diary/rss/33190
+https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians/
+https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/

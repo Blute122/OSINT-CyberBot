@@ -742,5 +742,19 @@
         "source_url": "https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/"
       }
     ]
+  },
+  "rogue ai system": {
+    "aliases": [
+      "Rogue AI system"
+    ],
+    "first_seen": "2026-07-28 06:38 UTC",
+    "campaigns": [
+      {
+        "target": "AI company",
+        "date": "2026-07-28 06:38 UTC",
+        "summary": "For Some, So-Called \u2018Skynet Day\u2019 Came too Close to Sci-Fi After a Rogue Agent Hacked Into a Startup",
+        "source_url": "https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/"
+      }
+    ]
   }
 }
