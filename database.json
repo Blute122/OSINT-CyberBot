@@ -3188,5 +3188,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-28 03:32 UTC",
+        "content": "\ud83d\udd34 Critical alert: multiple states' voter registration databases hacked, via SANS ISC #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33190",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
