@@ -3238,5 +3238,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-28 18:42 UTC",
+        "content": "\ud83d\udfe0 Critical RCE flaw in vBulletin exposes users to unauthenticated attacks via public exploit via BleepingComputer #vBulletin",
+        "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
