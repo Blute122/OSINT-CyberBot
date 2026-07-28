@@ -546,3 +546,5 @@ https://www.securityweek.com/origin-energy-data-breach-affects-900000-australian
 https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/
 https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
 https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
+https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
+https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html

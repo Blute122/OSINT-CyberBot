@@ -3218,5 +3218,15 @@
         "epss": 0.00121,
         "risk_score": 37,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-07-28 14:34 UTC",
+        "content": "\ud83d\udd34 Unauthenticated attackers can run code as root via Critical OpenWrt DHCPv6 flaw via The Hacker News #OpenWrt #DHCPv6flaw",
+        "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+        "cve": "CVE-2026-53921",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

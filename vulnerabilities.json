@@ -480,5 +480,26 @@
     "epss": 0.00121,
     "risk_score": 37,
     "risk_band": "medium"
+  },
+  "CVE-2026-53921": {
+    "first_seen": "2026-07-28 14:34 UTC",
+    "product": "OpenWrt",
+    "status_timeline": [
+      {
+        "date": "2026-07-28 14:34 UTC",
+        "status": "disclosed",
+        "summary": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+        "source_url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html"
+    ],
+    "last_updated": "2026-07-28 14:34 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }
