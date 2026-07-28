@@ -3178,5 +3178,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-28 00:09 UTC",
+        "content": "\ud83d\udfe1 No security incident reported. via CyberScoop",
+        "url": "https://cyberscoop.com/microsoft-ai-cybersecurity-project-perception/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
