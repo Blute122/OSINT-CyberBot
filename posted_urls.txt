@@ -544,3 +544,5 @@ https://cyberscoop.com/microsoft-ai-cybersecurity-project-perception/
 https://isc.sans.edu/diary/rss/33190
 https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians/
 https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/
+https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
+https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html

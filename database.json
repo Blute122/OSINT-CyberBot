@@ -3208,5 +3208,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-28 09:45 UTC",
+        "content": "\ud83d\udfe0 Linux bug CVE-2026-53264 (CVSS: 7.8/10) [EPSS: 0.1%] allows local users to gain root access via AI-assisted vulnerability hunt. All CentOS Stream 9 build users potentially impacted via the network traffic-control subsystem. via The Hacker News #Linux #CVE-2026-53264",
+        "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+        "cve": "CVE-2026-53264",
+        "kev": false,
+        "epss": 0.00121,
+        "risk_score": 37,
+        "risk_band": "medium"
     }
 ]

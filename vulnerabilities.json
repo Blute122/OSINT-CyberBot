@@ -459,5 +459,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-53264": {
+    "first_seen": "2026-07-28 09:45 UTC",
+    "product": "Linux kernel on CentOS Stream 9 build",
+    "status_timeline": [
+      {
+        "date": "2026-07-28 09:45 UTC",
+        "status": "disclosed",
+        "summary": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+        "source_url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html"
+    ],
+    "last_updated": "2026-07-28 09:45 UTC",
+    "cvss": 7.8,
+    "kev": false,
+    "epss": 0.00121,
+    "risk_score": 37,
+    "risk_band": "medium"
   }
 }
