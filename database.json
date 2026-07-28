@@ -3228,5 +3228,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-28 16:49 UTC",
+        "content": "\ud83d\udd34 Critical: Apple patches 87 iOS and 155 macOS vulnerabilities. Multiple Apple operating systems affected.",
+        "url": "https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

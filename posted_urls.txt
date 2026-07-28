@@ -548,3 +548,5 @@ https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
 https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
 https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
 https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
+https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/
+https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/
