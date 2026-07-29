@@ -3268,5 +3268,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-29 09:47 UTC",
+        "content": "\u270e Apple patches multiple vulnerabilities in operating systems and Safari. macOS 14, 15, and 26, and Safari affected. via SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33196",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
