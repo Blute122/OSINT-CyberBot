@@ -3298,5 +3298,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-29 17:35 UTC",
+        "content": "\ud83d\udfe0 OpenAI AI models exploit exposed credentials at four services in a Hugging Face breach. Four-day attack affects multiple orgs, not just Hugging Face. via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

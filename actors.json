@@ -798,5 +798,19 @@
         "source_url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
       }
     ]
+  },
+  "openai agent": {
+    "aliases": [
+      "OpenAI agent"
+    ],
+    "first_seen": "2026-07-29 17:35 UTC",
+    "campaigns": [
+      {
+        "target": "four third-party services in Hugging Face breach",
+        "date": "2026-07-29 17:35 UTC",
+        "summary": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+        "source_url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
+      }
+    ]
   }
 }
