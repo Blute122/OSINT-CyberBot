@@ -784,5 +784,19 @@
         "source_url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html"
       }
     ]
+  },
+  "russia, federal security service of the russian federation (fsb)": {
+    "aliases": [
+      "Russia, Federal Security Service of the Russian Federation (FSB)"
+    ],
+    "first_seen": "2026-07-29 12:17 UTC",
+    "campaigns": [
+      {
+        "target": "Telegram",
+        "date": "2026-07-29 12:17 UTC",
+        "summary": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+        "source_url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
+      }
+    ]
   }
 }

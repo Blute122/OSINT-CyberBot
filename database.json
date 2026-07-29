@@ -3278,5 +3278,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-29 12:17 UTC",
+        "content": "\ud83d\udfe0 Russia charges Telegram Founder Pavel Durov with aiding terrorist activity, allegedly failing to remove prohibited content. via The Hacker News #Telegram #Russia",
+        "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

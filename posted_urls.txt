@@ -556,3 +556,4 @@ https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/
 https://isc.sans.edu/diary/rss/33194
 https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
 https://isc.sans.edu/diary/rss/33196
+https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html
