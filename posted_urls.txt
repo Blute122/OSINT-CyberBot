@@ -557,3 +557,5 @@ https://isc.sans.edu/diary/rss/33194
 https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
 https://isc.sans.edu/diary/rss/33196
 https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html
+https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/
+https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/

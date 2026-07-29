@@ -3288,5 +3288,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-29 15:18 UTC",
+        "content": "\ud83d\udfe1 New security risk alert! Broad permissions for AI agents can lead to identity threats. via BleepingComputer #AI",
+        "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
