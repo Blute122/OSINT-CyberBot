@@ -552,3 +552,4 @@ https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/
 https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/
 https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/
 https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/
+https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/

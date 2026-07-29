@@ -3248,5 +3248,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-29 00:07 UTC",
+        "content": "\ud83d\udfe0 AI-driven cryptanalysis exploits weaknesses in post-quantum encryption and simplified AES. Several encryption standards at risk via CyberScoop #encryption #AI",
+        "url": "https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

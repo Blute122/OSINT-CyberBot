@@ -756,5 +756,19 @@
         "source_url": "https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/"
       }
     ]
+  },
+  "anthropic and claude mythos": {
+    "aliases": [
+      "Anthropic and Claude Mythos"
+    ],
+    "first_seen": "2026-07-29 00:07 UTC",
+    "campaigns": [
+      {
+        "target": "post-quantum candidate and simplified AES",
+        "date": "2026-07-29 00:07 UTC",
+        "summary": "Here\u2019s what Anthropic found when it turned Mythos loose on encryption algorithms",
+        "source_url": "https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/"
+      }
+    ]
   }
 }
