@@ -770,5 +770,19 @@
         "source_url": "https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/"
       }
     ]
+  },
+  "dev#popper": {
+    "aliases": [
+      "DEV#POPPER"
+    ],
+    "first_seen": "2026-07-29 06:42 UTC",
+    "campaigns": [
+      {
+        "target": "@joyfill/layouts@0.1.2-2773.beta.0 and @joyfill/components@4.0.0-rc24-2773-beta.4",
+        "date": "2026-07-29 06:42 UTC",
+        "summary": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+        "source_url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html"
+      }
+    ]
   }
 }
