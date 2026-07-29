@@ -3308,5 +3308,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-29 19:40 UTC",
+        "content": "\ud83d\udfe0 ShinyHunters attacks on healthcare organizations are on the rise, leading to data theft. Healthcare and medical tech firms targeted. via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
