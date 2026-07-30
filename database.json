@@ -3348,5 +3348,15 @@
         "epss": null,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-07-30 09:39 UTC",
+        "content": "\ud83d\udfe0 Russian hackers exploit Microsoft OWA flaw to maintain mailbox access after rotation. U.S. & European gov't entities, telecoms, finance, hospitality, and aerospace sectors targeted via this OWA vulnerability via The Hacker News #OWA #ransomware",
+        "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

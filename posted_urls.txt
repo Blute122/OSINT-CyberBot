@@ -566,3 +566,4 @@ https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-m
 https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/
 https://www.recordedfuture.com/blog/ai-generated-extortion
 https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
+https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html

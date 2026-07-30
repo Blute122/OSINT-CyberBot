@@ -832,5 +832,19 @@
         "source_url": "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/"
       }
     ]
+  },
+  "russian threat actors": {
+    "aliases": [
+      "Russian threat actors"
+    ],
+    "first_seen": "2026-07-30 09:39 UTC",
+    "campaigns": [
+      {
+        "target": "Microsoft Outlook Web Access (OWA)",
+        "date": "2026-07-30 09:39 UTC",
+        "summary": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+        "source_url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html"
+      }
+    ]
   }
 }
