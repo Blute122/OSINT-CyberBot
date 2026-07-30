@@ -818,5 +818,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
       }
     ]
+  },
+  "north korean group": {
+    "aliases": [
+      "North Korean group"
+    ],
+    "first_seen": "2026-07-30 00:11 UTC",
+    "campaigns": [
+      {
+        "target": "npm package",
+        "date": "2026-07-30 00:11 UTC",
+        "summary": "A little-known npm package was North Korea\u2019s warm-up act for the axios hack",
+        "source_url": "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/"
+      }
+    ]
   }
 }

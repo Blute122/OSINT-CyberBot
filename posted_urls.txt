@@ -561,3 +561,6 @@ https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-
 https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/
 https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/
 https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/
+https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face
+https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense
+https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/
