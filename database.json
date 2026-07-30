@@ -3328,5 +3328,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-30 03:26 UTC",
+        "content": "\ud83d\udfe1 No new severity-emphasized information reported about AI-generated extortion and fake ransomware leaks via Recorded Future",
+        "url": "https://www.recordedfuture.com/blog/ai-generated-extortion",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
