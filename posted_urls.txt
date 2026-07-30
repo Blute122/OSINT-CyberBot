@@ -568,3 +568,8 @@ https://www.recordedfuture.com/blog/ai-generated-extortion
 https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
 https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html
 https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
+https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/
+https://www.securityweek.com/cantina-emerges-from-stealth-with-8-million-in-funding/
+https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/
+https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/
+https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/

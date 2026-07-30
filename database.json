@@ -3368,5 +3368,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-30 14:28 UTC",
+        "content": "\ud83d\udfe0 New AI threat could hijack global DNS records at nation-state scale, affecting governments, banks, and supply chains. Unknown attackers could exploit via SecurityWeek",
+        "url": "https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
