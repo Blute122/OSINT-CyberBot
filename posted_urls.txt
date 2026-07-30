@@ -573,3 +573,4 @@ https://www.securityweek.com/cantina-emerges-from-stealth-with-8-million-in-fund
 https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/
 https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/
 https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/
+https://defensescoop.com/2026/07/30/we-know-how-to-protect-our-troops-from-telecom-attacks-were-just-not-doing-it/

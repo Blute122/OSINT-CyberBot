@@ -3378,5 +3378,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-30 16:45 UTC",
+        "content": "\ud83d\udfe0 Telecom attacks threaten troops: US military knows how to protect, but hasn't implemented fixes. via CyberScoop #Cybersecurity #Telecom",
+        "url": "https://defensescoop.com/2026/07/30/we-know-how-to-protect-our-troops-from-telecom-attacks-were-just-not-doing-it/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
