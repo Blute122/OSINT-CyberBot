@@ -501,5 +501,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-20316": {
+    "first_seen": "2026-07-30 06:39 UTC",
+    "product": "Cisco Secure Firewall Management Center (FMC) Software",
+    "status_timeline": [
+      {
+        "date": "2026-07-30 06:39 UTC",
+        "status": "actively_exploited",
+        "summary": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+        "source_url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html"
+    ],
+    "last_updated": "2026-07-30 06:39 UTC",
+    "cvss": 5.3,
+    "kev": true,
+    "epss": null,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

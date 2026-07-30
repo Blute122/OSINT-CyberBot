@@ -565,3 +565,4 @@ https://www.darkreading.com/application-security/openai-rogue-model-claims-more-
 https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense
 https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/
 https://www.recordedfuture.com/blog/ai-generated-extortion
+https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
