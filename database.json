@@ -3418,5 +3418,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-31 09:58 UTC",
+        "content": "\ud83d\udfe0 A python script named zipdump.py can encode malicious data in zip files, affecting users of python libraries that use it. via SANS ISC #infosecurity",
+        "url": "https://isc.sans.edu/diary/rss/33202",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
