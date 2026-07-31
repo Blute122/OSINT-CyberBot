@@ -578,3 +578,4 @@ https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-
 https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/
 https://isc.sans.edu/diary/rss/33204
 https://isc.sans.edu/diary/rss/33202
+https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/

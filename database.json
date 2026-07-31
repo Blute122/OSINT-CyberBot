@@ -3428,5 +3428,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-31 12:14 UTC",
+        "content": "\ud83d\udfe1 \u2752 macOS malware targets developers via Xcode, uses XCSSET v40 logic. Multiple systems at risk via developer machines. via Unit 42 #macOSvulnerability",
+        "url": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
+        "cve": "CVE-2023-0001",
+        "kev": false,
+        "epss": 0.00213,
+        "risk_score": 31,
+        "risk_band": "low"
     }
 ]

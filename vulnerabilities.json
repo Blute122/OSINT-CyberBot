@@ -522,5 +522,26 @@
     "epss": null,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2023-0001": {
+    "first_seen": "2026-07-31 12:14 UTC",
+    "product": "macOS and Xcode",
+    "status_timeline": [
+      {
+        "date": "2026-07-31 12:14 UTC",
+        "status": "disclosed",
+        "summary": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
+        "source_url": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/"
+      }
+    ],
+    "related_posts": [
+      "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/"
+    ],
+    "last_updated": "2026-07-31 12:14 UTC",
+    "cvss": 6.0,
+    "kev": false,
+    "epss": 0.00213,
+    "risk_score": 31,
+    "risk_band": "low"
   }
 }
