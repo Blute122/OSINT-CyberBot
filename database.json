@@ -3438,5 +3438,15 @@
         "epss": 0.00213,
         "risk_score": 31,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-07-31 15:28 UTC",
+        "content": "\ud83d\udfe0 Google AI discovered a 13-year-old Chrome flaw; no impact details provided via SecurityWeek",
+        "url": "https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

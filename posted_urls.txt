@@ -579,3 +579,5 @@ https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordin
 https://isc.sans.edu/diary/rss/33204
 https://isc.sans.edu/diary/rss/33202
 https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/
+https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/
+https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/
