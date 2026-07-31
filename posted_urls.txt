@@ -576,3 +576,4 @@ https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-recor
 https://defensescoop.com/2026/07/30/we-know-how-to-protect-our-troops-from-telecom-attacks-were-just-not-doing-it/
 https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/
 https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/
+https://isc.sans.edu/diary/rss/33204

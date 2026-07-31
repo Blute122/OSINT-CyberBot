@@ -3408,5 +3408,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-31 07:12 UTC",
+        "content": "\ud83d\udfe0 High: Phishing campaign targets finance sector via Business Email Compromise (BEC) tactics via SANS ISC #phishing #BEC",
+        "url": "https://isc.sans.edu/diary/rss/33204",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
