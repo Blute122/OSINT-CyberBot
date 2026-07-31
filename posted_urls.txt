@@ -581,3 +581,5 @@ https://isc.sans.edu/diary/rss/33202
 https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/
 https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/
 https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/
+https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research/
+https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it

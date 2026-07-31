@@ -3448,5 +3448,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-07-31 17:50 UTC",
+        "content": "\ud83d\udcf8 MEDIUM security research finding via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
