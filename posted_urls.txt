@@ -574,3 +574,4 @@ https://www.securityweek.com/discern-security-raises-13-million-in-series-a-fund
 https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/
 https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/
 https://defensescoop.com/2026/07/30/we-know-how-to-protect-our-troops-from-telecom-attacks-were-just-not-doing-it/
+https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/
