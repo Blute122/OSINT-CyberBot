@@ -585,3 +585,4 @@ https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hac
 https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it
 https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
 https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
+https://isc.sans.edu/diary/rss/33206
