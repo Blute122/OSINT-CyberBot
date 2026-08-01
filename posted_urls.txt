@@ -587,3 +587,5 @@ https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
 https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
 https://isc.sans.edu/diary/rss/33206
 https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
+https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/
+https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/

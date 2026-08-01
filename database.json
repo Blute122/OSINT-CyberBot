@@ -3498,5 +3498,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-01 13:51 UTC",
+        "content": "\ud83d\udd34 Critical vulnerability patched in Ruby on Rails: Unauthenticated attackers can now read files and achieve RCE. via SecurityWeek #RORvulnerability",
+        "url": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
