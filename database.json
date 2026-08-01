@@ -3488,5 +3488,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-01 11:33 UTC",
+        "content": "\ud83d\udfe0 Hackers exploited Adform's JavaScript script to swap crypto wallet addresses. Anyone who visited affected sites on July 27 and copied a Bitcoin address might have been affected. via The Hacker News #adformhacked",
+        "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
