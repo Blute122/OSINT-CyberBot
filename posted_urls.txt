@@ -583,3 +583,4 @@ https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigate
 https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/
 https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research/
 https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it
+https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html

@@ -3458,5 +3458,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-01 00:12 UTC",
+        "content": "\ud83d\udd34 Suspected Chinese-Speaking Hackers targeting Central Asian governments with OctLurk and SilkLurk malware. Governments in Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and Syria are affected via The Hacker News #CyberSecurity",
+        "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
