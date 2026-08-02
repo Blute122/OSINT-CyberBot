@@ -3518,5 +3518,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-02 22:08 UTC",
+        "content": "\ud83d\udd34 A flaw in COLDCARD wallets' random number generator allowed thieves to steal $88.6 million from thousands of wallets, likely linked to the theft. via BleepingComputer #cryptocurrencytheft",
+        "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

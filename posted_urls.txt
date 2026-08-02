@@ -593,3 +593,4 @@ https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-sto
 https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
 https://isc.sans.edu/diary/rss/33208
 https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/
+https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/
