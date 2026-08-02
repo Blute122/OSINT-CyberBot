@@ -592,3 +592,4 @@ https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
 https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
 https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
 https://isc.sans.edu/diary/rss/33208
+https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/
