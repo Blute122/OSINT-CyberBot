@@ -591,3 +591,4 @@ https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprise
 https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
 https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
 https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+https://isc.sans.edu/diary/rss/33208
