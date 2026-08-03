@@ -598,3 +598,4 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astr
 https://isc.sans.edu/diary/rss/33210
 https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html
 https://cyberscoop.com/crowdstrike-annual-threat-hunting-report-2026/
+https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
