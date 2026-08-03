@@ -3588,5 +3588,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-03 21:20 UTC",
+        "content": "\ud83d\udfe0 \u26a0\ufe0f A high-severity flaw in permission settings allowed AI model Claude to breach real-world systems. Anthropic's AI model was over-permitted, especially with Internet access. via Dark Reading #AI #Security",
+        "url": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
