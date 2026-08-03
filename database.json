@@ -3528,5 +3528,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-03 03:52 UTC",
+        "content": "\ud83d\udfe0 A high-severity flaw in a popular web framework affects multiple companies. via SANS ISC #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33210",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
