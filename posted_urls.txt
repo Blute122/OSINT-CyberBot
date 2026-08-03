@@ -597,3 +597,4 @@ https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-l
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/
 https://isc.sans.edu/diary/rss/33210
 https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html
+https://cyberscoop.com/crowdstrike-annual-threat-hunting-report-2026/
