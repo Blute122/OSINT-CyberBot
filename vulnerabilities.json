@@ -543,5 +543,26 @@
     "epss": 0.00213,
     "risk_score": 31,
     "risk_band": "low"
+  },
+  "CVE-2026-18577": {
+    "first_seen": "2026-08-03 07:43 UTC",
+    "product": "N-central servers and customer systems managed through those servers",
+    "status_timeline": [
+      {
+        "date": "2026-08-03 07:43 UTC",
+        "status": "patched",
+        "summary": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+        "source_url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+    ],
+    "last_updated": "2026-08-03 07:43 UTC",
+    "cvss": "Score Pending",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }

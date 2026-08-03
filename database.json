@@ -3538,5 +3538,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-03 07:43 UTC",
+        "content": "\ud83d\udd34 Attackers take over N-able's N-central servers due to incomplete initial fix, gaining remote admin access via CVE-2026-18577 (CVSS: Score Pending) affecting pre-2026.3.1.7 builds via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+        "cve": "CVE-2026-18577",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]
