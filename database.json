@@ -3568,5 +3568,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-03 17:19 UTC",
+        "content": "\ud83d\udfe0 Google Password Manager under critical attack: malware can hijack passkey-protected accounts on Windows, no fingerprint/PIN required. Users at risk via The Hacker News #cybersecurity",
+        "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
