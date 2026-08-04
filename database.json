@@ -3658,5 +3658,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-04 19:54 UTC",
+        "content": "\ud83d\udd34 Threat actor uses phishing lures & rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks via Dark Reading #CyberSecurity",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -611,3 +611,8 @@ https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing
 https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
 https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
 https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/
+https://www.securityweek.com/rethinking-ai-security-why-casb-and-dlp-need-an-interaction-aware-layer/
+https://www.securityweek.com/oligo-raises-60-million-for-runtime-security/
+https://www.securityweek.com/ciso-conversation-russ-kirby-passion-is-the-antidote-to-burnout/
+https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
+https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
