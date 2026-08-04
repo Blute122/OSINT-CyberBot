@@ -3638,5 +3638,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-04 15:33 UTC",
+        "content": "\ud83d\udd34 Critical: Frontier AI's NOVA system found 14,000+ unknown vulnerabilities in open-source software! Enterprises at risk! via Unit 42 #cybersecurity",
+        "url": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
