@@ -3608,5 +3608,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-04 06:38 UTC",
+        "content": "\u2757 LOW \u2757 Microsoft paid out $20 million in bug bounties to 500 researchers over the last year, with the biggest single reward being $200,000 via SecurityWeek #bugbounty #security",
+        "url": "https://www.securityweek.com/microsoft-bug-bounty-program-20-million-paid-to-500-researchers/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
