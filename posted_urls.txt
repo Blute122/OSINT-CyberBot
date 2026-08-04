@@ -610,3 +610,4 @@ https://www.securityweek.com/microsoft-bug-bounty-program-20-million-paid-to-500
 https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles
 https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
 https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
+https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/
