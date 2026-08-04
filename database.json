@@ -3618,5 +3618,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-04 09:48 UTC",
+        "content": "\ud83d\udfe0 Phishing attacks via device codes up 1500% and vishing doubles in 2026, making it harder to detect via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

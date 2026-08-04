@@ -607,3 +607,4 @@ https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-ma
 https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/
 https://www.securityweek.com/new-york-awards-9-million-to-strengthen-cybersecurity-at-153-water-systems/
 https://www.securityweek.com/microsoft-bug-bounty-program-20-million-paid-to-500-researchers/
+https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles
