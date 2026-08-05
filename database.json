@@ -3698,5 +3698,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-05 12:14 UTC",
+        "content": "\ud83d\udd34 Critical flaw in Gitea lets attackers read server files via Org-mode markup, no login required. Versions 1.22.1-1.27.0 impacted. via The Hacker News #Gitea #SecurityFlaw",
+        "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+        "cve": "CVE-2026-59774",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

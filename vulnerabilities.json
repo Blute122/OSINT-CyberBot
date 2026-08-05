@@ -564,5 +564,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-59774": {
+    "first_seen": "2026-08-05 12:14 UTC",
+    "product": "Gitea, self-hosted Git platform",
+    "status_timeline": [
+      {
+        "date": "2026-08-05 12:14 UTC",
+        "status": "disclosed",
+        "summary": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+        "source_url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
+    ],
+    "last_updated": "2026-08-05 12:14 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }
