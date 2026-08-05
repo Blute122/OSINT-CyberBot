@@ -3678,5 +3678,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-05 06:39 UTC",
+        "content": "\ud83d\udfe0 A vulnerability discovered in popular social media platform affects 100M users, allowing an attacker to exploit CVE-2026-4020 via unsanitized input. via SANS ISC #infosec #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33216",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
