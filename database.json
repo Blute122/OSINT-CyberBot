@@ -3718,5 +3718,15 @@
         "epss": 0.00129,
         "risk_score": 37,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-05 16:50 UTC",
+        "content": "\ud83d\udfe1 MEDIUM severity flaw in open-source software. Multiple previous attacks linked to TeamPCP attacker infrastructure and tools via CyberScoop #OpenSourceSecurity",
+        "url": "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

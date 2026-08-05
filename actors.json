@@ -894,5 +894,19 @@
         "source_url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html"
       }
     ]
+  },
+  "teampcp": {
+    "aliases": [
+      "TeamPCP"
+    ],
+    "first_seen": "2026-08-05 16:50 UTC",
+    "campaigns": [
+      {
+        "target": "open-source software",
+        "date": "2026-08-05 16:50 UTC",
+        "summary": "Open-source software\u2019s archenemy TeamPCP goes back further than anyone thought",
+        "source_url": "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"
+      }
+    ]
   }
 }
