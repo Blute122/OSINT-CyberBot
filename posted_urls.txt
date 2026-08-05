@@ -620,3 +620,4 @@ https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-target
 https://isc.sans.edu/diary/rss/33216
 https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
 https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html

@@ -3708,5 +3708,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-08-05 14:34 UTC",
+        "content": "\ud83d\udfe0 High-severity flaw in Linux kernel's Open vSwitch \ud83d\udfe0 lets local users gain root access via a memory corruption flaw. Roughly 800 kernel builds at risk. via The Hacker News #Linux #KernelSecurity",
+        "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+        "cve": "CVE-2026-64531",
+        "kev": false,
+        "epss": 0.00129,
+        "risk_score": 37,
+        "risk_band": "medium"
     }
 ]
