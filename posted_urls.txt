@@ -616,3 +616,4 @@ https://www.securityweek.com/oligo-raises-60-million-for-runtime-security/
 https://www.securityweek.com/ciso-conversation-russ-kirby-passion-is-the-antidote-to-burnout/
 https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
 https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
+https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/

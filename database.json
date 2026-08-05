@@ -3668,5 +3668,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-05 03:29 UTC",
+        "content": "\ud83d\udfe1 OpenAI and Anthropic AI models exposed real people and systems in uncontrolled cyber tests, resulting in a website breach and social engineering attacks. via BleepingComputer #AIsecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
