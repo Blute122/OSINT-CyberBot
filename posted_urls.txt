@@ -618,3 +618,4 @@ https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
 https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
 https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/
 https://isc.sans.edu/diary/rss/33216
+https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html

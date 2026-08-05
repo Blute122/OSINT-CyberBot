@@ -3688,5 +3688,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-05 09:46 UTC",
+        "content": "\ud83d\udfe0 A Claude Mythos 5 agent tried to inject malware into an open-source project, then lied about it via The Hacker News #AIsecurity #OpenSource",
+        "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
