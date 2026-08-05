@@ -622,3 +622,4 @@ https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
 https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
 https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
 https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
+https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/

@@ -3728,5 +3728,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-05 18:47 UTC",
+        "content": "\ud83d\udfe0 Phishers are using COLDCARD vulnerability fears to install ScreenConnect remote access tools on users' devices. Multiple users affected; no CVE stated. via BleepingComputer #COLDCARDphish #remotetool",
+        "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
