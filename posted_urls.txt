@@ -623,3 +623,4 @@ https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
 https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
 https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
 https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/
+https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/

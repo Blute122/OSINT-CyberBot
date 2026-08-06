@@ -3738,5 +3738,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-06 00:09 UTC",
+        "content": "\ud83d\udfe0 A $50,000 exploit chain turned Bixby against Samsung Phones via SecurityWeek #SamsungExploit #SmartphoneSecurity",
+        "url": "https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

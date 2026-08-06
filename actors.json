@@ -908,5 +908,19 @@
         "source_url": "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"
       }
     ]
+  },
+  "not mentioned": {
+    "aliases": [
+      "not mentioned"
+    ],
+    "first_seen": "2026-08-06 00:09 UTC",
+    "campaigns": [
+      {
+        "target": "Samsung Phones, specifically Samsung Members and Samsung Account applications",
+        "date": "2026-08-06 00:09 UTC",
+        "summary": "How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones",
+        "source_url": "https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/"
+      }
+    ]
   }
 }
