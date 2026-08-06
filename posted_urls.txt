@@ -626,3 +626,4 @@ https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-
 https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/
 https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana
 https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html
