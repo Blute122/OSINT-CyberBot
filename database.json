@@ -3748,5 +3748,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-06 03:32 UTC",
+        "content": "\ud83d\udfe1 Critical: AI-powered scams enable global crime syndicates to bilk billions via Dark Reading #CyberCrime #ArtificialIntelligence",
+        "url": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
