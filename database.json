@@ -3758,5 +3758,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-06 06:43 UTC",
+        "content": "\ud83d\udd34 A hacker pleads guilty to stealing data from 165 orgs, exposing 100 million people via a Snowflake account breach. via The Hacker News #datasecurity",
+        "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
