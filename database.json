@@ -3788,5 +3788,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-06 15:25 UTC",
+        "content": "\ud83d\udfe0 Attackers steal AI tokens using hijacked developer API keys, fueling gray market transfer stations. Developers affected via Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/ai-token-jacking/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
