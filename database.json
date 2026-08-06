@@ -3778,5 +3778,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-06 12:16 UTC",
+        "content": "&#x1F534; Critical Paperclip flaw allows attacker admin access and code execution, impacting Paperclip users via SecurityWeek #cybersecurity",
+        "url": "https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

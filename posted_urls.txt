@@ -627,3 +627,6 @@ https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-sams
 https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana
 https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
 https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html
+https://cyberscoop.com/water-utility-cyberattacks-prevention-nozomi-networks-ceo-op-ed/
+https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/
+https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/
