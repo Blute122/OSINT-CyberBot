@@ -3818,5 +3818,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-07 05:49 UTC",
+        "content": "\ud83d\udd34 Critical: Unnamed attackers exploited zero-day to breach a US govt contractor via SANS ISC #cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33224",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
