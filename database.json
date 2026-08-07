@@ -3848,5 +3848,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-07 10:11 UTC",
+        "content": "\ud83d\udfe2 Linux shells lack \"modern\" logging, relying on flat files to record historical commands via SANS ISC #LinuxSecurity #Cybersecurity",
+        "url": "https://isc.sans.edu/diary/rss/33226",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
