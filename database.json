@@ -3798,5 +3798,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-07 00:13 UTC",
+        "content": "\u2194 LOW OpenAI releases a new, upgraded version of ChatGPT for all users, regardless of subscription tier. via BleepingComputer #ChatGPT #OpenAI",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
