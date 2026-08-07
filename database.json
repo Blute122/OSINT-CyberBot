@@ -3828,5 +3828,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-07 07:38 UTC",
+        "content": "\ud83d\udfe0 3.8M affected by data breach at Unlimited Technology Systems. Hackers stole personal & medical via SecurityWeek #data breach",
+        "url": "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
