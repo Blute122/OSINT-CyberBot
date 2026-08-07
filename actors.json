@@ -906,6 +906,12 @@
         "date": "2026-08-05 16:50 UTC",
         "summary": "Open-source software\u2019s archenemy TeamPCP goes back further than anyone thought",
         "source_url": "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"
+      },
+      {
+        "target": "internet-facing infrastructure, software supply chain",
+        "date": "2026-08-07 09:13 UTC",
+        "summary": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+        "source_url": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html"
       }
     ]
   },

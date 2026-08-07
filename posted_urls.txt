@@ -635,3 +635,4 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a
 https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
 https://isc.sans.edu/diary/rss/33224
 https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
+https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
