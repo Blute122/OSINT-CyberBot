@@ -3858,5 +3858,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-07 11:06 UTC",
+        "content": "\ud83d\udfe0 High-severity Vishing extortion group UNC6671 rebranding, expanding operations to 4 new brands, via SecurityWeek #VishingTactics",
+        "url": "https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

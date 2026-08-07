@@ -942,5 +942,19 @@
         "source_url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
       }
     ]
+  },
+  "unc6671": {
+    "aliases": [
+      "UNC6671"
+    ],
+    "first_seen": "2026-08-07 11:06 UTC",
+    "campaigns": [
+      {
+        "target": "unspecified",
+        "date": "2026-08-07 11:06 UTC",
+        "summary": "Vishing Extortion Group UNC6671 Rebrands After Making Millions",
+        "source_url": "https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/"
+      }
+    ]
   }
 }
