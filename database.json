@@ -3808,5 +3808,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-07 03:14 UTC",
+        "content": "\ud83d\udfe0 npm worm exploits GitHub Actions runner secrets, using Ethereum C2 routing via Unit 42 #nmpware #supplychain",
+        "url": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
