@@ -639,3 +639,4 @@ https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
 https://isc.sans.edu/diary/rss/33226
 https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/
 https://unit42.paloaltonetworks.com/soc-identity-front-door/
+https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html

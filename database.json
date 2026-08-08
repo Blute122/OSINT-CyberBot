@@ -3878,5 +3878,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-08 07:58 UTC",
+        "content": "\ud83d\udfe1 CRITICAL Metabase zero-day exploited in the wild; attackers can gain admin access without auth, impacting its business intelligence & data visualization software via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
