@@ -3888,5 +3888,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-08 08:57 UTC",
+        "content": "\ud83d\udd34 Exploit attempts hit Progress Kemp LoadMaster with 792 attempts reported. Critical-severity flaw (CVSS 9.6) allows command injection, risking arbitrary code execution. via The Hacker News #cybersecurity #vulnerability",
+        "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+        "cve": "CVE-2026-8037",
+        "kev": true,
+        "epss": 0.84793,
+        "risk_score": 94,
+        "risk_band": "critical"
     }
 ]

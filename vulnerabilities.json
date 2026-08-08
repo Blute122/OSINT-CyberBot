@@ -606,5 +606,26 @@
     "epss": 0.00129,
     "risk_score": 37,
     "risk_band": "medium"
+  },
+  "CVE-2026-8037": {
+    "first_seen": "2026-08-08 08:57 UTC",
+    "product": "Progress Kemp LoadMaster",
+    "status_timeline": [
+      {
+        "date": "2026-08-08 08:57 UTC",
+        "status": "actively_exploited",
+        "summary": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+        "source_url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+    ],
+    "last_updated": "2026-08-08 08:57 UTC",
+    "cvss": 9.6,
+    "kev": true,
+    "epss": 0.84793,
+    "risk_score": 94,
+    "risk_band": "critical"
   }
 }
