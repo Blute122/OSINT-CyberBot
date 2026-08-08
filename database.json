@@ -3868,5 +3868,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-08 02:19 UTC",
+        "content": "\uff0d\u200d\u26a1 No security incident described in this article via Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
