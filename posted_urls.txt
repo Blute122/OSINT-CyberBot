@@ -642,3 +642,4 @@ https://unit42.paloaltonetworks.com/soc-identity-front-door/
 https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
 https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
 https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
+https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html

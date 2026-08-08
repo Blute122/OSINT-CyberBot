@@ -3898,5 +3898,15 @@
         "epss": 0.84793,
         "risk_score": 94,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-08-08 09:52 UTC",
+        "content": "\ud83d\udfe0 Atlassian Rovo tricked to send user data to attackers by executing malicious commands via content read, affecting Jira and Confluence users. via The Hacker News #security #vulnerability",
+        "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
