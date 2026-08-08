@@ -970,5 +970,19 @@
         "source_url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html"
       }
     ]
+  },
+  "the head mare": {
+    "aliases": [
+      "The Head Mare"
+    ],
+    "first_seen": "2026-08-08 14:47 UTC",
+    "campaigns": [
+      {
+        "target": "TrueConf video conferencing servers and client installers",
+        "date": "2026-08-08 14:47 UTC",
+        "summary": "Hackers breach TrueConf to trojanize client installers with backdoors",
+        "source_url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+      }
+    ]
   }
 }

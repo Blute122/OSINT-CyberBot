@@ -3918,5 +3918,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-08 14:47 UTC",
+        "content": "\ud83d\udd34 Critical: Hackers breach TrueConf, trojanize client installers with backdoors via unpatched video conferencing servers. TrueConf users are at risk via BleepingComputer #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -645,3 +645,4 @@ https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
 https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
 https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
 https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/
+https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
