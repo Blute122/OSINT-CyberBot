@@ -3928,5 +3928,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-10 02:31 UTC",
+        "content": "\u2697 ISC Stormcast For Monday, August 10th, 2026 discloses no specific security incident. via SANS ISC",
+        "url": "https://isc.sans.edu/diary/rss/33228",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
