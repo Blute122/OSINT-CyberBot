@@ -984,5 +984,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
       }
     ]
+  },
+  "hackers linked to iran": {
+    "aliases": [
+      "Hackers linked to Iran"
+    ],
+    "first_seen": "2026-08-10 11:57 UTC",
+    "campaigns": [
+      {
+        "target": "industrial control systems (ICS) at water facilities",
+        "date": "2026-08-10 11:57 UTC",
+        "summary": "New Jersey, Alabama Join States Targeted in Water Cyberattacks",
+        "source_url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/"
+      }
+    ]
   }
 }

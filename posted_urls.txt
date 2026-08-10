@@ -651,3 +651,4 @@ https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-u
 https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
 https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
+https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/

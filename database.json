@@ -3968,5 +3968,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-10 11:57 UTC",
+        "content": "\ud83d\udd34 Critical water cyberattacks target US states, linked to Iran-based hackers. Multiple US states' water systems compromised. via SecurityWeek #Cybersecurity",
+        "url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
