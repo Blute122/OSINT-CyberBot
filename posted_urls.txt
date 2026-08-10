@@ -647,3 +647,4 @@ https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
 https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/
 https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
 https://isc.sans.edu/diary/rss/33228
+https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/
