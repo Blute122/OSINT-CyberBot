@@ -3978,5 +3978,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-10 13:40 UTC",
+        "content": "\ud83d\udfe1 Member of The Com cybercrime collective sentenced to 2 years for blackmail & sextortion of 120 victims worldwide. via BleepingComputer #cybercrime",
+        "url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

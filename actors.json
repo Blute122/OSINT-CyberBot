@@ -998,5 +998,19 @@
         "source_url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/"
       }
     ]
+  },
+  "the com": {
+    "aliases": [
+      "The Com"
+    ],
+    "first_seen": "2026-08-10 13:40 UTC",
+    "campaigns": [
+      {
+        "target": "children and teenagers",
+        "date": "2026-08-10 13:40 UTC",
+        "summary": "Member of The Com sent to prison for blackmail, sextortion",
+        "source_url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/"
+      }
+    ]
   }
 }
