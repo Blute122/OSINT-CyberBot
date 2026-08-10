@@ -653,3 +653,5 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-l
 https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
 https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/
 https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/
+https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/
+https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/

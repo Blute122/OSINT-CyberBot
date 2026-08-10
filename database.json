@@ -3988,5 +3988,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-10 15:14 UTC",
+        "content": "\ud83d\udd34 \ud83d\udca3 Stealthium attacks hidden security blind spots in AI accelerator and Neo-cloud infrastructure. via SecurityWeek",
+        "url": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
