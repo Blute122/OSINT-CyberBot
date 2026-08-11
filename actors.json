@@ -1024,5 +1024,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/"
       }
     ]
+  },
+  "researchers": {
+    "aliases": [
+      "Researchers"
+    ],
+    "first_seen": "2026-08-11 11:03 UTC",
+    "campaigns": [
+      {
+        "target": "Windows 11",
+        "date": "2026-08-11 11:03 UTC",
+        "summary": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+        "source_url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
+      }
+    ]
   }
 }

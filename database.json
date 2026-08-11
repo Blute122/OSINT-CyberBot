@@ -4038,5 +4038,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-11 11:03 UTC",
+        "content": "\ud83d\udfe0 Critical Windows 11 flaw: researchers exploit USB auto-install to gain SYSTEM access via Remote Desktop. Impacts fully updated Windows 11 machines with enabled Plug and Play or low-level USB redirection via remote session via The Hacker News #Windows11 #ZeroDay",
+        "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -661,3 +661,6 @@ https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposu
 https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
 https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
 https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/
+https://www.securityweek.com/hacker-conversations-marcus-hutchins/
+https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/
+https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html
