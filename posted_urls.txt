@@ -657,3 +657,4 @@ https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cybe
 https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/
 https://isc.sans.edu/diary/rss/33232
 https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
+https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/

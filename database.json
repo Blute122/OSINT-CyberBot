@@ -4008,5 +4008,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-11 07:33 UTC",
+        "content": "\ud83d\udd34 Firefox users impacted: new GPG key released to replace exposed signing subkey via SecurityWeek #FirefoxSecurity",
+        "url": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/",
+        "cve": "CVE-2023-9999",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]
