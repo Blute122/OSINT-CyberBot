@@ -175,6 +175,12 @@
         "date": "2026-06-26 18:03 UTC",
         "summary": "More Klue Breach Victims Identified as Hackers Get Hacked",
         "source_url": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/"
+      },
+      {
+        "target": "Polish energy plant facility",
+        "date": "2026-08-11 02:25 UTC",
+        "summary": "Hackers breached a small Polish energy plant via private APN last year",
+        "source_url": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/"
       }
     ]
   },
