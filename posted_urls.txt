@@ -658,3 +658,5 @@ https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accel
 https://isc.sans.edu/diary/rss/33232
 https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
 https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/
+https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
+https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html

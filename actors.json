@@ -500,6 +500,12 @@
         "date": "2026-07-11 19:29 UTC",
         "summary": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
         "source_url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+      },
+      {
+        "target": "BdThemes WordPress plugin, WordPress.org repository",
+        "date": "2026-08-11 09:12 UTC",
+        "summary": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+        "source_url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"
       }
     ]
   },

@@ -4018,5 +4018,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-08-11 09:12 UTC",
+        "content": "\ud83d\udd34 Critical WordPress supply chain attack via BdThemes plugin compromises admin access via JSON poisoning. WordPress plugins team disables downloads. via The Hacker News #WPSECURITY",
+        "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
