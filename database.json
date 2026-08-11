@@ -4028,5 +4028,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-11 10:10 UTC",
+        "content": "\ud83d\udd34 Critical: Kimwolf v7 botnet exploits Android IoT devices via HTTP/2 DDoS fingerprinting and Tor backup routing. via Unit 42 #botnet #malware",
+        "url": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
