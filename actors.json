@@ -1038,5 +1038,19 @@
         "source_url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
       }
     ]
+  },
+  "suspected north korean it workers": {
+    "aliases": [
+      "Suspected North Korean IT workers"
+    ],
+    "first_seen": "2026-08-11 13:38 UTC",
+    "campaigns": [
+      {
+        "target": "Fake cryptocurrency startup",
+        "date": "2026-08-11 13:38 UTC",
+        "summary": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+        "source_url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html"
+      }
+    ]
   }
 }
