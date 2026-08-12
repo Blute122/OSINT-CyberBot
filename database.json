@@ -4068,5 +4068,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-12 02:40 UTC",
+        "content": "\ud83d\udfe1 No security incident reported via CyberScoop",
+        "url": "https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

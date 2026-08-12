@@ -668,3 +668,6 @@ https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html
 https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html
 https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html
 https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html
+https://isc.sans.edu/diary/rss/33238
+https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/
+https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/
