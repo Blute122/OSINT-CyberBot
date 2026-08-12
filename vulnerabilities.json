@@ -648,5 +648,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-20349": {
+    "first_seen": "2026-08-12 06:40 UTC",
+    "product": "Cisco Secure Firewall ASA and FTD devices",
+    "status_timeline": [
+      {
+        "date": "2026-08-12 06:40 UTC",
+        "status": "actively_exploited",
+        "summary": "Cisco Patches Firewall Zero-Day Exploited for DoS Attacks",
+        "source_url": "https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/"
+    ],
+    "last_updated": "2026-08-12 06:40 UTC",
+    "cvss": 8.6,
+    "kev": true,
+    "epss": null,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

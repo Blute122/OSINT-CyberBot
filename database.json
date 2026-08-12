@@ -4088,5 +4088,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-12 06:40 UTC",
+        "content": "\ud83d\udd34 High risk from a new #Cisco firewall zero-day: unauthenticated remote attackers can exploit CVE-2026-20349 (CVSS: 8.6/10) [CISA KEV: ACTIVELY EXPLOITED] to launch DoS attacks. Affected: Cisco Secure Firewall ASA and FTD devices via SecurityWeek",
+        "url": "https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/",
+        "cve": "CVE-2026-20349",
+        "kev": true,
+        "epss": null,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

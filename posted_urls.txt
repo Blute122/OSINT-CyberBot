@@ -672,3 +672,4 @@ https://isc.sans.edu/diary/rss/33238
 https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/
 https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/
 https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/
+https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/
