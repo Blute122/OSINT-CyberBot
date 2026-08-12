@@ -675,3 +675,4 @@ https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion
 https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/
 https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/
 https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/
+https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/

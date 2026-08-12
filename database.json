@@ -4118,5 +4118,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-12 11:56 UTC",
+        "content": "\ud83d\udd34 Signal adds new security feature, Automatic Key Verification, to prevent man-in-the-middle attacks on encrypted chats. Users can check keys in chats via BleepingComputer #signal",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
