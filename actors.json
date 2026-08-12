@@ -1052,5 +1052,19 @@
         "source_url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html"
       }
     ]
+  },
+  "nightmare eclipse": {
+    "aliases": [
+      "Nightmare Eclipse"
+    ],
+    "first_seen": "2026-08-12 10:18 UTC",
+    "campaigns": [
+      {
+        "target": "Microsoft Defender",
+        "date": "2026-08-12 10:18 UTC",
+        "summary": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+        "source_url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/"
+      }
+    ]
   }
 }
