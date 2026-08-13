@@ -4138,5 +4138,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-13 02:44 UTC",
+        "content": "\ud83d\udfe0 A data theft campaign has been targeting Salesforce & ServiceNow users with custom tooling since March 2025 via Dark Reading #cybersecurity",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
