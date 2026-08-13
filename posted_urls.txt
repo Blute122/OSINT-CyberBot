@@ -681,3 +681,4 @@ https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-c
 https://isc.sans.edu/diary/rss/33244
 https://isc.sans.edu/diary/rss/33242
 https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
+https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/

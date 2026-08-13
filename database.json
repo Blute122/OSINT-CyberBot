@@ -4168,5 +4168,15 @@
         "epss": 0.01626,
         "risk_score": 42,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-13 10:20 UTC",
+        "content": "\u2757\ufe0f LOW \u2757\ufe0f The White House mobilizes security firms to combat foreign cybercrime gangs, with contracts potentially requiring a $1 million bond. via SecurityWeek #Cybersecurity",
+        "url": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
