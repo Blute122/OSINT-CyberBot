@@ -678,3 +678,5 @@ https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbrea
 https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/
 https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html
 https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow
+https://isc.sans.edu/diary/rss/33244
+https://isc.sans.edu/diary/rss/33242
