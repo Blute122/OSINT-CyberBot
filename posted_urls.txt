@@ -682,3 +682,4 @@ https://isc.sans.edu/diary/rss/33244
 https://isc.sans.edu/diary/rss/33242
 https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
 https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/
+https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/

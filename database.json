@@ -4178,5 +4178,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-13 11:57 UTC",
+        "content": "\ud83d\udfe2 WhatsApp warns users about potential scams in a new optional feature using local machine learning, via BleepingComputer #infosec",
+        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
