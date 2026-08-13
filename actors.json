@@ -651,7 +651,8 @@
   },
   "threat actors": {
     "aliases": [
-      "threat actors"
+      "threat actors",
+      "Threat actors"
     ],
     "first_seen": "2026-07-23 00:11 UTC",
     "campaigns": [
@@ -660,6 +661,12 @@
         "date": "2026-07-23 00:11 UTC",
         "summary": "Upbound says hack caused $13 million in fraudulent Acima leases",
         "source_url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/"
+      },
+      {
+        "target": "Microsoft SharePoint",
+        "date": "2026-08-13 08:42 UTC",
+        "summary": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+        "source_url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
       }
     ]
   },

@@ -669,5 +669,26 @@
     "epss": null,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-55040": {
+    "first_seen": "2026-08-13 08:42 UTC",
+    "product": "Microsoft SharePoint",
+    "status_timeline": [
+      {
+        "date": "2026-08-13 08:42 UTC",
+        "status": "disclosed",
+        "summary": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+        "source_url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+    ],
+    "last_updated": "2026-08-13 08:42 UTC",
+    "cvss": 9.1,
+    "kev": false,
+    "epss": 0.01626,
+    "risk_score": 42,
+    "risk_band": "medium"
   }
 }
