@@ -4188,5 +4188,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-13 13:43 UTC",
+        "content": "\ud83d\udfe0 CRITICAL phishing framework (JWR) compromises payment and shopping platform security via Cisco Talos",
+        "url": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
