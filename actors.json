@@ -1073,5 +1073,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/"
       }
     ]
+  },
+  "cameron curry": {
+    "aliases": [
+      "Cameron Curry"
+    ],
+    "first_seen": "2026-08-14 02:43 UTC",
+    "campaigns": [
+      {
+        "target": "Brightly Software",
+        "date": "2026-08-14 02:43 UTC",
+        "summary": "Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack",
+        "source_url": "https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/"
+      }
+    ]
   }
 }

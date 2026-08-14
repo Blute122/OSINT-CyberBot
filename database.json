@@ -4208,5 +4208,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-14 02:43 UTC",
+        "content": "\ud83d\udd34 \ud83d\udc94 Tech contractor extorts $7,540.92 from Brightly Software after stealing corporate data. 2-year prison sentence. via CyberScoop #insidertips #cybercrime",
+        "url": "https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
