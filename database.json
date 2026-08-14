@@ -4248,5 +4248,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-14 11:54 UTC",
+        "content": "\ud83d\udd34 RingCentral's 1.6 million accounts hacked by ShinyHunters extortion group, exposing personal via BleepingComputer #RingCentralHacked",
+        "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

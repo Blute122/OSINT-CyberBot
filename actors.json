@@ -750,6 +750,12 @@
         "date": "2026-07-29 19:40 UTC",
         "summary": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
         "source_url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/"
+      },
+      {
+        "target": "RingCentral",
+        "date": "2026-08-14 11:54 UTC",
+        "summary": "RingCentral data breach exposed info of 1.6 million accounts",
+        "source_url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
       }
     ]
   },
