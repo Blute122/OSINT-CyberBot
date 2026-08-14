@@ -4258,5 +4258,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-14 13:38 UTC",
+        "content": "\ud83d\udfe0 Shell is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. via BleepingComputer #ransomwareattack #cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

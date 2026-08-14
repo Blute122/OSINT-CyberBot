@@ -1114,5 +1114,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/"
       }
     ]
+  },
+  "clop ransomware gang": {
+    "aliases": [
+      "Clop ransomware gang"
+    ],
+    "first_seen": "2026-08-14 13:38 UTC",
+    "campaigns": [
+      {
+        "target": "Shell (oil giant)",
+        "date": "2026-08-14 13:38 UTC",
+        "summary": "Shell investigates 'potential incident' after Clop data theft claims",
+        "source_url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
+      }
+    ]
   }
 }
