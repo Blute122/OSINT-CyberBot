@@ -188,6 +188,12 @@
         "date": "2026-08-14 08:36 UTC",
         "summary": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
         "source_url": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
+      },
+      {
+        "target": "macOS",
+        "date": "2026-08-14 15:05 UTC",
+        "summary": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+        "source_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
       }
     ]
   },

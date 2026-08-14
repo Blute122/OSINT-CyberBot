@@ -4268,5 +4268,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-14 15:05 UTC",
+        "content": "\ud83d\udfe0 Monero miners exploit macOS authentication bypass flaw. macOS users at risk via unauthenticated RCE. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
