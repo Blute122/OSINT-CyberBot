@@ -689,3 +689,5 @@ https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/
 https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/
 https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/
 https://isc.sans.edu/diary/rss/33246
+https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/
+https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/

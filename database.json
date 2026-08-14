@@ -4228,5 +4228,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-14 08:36 UTC",
+        "content": "\ud83d\udd34 14,000 Trezor customers' shipping info, including names, addresses & email addresses, was stolen via a data breach at ShipMonk. via SecurityWeek #data breach #Treor",
+        "url": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
