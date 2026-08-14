@@ -687,3 +687,4 @@ https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
 https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/
 https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/
 https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/
+https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/

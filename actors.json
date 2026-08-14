@@ -1087,5 +1087,19 @@
         "source_url": "https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/"
       }
     ]
+  },
+  "mercenary spyware attackers": {
+    "aliases": [
+      "mercenary spyware attackers"
+    ],
+    "first_seen": "2026-08-14 04:59 UTC",
+    "campaigns": [
+      {
+        "target": "iPhone",
+        "date": "2026-08-14 04:59 UTC",
+        "summary": "Apple sends new \u2018Threat Notification\u2019 alerts over mercenary spyware attacks",
+        "source_url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/"
+      }
+    ]
   }
 }
