@@ -691,3 +691,4 @@ https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-
 https://isc.sans.edu/diary/rss/33246
 https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/
 https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/
+https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/
