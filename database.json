@@ -4288,5 +4288,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-15 14:36 UTC",
+        "content": "\ud83d\udfe0 A Mirai-based Linux botnet, Evooo1Bot, targets routers turning them into traffic relay nodes via SOCKS5. Internet-facing gateways at risk via BleepingComputer #LinuxBotnet",
+        "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
