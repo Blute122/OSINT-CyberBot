@@ -4278,5 +4278,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-15 01:47 UTC",
+        "content": "\u2753 A plan to watermark AI-generated text from Anthropic and Claude AI may aid in content identification via BleepingComputer #AI #watermarking",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
