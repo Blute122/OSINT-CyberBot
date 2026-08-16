@@ -4308,5 +4308,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-16 17:31 UTC",
+        "content": "\ud83d\udfe0 DDoS attacks hit Threema's secure messaging, crippling services for hours. Users lost chat access as attackers flood servers. #DDoS #Threema via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
