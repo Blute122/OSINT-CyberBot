@@ -104,7 +104,7 @@ TWEET_CHAR_LIMIT      = 278 # X free/Basic tier hard caps posts at 280 chars.
 
 # LLM extraction resilience: try the primary model, fall back to a larger one;
 # each model gets a few attempts with exponential backoff on transient errors.
-GROQ_MODELS        = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"]
+GROQ_MODELS        = ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
 GROQ_MAX_ATTEMPTS  = 2   # attempts per model before falling back
 GROQ_BACKOFF_BASE  = 2   # seconds; doubles each retry
 
@@ -393,6 +393,7 @@ def _call_groq(model: str, prompt: str) -> str:
         model=model,
         messages=[{"role": "user", "content": prompt}],
         response_format={"type": "json_object"},
+        reasoning_effort="low",
     )
     return response.choices[0].message.content.strip()
 
