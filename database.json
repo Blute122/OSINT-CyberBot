@@ -4298,5 +4298,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-16 15:34 UTC",
+        "content": "\ud83d\udfe0 New AmnesiaStealer steals info from macOS users and lets attackers control browsers via ClickFix. via BleepingComputer #Malware #macOS",
+        "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
