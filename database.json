@@ -4358,5 +4358,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-17 10:46 UTC",
+        "content": "\ud83d\udd34 China\u2011linked APT exploited a patched VMware vCenter flaw (CVE\u20112026\u201159310) to drop Babuk\u2011derived ransomware, targeting enterprises worldwide via The Hacker News #VMware #Ransomware",
+        "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+        "cve": "CVE-2026-59310",
+        "kev": false,
+        "epss": 0.0114,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]

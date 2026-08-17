@@ -690,5 +690,26 @@
     "epss": 0.01626,
     "risk_score": 42,
     "risk_band": "medium"
+  },
+  "CVE-2026-59310": {
+    "first_seen": "2026-08-17 10:46 UTC",
+    "product": "Broadcom VMware vCenter",
+    "status_timeline": [
+      {
+        "date": "2026-08-17 10:46 UTC",
+        "status": "disclosed",
+        "summary": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+        "source_url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
+    ],
+    "last_updated": "2026-08-17 10:46 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.0114,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }

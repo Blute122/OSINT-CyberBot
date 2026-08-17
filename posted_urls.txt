@@ -706,3 +706,5 @@ https://isc.sans.edu/diary/rss/33250
 https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/
 https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
 https://www.securityweek.com/40000-impacted-by-safepal-data-breach/
+https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html
+https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html

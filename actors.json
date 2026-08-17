@@ -1134,5 +1134,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
       }
     ]
+  },
+  "china\u2011linked apt": {
+    "aliases": [
+      "China\u2011linked APT"
+    ],
+    "first_seen": "2026-08-17 10:46 UTC",
+    "campaigns": [
+      {
+        "target": "Broadcom VMware vCenter",
+        "date": "2026-08-17 10:46 UTC",
+        "summary": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+        "source_url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
+      }
+    ]
   }
 }
