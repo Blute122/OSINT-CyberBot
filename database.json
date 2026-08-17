@@ -4378,5 +4378,15 @@
         "epss": 0.00726,
         "risk_score": 45,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-17 13:04 UTC",
+        "content": "\ud83d\udfe0 Unisoc VoLTE video call exploit gives attackers full Android kernel access on devices with Unisoc firmware. Security researchers warn no fix yet. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
