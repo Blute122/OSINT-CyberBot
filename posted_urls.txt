@@ -704,3 +704,4 @@ https://isc.sans.edu/diary/rss/33248
 https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/
 https://isc.sans.edu/diary/rss/33250
 https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/
+https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
