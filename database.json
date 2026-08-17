@@ -4348,5 +4348,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-17 09:55 UTC",
+        "content": "\ud83d\udfe0 Hackers exploited a flaw in SafePal\u2019s order\u2011tracking plugin, exposing 40,000 customer records. SafePal affected. via SecurityWeek #DataBreach #Cybersecurity",
+        "url": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

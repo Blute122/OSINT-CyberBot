@@ -705,3 +705,4 @@ https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-79
 https://isc.sans.edu/diary/rss/33250
 https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/
 https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
+https://www.securityweek.com/40000-impacted-by-safepal-data-breach/
