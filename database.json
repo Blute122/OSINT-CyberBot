@@ -4328,5 +4328,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-17 07:13 UTC",
+        "content": "\ud83d\udfe0 Fortune 500 firms including McDonald\u2019s, TCS and Vodafone hit by a data\u2011theft attack that stole millions of records. via SecurityWeek #DataBreach #Azure",
+        "url": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
