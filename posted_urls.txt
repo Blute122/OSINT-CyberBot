@@ -702,3 +702,4 @@ https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupte
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/
 https://isc.sans.edu/diary/rss/33248
 https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/
+https://isc.sans.edu/diary/rss/33250
