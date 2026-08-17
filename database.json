@@ -4368,5 +4368,15 @@
         "epss": 0.0114,
         "risk_score": 45,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-17 11:37 UTC",
+        "content": "\ud83d\udd34 SAP Commerce Cloud hit by CVE-2026-58231 (CVSS: 10.0/10) [EPSS: 0.7%] exploit, allowing arbitrary code execution and internal compromise. via SecurityWeek #SAP #CyberSecurity",
+        "url": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+        "cve": "CVE-2026-58231",
+        "kev": false,
+        "epss": 0.00726,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]

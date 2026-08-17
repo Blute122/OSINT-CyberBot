@@ -711,5 +711,26 @@
     "epss": 0.0114,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-58231": {
+    "first_seen": "2026-08-17 11:37 UTC",
+    "product": "SAP Commerce Cloud",
+    "status_timeline": [
+      {
+        "date": "2026-08-17 11:37 UTC",
+        "status": "disclosed",
+        "summary": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
+        "source_url": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/"
+    ],
+    "last_updated": "2026-08-17 11:37 UTC",
+    "cvss": 10.0,
+    "kev": false,
+    "epss": 0.00726,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }

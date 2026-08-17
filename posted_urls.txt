@@ -708,3 +708,5 @@ https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited
 https://www.securityweek.com/40000-impacted-by-safepal-data-breach/
 https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html
 https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html
+https://www.securityweek.com/conflicting-test-goals-pushed-claude-agents-to-deploy-self-replicating-malware/
+https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
