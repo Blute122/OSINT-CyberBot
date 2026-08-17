@@ -4318,5 +4318,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-17 01:53 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 SafePal data breach: 39,798 customers hit; stolen order info now for sale by an attacker. Users risk having personal data exposed. via BleepingComputer #SafePal #DataBreach",
+        "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
