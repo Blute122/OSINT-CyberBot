@@ -4448,5 +4448,15 @@
         "epss": null,
         "risk_score": 44,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-18 13:05 UTC",
+        "content": "\ud83d\udd34 TWINLOOT hijacks Microsoft SharePoint and Teams to steal credentials and spread inside networks. Enterprises using these services are at risk via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
