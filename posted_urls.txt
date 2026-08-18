@@ -722,3 +722,4 @@ https://isc.sans.edu/diary/rss/33256
 https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/
 https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
 https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/
+https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html

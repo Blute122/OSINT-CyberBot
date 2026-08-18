@@ -4418,5 +4418,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-18 09:47 UTC",
+        "content": "\ud83d\udfe0 SafePal\u2019s order\u2011tracking plug\u2011in flaw exposed personal data of ~40k customers. Users affected. via The Hacker News #DataBreach #SafePal",
+        "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
