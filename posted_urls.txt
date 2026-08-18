@@ -723,3 +723,4 @@ https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh
 https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
 https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/
 https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html
+https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/
