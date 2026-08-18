@@ -720,3 +720,4 @@ https://cyberscoop.com/irregular-ai-sandbox-escape-human-oversight/
 https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
 https://isc.sans.edu/diary/rss/33256
 https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/
+https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
