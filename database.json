@@ -4438,5 +4438,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-18 11:37 UTC",
+        "content": "\ud83d\udd34 WordPress sites hit by CVE-2026-15748 (CVSS: 9.8/10) flaw that lets attackers upload malicious files without login. Thousands of sites at risk. via SecurityWeek #WordPress #cybersecurity",
+        "url": "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
+        "cve": "CVE-2026-15748",
+        "kev": false,
+        "epss": null,
+        "risk_score": 44,
+        "risk_band": "medium"
     }
 ]

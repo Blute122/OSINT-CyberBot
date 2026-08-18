@@ -753,5 +753,26 @@
     "epss": null,
     "risk_score": 43,
     "risk_band": "medium"
+  },
+  "CVE-2026-15748": {
+    "first_seen": "2026-08-18 11:37 UTC",
+    "product": "WordPress sites using the vulnerable Form plugin",
+    "status_timeline": [
+      {
+        "date": "2026-08-18 11:37 UTC",
+        "status": "disclosed",
+        "summary": "300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw",
+        "source_url": "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/"
+    ],
+    "last_updated": "2026-08-18 11:37 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": null,
+    "risk_score": 44,
+    "risk_band": "medium"
   }
 }
