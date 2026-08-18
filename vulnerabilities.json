@@ -732,5 +732,26 @@
     "epss": 0.00726,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-19478": {
+    "first_seen": "2026-08-18 01:48 UTC",
+    "product": "GitLab Community Edition and Enterprise Edition",
+    "status_timeline": [
+      {
+        "date": "2026-08-18 01:48 UTC",
+        "status": "disclosed",
+        "summary": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+        "source_url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html"
+    ],
+    "last_updated": "2026-08-18 01:48 UTC",
+    "cvss": 9.4,
+    "kev": false,
+    "epss": null,
+    "risk_score": 43,
+    "risk_band": "medium"
   }
 }
