@@ -718,3 +718,4 @@ https://isc.sans.edu/diary/rss/33254
 https://cyberscoop.com/blackfile-cyberattacks-financial-sector/
 https://cyberscoop.com/irregular-ai-sandbox-escape-human-oversight/
 https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
+https://isc.sans.edu/diary/rss/33256
