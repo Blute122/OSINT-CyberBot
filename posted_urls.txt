@@ -734,3 +734,5 @@ https://isc.sans.edu/diary/rss/33258
 https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
 https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
 https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/
+https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/
+https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html

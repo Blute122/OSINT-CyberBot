@@ -4488,5 +4488,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-19 09:47 UTC",
+        "content": "\ud83d\udfe0 MacSync Stealer spreads across 30+ rotating domains, hijacking macOS devices and stealing data. via The Hacker News #MacSecurity #Malware",
+        "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
