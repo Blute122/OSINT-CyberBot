@@ -727,3 +727,6 @@ https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-mi
 https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/
 https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
 https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html
+https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/
+https://cyberscoop.com/mabna-institute-iranian-hackers-indictment/
+https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack

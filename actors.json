@@ -1162,5 +1162,19 @@
         "source_url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html"
       }
     ]
+  },
+  "china-linked hacker": {
+    "aliases": [
+      "China-linked hacker"
+    ],
+    "first_seen": "2026-08-19 01:51 UTC",
+    "campaigns": [
+      {
+        "target": "Taiwanese government agencies",
+        "date": "2026-08-19 01:51 UTC",
+        "summary": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
+        "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack"
+      }
+    ]
   }
 }
