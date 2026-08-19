@@ -730,3 +730,5 @@ https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html
 https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/
 https://cyberscoop.com/mabna-institute-iranian-hackers-indictment/
 https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack
+https://isc.sans.edu/diary/rss/33258
+https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
