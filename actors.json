@@ -1176,5 +1176,19 @@
         "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack"
       }
     ]
+  },
+  "medusa": {
+    "aliases": [
+      "Medusa"
+    ],
+    "first_seen": "2026-08-19 08:52 UTC",
+    "campaigns": [
+      {
+        "target": "U.S. critical infrastructure organizations",
+        "date": "2026-08-19 08:52 UTC",
+        "summary": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+        "source_url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/"
+      }
+    ]
   }
 }

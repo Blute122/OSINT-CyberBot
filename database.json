@@ -4478,5 +4478,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-19 08:52 UTC",
+        "content": "\ud83d\udd34 Medusa ransomware has breached over 500 U.S. critical infrastructure organizations since June 2021, impacting essential services. via BleepingComputer #cybersecurity #ransomware",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
