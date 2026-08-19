@@ -742,3 +742,8 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-caus
 https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/
 https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/
 https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/
+https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html
+https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/
+https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/
+https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/
