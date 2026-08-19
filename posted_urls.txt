@@ -738,3 +738,7 @@ https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-rea
 https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html
 https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
 https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/
+https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/
+https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/
+https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/

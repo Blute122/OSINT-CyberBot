@@ -4508,5 +4508,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-19 11:36 UTC",
+        "content": "\ud83d\udd34 Critical vulnerabilities in Microsoft, VMware, and Apple products were actively exploited for remote code execution. Immediate patching is essential. via SecurityWeek",
+        "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
