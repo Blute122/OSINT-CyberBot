@@ -732,3 +732,4 @@ https://cyberscoop.com/mabna-institute-iranian-hackers-indictment/
 https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack
 https://isc.sans.edu/diary/rss/33258
 https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
+https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
