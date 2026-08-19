@@ -4498,5 +4498,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-19 10:44 UTC",
+        "content": "\ud83d\udd34 Critical RCE flaw in Windows IKE Extension is now actively exploited. Windows systems are at risk as attackers can run code remotely. via BleepingComputer #cybersecurity #Windows",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

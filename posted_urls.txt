@@ -736,3 +736,5 @@ https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-i
 https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/
 https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html
+https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
+https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/
