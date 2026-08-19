@@ -1190,5 +1190,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/"
       }
     ]
+  },
+  "operation cameraswarm": {
+    "aliases": [
+      "Operation CameraSwarm"
+    ],
+    "first_seen": "2026-08-19 13:55 UTC",
+    "campaigns": [
+      {
+        "target": "Dahua security cameras",
+        "date": "2026-08-19 13:55 UTC",
+        "summary": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+        "source_url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html"
+      }
+    ]
   }
 }

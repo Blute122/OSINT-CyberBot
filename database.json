@@ -4518,5 +4518,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-19 13:55 UTC",
+        "content": "\ud83d\udfe0 14,500+ Dahua cameras hijacked via credential stuffing, two auth-bypass flaws and a P2P relay. Attackers used a leaked directory to exploit devices. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

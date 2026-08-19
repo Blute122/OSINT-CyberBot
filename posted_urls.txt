@@ -747,3 +747,6 @@ https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
 https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/
 https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/
 https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/
+https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/
+https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
+https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
