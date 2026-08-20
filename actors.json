@@ -1218,5 +1218,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/"
       }
     ]
+  },
+  "uat-10147": {
+    "aliases": [
+      "UAT-10147"
+    ],
+    "first_seen": "2026-08-20 10:44 UTC",
+    "campaigns": [
+      {
+        "target": "vulnerable web servers",
+        "date": "2026-08-20 10:44 UTC",
+        "summary": "UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise operations",
+        "source_url": "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/"
+      }
+    ]
   }
 }

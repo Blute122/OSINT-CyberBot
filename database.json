@@ -4578,5 +4578,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-20 10:44 UTC",
+        "content": "\ud83d\udfe0 Chinese cybercrime group UAT\u201110147 is using AI to exploit vulnerable web servers and spread BadIIS malware. Enterprise web apps at risk. via Cisco Talos",
+        "url": "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
