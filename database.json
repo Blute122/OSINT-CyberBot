@@ -4558,5 +4558,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-20 08:53 UTC",
+        "content": "\ud83d\udd34 Citrix NetScaler authentication bypass flaw allows remote unauthenticated attackers to gain control without user interaction. Targeting enterprise environments via SecurityWeek #Citrix #CyberSecurity",
+        "url": "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
