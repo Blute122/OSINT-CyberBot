@@ -4548,5 +4548,15 @@
         "epss": null,
         "risk_score": 42,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-20 07:54 UTC",
+        "content": "\ud83d\udfe0 Hackers are using AI to target Siemens PLCs in critical US sectors. The move threatens industrial control systems and national infrastructure. via SecurityWeek #IndustrialControl",
+        "url": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -755,3 +755,5 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-ch
 https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/
 https://isc.sans.edu/diary/rss/33262
 https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/
+https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/
