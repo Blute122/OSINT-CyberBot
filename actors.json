@@ -1232,5 +1232,19 @@
         "source_url": "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/"
       }
     ]
+  },
+  "toxicpanda": {
+    "aliases": [
+      "ToxicPanda"
+    ],
+    "first_seen": "2026-08-20 11:38 UTC",
+    "campaigns": [
+      {
+        "target": "Android banking and crypto apps",
+        "date": "2026-08-20 11:38 UTC",
+        "summary": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+        "source_url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html"
+      }
+    ]
   }
 }

@@ -4588,5 +4588,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-20 11:38 UTC",
+        "content": "\ud83d\udfe0 ToxicPanda 2.0, a new Android banking malware, now harvests PINs from 140+ apps worldwide. It expands fraud tools and remote commands. via The Hacker News #Android #BankingMalware",
+        "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

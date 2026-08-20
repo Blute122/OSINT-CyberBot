@@ -761,3 +761,5 @@ https://www.securityweek.com/exploitation-expected-for-critical-authentication-b
 https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/
 https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
 https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
+https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html
+https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html
