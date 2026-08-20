@@ -1204,5 +1204,19 @@
         "source_url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html"
       }
     ]
+  },
+  "ransom busters": {
+    "aliases": [
+      "Ransom Busters"
+    ],
+    "first_seen": "2026-08-20 01:49 UTC",
+    "campaigns": [
+      {
+        "target": "Victims targeted by ransomware attacks",
+        "date": "2026-08-20 01:49 UTC",
+        "summary": "Rogue ransomware affiliate poses as recovery firm to steal payments",
+        "source_url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/"
+      }
+    ]
   }
 }

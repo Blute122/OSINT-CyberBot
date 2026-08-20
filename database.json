@@ -4528,5 +4528,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-20 01:49 UTC",
+        "content": "\ud83d\udfe0 A rogue ransomware affiliate is posing as a recovery firm to trick victims into paying for fake decryption and data deletion services. via BleepingComputer #ransomware #cybercrime",
+        "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
