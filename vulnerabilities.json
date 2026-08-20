@@ -774,5 +774,26 @@
     "epss": null,
     "risk_score": 44,
     "risk_band": "medium"
+  },
+  "CVE-2026-32475": {
+    "first_seen": "2026-08-20 07:04 UTC",
+    "product": "Elementor Pro",
+    "status_timeline": [
+      {
+        "date": "2026-08-20 07:04 UTC",
+        "status": "disclosed",
+        "summary": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+        "source_url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html"
+    ],
+    "last_updated": "2026-08-20 07:04 UTC",
+    "cvss": 9.0,
+    "kev": false,
+    "epss": null,
+    "risk_score": 41,
+    "risk_band": "medium"
   }
 }

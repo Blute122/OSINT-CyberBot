@@ -4538,5 +4538,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-20 07:04 UTC",
+        "content": "\ud83d\udd34 Critical flaw in Elementor Pro allows unauthenticated attackers to upload PHP and execute code. Millions of WordPress sites at risk. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+        "cve": "CVE-2026-32475",
+        "kev": false,
+        "epss": null,
+        "risk_score": 42,
+        "risk_band": "medium"
     }
 ]
