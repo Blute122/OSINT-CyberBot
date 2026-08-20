@@ -753,3 +753,4 @@ https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
 https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/
 https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/
+https://isc.sans.edu/diary/rss/33262
