@@ -4658,5 +4658,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-21 13:08 UTC",
+        "content": "\ud83d\udd34 Critical V8 isolated\u2011vm bug lets attackers hijack host via sandbox escape, causing remote code execution. Affected: Chrome, Node.js. via SecurityWeek",
+        "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

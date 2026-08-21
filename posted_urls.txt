@@ -777,3 +777,5 @@ https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/
 https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
 https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/
 https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html
+https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html
+https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
