@@ -4618,5 +4618,15 @@
         "epss": null,
         "risk_score": 45,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-21 07:54 UTC",
+        "content": "\ud83d\udfe0 TrueConf software exposed to exploited bugs that enable the Head Mare group to deploy PhantomCore malware. Major threat to businesses. via SecurityWeek #cybersecurity #TrueConf",
+        "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

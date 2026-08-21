@@ -770,3 +770,4 @@ https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
 https://isc.sans.edu/diary/rss/33272
 https://isc.sans.edu/diary/rss/33270
 https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/

@@ -1246,5 +1246,19 @@
         "source_url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html"
       }
     ]
+  },
+  "head mare": {
+    "aliases": [
+      "Head Mare"
+    ],
+    "first_seen": "2026-08-21 07:54 UTC",
+    "campaigns": [
+      {
+        "target": "TrueConf",
+        "date": "2026-08-21 07:54 UTC",
+        "summary": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
+        "source_url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
+      }
+    ]
   }
 }
