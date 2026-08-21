@@ -373,6 +373,12 @@
         "date": "2026-07-04 12:16 UTC",
         "summary": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
         "source_url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
+      },
+      {
+        "target": "Rust arrayref crate",
+        "date": "2026-08-21 09:50 UTC",
+        "summary": "Rust Supply Chain Attack Linked to North Korean Hackers",
+        "source_url": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/"
       }
     ]
   },

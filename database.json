@@ -4628,5 +4628,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-21 09:50 UTC",
+        "content": "\ud83d\udd34 North Korean hackers poisoned the Rust package arrayref to deliver a malicious payload. Developers using it are at risk via SecurityWeek",
+        "url": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
