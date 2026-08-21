@@ -4648,5 +4648,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-21 11:37 UTC",
+        "content": "\ud83d\udd34 Cisco exposed critical flaws in Crosswork Data Gateway, Network Controller and Planning. Attackers could exploit zero\u2011day vulnerabilities to hijack systems. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
