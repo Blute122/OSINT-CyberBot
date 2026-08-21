@@ -795,5 +795,26 @@
     "epss": null,
     "risk_score": 41,
     "risk_band": "medium"
+  },
+  "CVE-2026-69836": {
+    "first_seen": "2026-08-21 07:05 UTC",
+    "product": "Microsoft Entra ID",
+    "status_timeline": [
+      {
+        "date": "2026-08-21 07:05 UTC",
+        "status": "disclosed",
+        "summary": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+        "source_url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+    ],
+    "last_updated": "2026-08-21 07:05 UTC",
+    "cvss": 10.0,
+    "kev": false,
+    "epss": null,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }

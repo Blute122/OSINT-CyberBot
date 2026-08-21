@@ -4608,5 +4608,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-21 07:05 UTC",
+        "content": "\ud83d\udd34 Microsoft Entra ID suffers critical RCE flaw CVE-2026-69836 (CVSS: 10.0/10) exploited in the wild; attackers can take full control of affected services. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+        "cve": "CVE-2026-69836",
+        "kev": false,
+        "epss": null,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]
