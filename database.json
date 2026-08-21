@@ -4598,5 +4598,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-21 01:55 UTC",
+        "content": "\ud83d\udfe0 Rust crates were hijacked to inject build\u2011time malware via a typosquatted dependency. Developers using these libraries are affected. via The Hacker News #RustSecurity #SupplyChain",
+        "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -763,3 +763,7 @@ https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-im
 https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
 https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html
 https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html
+https://isc.sans.edu/diary/rss/33268
+https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall
+https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network
+https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
