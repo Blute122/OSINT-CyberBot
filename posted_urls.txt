@@ -767,3 +767,5 @@ https://isc.sans.edu/diary/rss/33268
 https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall
 https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network
 https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
+https://isc.sans.edu/diary/rss/33272
+https://isc.sans.edu/diary/rss/33270
