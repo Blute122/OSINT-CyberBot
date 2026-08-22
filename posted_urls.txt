@@ -784,3 +784,4 @@ https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in
 https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/
 https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/
 https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
+https://cyberscoop.com/postal-service-finalizes-mail-in-ballot-rules-before-scotus-ruling/
