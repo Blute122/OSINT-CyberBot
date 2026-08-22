@@ -779,3 +779,4 @@ https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-empl
 https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html
 https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html
 https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+https://unit42.paloaltonetworks.com/sdlc-supply-chain/
