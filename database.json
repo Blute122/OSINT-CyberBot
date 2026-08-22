@@ -4668,5 +4668,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-22 08:45 UTC",
+        "content": "\ud83d\udfe0 Banking trojans Manic, Grandoreiro and ToxicPanda 2.0 target financial apps, stealing credentials and money via malware. via SecurityWeek #BankingTrojan #Cybersecurity",
+        "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

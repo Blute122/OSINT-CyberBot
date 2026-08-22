@@ -1266,5 +1266,19 @@
         "source_url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
       }
     ]
+  },
+  "manic, grandoreiro, toxicpanda 2.0": {
+    "aliases": [
+      "Manic, Grandoreiro, ToxicPanda 2.0"
+    ],
+    "first_seen": "2026-08-22 08:45 UTC",
+    "campaigns": [
+      {
+        "target": "Banking apps and financial institutions",
+        "date": "2026-08-22 08:45 UTC",
+        "summary": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
+        "source_url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/"
+      }
+    ]
   }
 }
