@@ -4678,5 +4678,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-22 14:35 UTC",
+        "content": "\ud83d\udfe0 Hackers spread botnet malware via legitimate update app on Android car head units, turning them into proxies for fraud. Targeting millions of vehicles. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
