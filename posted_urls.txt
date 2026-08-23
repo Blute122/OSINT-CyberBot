@@ -785,3 +785,4 @@ https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing
 https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/
 https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
 https://cyberscoop.com/postal-service-finalizes-mail-in-ballot-rules-before-scotus-ruling/
+https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
