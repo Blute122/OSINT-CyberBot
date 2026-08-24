@@ -802,3 +802,6 @@ https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-ove
 https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/
 https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
 https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html
+https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-problem/
+https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/
+https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/

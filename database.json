@@ -4728,5 +4728,15 @@
         "epss": 0.00391,
         "risk_score": 42,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-24 14:00 UTC",
+        "content": "\ud83d\udfe0 Data breach at a South Korean startup platform exposed encrypted personal data when an encryption key was mistakenly included in an API. This puts users\u2019 info at risk via BleepingComputer #cybersecurity #dataexposure",
+        "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
