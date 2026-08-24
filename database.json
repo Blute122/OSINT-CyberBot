@@ -4688,5 +4688,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-24 09:02 UTC",
+        "content": "\ud83d\udfe0 Chinese-speaking UAT-10147 group deployed SPECTRE rootkit and bypassed EDR on Windows and Linux servers worldwide. Education, media and tech sites hit. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

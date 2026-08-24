@@ -1236,6 +1236,12 @@
         "date": "2026-08-20 10:44 UTC",
         "summary": "UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise operations",
         "source_url": "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/"
+      },
+      {
+        "target": "Windows and Linux web servers",
+        "date": "2026-08-24 09:02 UTC",
+        "summary": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+        "source_url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
       }
     ]
   },

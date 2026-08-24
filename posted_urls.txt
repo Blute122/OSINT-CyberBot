@@ -787,3 +787,4 @@ https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
 https://cyberscoop.com/postal-service-finalizes-mail-in-ballot-rules-before-scotus-ruling/
 https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
 https://isc.sans.edu/diary/rss/33276
+https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
