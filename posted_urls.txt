@@ -788,3 +788,5 @@ https://cyberscoop.com/postal-service-finalizes-mail-in-ballot-rules-before-scot
 https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
 https://isc.sans.edu/diary/rss/33276
 https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
+https://www.securityweek.com/rethinking-application-security-for-the-ai-era/
+https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/

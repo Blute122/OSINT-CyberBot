@@ -1286,5 +1286,19 @@
         "source_url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/"
       }
     ]
+  },
+  "iran-linked hackers": {
+    "aliases": [
+      "Iran-linked hackers"
+    ],
+    "first_seen": "2026-08-24 10:01 UTC",
+    "campaigns": [
+      {
+        "target": "UK power plant",
+        "date": "2026-08-24 10:01 UTC",
+        "summary": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days",
+        "source_url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/"
+      }
+    ]
   }
 }

@@ -4698,5 +4698,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-24 10:01 UTC",
+        "content": "\ud83d\udfe0 UK power plant was shut down for four days by Iran\u2011linked hackers, disrupting energy supply and showing vulnerability in Britain\u2019s grid. via SecurityWeek #cyberattack #energy",
+        "url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
