@@ -4748,5 +4748,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-24 15:53 UTC",
+        "content": "\ud83d\udfe0 Social engineering attack stole credentials from a ReliaQuest employee. ShinyHunters impersonated a security team member to gain access. via BleepingComputer #cybersecurity #phishing",
+        "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

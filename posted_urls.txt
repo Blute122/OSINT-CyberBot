@@ -806,3 +806,6 @@ https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-
 https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/
 https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/
 https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html
+https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
+https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
+https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/

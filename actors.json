@@ -768,6 +768,12 @@
         "date": "2026-08-14 11:54 UTC",
         "summary": "RingCentral data breach exposed info of 1.6 million accounts",
         "source_url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
+      },
+      {
+        "target": "ReliaQuest employee",
+        "date": "2026-08-24 15:53 UTC",
+        "summary": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+        "source_url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
       }
     ]
   },
