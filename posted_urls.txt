@@ -792,3 +792,8 @@ https://www.securityweek.com/rethinking-application-security-for-the-ai-era/
 https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/
 https://isc.sans.edu/diary/rss/33274
 https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/
+https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting/
+https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
+https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/
+https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/
