@@ -797,3 +797,8 @@ https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-
 https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
 https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/
 https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/
+https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-over-automated-suspensions-of-driver-accounts/
+https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/
+https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
+https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html

@@ -816,5 +816,26 @@
     "epss": null,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-18963": {
+    "first_seen": "2026-08-24 13:10 UTC",
+    "product": "Keycloak",
+    "status_timeline": [
+      {
+        "date": "2026-08-24 13:10 UTC",
+        "status": "disclosed",
+        "summary": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+        "source_url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
+    ],
+    "last_updated": "2026-08-24 13:10 UTC",
+    "cvss": 9.1,
+    "kev": false,
+    "epss": 0.00391,
+    "risk_score": 42,
+    "risk_band": "medium"
   }
 }
