@@ -790,3 +790,5 @@ https://isc.sans.edu/diary/rss/33276
 https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
 https://www.securityweek.com/rethinking-application-security-for-the-ai-era/
 https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/
+https://isc.sans.edu/diary/rss/33274
+https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/

@@ -4708,5 +4708,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-24 10:51 UTC",
+        "content": "\ud83d\udd34 Zimbra Collaboration Suite vulnerable to active exploitation; U.S. agencies must patch within 3 days to prevent data breach. via BleepingComputer #cybersecurity #Zimbra",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
