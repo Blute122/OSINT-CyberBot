@@ -4738,5 +4738,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-24 14:57 UTC",
+        "content": "\ud83d\udfe0 WordlistLoader malware delivers Amatera Stealer via ClickFix campaigns targeting Windows users. Attackers gain credential theft. via The Hacker News #cybersecurity #malware",
+        "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
