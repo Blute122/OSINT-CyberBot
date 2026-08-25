@@ -820,3 +820,5 @@ https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
 https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
 https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders/
 https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/
+https://www.securityweek.com/first-malware-built-specifically-for-car-head-units-fuels-botnet/

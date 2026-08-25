@@ -4798,5 +4798,15 @@
         "epss": 0.00264,
         "risk_score": 38,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-25 11:40 UTC",
+        "content": "\ud83d\udfe0 Malware designed for car head units infects millions of vehicles, creating a botnet that can hijack vehicle controls via compromised infotainment systems. via SecurityWeek #IoTSecurity #Automotive",
+        "url": "https://www.securityweek.com/first-malware-built-specifically-for-car-head-units-fuels-botnet/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
