@@ -817,3 +817,6 @@ https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
 https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
 https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/
 https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
+https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
+https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders/
+https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
