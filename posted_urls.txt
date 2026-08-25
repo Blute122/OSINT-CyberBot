@@ -815,3 +815,5 @@ https://isc.sans.edu/diary/rss/33278
 https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
 https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
 https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
+https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/
+https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
