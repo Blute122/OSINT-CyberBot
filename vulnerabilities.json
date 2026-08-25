@@ -837,5 +837,26 @@
     "epss": 0.00391,
     "risk_score": 42,
     "risk_band": "medium"
+  },
+  "CVE-2026-73570": {
+    "first_seen": "2026-08-25 03:10 UTC",
+    "product": "Zimbra email server",
+    "status_timeline": [
+      {
+        "date": "2026-08-25 03:10 UTC",
+        "status": "actively_exploited",
+        "summary": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+        "source_url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch"
+      }
+    ],
+    "related_posts": [
+      "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch"
+    ],
+    "last_updated": "2026-08-25 03:10 UTC",
+    "cvss": 8.9,
+    "kev": true,
+    "epss": 0.01506,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }
