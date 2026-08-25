@@ -813,3 +813,4 @@ https://cyberscoop.com/supreme-court-ruling-usps-mail-in-ballots/
 https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/
 https://isc.sans.edu/diary/rss/33278
 https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
