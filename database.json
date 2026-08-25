@@ -4778,5 +4778,15 @@
         "epss": 0.01506,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-08-25 07:56 UTC",
+        "content": "\ud83d\udd34 \ud83d\udfe0 High: Oracle WebLogic servers hit by CVE-2026-21962 (CVSS: 10.0/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 43.2%] exploit, threatening many enterprises. via SecurityWeek #Oracle #WebLogic",
+        "url": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+        "cve": "CVE-2026-21962",
+        "kev": true,
+        "epss": 0.4323,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

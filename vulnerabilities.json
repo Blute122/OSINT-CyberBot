@@ -858,5 +858,26 @@
     "epss": 0.01506,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-21962": {
+    "first_seen": "2026-08-25 07:56 UTC",
+    "product": "Oracle WebLogic servers",
+    "status_timeline": [
+      {
+        "date": "2026-08-25 07:56 UTC",
+        "status": "actively_exploited",
+        "summary": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+        "source_url": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/"
+    ],
+    "last_updated": "2026-08-25 07:56 UTC",
+    "cvss": 10.0,
+    "kev": true,
+    "epss": 0.4323,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }
