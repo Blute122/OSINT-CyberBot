@@ -4818,5 +4818,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-25 14:01 UTC",
+        "content": "\ud83d\udfe0 High: Hackers used a remote code execution flaw to breach 270+ Zimbra servers, compromising mail data. Zimbra Collaboration Suite affected. via BleepingComputer #cybersecurity #Zimbra",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
