@@ -4758,5 +4758,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-25 01:50 UTC",
+        "content": "\ud83d\udfe0 Unpatched Calix router flaw lets remote attackers set port forwards, exposing home devices to the internet. U.S. broadband customers are at risk via BleepingComputer #RouterSecurity #CyberRisk",
+        "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

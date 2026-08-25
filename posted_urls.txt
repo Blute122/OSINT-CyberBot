@@ -809,3 +809,5 @@ https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html
 https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
 https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
 https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
+https://cyberscoop.com/supreme-court-ruling-usps-mail-in-ballots/
+https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/
