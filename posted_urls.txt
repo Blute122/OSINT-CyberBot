@@ -822,3 +822,6 @@ https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defen
 https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
 https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/
 https://www.securityweek.com/first-malware-built-specifically-for-car-head-units-fuels-botnet/
+https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/
+https://www.securityweek.com/hands-on-cyber-physical-systems-training-returns-to-ics-cybersecurity-conference/
+https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html

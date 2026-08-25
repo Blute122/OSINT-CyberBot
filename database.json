@@ -4808,5 +4808,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-25 13:09 UTC",
+        "content": "\ud83d\udfe0 Mirage2FA phishing kit tricks Microsoft 365 logins and bypasses 2FA, impacting 4,500+ US and EU companies via The Hacker News #Phishing #Microsoft365",
+        "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

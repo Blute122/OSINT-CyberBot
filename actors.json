@@ -1306,5 +1306,19 @@
         "source_url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/"
       }
     ]
+  },
+  "mirage2fa": {
+    "aliases": [
+      "Mirage2FA"
+    ],
+    "first_seen": "2026-08-25 13:08 UTC",
+    "campaigns": [
+      {
+        "target": "Microsoft 365",
+        "date": "2026-08-25 13:08 UTC",
+        "summary": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+        "source_url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html"
+      }
+    ]
   }
 }
