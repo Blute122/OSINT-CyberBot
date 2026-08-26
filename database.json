@@ -4888,5 +4888,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-26 11:42 UTC",
+        "content": "\ud83d\udd34 Attackers exploit critical Gitea flaw for code injection, targeting self-hosted Git services. via BleepingComputer #cybersecurity #Gitea",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

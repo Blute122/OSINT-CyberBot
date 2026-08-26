@@ -842,3 +842,8 @@ https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyb
 https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/
 https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
 https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html
+https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html
+https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requirements-to-select-models-for-your-ai-soc/
+https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks/
+https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/
+https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/
