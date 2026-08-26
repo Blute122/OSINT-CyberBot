@@ -900,5 +900,26 @@
     "epss": 0.00264,
     "risk_score": 38,
     "risk_band": "medium"
+  },
+  "CVE-2026-60004": {
+    "first_seen": "2026-08-26 05:48 UTC",
+    "product": "Gitea",
+    "status_timeline": [
+      {
+        "date": "2026-08-26 05:48 UTC",
+        "status": "actively_exploited",
+        "summary": "CISA Warns of Exploited Gitea Vulnerability",
+        "source_url": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/"
+    ],
+    "last_updated": "2026-08-26 05:48 UTC",
+    "cvss": "N/A",
+    "kev": true,
+    "epss": null,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }
