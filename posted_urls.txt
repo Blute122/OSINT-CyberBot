@@ -828,3 +828,5 @@ https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/
 https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/
 https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
+https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/
+https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/

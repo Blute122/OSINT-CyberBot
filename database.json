@@ -4828,5 +4828,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-26 01:56 UTC",
+        "content": "\ud83d\udfe1 LACMA data breach exposed customer and employee info, including SSNs and medical data. via BleepingComputer #DataBreach #LACMA",
+        "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
