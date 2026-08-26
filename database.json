@@ -4838,5 +4838,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-26 03:16 UTC",
+        "content": "\ud83d\udfe0 Hackers are abusing npm mirrors to host malicious pages that fake Cloudflare CAPTCHAs and redirect users to attacker sites via the npm registry. via BleepingComputer #phishing #npm",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

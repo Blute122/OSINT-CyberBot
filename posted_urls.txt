@@ -830,3 +830,5 @@ https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-v
 https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
 https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/
 https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
+https://isc.sans.edu/diary/rss/33282
+https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/
