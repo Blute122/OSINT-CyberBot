@@ -837,3 +837,7 @@ https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
 https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html
 https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html
 https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html
+https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure
+https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security
+https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/
+https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
