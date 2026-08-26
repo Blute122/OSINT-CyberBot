@@ -833,3 +833,5 @@ https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-expos
 https://isc.sans.edu/diary/rss/33282
 https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/
 https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
+https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html

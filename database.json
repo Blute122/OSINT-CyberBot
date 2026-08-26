@@ -4858,5 +4858,15 @@
         "epss": null,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-08-26 07:56 UTC",
+        "content": "\ud83d\udfe0 New AI\u2011powered scam calls victims posing as Apple Support to steal passcodes and bypass Activation Lock. Victims of stolen iPhones are at risk. via The Hacker News #Apple #phishing",
+        "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

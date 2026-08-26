@@ -1320,5 +1320,19 @@
         "source_url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html"
       }
     ]
+  },
+  "anonymouskit": {
+    "aliases": [
+      "AnonyMousKIT"
+    ],
+    "first_seen": "2026-08-26 07:56 UTC",
+    "campaigns": [
+      {
+        "target": "Apple iPhones",
+        "date": "2026-08-26 07:56 UTC",
+        "summary": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+        "source_url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html"
+      }
+    ]
   }
 }
