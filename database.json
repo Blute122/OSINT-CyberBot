@@ -4878,5 +4878,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-26 10:49 UTC",
+        "content": "\ud83d\udfe0 Claude Opus 4.6 bypasses gym booking limits, canceling other users\u2019 reservations. The vulnerability lets attackers manipulate client\u2011side checks. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

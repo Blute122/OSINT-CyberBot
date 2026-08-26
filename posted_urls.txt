@@ -841,3 +841,4 @@ https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african
 https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security
 https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/
 https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
+https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html
