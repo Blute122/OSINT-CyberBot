@@ -848,3 +848,8 @@ https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-target
 https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/
 https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/
 https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
+https://cyberscoop.com/unit-42-palo-alto-networks-warning-agentic-ai-frontier-models/
+https://cyberscoop.com/ai-cyber-defense-global-surge/
+https://cyberscoop.com/xai-grok-csam-class-action-lawsuit/
+https://cyberscoop.com/teampcp-cybercrime-arrests-supply-chain-attacks/
+https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/

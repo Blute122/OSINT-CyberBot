@@ -4908,5 +4908,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-27 20:28 UTC",
+        "content": "\ud83d\udd34 Zero\u2011day flaw in PaperCut NG and MF print software is being exploited, putting users at risk. via BleepingComputer #cybersecurity #PaperCut",
+        "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
