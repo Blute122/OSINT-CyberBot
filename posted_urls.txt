@@ -847,3 +847,4 @@ https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requi
 https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks/
 https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/
 https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/
+https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html

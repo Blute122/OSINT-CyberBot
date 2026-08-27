@@ -4898,5 +4898,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-27 09:40 UTC",
+        "content": "\ud83d\udd34 GPUThor Rowhammer attack defeats ECC on NVIDIA RTX A6000, giving attackers root shell. Via The Hacker News #GPUThor #CyberSecurity",
+        "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
