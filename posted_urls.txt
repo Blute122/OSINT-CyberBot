@@ -853,3 +853,4 @@ https://cyberscoop.com/ai-cyber-defense-global-surge/
 https://cyberscoop.com/xai-grok-csam-class-action-lawsuit/
 https://cyberscoop.com/teampcp-cybercrime-arrests-supply-chain-attacks/
 https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
+https://isc.sans.edu/diary/rss/33294
