@@ -4918,5 +4918,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-28 18:37 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Attackers exploit unauthenticated flaw in PaperCut NG and MF, allowing remote code execution on any open instance. via The Hacker News",
+        "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
