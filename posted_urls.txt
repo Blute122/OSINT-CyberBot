@@ -856,3 +856,5 @@ https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-expl
 https://isc.sans.edu/diary/rss/33294
 https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html
 https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/
+https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026
+https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026
