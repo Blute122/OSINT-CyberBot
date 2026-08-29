@@ -1334,5 +1334,19 @@
         "source_url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html"
       }
     ]
+  },
+  "qilin": {
+    "aliases": [
+      "Qilin"
+    ],
+    "first_seen": "2026-08-29 02:09 UTC",
+    "campaigns": [
+      {
+        "target": "ATF standalone system with investigation data",
+        "date": "2026-08-29 02:09 UTC",
+        "summary": "ATF confirms cyberattack hit system containing info on its investigation targets",
+        "source_url": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/"
+      }
+    ]
   }
 }

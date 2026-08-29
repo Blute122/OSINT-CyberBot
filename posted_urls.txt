@@ -855,3 +855,4 @@ https://cyberscoop.com/teampcp-cybercrime-arrests-supply-chain-attacks/
 https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
 https://isc.sans.edu/diary/rss/33294
 https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html
+https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/

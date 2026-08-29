@@ -4928,5 +4928,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-29 02:09 UTC",
+        "content": "\ud83d\udfe0 ATF system hit by ransomware group Qilin, affecting investigation data. via CyberScoop #CyberSecurity #Ransomware",
+        "url": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
