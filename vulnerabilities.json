@@ -921,5 +921,26 @@
     "epss": null,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-76581": {
+    "first_seen": "2026-08-29 18:26 UTC",
+    "product": "WordPress plugins WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP",
+    "status_timeline": [
+      {
+        "date": "2026-08-29 18:26 UTC",
+        "status": "disclosed",
+        "summary": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+        "source_url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html"
+    ],
+    "last_updated": "2026-08-29 18:26 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.00339,
+    "risk_score": 44,
+    "risk_band": "medium"
   }
 }
