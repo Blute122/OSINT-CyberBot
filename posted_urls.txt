@@ -862,3 +862,5 @@ https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-
 https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
 https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/
+https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html
+https://isc.sans.edu/diary/rss/33288
