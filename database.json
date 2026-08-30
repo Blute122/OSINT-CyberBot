@@ -4948,5 +4948,15 @@
         "epss": 0.00339,
         "risk_score": 44,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-08-30 17:26 UTC",
+        "content": "\ud83d\udfe0 Manchester Airports Group hit by hack; 86\u202fGB of passenger data stolen by FulcrumSec. Users' travel details exposed. Stay alert. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

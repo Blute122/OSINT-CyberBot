@@ -1348,5 +1348,19 @@
         "source_url": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/"
       }
     ]
+  },
+  "fulcrumsec": {
+    "aliases": [
+      "FulcrumSec"
+    ],
+    "first_seen": "2026-08-30 17:26 UTC",
+    "campaigns": [
+      {
+        "target": "Manchester Airports Group",
+        "date": "2026-08-30 17:26 UTC",
+        "summary": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+        "source_url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/"
+      }
+    ]
   }
 }
