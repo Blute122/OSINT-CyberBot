@@ -4978,5 +4978,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-31 23:48 UTC",
+        "content": "\ud83d\udfe0 A hacker hijacked an exposed LLM inference honeypot, using it to run a free coding\u2011agent session. The operator could access the honeypot\u2019s filesystem and tool list. via SANS ISC #cybersecurity #AI",
+        "url": "https://isc.sans.edu/diary/rss/33298",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
