@@ -4968,5 +4968,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-31 20:01 UTC",
+        "content": "\ud83d\udfe0 Kaspersky fixed a critical flaw in its Endpoint Security product that could let attackers bypass defenses. Affected users face potential data compromise. via SecurityWeek #cybersecurity #Kaspersky",
+        "url": "https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

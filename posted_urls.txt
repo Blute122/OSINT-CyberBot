@@ -868,3 +868,5 @@ https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airp
 https://isc.sans.edu/diary/rss/33296
 https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/
 https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
+https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control
+https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/
