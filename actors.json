@@ -774,6 +774,12 @@
         "date": "2026-08-24 15:53 UTC",
         "summary": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
         "source_url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
+      },
+      {
+        "target": "McKesson",
+        "date": "2026-08-31 13:41 UTC",
+        "summary": "McKesson Confirms Data Breach as Attacker Deadline Looms",
+        "source_url": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/"
       }
     ]
   },

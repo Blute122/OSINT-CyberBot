@@ -4958,5 +4958,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-08-31 13:41 UTC",
+        "content": "\ud83d\udfe0 McKesson hit by data breach, 284M records stolen by ShinyHunters. via SecurityWeek #DataBreach #CyberSecurity",
+        "url": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

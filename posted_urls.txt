@@ -866,3 +866,5 @@ https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html
 https://isc.sans.edu/diary/rss/33288
 https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/
 https://isc.sans.edu/diary/rss/33296
+https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/
+https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
