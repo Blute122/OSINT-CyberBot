@@ -4998,5 +4998,15 @@
         "epss": 0.02338,
         "risk_score": 16,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-09-01 14:51 UTC",
+        "content": "\ud83d\udfe0 High: 13 malicious Packagist packages inject JS into Vietnamese streaming sites, targeting unpatched iOS devices to steal crypto wallet seeds. Via The Hacker News #iOS #Cybercrime",
+        "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
