@@ -942,5 +942,26 @@
     "epss": 0.00339,
     "risk_score": 44,
     "risk_band": "medium"
+  },
+  "CVE-2026-0768": {
+    "first_seen": "2026-09-01 10:03 UTC",
+    "product": "Langflow and Ruby on Rails",
+    "status_timeline": [
+      {
+        "date": "2026-09-01 10:03 UTC",
+        "status": "disclosed",
+        "summary": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+        "source_url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
+    ],
+    "last_updated": "2026-09-01 10:03 UTC",
+    "cvss": "Score Pending",
+    "kev": false,
+    "epss": 0.02338,
+    "risk_score": 16,
+    "risk_band": "low"
   }
 }

@@ -873,3 +873,5 @@ https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-prod
 https://isc.sans.edu/diary/rss/33298
 https://isc.sans.edu/diary/rss/33302
 https://isc.sans.edu/diary/rss/33300
+https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html
+https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
