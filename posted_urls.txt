@@ -871,3 +871,5 @@ https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-
 https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control
 https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/
 https://isc.sans.edu/diary/rss/33298
+https://isc.sans.edu/diary/rss/33302
+https://isc.sans.edu/diary/rss/33300
