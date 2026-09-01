@@ -5018,5 +5018,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-01 21:44 UTC",
+        "content": "\ud83d\udfe0 Deceptive phishing lures prominent users into giving attackers long\u2011term access via fake OAuth consent screens. Major platforms affected. via CyberScoop #phishing #security",
+        "url": "https://cyberscoop.com/fbi-alert-oauth-consent-phishing-campaign/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
