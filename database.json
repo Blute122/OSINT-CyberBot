@@ -5008,5 +5008,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-01 18:27 UTC",
+        "content": "\ud83d\udfe0 31 organizations hit by ClickFix malware campaign that hijacks the Polygon blockchain for C2. Attackers use EtherHiding to rotate servers, enabling stealth. via Dark Reading",
+        "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -1368,5 +1368,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/"
       }
     ]
+  },
+  "clickfix": {
+    "aliases": [
+      "ClickFix"
+    ],
+    "first_seen": "2026-09-01 18:27 UTC",
+    "campaigns": [
+      {
+        "target": "31 organizations",
+        "date": "2026-09-01 18:27 UTC",
+        "summary": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+        "source_url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain"
+      }
+    ]
   }
 }
