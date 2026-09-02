@@ -97,6 +97,12 @@ X_ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET")
 GROQ_API_KEY          = os.environ.get("GROQ_API_KEY")
 DISCORD_WEBHOOK_URL   = os.environ.get("DISCORD_WEBHOOK_URL")
 
+# X/Twitter distribution is OFF by default. The ingestion + enrichment +
+# persistence pipeline always runs (feeding the dashboard and API); only the
+# threat-card render + tweet post + media upload are gated behind this flag.
+# Set POST_TO_X=true (plus the X_* credentials) to re-enable posting.
+POST_TO_X = os.getenv("POST_TO_X", "false").lower() == "true"
+
 DAILY_POST_CAP        = 7   # Max tweets per day (UTC)
 ARTICLE_MAX_AGE_HOURS = 6   # Skip articles older than this
 TWEET_CHAR_LIMIT      = 278 # X free/Basic tier hard caps posts at 280 chars.
@@ -1018,38 +1024,47 @@ def process_article(article: Article, db_data: list, stats: RunStats) -> bool:
              severity_icon, cve or "N/A", target or "N/A")
     log.info("Tweet (%d chars): %s", len(tweet_text), tweet_text)
 
-    # ── Threat card ──────────────────────────────────────
-    card_filename = None
-    try:
-        # Only pass a target if it adds info beyond the malware/actor name
-        # already implied by the title — avoids a TARGET row that just
-        # restates the headline.
-        display_target = target or threat_actor
-        if display_target and display_target.lower() in article.title.lower():
-            display_target = target if target and target != display_target else ""
-
-        card_filename = generate_threat_card(
-            severity_icon,
-            article.title,
-            card_context,
-            card_impact,
-            cve,
-            display_target,
-            simply_put,
-            article.source_name,
-            kev_flag,
-            epss_score,
-        )
-        log.info("Threat card generated: %s", card_filename)
-    except Exception as img_e:
-        log.error("Threat card failed: %s", img_e)
-
     # Priority score for the feed record (fresh item => recency factor 1.0)
     risk = compute_risk_score(cvss=cvss_score, epss=epss_score, kev=kev_flag) if cve else None
 
-    # ── DISTRIBUTE + persist feed record ─────────────────
-    log.info("Posting to X...")
-    post_tweet(tweet_text, media_path=card_filename)
+    # ── DISTRIBUTE (optional — gated behind POST_TO_X) ───
+    # X distribution is retired by default. The threat-card render, tweet
+    # post, and media upload only run when POST_TO_X is enabled; the tweet
+    # text and every feed/entity record below are produced regardless, so
+    # the dashboard and API stay populated with distribution off.
+    if POST_TO_X:
+        # ── Threat card ──────────────────────────────────
+        card_filename = None
+        try:
+            # Only pass a target if it adds info beyond the malware/actor name
+            # already implied by the title — avoids a TARGET row that just
+            # restates the headline.
+            display_target = target or threat_actor
+            if display_target and display_target.lower() in article.title.lower():
+                display_target = target if target and target != display_target else ""
+
+            card_filename = generate_threat_card(
+                severity_icon,
+                article.title,
+                card_context,
+                card_impact,
+                cve,
+                display_target,
+                simply_put,
+                article.source_name,
+                kev_flag,
+                epss_score,
+            )
+            log.info("Threat card generated: %s", card_filename)
+        except Exception as img_e:
+            log.error("Threat card failed: %s", img_e)
+
+        log.info("Posting to X...")
+        post_tweet(tweet_text, media_path=card_filename)
+    else:
+        log.info("POST_TO_X disabled — skipping threat card + X post; persisting feed record only.")
+
+    # ── PERSIST feed record (always) ─────────────────────
     save_posted_url(article.url)
     db_data.append({
         "date":    datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),

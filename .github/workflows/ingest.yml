@@ -1,8 +1,8 @@
-name: Auto Cyber News Bot
+name: CTI ingestion
 
 on:
   schedule:
-    - cron: '14 * * * *' 
+    - cron: '14 6 * * *'
   workflow_dispatch: # Allows you to run it manually from the GitHub website
 
 jobs:
@@ -26,11 +26,7 @@ jobs:
       - name: Run Cyber Agent
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }} 
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python cyber_agent.py
 
       - name: Commit and Push URL History

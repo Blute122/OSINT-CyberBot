@@ -1,6 +1,11 @@
 # CyberNews Auto
 
-CyberNews Auto is an automated cyber threat intelligence bot. It watches trusted cybersecurity RSS feeds, uses an LLM to summarize and classify new stories, enriches CVE-based stories with NVD CVSS, CISA KEV, and FIRST EPSS data, creates a threat-card image, posts the result to X, and stores each posted item in JSON databases for dashboard views and persistent entity tracking.
+> **Live dashboard:** TODO — add GitHub Pages URL
+> **API docs:** TODO — add deployed `/docs` URL
+
+CyberNews Auto is a self-hostable cyber threat-intelligence platform. It combines an automated **ingestion pipeline** (trusted cybersecurity RSS feeds → LLM extraction → structured intel), a **CVE risk-scoring engine** (NVD CVSS + CISA KEV + FIRST EPSS collapsed into a single 0–100 priority score), a **read-only REST API** over the collected data, and a **dependency-free live dashboard** for search, analytics, and an interactive threat graph — all backed by plain JSON databases with crash-safe atomic writes.
+
+It watches trusted cybersecurity RSS feeds, uses an LLM to summarize and classify new stories, enriches CVE-based stories with NVD CVSS, CISA KEV, and FIRST EPSS data, scores and persists each item to JSON databases for dashboard views and persistent entity tracking, and can optionally distribute a threat-card image to X.
 
 The project is designed to run on a schedule through GitHub Actions, while also supporting local runs for development and debugging.
 
@@ -13,8 +18,8 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 - Looks up CVSS scores from the NVD API, KEV (Known Exploited Vulnerabilities) status from CISA, and EPSS (Exploit Prediction Scoring System) metrics.
 - Tracks vulnerability lifecycles and threat actor campaigns persistently in `vulnerabilities.json` and `actors.json`.
 - Uses exact-match CVE deduplication to only tweet about an existing CVE if its threat status escalates (e.g., Disclosed -> Actively Exploited).
-- Generates a shareable threat-card PNG with severity color, title, summary, target, and simplified explanation.
-- Posts one item per run to X. Posts are kept link-free on purpose — the prompt forbids URLs and a `strip_links` safety net removes any the model slips in — because X bills posts containing a link at a much higher rate; dotted technical terms (e.g. `Node.js`, `asp.net`, `.io`) and the CVSS/EPSS suffix are preserved.
+- Persists a scored feed record for every processed item, so the dashboard and API stay populated whether or not distribution is enabled.
+- Optional X/Twitter distribution (disabled by default via `POST_TO_X`) — generates a shareable threat-card PNG and posts one link-free item per run. When enabled, the prompt forbids URLs and a `strip_links` safety net removes any the model slips in (X bills link posts at a higher rate); dotted technical terms (e.g. `Node.js`, `asp.net`, `.io`) and the CVSS/EPSS suffix are preserved.
 - Provides a dynamic Streamlit dashboard and a highly customized static HTML dashboard with KEV/EPSS visual badges.
 - Includes an instant intel-search bar on the static dashboard: type a CVE ID, threat actor, malware family, or vendor and get a rendered dossier (CVSS/EPSS/KEV metrics, lifecycle timeline, campaign history, and related feed items) generated client-side from the existing JSON databases.
 - Sends optional crash alerts to Discord.
@@ -23,7 +28,7 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 
 ```text
 .
-|-- .github/workflows/twitter_bot.yml  # Scheduled GitHub Actions workflow
+|-- .github/workflows/ingest.yml       # Scheduled GitHub Actions ingestion workflow
 |-- .github/workflows/tests.yml        # CI: runs the unit tests on push / PR
 |-- cyber_agent.py                     # Staged pipeline: ingest, dedup, extract, enrich, score, persist, distribute
 |-- entity_model.py                    # Entity lifecycle tracking and exact deduplication logic
@@ -49,7 +54,7 @@ The project is designed to run on a schedule through GitHub Actions, while also 
 
 - Python 3.10 or newer
 - A Groq API key
-- X API credentials with permission to create posts and upload media
+- Optional X API credentials with permission to create posts and upload media (only if `POST_TO_X=true`)
 - Optional Discord webhook URL for crash alerts
 - Optional GitHub repository secrets if running through GitHub Actions
 
@@ -61,10 +66,11 @@ pip install -r requirements.txt
 
 ## Environment Variables
 
-The bot reads credentials from environment variables:
+The pipeline reads credentials from environment variables:
 
 ```text
 GROQ_API_KEY
+POST_TO_X
 X_API_KEY
 X_API_SECRET
 X_ACCESS_TOKEN
@@ -72,7 +78,15 @@ X_ACCESS_TOKEN_SECRET
 DISCORD_WEBHOOK_URL
 ```
 
-`DISCORD_WEBHOOK_URL` is optional. The other values are required for a successful automated post.
+`GROQ_API_KEY` is the only required value — the ingestion, enrichment, scoring,
+and persistence pipeline runs on it alone.
+
+`POST_TO_X` gates the optional X/Twitter distribution and **defaults to
+`false`**. The `X_API_KEY` / `X_API_SECRET` / `X_ACCESS_TOKEN` /
+`X_ACCESS_TOKEN_SECRET` credentials are only needed when `POST_TO_X=true`; with
+distribution off they can be left unset.
+
+`DISCORD_WEBHOOK_URL` is optional (crash alerts only).
 
 Do not hardcode real API credentials in source files. Use local environment variables for development and GitHub Actions secrets for deployment.
 
@@ -281,31 +295,32 @@ cold-starts on the next request.)
 
 ## GitHub Actions Deployment
 
-The workflow in `.github/workflows/twitter_bot.yml` runs every hour at minute 14:
+The workflow in `.github/workflows/ingest.yml` runs once daily at 06:14 UTC:
 
 ```yaml
-cron: '14 * * * *'
+cron: '14 6 * * *'
 ```
 
 It:
 
 1. Checks out the repository.
 2. Installs Python 3.10 and dependencies.
-3. Runs `python cyber_agent.py`.
+3. Runs `python cyber_agent.py` (ingest → enrich → score → persist).
 4. Commits updates to `posted_urls.txt`, `database.json`, `vulnerabilities.json`, and `actors.json`.
 
 Add these repository secrets before enabling the workflow:
 
 ```text
 GROQ_API_KEY
-X_API_KEY
-X_API_SECRET
-X_ACCESS_TOKEN
-X_ACCESS_TOKEN_SECRET
 DISCORD_WEBHOOK_URL
 ```
 
-`DISCORD_WEBHOOK_URL` can be omitted if you do not want Discord crash notifications.
+`DISCORD_WEBHOOK_URL` can be omitted if you do not want Discord crash
+notifications. The workflow no longer sets the `X_*` secrets, since X
+distribution is disabled by default (`POST_TO_X`). To re-enable posting from CI,
+set `POST_TO_X: 'true'` and add the `X_API_KEY` / `X_API_SECRET` /
+`X_ACCESS_TOKEN` / `X_ACCESS_TOKEN_SECRET` secrets back to the workflow's `env`
+block.
 
 ## How the Agent Works
 
@@ -320,10 +335,9 @@ DISCORD_WEBHOOK_URL
 9. Performs an exact-CVE deduplication check against `vulnerabilities.json` to only proceed if the threat status has meaningfully escalated.
 10. Looks up CVSS from NVD, KEV status from CISA, and EPSS scores from FIRST.org.
 11. Upserts the extracted threat and actor into `vulnerabilities.json` and `actors.json`.
-12. Generates a threat-card image.
-13. Posts the tweet and image to X.
-14. Saves the article URL and dashboard records.
-15. Exits after one successful post.
+12. Saves the article URL and dashboard records (`database.json`).
+13. _(Optional, only when `POST_TO_X=true`)_ Generates a threat-card image and posts the tweet and image to X.
+14. Exits after one successfully processed article.
 
 ## Data Files
 
