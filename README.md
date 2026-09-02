@@ -1,7 +1,7 @@
 # CyberNews Auto
 
-> **Live dashboard:** TODO — add GitHub Pages URL
-> **API docs:** TODO — add deployed `/docs` URL
+> **Live dashboard:** https://blute122.github.io/OSINT-CyberBot/
+> **API docs:** https://cybernews-api-tdwb.onrender.com/docs
 
 CyberNews Auto is a self-hostable cyber threat-intelligence platform. It combines an automated **ingestion pipeline** (trusted cybersecurity RSS feeds → LLM extraction → structured intel), a **CVE risk-scoring engine** (NVD CVSS + CISA KEV + FIRST EPSS collapsed into a single 0–100 priority score), a **read-only REST API** over the collected data, and a **dependency-free live dashboard** for search, analytics, and an interactive threat graph — all backed by plain JSON databases with crash-safe atomic writes.
 
