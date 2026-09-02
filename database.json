@@ -5038,5 +5038,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-02 04:27 UTC",
+        "content": "\ud83d\udfe0 Phish\u2011like attackers exploited unpatched ownCloud flaws to breach the Philippine nuclear agency, stealing reactor data and personnel records via Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
