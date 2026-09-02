@@ -878,3 +878,4 @@ https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
 https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html
 https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain
 https://cyberscoop.com/fbi-alert-oauth-consent-phishing-campaign/
+https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/

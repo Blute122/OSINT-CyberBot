@@ -5028,5 +5028,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-02 00:09 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Massive identity theft ring sells 153M+ U.S. and Canada driver license scans. FBI launching probe into source. via Krebs on Security #DataBreach",
+        "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
