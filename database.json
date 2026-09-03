@@ -5048,5 +5048,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-03 11:09 UTC",
+        "content": "\ud83d\udfe0 iPhone targeted with Pegasus via iMessage zero\u2011click exploit. Serbia student protest member affected. via The Hacker News #iOS #Pegasus",
+        "url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

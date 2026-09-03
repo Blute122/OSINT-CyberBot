@@ -1382,5 +1382,19 @@
         "source_url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain"
       }
     ]
+  },
+  "nso group": {
+    "aliases": [
+      "NSO Group"
+    ],
+    "first_seen": "2026-09-03 11:09 UTC",
+    "campaigns": [
+      {
+        "target": "iPhone",
+        "date": "2026-09-03 11:09 UTC",
+        "summary": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+        "source_url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html"
+      }
+    ]
   }
 }
