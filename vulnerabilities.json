@@ -963,5 +963,26 @@
     "epss": 0.02338,
     "risk_score": 16,
     "risk_band": "low"
+  },
+  "CVE-2026-14894": {
+    "first_seen": "2026-09-04 11:13 UTC",
+    "product": "Super Forms WordPress plugin",
+    "status_timeline": [
+      {
+        "date": "2026-09-04 11:13 UTC",
+        "status": "disclosed",
+        "summary": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+        "source_url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html"
+    ],
+    "last_updated": "2026-09-04 11:13 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.03484,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }

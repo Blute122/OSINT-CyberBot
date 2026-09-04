@@ -5058,5 +5058,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-04 11:13 UTC",
+        "content": "\ud83d\udd34 Super Forms plugin hit by critical CVE-2026-14894 (CVSS: 9.8/10) [EPSS: 3.5%] flaw; unauthenticated attackers can upload any file type, risking code execution on WordPress sites. via The Hacker News #WordPress #CyberSecurity",
+        "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+        "cve": "CVE-2026-14894",
+        "kev": false,
+        "epss": 0.03484,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]
