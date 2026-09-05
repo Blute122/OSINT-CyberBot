@@ -984,5 +984,26 @@
     "epss": 0.03484,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-81578": {
+    "first_seen": "2026-09-05 10:31 UTC",
+    "product": "PaperCut",
+    "status_timeline": [
+      {
+        "date": "2026-09-05 10:31 UTC",
+        "status": "actively_exploited",
+        "summary": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+        "source_url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html"
+    ],
+    "last_updated": "2026-09-05 10:31 UTC",
+    "cvss": 9.8,
+    "kev": true,
+    "epss": 0.01617,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

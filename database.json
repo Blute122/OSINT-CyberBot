@@ -5068,5 +5068,15 @@
         "epss": 0.03484,
         "risk_score": 45,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-09-05 10:31 UTC",
+        "content": "\ud83d\udd34 \ud83d\udfe0 PaperCut software hit by attackers using CVE-2026-81578 (CVSS: 9.8/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 1.6%] and CVE-2026-82078 to steal credentials from schools and universities. via The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+        "cve": "CVE-2026-81578",
+        "kev": true,
+        "epss": 0.01617,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]
