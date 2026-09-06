@@ -885,3 +885,4 @@ https://cyberscoop.com/ai-security-operations-human-context-ciso-op-ed/
 https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
 https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html
 https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html
+https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html

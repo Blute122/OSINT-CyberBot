@@ -5078,5 +5078,15 @@
         "epss": 0.01617,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-09-06 10:51 UTC",
+        "content": "\ud83d\udfe0 MikroTik routers exposed via internet SSH can be hijacked without authentication, giving attackers full admin control. Target: MikroTik routers worldwide. via The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
