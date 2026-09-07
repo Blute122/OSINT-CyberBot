@@ -886,3 +886,4 @@ https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
 https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html
 https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html
 https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html
+https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/

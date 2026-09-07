@@ -5088,5 +5088,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-07 12:24 UTC",
+        "content": "\ud83d\udd34 Trezor confirms a data breach at shipping partner ShipMonk exposed data for 81,000 U.S. customers. Security researchers warn of credential theft. #Cryptocurrency #DataBreach via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
