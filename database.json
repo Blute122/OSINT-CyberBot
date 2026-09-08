@@ -5098,5 +5098,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-08 11:12 UTC",
+        "content": "\ud83d\udfe0 220M traveler records exposed via default credentials in a Vietnam\u2011linked APIS database. Data includes names, passports, DOBs, flights. via BleepingComputer #DataLeak #APIS",
+        "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
