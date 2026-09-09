@@ -5108,5 +5108,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-09 11:17 UTC",
+        "content": "\ud83d\udfe0 New zero\u2011day exploit 'ShieldCrash' targets Microsoft Defender after September 2026 Patch Tuesday. Users of Defender at risk. via BleepingComputer #CyberSecurity #ZeroDay",
+        "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

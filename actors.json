@@ -1108,6 +1108,12 @@
         "date": "2026-08-12 10:18 UTC",
         "summary": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
         "source_url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/"
+      },
+      {
+        "target": "Microsoft Defender",
+        "date": "2026-09-09 11:17 UTC",
+        "summary": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+        "source_url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/"
       }
     ]
   },
