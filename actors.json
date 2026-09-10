@@ -1402,5 +1402,19 @@
         "source_url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html"
       }
     ]
+  },
+  "ransomware gangs": {
+    "aliases": [
+      "ransomware gangs"
+    ],
+    "first_seen": "2026-09-10 11:14 UTC",
+    "campaigns": [
+      {
+        "target": "WatchGuard Firebox firewall",
+        "date": "2026-09-10 11:14 UTC",
+        "summary": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+        "source_url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
+      }
+    ]
   }
 }
