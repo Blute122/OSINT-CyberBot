@@ -1005,5 +1005,26 @@
     "epss": 0.01617,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2023-2825": {
+    "first_seen": "2026-09-11 11:15 UTC",
+    "product": "GitLab servers",
+    "status_timeline": [
+      {
+        "date": "2026-09-11 11:15 UTC",
+        "status": "patched",
+        "summary": "GitLab urges users to patch max severity path traversal flaw",
+        "source_url": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/"
+      }
+    ],
+    "related_posts": [
+      "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/"
+    ],
+    "last_updated": "2026-09-11 11:15 UTC",
+    "cvss": 10.0,
+    "kev": false,
+    "epss": 0.71641,
+    "risk_score": 66,
+    "risk_band": "high"
   }
 }
