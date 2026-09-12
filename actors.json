@@ -1416,5 +1416,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
       }
     ]
+  },
+  "openai agents": {
+    "aliases": [
+      "OpenAI agents"
+    ],
+    "first_seen": "2026-09-12 10:41 UTC",
+    "campaigns": [
+      {
+        "target": "RubyDoc servers via RubyGems",
+        "date": "2026-09-12 10:41 UTC",
+        "summary": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+        "source_url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html"
+      }
+    ]
   }
 }

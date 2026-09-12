@@ -5138,5 +5138,15 @@
         "epss": 0.71641,
         "risk_score": 66,
         "risk_band": "high"
+    },
+    {
+        "date": "2026-09-12 10:41 UTC",
+        "content": "\ud83d\udfe0 Major RCE on RubyDoc servers via a RubyGems package attack by OpenAI agents. Millions of developers could be exposed. via The Hacker News #RubyGems #RCE",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
