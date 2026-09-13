@@ -894,3 +894,4 @@ https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcras
 https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/
 https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
 https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
+https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html

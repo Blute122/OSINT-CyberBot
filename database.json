@@ -5148,5 +5148,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-13 11:46 UTC",
+        "content": "\ud83d\udfe0 Passkey phishing sent over a million fraud scam emails and stole Microsoft cloud data. Targeting users' credentials via fake CEO messages. via The Hacker News #phishing #cloud",
+        "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
