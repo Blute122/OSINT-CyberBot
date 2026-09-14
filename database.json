@@ -5158,5 +5158,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-14 12:39 UTC",
+        "content": "\ud83d\udfe0 A rogue Twitch extension leaked OAuth tokens of ~31,000 users to a Russian bot service. Twitch users are at risk. via The Hacker News #CyberSecurity #DataLeak",
+        "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

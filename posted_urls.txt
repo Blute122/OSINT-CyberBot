@@ -895,3 +895,6 @@ https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-expl
 https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
 https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
 https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
+https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/
+https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html
+https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html

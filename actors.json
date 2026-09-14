@@ -1430,5 +1430,19 @@
         "source_url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html"
       }
     ]
+  },
+  "hishimiro/jeetbot.cc": {
+    "aliases": [
+      "HISHIMIRO/jeetbot.cc"
+    ],
+    "first_seen": "2026-09-14 12:39 UTC",
+    "campaigns": [
+      {
+        "target": "Twitch users",
+        "date": "2026-09-14 12:39 UTC",
+        "summary": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+        "source_url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
+      }
+    ]
   }
 }
