@@ -898,3 +898,6 @@ https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
 https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/
 https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html
 https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html
+https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/
+https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/

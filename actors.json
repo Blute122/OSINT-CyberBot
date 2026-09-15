@@ -1444,5 +1444,19 @@
         "source_url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
       }
     ]
+  },
+  "unnamed threat actors": {
+    "aliases": [
+      "Unnamed threat actors"
+    ],
+    "first_seen": "2026-09-15 11:39 UTC",
+    "campaigns": [
+      {
+        "target": "Cisco Secure Email Gateway",
+        "date": "2026-09-15 11:39 UTC",
+        "summary": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+        "source_url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
+      }
+    ]
   }
 }

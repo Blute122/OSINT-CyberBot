@@ -5168,5 +5168,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-15 11:39 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 Cisco Secure Email Gateway zero\u2011day exploited in real attacks. Users must patch immediately to stop malicious emails. via BleepingComputer #Cisco #ZeroDay",
+        "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+        "cve": "CVE-2026-4020",
+        "kev": false,
+        "epss": 0.39975,
+        "risk_score": 48,
+        "risk_band": "medium"
     }
 ]

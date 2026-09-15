@@ -8,15 +8,24 @@
         "status": "disclosed",
         "summary": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
         "source_url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
+      },
+      {
+        "date": "2026-09-15 11:39 UTC",
+        "status": "patched",
+        "summary": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+        "source_url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
       }
     ],
     "related_posts": [
-      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
+      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
     ],
-    "last_updated": "2026-06-20 13:09 UTC",
-    "cvss": "N/A",
+    "last_updated": "2026-09-15 11:39 UTC",
+    "cvss": 7.5,
     "kev": false,
-    "epss": 0.0298
+    "epss": 0.39975,
+    "risk_score": 38,
+    "risk_band": "medium"
   },
   "CVE-2024-40766": {
     "first_seen": "2026-06-23 05:13 UTC",
