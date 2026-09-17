@@ -902,3 +902,5 @@ https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited
 https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/
 https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/
 https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
+https://cyberscoop.com/us-cyber-strategy-iranian-threats-infrastructure-op-ed/
+https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/

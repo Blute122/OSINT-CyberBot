@@ -1458,5 +1458,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
       }
     ]
+  },
+  "nightmarestresser": {
+    "aliases": [
+      "NightmareStresser"
+    ],
+    "first_seen": "2026-09-17 11:36 UTC",
+    "campaigns": [
+      {
+        "target": "NightmareStresser DDoS-for-hire platform",
+        "date": "2026-09-17 11:36 UTC",
+        "summary": "US takes down NightmareStresser DDoS-for-hire platform",
+        "source_url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/"
+      }
+    ]
   }
 }
