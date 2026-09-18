@@ -5198,5 +5198,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-18 11:08 UTC",
+        "content": "\ud83d\udfe0 Brevo supply chain breach injected malware into ~100,000 sites via a compromised API key and Cloudflare worker. Website owners and visitors are at risk. via SecurityWeek #Cybersecurity #Malware",
+        "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

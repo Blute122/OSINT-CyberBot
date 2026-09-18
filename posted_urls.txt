@@ -904,3 +904,7 @@ https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-e
 https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
 https://cyberscoop.com/us-cyber-strategy-iranian-threats-infrastructure-op-ed/
 https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/
+https://isc.sans.edu/diary/rss/33352
+https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
+https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/
+https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/
