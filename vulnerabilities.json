@@ -1035,5 +1035,26 @@
     "epss": 0.71641,
     "risk_score": 66,
     "risk_band": "high"
+  },
+  "CVE-2026-58138": {
+    "first_seen": "2026-09-19 10:53 UTC",
+    "product": "Orkes Conductor 3.21.21",
+    "status_timeline": [
+      {
+        "date": "2026-09-19 10:53 UTC",
+        "status": "actively_exploited",
+        "summary": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+        "source_url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html"
+    ],
+    "last_updated": "2026-09-19 10:53 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.09257,
+    "risk_score": 47,
+    "risk_band": "medium"
   }
 }

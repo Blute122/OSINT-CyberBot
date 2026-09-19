@@ -908,3 +908,5 @@ https://isc.sans.edu/diary/rss/33352
 https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
 https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/
 https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/
+https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027
+https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
