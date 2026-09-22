@@ -5228,5 +5228,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-22 11:32 UTC",
+        "content": "\ud83d\udfe0 A malicious npm package named indexed-btree was found hiding payloads in runtime code, tricking developers into installing it. Vulnerable developers are at risk via The Hacker News #npm #malware",
+        "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

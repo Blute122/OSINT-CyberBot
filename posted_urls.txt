@@ -911,3 +911,5 @@ https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-1000
 https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027
 https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
 https://isc.sans.edu/diary/rss/33318
+https://cyberscoop.com/spycloud-study-water-utilities-infostealer-exposure/
+https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html
