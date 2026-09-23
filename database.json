@@ -5238,5 +5238,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-23 11:29 UTC",
+        "content": "\ud83d\udd34 Arista VCO zero\u2011day exploited, letting attackers gain privileged access to internal functions. Affected users: all Arista VCO deployments. via SecurityWeek #cybersecurity #Arista",
+        "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
