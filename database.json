@@ -5248,5 +5248,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-24 11:40 UTC",
+        "content": "\ud83d\udd34 Ransomware gangs exploit a critical flaw in JetBrains TeamCity, a popular CI/CD tool used by many federal agencies, causing potential data loss. via BleepingComputer #cybersecurity #ransomware",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

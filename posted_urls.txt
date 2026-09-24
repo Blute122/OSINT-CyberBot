@@ -919,3 +919,5 @@ https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/
 https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/
 https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/
 https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/
+https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/
+https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/

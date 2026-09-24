@@ -1414,6 +1414,12 @@
         "date": "2026-09-10 11:14 UTC",
         "summary": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
         "source_url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
+      },
+      {
+        "target": "JetBrains TeamCity",
+        "date": "2026-09-24 11:40 UTC",
+        "summary": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+        "source_url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/"
       }
     ]
   },
