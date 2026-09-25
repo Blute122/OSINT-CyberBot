@@ -5258,5 +5258,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-25 11:46 UTC",
+        "content": "\ud83d\udfe1 File-change notification systems leak keystroke timing, browsing, WhatsApp media events. Windows, Linux, Android users at risk via SecurityWeek #Privacy #Cybersecurity",
+        "url": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

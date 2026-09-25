@@ -921,3 +921,7 @@ https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agent
 https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/
 https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/
 https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/
+https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/
+https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/
+https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/
