@@ -5268,5 +5268,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-26 11:19 UTC",
+        "content": "\ud83d\udfe0 Elementor plugin flaw lets attackers create rogue admins after a crafted link click. 1,000+ sites at risk. via The Hacker News #WordPress #Cybersecurity",
+        "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
