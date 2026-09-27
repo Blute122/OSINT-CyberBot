@@ -5278,5 +5278,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-27 11:57 UTC",
+        "content": "\ud83d\udd34 Microsoft SharePoint hit by CVE\u20112026\u201165660 exploit, targeting federal agencies. Attackers can read and alter data. via SecurityWeek",
+        "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+        "cve": "CVE-2026-65660",
+        "kev": true,
+        "epss": 0.02101,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

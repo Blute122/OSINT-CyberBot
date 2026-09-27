@@ -926,3 +926,4 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates
 https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/
 https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/
 https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
+https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/

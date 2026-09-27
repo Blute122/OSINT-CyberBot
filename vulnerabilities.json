@@ -1056,5 +1056,26 @@
     "epss": 0.09257,
     "risk_score": 47,
     "risk_band": "medium"
+  },
+  "CVE-2026-65660": {
+    "first_seen": "2026-09-27 11:57 UTC",
+    "product": "Microsoft SharePoint",
+    "status_timeline": [
+      {
+        "date": "2026-09-27 11:57 UTC",
+        "status": "actively_exploited",
+        "summary": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
+        "source_url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/"
+    ],
+    "last_updated": "2026-09-27 11:57 UTC",
+    "cvss": 8.8,
+    "kev": true,
+    "epss": 0.02101,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }
