@@ -1478,5 +1478,19 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/"
       }
     ]
+  },
+  "carbonato botnet": {
+    "aliases": [
+      "Carbonato botnet"
+    ],
+    "first_seen": "2026-09-28 13:47 UTC",
+    "campaigns": [
+      {
+        "target": "Docker hosts",
+        "date": "2026-09-28 13:47 UTC",
+        "summary": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+        "source_url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html"
+      }
+    ]
   }
 }

@@ -5288,5 +5288,15 @@
         "epss": 0.02101,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-09-28 13:47 UTC",
+        "content": "\ud83d\udfe0 Carbonato botnet hijacks exposed Docker daemons, installing Hermes AI agent to execute remote commands. APT actors target Docker hosts. via The Hacker News",
+        "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
