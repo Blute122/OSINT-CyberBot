@@ -5298,5 +5298,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-29 12:46 UTC",
+        "content": "\ud83d\udfe0 Pentagon personnel agency data breach exposed records of 3M people. DMDC data compromised. via SecurityWeek #DataBreach #Pentagon",
+        "url": "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

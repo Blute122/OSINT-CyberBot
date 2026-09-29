@@ -929,3 +929,6 @@ https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
 https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/
 https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html
 https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html
+https://blog.talosintelligence.com/securing-the-keys-to-the-kingdom-announcing-executive-threat-detection/
+https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/
+https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
