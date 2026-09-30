@@ -932,3 +932,6 @@ https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html
 https://blog.talosintelligence.com/securing-the-keys-to-the-kingdom-announcing-executive-threat-detection/
 https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/
 https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
+https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/
+https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/
+https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/

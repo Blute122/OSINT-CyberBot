@@ -1492,5 +1492,19 @@
         "source_url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html"
       }
     ]
+  },
+  "star blizzard": {
+    "aliases": [
+      "Star Blizzard"
+    ],
+    "first_seen": "2026-09-30 12:29 UTC",
+    "campaigns": [
+      {
+        "target": "CosmicPulse backdoor",
+        "date": "2026-09-30 12:29 UTC",
+        "summary": "Russian APT Star Blizzard Uses \u2018RedFlick\u2019 Infection Chain in Recent Attacks",
+        "source_url": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/"
+      }
+    ]
   }
 }

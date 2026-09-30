@@ -5308,5 +5308,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-09-30 12:29 UTC",
+        "content": "\ud83d\udfe0 Star Blizzard uses RedFlick phishing to drop CosmicPulse backdoor on victims. via SecurityWeek #APT #phishing",
+        "url": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
