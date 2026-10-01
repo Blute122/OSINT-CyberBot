@@ -1506,5 +1506,19 @@
         "source_url": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/"
       }
     ]
+  },
+  "moonshot ai": {
+    "aliases": [
+      "Moonshot AI"
+    ],
+    "first_seen": "2026-10-01 13:06 UTC",
+    "campaigns": [
+      {
+        "target": "OpenAI AI models",
+        "date": "2026-10-01 13:06 UTC",
+        "summary": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+        "source_url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
+      }
+    ]
   }
 }

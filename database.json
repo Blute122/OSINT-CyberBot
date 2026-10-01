@@ -5318,5 +5318,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-01 13:06 UTC",
+        "content": "\ud83d\udfe0 OpenAI disrupted a coordinated distillation campaign that stole protected reasoning from its AI models, targeting users of its services via The Hacker News #AIsecurity #OpenAI",
+        "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

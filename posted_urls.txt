@@ -935,3 +935,5 @@ https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-mil
 https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/
 https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/
 https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/
+https://thehackernews.com/2026/10/how-financial-services-companies-can.html
+https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html
