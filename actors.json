@@ -194,6 +194,12 @@
         "date": "2026-08-14 15:05 UTC",
         "summary": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
         "source_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
+      },
+      {
+        "target": "Microsoft\u2019s official X account",
+        "date": "2026-10-02 12:27 UTC",
+        "summary": "Crypto Scammers Hijack Microsoft\u2019s Official X Account",
+        "source_url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
       }
     ]
   },

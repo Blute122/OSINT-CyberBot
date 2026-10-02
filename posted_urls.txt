@@ -937,3 +937,7 @@ https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-
 https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/
 https://thehackernews.com/2026/10/how-financial-services-companies-can.html
 https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html
+https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html
+https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html
+https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/
+https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/

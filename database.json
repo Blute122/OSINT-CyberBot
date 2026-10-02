@@ -5328,5 +5328,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-02 12:27 UTC",
+        "content": "\ud83d\udfe0 Microsoft\u2019s official X account was hijacked by scammers to amplify a crypto scam. 13M followers exposed. via SecurityWeek #CyberSecurity #Scam",
+        "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
