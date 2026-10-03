@@ -5338,5 +5338,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-03 11:35 UTC",
+        "content": "\ud83d\udd34 Fortra BoKS faces critical flaws that allow authentication bypass, shell execution, and memory corruption. via SecurityWeek #cybersecurity #Fortra",
+        "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -941,3 +941,5 @@ https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html
 https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html
 https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/
 https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/
+https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html
+https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
