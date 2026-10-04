@@ -5348,5 +5348,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-04 12:16 UTC",
+        "content": "\ud83d\udfe0 TA419 phishing campaign targets U.S. AI policy experts at think tanks, universities and legal firms, using fake messages from economists and Anthropic staff. via The Hacker News",
+        "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

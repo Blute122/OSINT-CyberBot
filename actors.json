@@ -1526,5 +1526,19 @@
         "source_url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
       }
     ]
+  },
+  "ta419": {
+    "aliases": [
+      "TA419"
+    ],
+    "first_seen": "2026-10-04 12:16 UTC",
+    "campaigns": [
+      {
+        "target": "U.S. AI policy experts at think tanks, universities and legal firms",
+        "date": "2026-10-04 12:16 UTC",
+        "summary": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+        "source_url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
+      }
+    ]
   }
 }
