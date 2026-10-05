@@ -5358,5 +5358,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-05 14:29 UTC",
+        "content": "\ud83d\udfe0 A Linux backdoor called ClingSTUN abuses the STUN protocol to spread and persist, compromising dozens of systems via self\u2011propagation. via SecurityWeek #Linux #CyberSecurity",
+        "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

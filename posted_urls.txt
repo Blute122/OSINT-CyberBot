@@ -945,3 +945,6 @@ https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html
 https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
 https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html
 https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html
+https://cyberscoop.com/us-water-system-cybersecurity-ai-threats-op-ed/
+https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/
+https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/
