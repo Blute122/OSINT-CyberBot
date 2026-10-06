@@ -948,3 +948,6 @@ https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html
 https://cyberscoop.com/us-water-system-cybersecurity-ai-threats-op-ed/
 https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/
 https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/
+https://isc.sans.edu/diary/rss/33402
+https://isc.sans.edu/diary/rss/33400
+https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html

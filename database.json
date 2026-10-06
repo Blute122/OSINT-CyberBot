@@ -5368,5 +5368,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-06 13:14 UTC",
+        "content": "\ud83d\udfe0 Malicious spreadsheets can run code immediately in LibreOffice and OpenOffice when Java is enabled, without macro warnings. via The Hacker News #CyberSecurity #LibreOffice",
+        "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
