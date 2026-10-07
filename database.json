@@ -5378,5 +5378,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-07 13:15 UTC",
+        "content": "\ud83d\udd34 Critical flaw CVE-2026-21589 (CVSS: Score Pending) [EPSS: 0.7%] is being actively exploited against Atlassian Jira, Confluence and Bitbucket with no authentication needed. Users and enterprises at risk via BleepingComputer #Atlassian #Cybersecurity",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+        "cve": "CVE-2026-21589",
+        "kev": false,
+        "epss": 0.00738,
+        "risk_score": 16,
+        "risk_band": "low"
     }
 ]

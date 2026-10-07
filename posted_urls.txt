@@ -951,3 +951,5 @@ https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens
 https://isc.sans.edu/diary/rss/33402
 https://isc.sans.edu/diary/rss/33400
 https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html
+https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/
