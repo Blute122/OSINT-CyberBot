@@ -1540,5 +1540,19 @@
         "source_url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
       }
     ]
+  },
+  "wazza": {
+    "aliases": [
+      "Wazza"
+    ],
+    "first_seen": "2026-10-08 13:22 UTC",
+    "campaigns": [
+      {
+        "target": "banking, manufacturing, and government organizations in the US, Europe, and Australia",
+        "date": "2026-10-08 13:22 UTC",
+        "summary": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+        "source_url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html"
+      }
+    ]
   }
 }

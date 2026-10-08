@@ -5388,5 +5388,15 @@
         "epss": 0.00738,
         "risk_score": 16,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-10-08 13:22 UTC",
+        "content": "\ud83d\udfe0 New phishing kit called Wazza targets banking, manufacturing and government accounts across the US, Europe and Australia via fake login pages. via The Hacker News #phishing #cybersecurity",
+        "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
