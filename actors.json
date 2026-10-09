@@ -1554,5 +1554,19 @@
         "source_url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html"
       }
     ]
+  },
+  "flax typhoon": {
+    "aliases": [
+      "Flax Typhoon"
+    ],
+    "first_seen": "2026-10-09 13:10 UTC",
+    "campaigns": [
+      {
+        "target": "ProFTPD",
+        "date": "2026-10-09 13:10 UTC",
+        "summary": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+        "source_url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
+      }
+    ]
   }
 }

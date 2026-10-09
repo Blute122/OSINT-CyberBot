@@ -5398,5 +5398,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-09 13:10 UTC",
+        "content": "\ud83d\udd34 ProFTPD hit by zero\u2011day CVE\u20112015\u20113306 exploited by Flax Typhoon, risking data loss for users. via The Hacker News #cybersecurity #ProFTPD",
+        "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+        "cve": "CVE-2015-3306",
+        "kev": true,
+        "epss": 0.96752,
+        "risk_score": 99,
+        "risk_band": "critical"
     }
 ]

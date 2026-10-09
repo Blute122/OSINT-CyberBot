@@ -954,3 +954,4 @@ https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html
 https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/
 https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html
+https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html

@@ -1098,5 +1098,26 @@
     "epss": 0.00738,
     "risk_score": 16,
     "risk_band": "low"
+  },
+  "CVE-2015-3306": {
+    "first_seen": "2026-10-09 13:10 UTC",
+    "product": "ProFTPD",
+    "status_timeline": [
+      {
+        "date": "2026-10-09 13:10 UTC",
+        "status": "actively_exploited",
+        "summary": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+        "source_url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
+    ],
+    "last_updated": "2026-10-09 13:10 UTC",
+    "cvss": 10.0,
+    "kev": true,
+    "epss": 0.96752,
+    "risk_score": 99,
+    "risk_band": "critical"
   }
 }
