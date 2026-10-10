@@ -955,3 +955,7 @@ https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/
 https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html
 https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html
+https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html
+https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
+https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/
+https://isc.sans.edu/diary/rss/33414
