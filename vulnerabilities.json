@@ -1119,5 +1119,26 @@
     "epss": 0.96752,
     "risk_score": 99,
     "risk_band": "critical"
+  },
+  "CVE-2026-85097": {
+    "first_seen": "2026-10-12 15:15 UTC",
+    "product": "Bricksforge WordPress Plugin",
+    "status_timeline": [
+      {
+        "date": "2026-10-12 15:15 UTC",
+        "status": "actively_exploited",
+        "summary": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+        "source_url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/"
+    ],
+    "last_updated": "2026-10-12 15:15 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.00312,
+    "risk_score": 44,
+    "risk_band": "medium"
   }
 }
