@@ -5418,5 +5418,15 @@
         "epss": 0.00312,
         "risk_score": 44,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-10-13 14:06 UTC",
+        "content": "\ud83d\udfe0 LG Smart TVs can be root taken over from local network without PIN. Models 32LQ636BPSA & 27TQ600SW at risk. LG issues fix. via The Hacker News #LGTV #cybersecurity",
+        "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
