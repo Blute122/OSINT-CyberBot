@@ -5428,5 +5428,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-14 11:45 UTC",
+        "content": "\ud83d\udfe0 New Hirudo Android malware hijacks banking apps, stealing credentials by replacing them with malicious copies that disable security checks. Banks and users are at risk. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

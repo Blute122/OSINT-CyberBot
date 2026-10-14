@@ -963,3 +963,5 @@ https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1
 https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/
 https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html
 https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html
+https://isc.sans.edu/diary/rss/33420
+https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/
