@@ -965,3 +965,5 @@ https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html
 https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html
 https://isc.sans.edu/diary/rss/33420
 https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/
+https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/

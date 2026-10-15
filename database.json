@@ -5438,5 +5438,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-15 11:21 UTC",
+        "content": "\ud83d\udd34 Hackers breached the UK Legal Aid Agency in April 2025 and stole records dating back to 1978. Victims include public defenders and possibly sensitive client data. via BleepingComputer #DataBreach #UKCyber",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
