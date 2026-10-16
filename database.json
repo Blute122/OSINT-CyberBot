@@ -5448,5 +5448,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-16 11:16 UTC",
+        "content": "\ud83d\udfe0 BAE Systems cyberattack shuts down U.S. federal bankruptcy court notice system. Impacting court operations via BleepingComputer #cybersecurity #court",
+        "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
