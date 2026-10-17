@@ -5458,5 +5458,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-17 10:36 UTC",
+        "content": "\ud83d\udd34 Hackers used a stolen ConnectWise Cloud Backup credential to log into 173 Microsoft\u202f365 tenants, breaching customer data. via The Hacker News #Microsoft365 #cyberattack",
+        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
