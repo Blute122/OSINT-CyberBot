@@ -970,3 +970,4 @@ https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole
 https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/
 https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/
 https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
+https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
