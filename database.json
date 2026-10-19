@@ -5468,5 +5468,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-19 13:03 UTC",
+        "content": "\ud83d\udfe0 Plex servers hit by new exploit chain that drops cryptocurrency miners and proxy software. Attackers target Plex installations worldwide. via SecurityWeek #Plex #Cybersecurity",
+        "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

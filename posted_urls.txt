@@ -971,3 +971,4 @@ https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-updat
 https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/
 https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
 https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
+https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/
