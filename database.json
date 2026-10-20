@@ -5478,5 +5478,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-20 11:29 UTC",
+        "content": "\ud83d\udfe0 Hackers hijacked an OVHcloud CLI release to inject secret\u2011stealing malware that targets users who download the tool. The compromise lasted 94 minutes before detection. via The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

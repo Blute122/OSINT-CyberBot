@@ -972,3 +972,4 @@ https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-
 https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
 https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
 https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/
+https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html
