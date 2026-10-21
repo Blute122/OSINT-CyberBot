@@ -5488,5 +5488,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-21 11:42 UTC",
+        "content": "\ud83d\udfe0 Attackers hijacked 300+ Tor exit relays to redirect SSH sessions and steal passwords. SSH users on Tor are at risk via The Hacker News #cybersecurity #SSH",
+        "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

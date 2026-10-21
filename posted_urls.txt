@@ -973,3 +973,7 @@ https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
 https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
 https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/
 https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html
+https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/
+https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html
+https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html
+https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html
