@@ -5508,5 +5508,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-23 11:32 UTC",
+        "content": "\ud83d\udfe1 PHP warns of a new RCE flaw (CVE-2026-115560 (CVSS: N/A)) that lets attackers run code on web apps with a rare config. PHP recommends disabling the feature. via The Hacker News",
+        "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "cve": "CVE-2026-115560",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

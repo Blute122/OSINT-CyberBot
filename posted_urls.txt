@@ -978,3 +978,4 @@ https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html
 https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html
 https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html
 https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
+https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
