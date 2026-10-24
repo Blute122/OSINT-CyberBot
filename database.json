@@ -5518,5 +5518,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-10-24 10:52 UTC",
+        "content": "\ud83d\udfe0 Dutch firm Eye Security pushed 2M updates to shut down a rogue Time4Popcorn updater that could let attackers take over computers via BitTorrent, via The Hacker News #cybersecurity #botnet",
+        "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
