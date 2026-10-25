@@ -980,3 +980,5 @@ https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html
 https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
 https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
 https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html
+https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/
+https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
