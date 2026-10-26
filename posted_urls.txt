@@ -982,3 +982,6 @@ https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
 https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html
 https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/
 https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
+https://isc.sans.edu/diary/rss/33442
+https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/
+https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/
