@@ -985,3 +985,5 @@ https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
 https://isc.sans.edu/diary/rss/33442
 https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/
 https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/
+https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
+https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/
