@@ -1161,5 +1161,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-104351": {
+    "first_seen": "2026-10-28 12:45 UTC",
+    "product": "Adobe Campaign Classic",
+    "status_timeline": [
+      {
+        "date": "2026-10-28 12:45 UTC",
+        "status": "patched",
+        "summary": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+        "source_url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
+    ],
+    "last_updated": "2026-10-28 12:45 UTC",
+    "cvss": 9.9,
+    "kev": false,
+    "epss": null,
+    "risk_score": 45,
+    "risk_band": "medium"
   }
 }

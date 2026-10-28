@@ -5548,5 +5548,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-28 12:45 UTC",
+        "content": "\ud83d\udd34 Adobe Campaign Classic flaw allows code execution and privilege escalation. 8 critical CVEs, including CVE-2026-104351 (CVSS: 9.9/10), affect users worldwide. via The Hacker News",
+        "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+        "cve": "CVE-2026-104351",
+        "kev": false,
+        "epss": null,
+        "risk_score": 45,
+        "risk_band": "medium"
     }
 ]
