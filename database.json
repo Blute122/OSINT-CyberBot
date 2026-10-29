@@ -5558,5 +5558,15 @@
         "epss": null,
         "risk_score": 45,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-10-29 12:54 UTC",
+        "content": "\ud83d\udfe0 Cisco ASA & FTD firewalls hit by a zero\u2011day denial\u2011of\u2011service exploit that crashes SSL VPN devices. Attackers use it to take systems offline. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

@@ -988,3 +988,6 @@ https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that
 https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
 https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/
 https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
+https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
+https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/
+https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/
