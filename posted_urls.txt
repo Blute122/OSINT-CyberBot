@@ -991,3 +991,4 @@ https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
 https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/
 https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/
+https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
