@@ -5578,5 +5578,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-10-31 12:18 UTC",
+        "content": "\ud83d\udfe1 New VOLTA infostealer silently deletes itself after harvesting credentials, sessions, and crypto wallets, then uses LLMs to rank victims. A growing threat to users and businesses. via Cisco Talos",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

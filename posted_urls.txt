@@ -992,3 +992,5 @@ https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/
 https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/
 https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
+https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/
+https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
