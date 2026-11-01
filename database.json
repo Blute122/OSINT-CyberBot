@@ -5588,5 +5588,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-01 13:15 UTC",
+        "content": "\ud83d\udd34 Critical flaw in Canonical's LXD and MicroCloud lets attackers log in as trusted clients without a private key via the HTTPS API. Victims include clusters and VMs. via The Hacker News",
+        "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

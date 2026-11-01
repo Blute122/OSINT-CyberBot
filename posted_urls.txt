@@ -994,3 +994,5 @@ https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-
 https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
 https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/
 https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
+https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/
+https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
