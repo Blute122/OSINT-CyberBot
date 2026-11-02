@@ -996,3 +996,4 @@ https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-d
 https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
 https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/
 https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
+https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/
