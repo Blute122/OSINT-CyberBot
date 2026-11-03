@@ -1182,5 +1182,26 @@
     "epss": null,
     "risk_score": 45,
     "risk_band": "medium"
+  },
+  "CVE-2026-98432": {
+    "first_seen": "2026-11-03 14:04 UTC",
+    "product": "Linux kernel on Red\u202fHat Enterprise\u202fLinux\u202f8/9/10 and Ubuntu LTS",
+    "status_timeline": [
+      {
+        "date": "2026-11-03 14:04 UTC",
+        "status": "patched",
+        "summary": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+        "source_url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    ],
+    "last_updated": "2026-11-03 14:04 UTC",
+    "cvss": 9.8,
+    "kev": false,
+    "epss": 0.00457,
+    "risk_score": 44,
+    "risk_band": "medium"
   }
 }

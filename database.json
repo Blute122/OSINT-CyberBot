@@ -5608,5 +5608,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-03 14:04 UTC",
+        "content": "\ud83d\udd34 \ud83d\udfe0 A remote unauthenticated attacker can exploit CVE-2026-98432 (CVSS: 9.8/10) [EPSS: 0.5%] to achieve code execution on affected Linux kernels, impacting Red\u202fHat\u202fEnterprise\u202fLinux\u202f8/9/10 and Ubuntu LTS releases via The Hacker News #Linux #RCE",
+        "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+        "cve": "CVE-2026-98432",
+        "kev": false,
+        "epss": 0.00457,
+        "risk_score": 44,
+        "risk_band": "medium"
     }
 ]
