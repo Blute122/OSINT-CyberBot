@@ -998,3 +998,5 @@ https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-
 https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
 https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/
 https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html
+https://isc.sans.edu/diary/rss/33488
+https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html

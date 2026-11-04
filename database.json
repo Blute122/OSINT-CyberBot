@@ -5618,5 +5618,15 @@
         "epss": 0.00457,
         "risk_score": 44,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-11-04 14:25 UTC",
+        "content": "\ud83d\udfe0 \ud83d\udd34 A critical Rails flaw lets attackers write files on a server by uploading crafted images via ImageMagick. Rails apps using Active Storage are at risk. via The Hacker News",
+        "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
