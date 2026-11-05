@@ -1000,3 +1000,9 @@ https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet
 https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html
 https://isc.sans.edu/diary/rss/33488
 https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html
+https://thehackernews.com/2026/11/is-your-exposure-management-platform.html
+https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
+https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html
+https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html
+https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html
+https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/
