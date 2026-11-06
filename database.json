@@ -5638,5 +5638,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-06 14:11 UTC",
+        "content": "\ud83d\udfe0 Remote code execution flaw in Windows Paint (CVE-2026-83844 (CVSS: 8.1/10) [EPSS: 0.7%]) lets attackers run code over a network. Paint users worldwide at risk via The Hacker News #RCE #Paint",
+        "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+        "cve": "CVE-2026-83844",
+        "kev": false,
+        "epss": 0.00734,
+        "risk_score": 39,
+        "risk_band": "medium"
     }
 ]

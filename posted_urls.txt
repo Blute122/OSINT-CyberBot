@@ -1006,3 +1006,4 @@ https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html
 https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html
 https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html
 https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/
+https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html

@@ -1203,5 +1203,26 @@
     "epss": 0.00457,
     "risk_score": 44,
     "risk_band": "medium"
+  },
+  "CVE-2026-83844": {
+    "first_seen": "2026-11-06 14:11 UTC",
+    "product": "Windows Paint",
+    "status_timeline": [
+      {
+        "date": "2026-11-06 14:11 UTC",
+        "status": "patched",
+        "summary": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+        "source_url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+    ],
+    "last_updated": "2026-11-06 14:11 UTC",
+    "cvss": 8.1,
+    "kev": false,
+    "epss": 0.00734,
+    "risk_score": 39,
+    "risk_band": "medium"
   }
 }
