@@ -5648,5 +5648,15 @@
         "epss": 0.00734,
         "risk_score": 39,
         "risk_band": "medium"
+    },
+    {
+        "date": "2026-11-07 12:54 UTC",
+        "content": "\ud83d\udd34 \ud83d\udfe0 CVE-2026-19868 (CVSS: 7.5/10) [CISA KEV: ACTIVELY EXPLOITED] lets attackers bypass SAML MFA on SonicWall VPNs. Users with other login creds can still log in. via SecurityWeek #SonicWall #VPN",
+        "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+        "cve": "CVE-2026-19868",
+        "kev": true,
+        "epss": null,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]

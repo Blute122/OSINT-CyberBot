@@ -1224,5 +1224,26 @@
     "epss": 0.00734,
     "risk_score": 39,
     "risk_band": "medium"
+  },
+  "CVE-2026-19868": {
+    "first_seen": "2026-11-07 12:54 UTC",
+    "product": "SonicWall SonicOS VPN",
+    "status_timeline": [
+      {
+        "date": "2026-11-07 12:54 UTC",
+        "status": "actively_exploited",
+        "summary": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+        "source_url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+      }
+    ],
+    "related_posts": [
+      "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+    ],
+    "last_updated": "2026-11-07 12:54 UTC",
+    "cvss": 7.5,
+    "kev": true,
+    "epss": null,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }
