@@ -1008,3 +1008,4 @@ https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html
 https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/
 https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html
 https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/
