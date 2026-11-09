@@ -1009,3 +1009,4 @@ https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malici
 https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html
 https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
 https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/
+https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html

@@ -1568,5 +1568,19 @@
         "source_url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
       }
     ]
+  },
+  "bitter": {
+    "aliases": [
+      "Bitter"
+    ],
+    "first_seen": "2026-11-09 16:07 UTC",
+    "campaigns": [
+      {
+        "target": "South Asian organizations",
+        "date": "2026-11-09 16:07 UTC",
+        "summary": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+        "source_url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
+      }
+    ]
   }
 }
