@@ -5678,5 +5678,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-11 14:11 UTC",
+        "content": "\ud83d\udfe0 Zero\u2011day bugs hit N\u2011able\u2019s N\u2011central RMM platform and forced many hosted sites offline. Via BleepingComputer #cybersecurity #RMM",
+        "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
