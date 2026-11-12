@@ -5688,5 +5688,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-12 15:05 UTC",
+        "content": "\ud83d\udfe1 AMD Turin CPU side-channel flaws could let malicious code in a Google Cloud VM infer data from other processes or the host kernel. Affected: Google Cloud customers using AMD-based VMs. via The Hacker News #CloudSecurity #CPUFlaw",
+        "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
