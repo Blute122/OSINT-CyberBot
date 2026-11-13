@@ -119,6 +119,12 @@
         "date": "2026-08-02 22:08 UTC",
         "summary": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
         "source_url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/"
+      },
+      {
+        "target": "Binance",
+        "date": "2026-11-13 14:30 UTC",
+        "summary": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+        "source_url": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls"
       }
     ]
   },

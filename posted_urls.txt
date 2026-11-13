@@ -1013,3 +1013,4 @@ https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html
 https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/
 https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/
 https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
+https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls
