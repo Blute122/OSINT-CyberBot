@@ -1245,5 +1245,26 @@
     "epss": null,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-114713": {
+    "first_seen": "2026-11-14 13:26 UTC",
+    "product": "UnrealIRCd",
+    "status_timeline": [
+      {
+        "date": "2026-11-14 13:26 UTC",
+        "status": "actively_exploited",
+        "summary": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+        "source_url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+    ],
+    "last_updated": "2026-11-14 13:26 UTC",
+    "cvss": 8.6,
+    "kev": true,
+    "epss": 0.00302,
+    "risk_score": 85,
+    "risk_band": "critical"
   }
 }

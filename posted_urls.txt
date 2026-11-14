@@ -1014,3 +1014,6 @@ https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity
 https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/
 https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
 https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls
+https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/
+https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/
+https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html

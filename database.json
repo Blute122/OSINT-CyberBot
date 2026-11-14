@@ -5708,5 +5708,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-14 13:26 UTC",
+        "content": "\ud83d\udd34 \ud83d\udfe0 UnrealIRCd IRC servers hit by command\u2011injection flaw CVE-2026-114713 (CVSS: 8.6/10) [CISA KEV: ACTIVELY EXPLOITED] [EPSS: 0.3%], actively exploited by attackers. Huge risk to IRC ops via The Hacker News #CyberSecurity #IRCs",
+        "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+        "cve": "CVE-2026-114713",
+        "kev": true,
+        "epss": 0.00302,
+        "risk_score": 85,
+        "risk_band": "critical"
     }
 ]
