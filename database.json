@@ -5718,5 +5718,15 @@
         "epss": 0.00302,
         "risk_score": 85,
         "risk_band": "critical"
+    },
+    {
+        "date": "2026-11-15 13:52 UTC",
+        "content": "\ud83d\udfe0 Anthropic's Claude Code extension on Cursor marketplace was hijacked after an attacker stole a Fireworks AI access key. This exposes user data. via The Hacker News #CyberSecurity #AI",
+        "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
