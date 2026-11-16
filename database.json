@@ -5728,5 +5728,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-16 15:36 UTC",
+        "content": "\ud83d\udfe0 Six unpatched flaws in Danfoss AK\u2011SM800A refrigeration controllers let attackers take full control without logging in. Operators in Belgium, Ireland and Germany warned. via The Hacker News",
+        "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

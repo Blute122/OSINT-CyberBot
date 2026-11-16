@@ -1019,3 +1019,9 @@ https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-repor
 https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html
 https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html
 https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html
+https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/
+https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/
+https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/
+https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html
