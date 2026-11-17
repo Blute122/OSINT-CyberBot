@@ -1025,3 +1025,6 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-re
 https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/
 https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html
+https://isc.sans.edu/diary/rss/33526
+https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/
+https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/

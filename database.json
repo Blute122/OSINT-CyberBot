@@ -5738,5 +5738,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-17 15:54 UTC",
+        "content": "\ud83d\udfe1 Fandango says credit card data may have been exposed during checkout, affecting ticket buyers. via SecurityWeek #DataBreach #CyberSecurity",
+        "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
