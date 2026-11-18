@@ -1028,3 +1028,10 @@ https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html
 https://isc.sans.edu/diary/rss/33526
 https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/
 https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/
+https://cyberscoop.com/government-tech-debt-national-security-risk-op-ed/
+https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/
+https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/
+https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/
+https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/
+https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/
+https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/
