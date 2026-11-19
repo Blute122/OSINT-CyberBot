@@ -5758,5 +5758,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-19 15:40 UTC",
+        "content": "\ud83d\udfe0 Hackers exploited a vulnerability in Cisco Expressway devices at a Russian organization, enabling lateral movement. via SecurityWeek #Cisco #cybersecurity",
+        "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]

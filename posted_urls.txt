@@ -1035,3 +1035,6 @@ https://www.securityweek.com/microsoft-takes-perception-agentic-security-platfor
 https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/
 https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/
 https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/
+https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday
+https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/
+https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/
