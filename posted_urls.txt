@@ -1038,3 +1038,4 @@ https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-cr
 https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday
 https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/
 https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/
+https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html

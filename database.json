@@ -5768,5 +5768,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-20 15:21 UTC",
+        "content": "\ud83d\udfe0 KVM flaw lets virtual machines read 127\u202fGB of host memory on AMD servers, exposing other customers\u2019 data. DigitalOcean users hit. via The Hacker News",
+        "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+        "cve": "CVE-2026-99312",
+        "kev": false,
+        "epss": 0.00153,
+        "risk_score": 41,
+        "risk_band": "medium"
     }
 ]

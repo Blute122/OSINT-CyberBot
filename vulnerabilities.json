@@ -1266,5 +1266,26 @@
     "epss": 0.00302,
     "risk_score": 85,
     "risk_band": "critical"
+  },
+  "CVE-2026-99312": {
+    "first_seen": "2026-11-20 15:21 UTC",
+    "product": "KVM on AMD hosts",
+    "status_timeline": [
+      {
+        "date": "2026-11-20 15:21 UTC",
+        "status": "disclosed",
+        "summary": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+        "source_url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
+    ],
+    "last_updated": "2026-11-20 15:21 UTC",
+    "cvss": 8.8,
+    "kev": false,
+    "epss": 0.00153,
+    "risk_score": 41,
+    "risk_band": "medium"
   }
 }
