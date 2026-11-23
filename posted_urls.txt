@@ -1040,3 +1040,5 @@ https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/
 https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/
 https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
 https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
+https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors
+https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes

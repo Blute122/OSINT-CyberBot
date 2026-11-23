@@ -1588,5 +1588,19 @@
         "source_url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
       }
     ]
+  },
+  "china-nexus actor": {
+    "aliases": [
+      "China-nexus actor"
+    ],
+    "first_seen": "2026-11-23 17:58 UTC",
+    "campaigns": [
+      {
+        "target": "medical imaging application used by East Asian universities",
+        "date": "2026-11-23 17:58 UTC",
+        "summary": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+        "source_url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes"
+      }
+    ]
   }
 }

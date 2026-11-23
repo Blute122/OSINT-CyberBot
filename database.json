@@ -5788,5 +5788,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-23 17:58 UTC",
+        "content": "\ud83d\udd34 China-nexus actor achieved root access on a medical imaging app used by East Asian universities in just 11 minutes. via Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
