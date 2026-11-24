@@ -1287,5 +1287,26 @@
     "epss": 0.00153,
     "risk_score": 41,
     "risk_band": "medium"
+  },
+  "CVE-2026-123903": {
+    "first_seen": "2026-11-24 17:35 UTC",
+    "product": "VMware vCenter Directory Service",
+    "status_timeline": [
+      {
+        "date": "2026-11-24 17:35 UTC",
+        "status": "actively_exploited",
+        "summary": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+        "source_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+    ],
+    "last_updated": "2026-11-24 17:35 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }

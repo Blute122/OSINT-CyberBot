@@ -5798,5 +5798,15 @@
         "epss": null,
         "risk_score": null,
         "risk_band": null
+    },
+    {
+        "date": "2026-11-24 17:35 UTC",
+        "content": "\ud83d\udd34 Critical flaw CVE-2026-123903 (CVSS: N/A) lets attackers bypass auth in VMware vCenter's Directory Service, exposing corporate data. Via The Hacker News #CyberSecurity #VMware",
+        "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+        "cve": "CVE-2026-123903",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]

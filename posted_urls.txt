@@ -1042,3 +1042,5 @@ https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
 https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
 https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors
 https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes
+https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/
+https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html
