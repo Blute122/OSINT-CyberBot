@@ -1044,3 +1044,4 @@ https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-r
 https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes
 https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/
 https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html
+https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html

@@ -1308,5 +1308,26 @@
     "epss": null,
     "risk_score": 15,
     "risk_band": "low"
+  },
+  "CVE-2026-120705": {
+    "first_seen": "2026-11-25 17:07 UTC",
+    "product": "GeoServer",
+    "status_timeline": [
+      {
+        "date": "2026-11-25 17:07 UTC",
+        "status": "disclosed",
+        "summary": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+        "source_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+      }
+    ],
+    "related_posts": [
+      "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+    ],
+    "last_updated": "2026-11-25 17:07 UTC",
+    "cvss": "N/A",
+    "kev": false,
+    "epss": null,
+    "risk_score": 15,
+    "risk_band": "low"
   }
 }

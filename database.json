@@ -5808,5 +5808,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-11-25 17:07 UTC",
+        "content": "\ud83d\udfe0 GeoServer hit by two unauth RCE flaws CVE-2026-120705 (CVSS: N/A) & CVE-2026-129243, attackers can read files & inject code. Enterprises using GeoServer at risk. via The Hacker News",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+        "cve": "CVE-2026-120705",
+        "kev": false,
+        "epss": null,
+        "risk_score": 15,
+        "risk_band": "low"
     }
 ]
