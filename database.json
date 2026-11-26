@@ -5818,5 +5818,15 @@
         "epss": null,
         "risk_score": 15,
         "risk_band": "low"
+    },
+    {
+        "date": "2026-11-26 16:48 UTC",
+        "content": "\ud83d\udfe0 Remus malware uses a fake Google Sheets Chrome extension to steal Gmail messages from users. Google\u2019s email system is compromised by this new infostealer. via BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+        "cve": null,
+        "kev": null,
+        "epss": null,
+        "risk_score": null,
+        "risk_band": null
     }
 ]
