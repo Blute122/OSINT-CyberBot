@@ -1046,3 +1046,4 @@ https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/
 https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html
 https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
 https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/
+https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html
